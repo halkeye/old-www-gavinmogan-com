@@ -1,0 +1,21 @@
+title: WHEEE! MRTG
+link: https://www.halkeye.net/2003/10/01/wheee_mrtg/
+author: halkeye
+description: 
+post_id: 128
+created: 2003/10/01 10:45:35
+created_gmt: 2003/10/01 10:45:35
+comment_status: open
+post_name: wheee_mrtg
+status: publish
+post_type: post
+
+# WHEEE! MRTG
+
+after reading about MRTG is [kasia's](http://www.unix-girl.com) [blog](http://www.unix-girl.com/blog/archives/001134.html), I had to start figuring out how to use it more and more.. ![](http://www.halkeye.net/mrtg/memory-day.png) I've been messing with it..--------------  
+http://people.ee.ethz.ch/~oetiker/webtools/mrtg/reference.html had all the extra information i needed... External Monitoring Scripts  
+If you want to monitor something which does not provide data via snmp you can use some external program to do the data gathering.   
+The external command must return 4 lines of output: Line 1: **current state of the first variable, normally 'incoming bytes count' **  
+Line 2: **current state of the second variable, normally 'outgoing bytes count' **  
+Line 3: **string (in any human readable format), telling the uptime of the target. **  
+Line 4: **string, telling the name of the target. ** Target[ezwf]: `/usr/local/bin/df2mrtg /dev/dsk/c0t2d0s0` Note the use of the backticks (`), not apostrophes (') around the command.

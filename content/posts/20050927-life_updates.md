@@ -1,0 +1,15 @@
+title: Life Updates
+link: https://www.halkeye.net/2005/09/27/life_updates/
+author: halkeye
+description: 
+post_id: 141
+created: 2005/09/27 12:50:00
+created_gmt: 2005/09/27 12:50:00
+comment_status: open
+post_name: life_updates
+status: publish
+post_type: post
+
+# Life Updates
+
+I still am working on my MT Plugins, but i'm in the middle of preparing for a move and switching jobs (yay for getting back to computer jobs). MTLJPost 1.9.2 is almost ready, i'm just trying to figure out the best way of doing the resyncing all entries thing. Also alot of work has been done on [Hi Sci Fi](http://www.hiscifi.com)'s website, including upgrading to MT 3.2 which i think i wanna do on here once i finish 1.9.2 of MTLJPost. Keep an eye out for me on [CJSF](http://www.cjsf.ca) as i'm going to be on smile like a donut a lot more after the new job starts next week.

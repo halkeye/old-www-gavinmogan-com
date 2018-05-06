@@ -1,0 +1,20 @@
+title: Renaming batch of files (with spaces) in linux
+link: https://www.halkeye.net/2013/09/28/renaming-batch-files-spaces-linux/
+author: halkeye
+description: 
+post_id: 491
+created: 2013/09/28 22:26:57
+created_gmt: 2013/09/29 05:26:57
+comment_status: open
+post_name: renaming-batch-files-spaces-linux
+status: publish
+post_type: post
+
+# Renaming batch of files (with spaces) in linux
+
+I rename a lot of files. Often by hand as it's just easier. I've tried various combinations of find -print0 | xargs -0, and find -exec, without much luck. Just So I have reference on what does work: 
+    
+    
+    find -type f | while read file; do echo mv \"$file\" \"$(echo $file | sed -e 's/^Old Content/New Content/')\"; done | sh
+
+Yea I could probably drop the echo mv, and the |sh, but it feels safer to do a dry run
