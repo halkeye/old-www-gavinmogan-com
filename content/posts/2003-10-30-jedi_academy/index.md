@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Jedi Academy"
 link: "https://www.halkeye.net/2003/10/30/jedi_academy/"
 author: "halkeye"

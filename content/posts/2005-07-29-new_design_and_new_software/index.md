@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "New Design And New Software"
 link: "https://www.halkeye.net/2005/07/29/new_design_and_new_software/"
 author: "halkeye"

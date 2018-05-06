@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "MTLJTag"
 link: "https://www.halkeye.net/2004/01/18/mtljtag/"
 author: "halkeye"

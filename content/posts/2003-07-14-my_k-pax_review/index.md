@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "My K-PAX review"
 link: "https://www.halkeye.net/2003/07/14/my_k-pax_review/"
 author: "halkeye"

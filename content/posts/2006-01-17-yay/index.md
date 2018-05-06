@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "yay!"
 link: "https://www.halkeye.net/2006/01/17/yay/"
 author: "halkeye"

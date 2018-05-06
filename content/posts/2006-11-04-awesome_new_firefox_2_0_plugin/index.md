@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Awesome new firefox 2.0 plugin"
 link: "https://www.halkeye.net/2006/11/04/awesome_new_firefox_2_0_plugin/"
 author: "halkeye"

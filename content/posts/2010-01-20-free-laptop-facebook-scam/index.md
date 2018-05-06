@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "\"free laptop\" facebook scam"
 link: "https://www.halkeye.net/2010/01/20/free-laptop-facebook-scam/"
 author: "halkeye"

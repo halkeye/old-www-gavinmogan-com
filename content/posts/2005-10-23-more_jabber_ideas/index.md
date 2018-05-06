@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "More jabber ideas"
 link: "https://www.halkeye.net/2005/10/23/more_jabber_ideas/"
 author: "halkeye"

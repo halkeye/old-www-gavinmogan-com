@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "The Vancouver Way of Life"
 link: "https://www.halkeye.net/2004/04/27/vancouver_way_life/"
 author: "halkeye"

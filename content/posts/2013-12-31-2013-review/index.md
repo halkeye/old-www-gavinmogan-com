@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "2013 In Review."
 link: "https://www.halkeye.net/2013/12/31/2013-review/"
 author: "halkeye"

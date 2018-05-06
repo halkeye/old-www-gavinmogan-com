@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Bash Remove Extension"
 link: "https://www.halkeye.net/2015/07/03/587/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "MTLJPost"
 link: "https://www.halkeye.net/2004/01/29/mtljpost/"
 author: "halkeye"

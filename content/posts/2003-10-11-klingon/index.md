@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "KLINGON!"
 link: "https://www.halkeye.net/2003/10/11/klingon/"
 author: "halkeye"

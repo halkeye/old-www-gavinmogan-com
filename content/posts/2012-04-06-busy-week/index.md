@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Busy Week here"
 link: "https://www.halkeye.net/2012/04/06/busy-week/"
 author: "halkeye"

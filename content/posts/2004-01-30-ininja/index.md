@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "iNinja"
 link: "https://www.halkeye.net/2004/01/30/ininja/"
 author: "halkeye"

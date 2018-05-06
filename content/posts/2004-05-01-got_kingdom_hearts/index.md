@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Got Kingdom Hearts"
 link: "https://www.halkeye.net/2004/05/01/got_kingdom_hearts/"
 author: "halkeye"

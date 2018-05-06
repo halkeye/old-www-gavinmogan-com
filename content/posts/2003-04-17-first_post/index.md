@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "First Post"
 link: "https://www.halkeye.net/2003/04/17/first_post/"
 author: "halkeye"

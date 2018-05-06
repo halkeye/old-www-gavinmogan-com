@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "bash.org"
 link: "https://www.halkeye.net/2007/01/20/bash_org/"
 author: "halkeye"

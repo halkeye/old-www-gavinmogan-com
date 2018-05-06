@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "2.6.x"
 link: "https://www.halkeye.net/2004/04/16/2_6_x/"
 author: "halkeye"

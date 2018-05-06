@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Test"
 link: "https://www.halkeye.net/2004/04/02/test/"
 author: "halkeye"

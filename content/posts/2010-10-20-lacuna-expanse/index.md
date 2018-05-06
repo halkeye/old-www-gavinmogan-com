@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Lacuna Expanse"
 link: "https://www.halkeye.net/2010/10/20/lacuna-expanse/"
 author: "halkeye"

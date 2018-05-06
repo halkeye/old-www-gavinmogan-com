@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Dragon Quest IX Completion Stats"
 link: "https://www.halkeye.net/2010/08/22/dragon-quest-ix-completion-stats/"
 author: "halkeye"

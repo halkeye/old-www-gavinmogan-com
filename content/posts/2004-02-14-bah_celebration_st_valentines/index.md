@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Bah to the celebration of St. Valentines."
 link: "https://www.halkeye.net/2004/02/14/bah_celebration_st_valentines/"
 author: "halkeye"

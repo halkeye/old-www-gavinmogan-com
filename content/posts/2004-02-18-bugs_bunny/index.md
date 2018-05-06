@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Bugs Bunny"
 link: "https://www.halkeye.net/2004/02/18/bugs_bunny/"
 author: "halkeye"

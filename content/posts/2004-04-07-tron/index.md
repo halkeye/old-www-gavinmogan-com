@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Tron"
 link: "https://www.halkeye.net/2004/04/07/tron/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Email Love"
 link: "https://www.halkeye.net/2003/07/19/email_love/"
 author: "halkeye"

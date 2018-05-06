@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "BATMAN"
 link: "https://www.halkeye.net/2010/02/12/batman/"
 author: "halkeye"

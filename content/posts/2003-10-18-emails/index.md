@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Emails"
 link: "https://www.halkeye.net/2003/10/18/emails/"
 author: "halkeye"

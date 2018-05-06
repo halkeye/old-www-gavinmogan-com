@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "X-Forwarding Just Rocks"
 link: "https://www.halkeye.net/2005/07/30/x_forwarding_just_rocks/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "PHP Meetup"
 link: "https://www.halkeye.net/2004/01/09/php_meetup/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Time Travel & Crushes"
 link: "https://www.halkeye.net/2003/10/08/time_travel_s_crushes_s/"
 author: "halkeye"

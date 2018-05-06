@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Historical Livejournal"
 link: "https://www.halkeye.net/2012/02/08/historical-livejournal/"
 author: "halkeye"

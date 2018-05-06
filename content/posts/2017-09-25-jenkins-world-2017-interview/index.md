@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Jenkins World 2017 Interview"
 link: "https://www.halkeye.net/2017/09/25/jenkins-world-2017-interview/"
 author: "halkeye"

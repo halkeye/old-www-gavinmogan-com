@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "I keep losing this tweet"
 link: "https://www.halkeye.net/2016/02/15/i-keep-losing-this-tweet/"
 author: "halkeye"

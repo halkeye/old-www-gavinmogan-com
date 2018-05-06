@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Upgrade Galore"
 link: "https://www.halkeye.net/2007/01/14/upgrade_galore/"
 author: "halkeye"

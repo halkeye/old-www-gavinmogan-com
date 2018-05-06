@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Merry Christmas"
 link: "https://www.halkeye.net/2005/01/02/merry_christmas/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "BOOOKS!"
 link: "https://www.halkeye.net/2004/03/03/boooks/"
 author: "halkeye"

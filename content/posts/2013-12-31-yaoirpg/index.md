@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "YAOIRPG"
 link: "https://www.halkeye.net/2013/12/31/yaoirpg/"
 author: "halkeye"

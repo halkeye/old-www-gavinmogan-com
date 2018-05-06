@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Website Design"
 link: "https://www.halkeye.net/2005/02/21/website_design/"
 author: "halkeye"

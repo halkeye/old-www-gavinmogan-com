@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "An interesting idea..."
 link: "https://www.halkeye.net/2004/03/25/interesting_idea/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "I'm BACCCK! AND UPGRADED!"
 link: "https://www.halkeye.net/2004/01/02/im_baccck_and_upgraded/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Media I'm really enjoying"
 link: "https://www.halkeye.net/2016/01/16/media-im-really-enjoying/"
 author: "halkeye"

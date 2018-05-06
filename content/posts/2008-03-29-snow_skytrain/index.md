@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Snow at the skytrain"
 link: "https://www.halkeye.net/2008/03/29/snow_skytrain/"
 author: "halkeye"

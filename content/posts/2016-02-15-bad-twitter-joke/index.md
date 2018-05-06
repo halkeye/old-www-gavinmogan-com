@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Bad twitter joke"
 link: "https://www.halkeye.net/2016/02/15/bad-twitter-joke/"
 author: "halkeye"

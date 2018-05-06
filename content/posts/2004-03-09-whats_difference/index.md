@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "What's The Difference?"
 link: "https://www.halkeye.net/2004/03/09/whats_difference/"
 author: "halkeye"

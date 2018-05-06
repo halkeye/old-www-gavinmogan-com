@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "MTLJPost 1.6 (now 1.7.1)"
 link: "https://www.halkeye.net/2004/04/04/mtljpost_1_6_now_1_7_1/"
 author: "halkeye"

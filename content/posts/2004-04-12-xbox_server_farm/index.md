@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "XBOX Server Farm"
 link: "https://www.halkeye.net/2004/04/12/xbox_server_farm/"
 author: "halkeye"

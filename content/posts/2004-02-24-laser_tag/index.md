@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Laser Tag"
 link: "https://www.halkeye.net/2004/02/24/laser_tag/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Demos"
 link: "https://www.halkeye.net/2007/03/11/demos/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Open ID Travels and rewards."
 link: "https://www.halkeye.net/2010/06/18/open-id-travels-rewards/"
 author: "halkeye"

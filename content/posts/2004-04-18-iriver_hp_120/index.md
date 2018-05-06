@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "IRiver HP-120"
 link: "https://www.halkeye.net/2004/04/18/iriver_hp_120/"
 author: "halkeye"

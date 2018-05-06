@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Sucks to be me"
 link: "https://www.halkeye.net/2004/01/20/sucks_be_me/"
 author: "halkeye"

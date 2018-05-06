@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Lightsaber thoughts"
 link: "https://www.halkeye.net/2005/08/06/lightsaber_thoughts/"
 author: "halkeye"

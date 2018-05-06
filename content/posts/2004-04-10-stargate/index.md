@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Stargate"
 link: "https://www.halkeye.net/2004/04/10/stargate/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "It seems I'm All up"
 link: "https://www.halkeye.net/2003/06/29/it_seems_im_all/"
 author: "halkeye"

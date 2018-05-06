@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Catch Phrases"
 link: "https://www.halkeye.net/2004/04/13/catch_phrases/"
 author: "halkeye"

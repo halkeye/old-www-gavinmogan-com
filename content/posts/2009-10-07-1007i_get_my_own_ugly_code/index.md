@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "I get my own ugly code"
 link: "https://www.halkeye.net/2009/10/07/1007i_get_my_own_ugly_code/"
 author: "halkeye"

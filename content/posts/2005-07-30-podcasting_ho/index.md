@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "PODCASTING HO!"
 link: "https://www.halkeye.net/2005/07/30/podcasting_ho/"
 author: "halkeye"

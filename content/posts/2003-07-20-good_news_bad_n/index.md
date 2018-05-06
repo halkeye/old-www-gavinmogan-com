@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Good News / Bad New"
 link: "https://www.halkeye.net/2003/07/20/good_news_bad_n/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "New MTLJPost Version"
 link: "https://www.halkeye.net/2005/10/02/new_mtljpost_version/"
 author: "halkeye"

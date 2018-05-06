@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Mp3 CD Player Rant"
 link: "https://www.halkeye.net/2004/02/08/mp3_cd_player_rant/"
 author: "halkeye"

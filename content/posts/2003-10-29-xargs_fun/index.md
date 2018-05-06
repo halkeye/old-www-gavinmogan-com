@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "XARGS FUN!"
 link: "https://www.halkeye.net/2003/10/29/xargs_fun/"
 author: "halkeye"

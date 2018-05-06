@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "DevilMan Lady Review"
 link: "https://www.halkeye.net/2003/08/12/devilman_lady_r/"
 author: "halkeye"

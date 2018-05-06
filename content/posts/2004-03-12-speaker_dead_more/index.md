@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Speaker for the dead (More)"
 link: "https://www.halkeye.net/2004/03/12/speaker_dead_more/"
 author: "halkeye"

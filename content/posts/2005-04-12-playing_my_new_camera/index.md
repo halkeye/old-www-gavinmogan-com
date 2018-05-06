@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Playing with my new camera"
 link: "https://www.halkeye.net/2005/04/12/playing_my_new_camera/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Stargate SG-1"
 link: "https://www.halkeye.net/2005/02/11/stargate_sg_1/"
 author: "halkeye"

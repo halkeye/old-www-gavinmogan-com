@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Feb 1st, 2014 - An unique milestone"
 link: "https://www.halkeye.net/2014/02/01/feb-1st-2014-unique-milestone/"
 author: "halkeye"

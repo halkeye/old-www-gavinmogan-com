@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Jenkins docker Image + prefix"
 link: "https://www.halkeye.net/2016/04/18/jenkins-docker-image-prefix/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Pick up lines?"
 link: "https://www.halkeye.net/2004/04/12/pick_lines/"
 author: "halkeye"

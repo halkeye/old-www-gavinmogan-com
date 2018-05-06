@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "My GoPro experiments"
 link: "https://www.halkeye.net/2016/05/14/my-gopro-experiments/"
 author: "halkeye"

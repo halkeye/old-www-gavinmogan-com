@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Outside Free Comic Book Day @ Elfsar"
 link: "https://www.halkeye.net/2008/05/04/outside_free_comic_book_day_elfsar/"
 author: "halkeye"

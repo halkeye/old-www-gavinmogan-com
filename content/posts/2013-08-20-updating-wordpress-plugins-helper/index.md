@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Updating Wordpress Plugins Helper"
 link: "https://www.halkeye.net/2013/08/20/updating-wordpress-plugins-helper/"
 author: "halkeye"

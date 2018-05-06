@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "New Book - All my friends are superheroes"
 link: "https://www.halkeye.net/2007/03/06/new_book_all_my_friends_are_superheroes/"
 author: "halkeye"

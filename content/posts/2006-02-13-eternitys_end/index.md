@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Eternity's End"
 link: "https://www.halkeye.net/2006/02/13/eternitys_end/"
 author: "halkeye"

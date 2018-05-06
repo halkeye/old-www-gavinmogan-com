@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Spears"
 link: "https://www.halkeye.net/2004/05/05/spears/"
 author: "halkeye"

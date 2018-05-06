@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Possible Upgrade"
 link: "https://www.halkeye.net/2005/07/25/possible_upgrade/"
 author: "halkeye"

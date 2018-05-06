@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Wheee"
 link: "https://www.halkeye.net/2003/06/06/wheee/"
 author: "halkeye"

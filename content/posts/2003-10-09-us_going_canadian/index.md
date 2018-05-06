@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "US IS GOING CANADIAN!"
 link: "https://www.halkeye.net/2003/10/09/us_going_canadian/"
 author: "halkeye"

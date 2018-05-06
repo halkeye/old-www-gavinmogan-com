@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "The Story of the code monkey"
 link: "https://www.halkeye.net/2003/08/13/the_story_of_th/"
 author: "halkeye"

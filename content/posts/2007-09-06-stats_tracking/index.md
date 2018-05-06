@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Stats Tracking"
 link: "https://www.halkeye.net/2007/09/06/stats_tracking/"
 author: "halkeye"

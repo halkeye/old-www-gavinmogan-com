@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Update to the capistrano hack"
 link: "https://www.halkeye.net/2014/06/06/update-capistrano-hack/"
 author: "halkeye"

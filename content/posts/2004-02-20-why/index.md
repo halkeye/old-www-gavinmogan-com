@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Why...."
 link: "https://www.halkeye.net/2004/02/20/why/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Slightly new color scheme"
 link: "https://www.halkeye.net/2004/02/01/slightly_new_color_scheme/"
 author: "halkeye"

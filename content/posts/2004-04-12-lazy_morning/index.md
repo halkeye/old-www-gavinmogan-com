@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Lazy Morning"
 link: "https://www.halkeye.net/2004/04/12/lazy_morning/"
 author: "halkeye"

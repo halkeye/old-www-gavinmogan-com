@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Mail Server Upgrades"
 link: "https://www.halkeye.net/2003/09/08/mail_server_upgrades/"
 author: "halkeye"

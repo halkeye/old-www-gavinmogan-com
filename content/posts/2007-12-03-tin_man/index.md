@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Tin Man"
 link: "https://www.halkeye.net/2007/12/03/tin_man/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Deep Space Nine"
 link: "https://www.halkeye.net/2004/02/18/deep_space_nine/"
 author: "halkeye"

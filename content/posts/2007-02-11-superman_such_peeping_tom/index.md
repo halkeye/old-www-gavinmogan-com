@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Superman is such the peeping tom"
 link: "https://www.halkeye.net/2007/02/11/superman_such_peeping_tom/"
 author: "halkeye"

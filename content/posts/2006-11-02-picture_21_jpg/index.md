@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "picture(21).jpg"
 link: "https://www.halkeye.net/2006/11/02/picture_21_jpg/"
 author: "halkeye"

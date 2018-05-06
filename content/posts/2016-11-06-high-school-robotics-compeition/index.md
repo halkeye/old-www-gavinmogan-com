@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "High school robotics Compeition"
 link: "https://www.halkeye.net/2016/11/06/high-school-robotics-compeition/"
 author: "halkeye"

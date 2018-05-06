@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "This is yet another test post"
 link: "https://www.halkeye.net/2004/05/22/yet_another_test_post/"
 author: "halkeye"

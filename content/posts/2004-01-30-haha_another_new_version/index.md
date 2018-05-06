@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "HAHA, another new version"
 link: "https://www.halkeye.net/2004/01/30/haha_another_new_version/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "New Mirc. Fixes Bugs"
 link: "https://www.halkeye.net/2003/10/15/new_mirc_fixes_bugs/"
 author: "halkeye"

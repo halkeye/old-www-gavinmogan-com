@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Babylon 5"
 link: "https://www.halkeye.net/2006/02/25/babylon_5/"
 author: "halkeye"

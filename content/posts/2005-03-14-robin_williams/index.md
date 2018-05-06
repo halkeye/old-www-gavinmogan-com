@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Robin Williams"
 link: "https://www.halkeye.net/2005/03/14/robin_williams/"
 author: "halkeye"

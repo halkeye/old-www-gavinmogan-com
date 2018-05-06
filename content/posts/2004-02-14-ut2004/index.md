@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "UT2004"
 link: "https://www.halkeye.net/2004/02/14/ut2004/"
 author: "halkeye"

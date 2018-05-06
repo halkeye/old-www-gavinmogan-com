@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Lego Starwars"
 link: "https://www.halkeye.net/2005/03/13/lego_starwars_0/"
 author: "halkeye"

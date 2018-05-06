@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "BBQ Chicken Pizza"
 link: "https://www.halkeye.net/2016/04/17/bbq-chicken-pizza/"
 author: "halkeye"

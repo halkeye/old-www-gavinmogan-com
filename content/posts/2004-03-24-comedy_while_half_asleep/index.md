@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Comedy while half asleep"
 link: "https://www.halkeye.net/2004/03/24/comedy_while_half_asleep/"
 author: "halkeye"

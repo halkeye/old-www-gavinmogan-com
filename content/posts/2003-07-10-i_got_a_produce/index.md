@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "I got a Producer to respond to my blog :P"
 link: "https://www.halkeye.net/2003/07/10/i_got_a_produce/"
 author: "halkeye"

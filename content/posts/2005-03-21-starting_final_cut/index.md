@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "The starting of Final Cut"
 link: "https://www.halkeye.net/2005/03/21/starting_final_cut/"
 author: "halkeye"

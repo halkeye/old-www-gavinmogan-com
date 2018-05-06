@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Site Updates"
 link: "https://www.halkeye.net/2005/02/09/site_updates/"
 author: "halkeye"

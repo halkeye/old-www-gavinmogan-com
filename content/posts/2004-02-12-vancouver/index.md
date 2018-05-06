@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Vancouver"
 link: "https://www.halkeye.net/2004/02/12/vancouver/"
 author: "halkeye"

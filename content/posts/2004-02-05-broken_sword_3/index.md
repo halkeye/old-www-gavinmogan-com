@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Broken Sword 3"
 link: "https://www.halkeye.net/2004/02/05/broken_sword_3/"
 author: "halkeye"

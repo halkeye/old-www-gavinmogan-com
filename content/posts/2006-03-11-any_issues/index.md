@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Any Issues?"
 link: "https://www.halkeye.net/2006/03/11/any_issues/"
 author: "halkeye"

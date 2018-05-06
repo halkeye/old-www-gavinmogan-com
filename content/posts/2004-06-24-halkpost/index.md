@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "HalkPost"
 link: "https://www.halkeye.net/2004/06/24/halkpost/"
 author: "halkeye"

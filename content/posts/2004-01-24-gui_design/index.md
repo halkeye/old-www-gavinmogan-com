@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "GUI Design"
 link: "https://www.halkeye.net/2004/01/24/gui_design/"
 author: "halkeye"

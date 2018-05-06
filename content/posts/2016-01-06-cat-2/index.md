@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Look I have a cat!"
 link: "https://www.halkeye.net/2016/01/06/cat-2/"
 author: "halkeye"

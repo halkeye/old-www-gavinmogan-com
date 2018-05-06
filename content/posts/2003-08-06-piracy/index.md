@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Piracy"
 link: "https://www.halkeye.net/2003/08/06/piracy/"
 author: "halkeye"

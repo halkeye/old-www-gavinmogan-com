@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Knights of the Old Republic"
 link: "https://www.halkeye.net/2003/07/17/knights_of_the_1/"
 author: "halkeye"

@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "TypeKey"
 link: "https://www.halkeye.net/2005/03/30/typekey/"
 author: "halkeye"

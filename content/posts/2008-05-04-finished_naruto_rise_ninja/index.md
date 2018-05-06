@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Finished Naruto: Rise of a Ninja"
 link: "https://www.halkeye.net/2008/05/04/finished_naruto_rise_ninja/"
 author: "halkeye"

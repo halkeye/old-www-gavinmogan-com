@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "osqdb has to be one of the worst peices of code I have seen in a while."
 link: "https://www.halkeye.net/2008/05/19/osqdb_has_be_one_worst_peices_code_i_have_seen_while/"
 author: "halkeye"

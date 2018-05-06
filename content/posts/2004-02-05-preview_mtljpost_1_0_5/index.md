@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Preview of MTLJPost 1.0.5"
 link: "https://www.halkeye.net/2004/02/05/preview_mtljpost_1_0_5/"
 author: "halkeye"

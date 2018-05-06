@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Harry Potter Nuttness"
 link: "https://www.halkeye.net/2003/06/20/harry_potter_nu/"
 author: "halkeye"

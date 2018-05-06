@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "Nginx + Cloudflare SSL"
 link: "https://www.halkeye.net/2015/03/31/nginx-cloudflare-ssl/"
 author: "halkeye"

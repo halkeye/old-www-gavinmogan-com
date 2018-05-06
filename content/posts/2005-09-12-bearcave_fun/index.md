@@ -1,4 +1,5 @@
 ---
+cover: /cover-image.jpg
 title: "#bearcave fun"
 link: "https://www.halkeye.net/2005/09/12/bearcave_fun/"
 author: "halkeye"
