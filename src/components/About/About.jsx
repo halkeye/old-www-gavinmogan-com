@@ -42,8 +42,8 @@ class About extends Component {
         label={name}
         placeholder={name}
         value={this.state.subject}
-        block={true}
-        floatingLabel={true}
+        block
+        floatingLabel
         onChange={this.handleChange(field)}
         id={field}
       />
@@ -56,8 +56,8 @@ class About extends Component {
         id={field}
         label={name}
         placeholder={name}
-        block={true}
-        floatingLabel={true}
+        block
+        floatingLabel
         rows="6"
         value={this.state.body}
         style={{ width: '100%' }}
