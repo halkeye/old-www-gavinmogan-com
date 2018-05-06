@@ -1,0 +1,30 @@
+---
+title: "Tron"
+link: "https://www.halkeye.net/2004/04/07/tron/"
+author: "halkeye"
+description: ""
+post_id: "59"
+date: "2004/04/07 13:09:48"
+date_gmt: "2004/04/07 13:09:48"
+comment_status: "open"
+post_name: "tron"
+status: "publish"
+category: "Movies"
+tags: []
+post_type: "post"
+---
+
+HAHA! I've now gotten all the <s>crappy</s> classic computer movies that I know about. 
+
+  * Hackers
+  * Wargames
+  * Tron (newest)
+Also got Anti Trust..   
+MUAHAHHA I feel so cheap.
+
+## Comments
+
+**[Tammy](#59 "2004-04-07 22:50:21"):** Where'd you get Tron? For how much?
+
+**[Gavin](#60 "2004-04-08 15:00:04"):** A&B sound. 20th Aniversary Edition. $16.49 cdn.
+
