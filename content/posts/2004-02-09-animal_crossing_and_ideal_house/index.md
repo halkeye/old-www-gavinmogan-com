@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Animal Crossing and the Ideal House,"
 link: "https://www.halkeye.net/2004/02/09/animal_crossing_and_ideal_house/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "animal_crossing_and_ideal_house"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

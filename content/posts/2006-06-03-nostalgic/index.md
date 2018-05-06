@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Nostalgic"
 link: "https://www.halkeye.net/2006/06/03/nostalgic/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "nostalgic"
 status: "publish"
 category: "Gaming"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

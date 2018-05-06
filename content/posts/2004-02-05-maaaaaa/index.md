@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "But Maaaaaa!!!"
 link: "https://www.halkeye.net/2004/02/05/maaaaaa/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "maaaaaa"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

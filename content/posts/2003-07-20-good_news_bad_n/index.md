@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Good News / Bad New"
 link: "https://www.halkeye.net/2003/07/20/good_news_bad_n/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "good_news_bad_n"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

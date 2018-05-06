@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Grounded"
 link: "https://www.halkeye.net/2016/09/16/grounded/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "grounded"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

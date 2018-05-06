@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Utter crap"
 link: "https://www.halkeye.net/2006/02/18/utter_crap/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "utter_crap"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

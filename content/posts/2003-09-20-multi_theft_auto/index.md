@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Multi Theft Auto"
 link: "https://www.halkeye.net/2003/09/20/multi_theft_auto/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "multi_theft_auto"
 status: "publish"
 category: "Gaming"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

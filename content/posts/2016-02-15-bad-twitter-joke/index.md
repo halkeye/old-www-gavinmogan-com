@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Bad twitter joke"
 link: "https://www.halkeye.net/2016/02/15/bad-twitter-joke/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "bad-twitter-joke"
 status: "publish"
 category: "People"
 tags: ['jokes', 'justin', 'telegram', 'twitter']
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

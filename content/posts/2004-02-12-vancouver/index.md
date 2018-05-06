@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Vancouver"
 link: "https://www.halkeye.net/2004/02/12/vancouver/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "vancouver"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

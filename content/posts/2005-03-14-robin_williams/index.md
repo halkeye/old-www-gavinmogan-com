@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Robin Williams"
 link: "https://www.halkeye.net/2005/03/14/robin_williams/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "robin_williams"
 status: "publish"
 category: "Anime"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "High school robotics Compeition"
 link: "https://www.halkeye.net/2016/11/06/high-school-robotics-compeition/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "high-school-robotics-compeition"
 status: "publish"
 category: "Sauce Labs"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

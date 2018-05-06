@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Crushes ( :) does not belong in posts)"
 link: "https://www.halkeye.net/2003/10/08/crushes_does_not_belong_posts/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "crushes_does_not_belong_posts"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

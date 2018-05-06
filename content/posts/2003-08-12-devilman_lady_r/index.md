@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "DevilMan Lady Review"
 link: "https://www.halkeye.net/2003/08/12/devilman_lady_r/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "devilman_lady_r"
 status: "publish"
 category: "Anime"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

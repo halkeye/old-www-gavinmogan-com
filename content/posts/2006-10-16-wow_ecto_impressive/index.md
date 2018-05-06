@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Wow.. ecto is impressive"
 link: "https://www.halkeye.net/2006/10/16/wow_ecto_impressive/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "wow_ecto_impressive"
 status: "publish"
 category: "Applications"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

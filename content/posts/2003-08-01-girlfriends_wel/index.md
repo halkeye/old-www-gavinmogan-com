@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Girlfriends, Well Boyfriends too"
 link: "https://www.halkeye.net/2003/08/01/girlfriends_wel/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "girlfriends_wel"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

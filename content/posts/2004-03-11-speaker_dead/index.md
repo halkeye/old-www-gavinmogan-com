@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Speaker for the Dead"
 link: "https://www.halkeye.net/2004/03/11/speaker_dead/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "speaker_dead"
 status: "publish"
 category: "Books"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

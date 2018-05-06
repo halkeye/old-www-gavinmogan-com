@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Local Indie Production"
 link: "https://www.halkeye.net/2014/08/24/local-indie-production/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "local-indie-production"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

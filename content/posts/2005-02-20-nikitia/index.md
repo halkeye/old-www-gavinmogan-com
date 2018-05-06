@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Nikitia"
 link: "https://www.halkeye.net/2005/02/20/nikitia/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "nikitia"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

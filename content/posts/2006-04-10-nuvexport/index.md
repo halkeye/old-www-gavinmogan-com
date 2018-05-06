@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Nuvexport"
 link: "https://www.halkeye.net/2006/04/10/nuvexport/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "nuvexport"
 status: "publish"
 category: "Linux"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

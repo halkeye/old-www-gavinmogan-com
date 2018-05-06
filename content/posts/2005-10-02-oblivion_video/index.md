@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Oblivion Video"
 link: "https://www.halkeye.net/2005/10/02/oblivion_video/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "oblivion_video"
 status: "publish"
 category: "Gaming"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

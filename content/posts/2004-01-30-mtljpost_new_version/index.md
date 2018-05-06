@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "MTLJPost New Version"
 link: "https://www.halkeye.net/2004/01/30/mtljpost_new_version/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "mtljpost_new_version"
 status: "publish"
 category: "Coding"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "BBQ Chicken Pizza"
 link: "https://www.halkeye.net/2016/04/17/bbq-chicken-pizza/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "bbq-chicken-pizza"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

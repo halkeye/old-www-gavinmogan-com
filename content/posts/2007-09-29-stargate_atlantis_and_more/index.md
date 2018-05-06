@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Stargate Atlantis and more!"
 link: "https://www.halkeye.net/2007/09/29/stargate_atlantis_and_more/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "stargate_atlantis_and_more"
 status: "publish"
 category: "TV"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

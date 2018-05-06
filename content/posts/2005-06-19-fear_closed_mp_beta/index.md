@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "FEAR Closed MP Beta"
 link: "https://www.halkeye.net/2005/06/19/fear_closed_mp_beta/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "fear_closed_mp_beta"
 status: "publish"
 category: "Gaming"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "I'm in so much love with google video"
 link: "https://www.halkeye.net/2005/09/27/im_so_much_love_google_video/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "im_so_much_love_google_video"
 status: "publish"
 category: "Web"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

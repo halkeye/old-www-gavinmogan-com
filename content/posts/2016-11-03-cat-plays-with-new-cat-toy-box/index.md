@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Cat plays with new Cat Toy Box"
 link: "https://www.halkeye.net/2016/11/03/cat-plays-with-new-cat-toy-box/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "cat-plays-with-new-cat-toy-box"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

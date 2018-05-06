@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Amazon.com"
 link: "https://www.halkeye.net/2004/03/23/amazon_com/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "amazon_com"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

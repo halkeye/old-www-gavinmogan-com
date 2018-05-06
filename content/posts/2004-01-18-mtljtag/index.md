@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "MTLJTag"
 link: "https://www.halkeye.net/2004/01/18/mtljtag/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "mtljtag"
 status: "publish"
 category: "Coding"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

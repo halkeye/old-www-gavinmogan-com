@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Life Updates"
 link: "https://www.halkeye.net/2005/09/27/life_updates/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "life_updates"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

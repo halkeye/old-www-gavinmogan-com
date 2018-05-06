@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Stating the Obvious"
 link: "https://www.halkeye.net/2004/02/15/stating_obvious/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "stating_obvious"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

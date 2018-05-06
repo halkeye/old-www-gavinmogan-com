@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Spam Protection"
 link: "https://www.halkeye.net/2005/09/02/spam_protection/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "spam_protection"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

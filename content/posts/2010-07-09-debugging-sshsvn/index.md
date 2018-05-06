@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Debugging ssh+svn"
 link: "https://www.halkeye.net/2010/07/09/debugging-sshsvn/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "debugging-sshsvn"
 status: "publish"
 category: "Linux"
 tags: ['debug', 'ssh', 'ssh+svn', 'svn']
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

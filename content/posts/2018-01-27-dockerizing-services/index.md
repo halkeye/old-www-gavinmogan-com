@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Dockerizing Services"
 link: "https://www.halkeye.net/2018/01/27/dockerizing-services/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "dockerizing-services"
 status: "publish"
 category: "General"
 tags: ['docker', 'kubernetes']
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

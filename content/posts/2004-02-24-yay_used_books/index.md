@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "YAY FOR USED BOOKS"
 link: "https://www.halkeye.net/2004/02/24/yay_used_books/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "yay_used_books"
 status: "publish"
 category: "Books"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

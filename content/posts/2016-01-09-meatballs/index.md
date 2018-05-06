@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Meatballs"
 link: "https://www.halkeye.net/2016/01/09/meatballs/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "meatballs"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

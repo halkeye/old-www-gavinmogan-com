@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "XBOX Server Farm"
 link: "https://www.halkeye.net/2004/04/12/xbox_server_farm/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "xbox_server_farm"
 status: "publish"
 category: "Geek"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

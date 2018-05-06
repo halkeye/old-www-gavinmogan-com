@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Jedi Academy"
 link: "https://www.halkeye.net/2003/10/30/jedi_academy/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "jedi_academy"
 status: "publish"
 category: "Gaming"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

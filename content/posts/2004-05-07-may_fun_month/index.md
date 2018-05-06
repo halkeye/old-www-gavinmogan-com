@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "May is a fun month"
 link: "https://www.halkeye.net/2004/05/07/may_fun_month/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "may_fun_month"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

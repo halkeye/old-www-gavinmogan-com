@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "I'm not sadisitic, just robbed"
 link: "https://www.halkeye.net/2005/06/08/im_not_sadisitic_just_robbed/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "im_not_sadisitic_just_robbed"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

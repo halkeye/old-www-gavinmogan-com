@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Telemarketers"
 link: "https://www.halkeye.net/2007/03/21/telemarketers/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "telemarketers"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

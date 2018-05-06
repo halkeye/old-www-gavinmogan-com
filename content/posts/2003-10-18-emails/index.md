@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Emails"
 link: "https://www.halkeye.net/2003/10/18/emails/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "emails"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

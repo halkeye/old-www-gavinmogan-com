@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Okay back sorta."
 link: "https://www.halkeye.net/2005/04/26/okay_back_sorta/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "okay_back_sorta"
 status: "publish"
 category: "Applications"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "IRiver HP-120"
 link: "https://www.halkeye.net/2004/04/18/iriver_hp_120/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "iriver_hp_120"
 status: "publish"
 category: "Music"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Drive gets canceled."
 link: "https://www.halkeye.net/2007/04/28/drive_gets_canceled/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "drive_gets_canceled"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

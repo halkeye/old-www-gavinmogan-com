@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "My K-PAX review"
 link: "https://www.halkeye.net/2003/07/14/my_k-pax_review/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "my_k-pax_review"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

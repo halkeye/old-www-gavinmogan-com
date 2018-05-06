@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "2013 In Review."
 link: "https://www.halkeye.net/2013/12/31/2013-review/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "2013-review"
 status: "publish"
 category: "General"
 tags: ['2013', 'new years eve']
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

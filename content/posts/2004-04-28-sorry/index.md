@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Sorry"
 link: "https://www.halkeye.net/2004/04/28/sorry/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "sorry"
 status: "publish"
 category: "Work"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

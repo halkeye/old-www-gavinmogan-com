@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Possible Upgrade"
 link: "https://www.halkeye.net/2005/07/25/possible_upgrade/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "possible_upgrade"
 status: "publish"
 category: "Linux"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Server Upgrade"
 link: "https://www.halkeye.net/2004/01/18/server_upgrade/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "server_upgrade"
 status: "publish"
 category: "Linux"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Site Updates, don't forget about stacy's mom, 'cause she has it going on."
 link: "https://www.halkeye.net/2003/11/11/site_updates_dont_forget_about_stacys_mom_cause_she_has_it_going/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "site_updates_dont_forget_about_stacys_mom_cause_she_has_it_going"
 status: "publish"
 category: "Linux"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

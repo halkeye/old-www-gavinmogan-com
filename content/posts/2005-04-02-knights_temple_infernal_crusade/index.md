@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Knights of the Temple: Infernal Crusade"
 link: "https://www.halkeye.net/2005/04/02/knights_temple_infernal_crusade/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "knights_temple_infernal_crusade"
 status: "publish"
 category: "Gaming"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Deep Space Nine"
 link: "https://www.halkeye.net/2004/02/18/deep_space_nine/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "deep_space_nine"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

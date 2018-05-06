@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Capistrano3 - Deploying with internal git server"
 link: "https://www.halkeye.net/2014/01/24/capistrano3-deploying-internal-git-server/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "capistrano3-deploying-internal-git-server"
 status: "publish"
 category: "Internet"
 tags: ['amazon', 'capistrano', 'programming', 'ruby']
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

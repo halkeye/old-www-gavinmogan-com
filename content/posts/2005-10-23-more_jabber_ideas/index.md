@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "More jabber ideas"
 link: "https://www.halkeye.net/2005/10/23/more_jabber_ideas/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "more_jabber_ideas"
 status: "publish"
 category: "Hosting"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

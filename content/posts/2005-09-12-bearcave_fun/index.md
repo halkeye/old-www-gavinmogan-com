@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "#bearcave fun"
 link: "https://www.halkeye.net/2005/09/12/bearcave_fun/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "bearcave_fun"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

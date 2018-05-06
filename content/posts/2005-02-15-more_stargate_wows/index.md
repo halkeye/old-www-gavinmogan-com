@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "More Stargate WOWs"
 link: "https://www.halkeye.net/2005/02/15/more_stargate_wows/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "more_stargate_wows"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Feb 1st, 2014 - An unique milestone"
 link: "https://www.halkeye.net/2014/02/01/feb-1st-2014-unique-milestone/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "feb-1st-2014-unique-milestone"
 status: "publish"
 category: "People"
 tags: ['dating', 'personal', 'single']
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

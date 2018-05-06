@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Movie Prices"
 link: "https://www.halkeye.net/2004/04/04/movie_prices/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "movie_prices"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

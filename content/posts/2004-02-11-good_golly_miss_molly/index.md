@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Good Golly Miss Molly"
 link: "https://www.halkeye.net/2004/02/11/good_golly_miss_molly/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "good_golly_miss_molly"
 status: "publish"
 category: "Gaming"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

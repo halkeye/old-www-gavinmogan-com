@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "BCIT's Ad"
 link: "https://www.halkeye.net/2004/02/18/bcits_ad/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "bcits_ad"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

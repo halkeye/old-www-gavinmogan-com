@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "mod_perl"
 link: "https://www.halkeye.net/2004/03/28/mod_perl/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "mod_perl"
 status: "publish"
 category: "Coding"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

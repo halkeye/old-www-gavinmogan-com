@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Clone High"
 link: "https://www.halkeye.net/2004/01/18/clone_high/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "clone_high"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

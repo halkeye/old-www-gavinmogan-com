@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Epic movie"
 link: "https://www.halkeye.net/2007/02/14/epic_movie/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "epic_movie"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

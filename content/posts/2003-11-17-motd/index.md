@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "MOTD"
 link: "https://www.halkeye.net/2003/11/17/motd/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "motd"
 status: "publish"
 category: "Humor"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

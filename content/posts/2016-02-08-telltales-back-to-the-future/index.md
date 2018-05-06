@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Telltale's Back to the Future"
 link: "https://www.halkeye.net/2016/02/08/telltales-back-to-the-future/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "telltales-back-to-the-future"
 status: "publish"
 category: "PC"
 tags: ['back to the future']
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

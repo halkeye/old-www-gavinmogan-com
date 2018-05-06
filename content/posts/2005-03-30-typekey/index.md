@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "TypeKey"
 link: "https://www.halkeye.net/2005/03/30/typekey/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "typekey"
 status: "publish"
 category: "Geek"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

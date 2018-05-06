@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Terraria"
 link: "https://www.halkeye.net/2011/09/13/terraria/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "terraria"
 status: "publish"
 category: "PC"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

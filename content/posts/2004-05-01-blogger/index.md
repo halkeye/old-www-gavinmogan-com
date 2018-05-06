@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Blogger"
 link: "https://www.halkeye.net/2004/05/01/blogger/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "blogger"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

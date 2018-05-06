@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "R.I.P. Okrut"
 link: "https://www.halkeye.net/2005/10/10/s_r_i_p_s_okrut/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "s_r_i_p_s_okrut"
 status: "publish"
 category: "Geek"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

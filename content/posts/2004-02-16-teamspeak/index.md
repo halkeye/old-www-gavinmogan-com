@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "TeamSpeak"
 link: "https://www.halkeye.net/2004/02/16/teamspeak/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "teamspeak"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

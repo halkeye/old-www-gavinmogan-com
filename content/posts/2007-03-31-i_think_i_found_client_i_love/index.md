@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "I think I found a client I love."
 link: "https://www.halkeye.net/2007/03/31/i_think_i_found_client_i_love/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "i_think_i_found_client_i_love"
 status: "publish"
 category: "Anime"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

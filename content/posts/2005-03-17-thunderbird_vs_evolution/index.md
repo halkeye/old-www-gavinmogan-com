@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Thunderbird Vs Evolution"
 link: "https://www.halkeye.net/2005/03/17/thunderbird_vs_evolution/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "thunderbird_vs_evolution"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

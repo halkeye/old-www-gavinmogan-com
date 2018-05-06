@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Eternity's End"
 link: "https://www.halkeye.net/2006/02/13/eternitys_end/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "eternitys_end"
 status: "publish"
 category: "Books"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

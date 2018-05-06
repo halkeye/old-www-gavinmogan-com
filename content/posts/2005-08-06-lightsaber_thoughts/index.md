@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Lightsaber thoughts"
 link: "https://www.halkeye.net/2005/08/06/lightsaber_thoughts/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "lightsaber_thoughts"
 status: "publish"
 category: "Geek"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

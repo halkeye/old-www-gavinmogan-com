@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "How to output pretty json in puppet"
 link: "https://www.halkeye.net/2012/03/14/output-pretty-json-puppet/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "output-pretty-json-puppet"
 status: "publish"
 category: "Linux"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

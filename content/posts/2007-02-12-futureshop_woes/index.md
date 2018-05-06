@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Futureshop Woes"
 link: "https://www.halkeye.net/2007/02/12/futureshop_woes/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "futureshop_woes"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Open ID Travels and rewards."
 link: "https://www.halkeye.net/2010/06/18/open-id-travels-rewards/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "open-id-travels-rewards"
 status: "publish"
 category: "Coding"
 tags: ['Coding', 'Net::OpenID::Consumer', 'openid', 'perl', 'php']
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

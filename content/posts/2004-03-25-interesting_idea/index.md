@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "An interesting idea..."
 link: "https://www.halkeye.net/2004/03/25/interesting_idea/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "interesting_idea"
 status: "publish"
 category: "Gaming"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

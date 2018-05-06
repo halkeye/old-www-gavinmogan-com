@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Lazy Morning"
 link: "https://www.halkeye.net/2004/04/12/lazy_morning/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "lazy_morning"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

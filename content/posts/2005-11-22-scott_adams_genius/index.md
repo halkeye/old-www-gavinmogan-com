@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Scott Adams is a genius"
 link: "https://www.halkeye.net/2005/11/22/scott_adams_genius/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "scott_adams_genius"
 status: "publish"
 category: "Humor"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

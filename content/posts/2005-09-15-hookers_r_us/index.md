@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Hookers R Us"
 link: "https://www.halkeye.net/2005/09/15/hookers_r_us/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "hookers_r_us"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

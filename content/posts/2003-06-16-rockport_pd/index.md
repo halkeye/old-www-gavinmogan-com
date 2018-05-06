@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Rockport P.D"
 link: "https://www.halkeye.net/2003/06/16/rockport_pd/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "rockport_pd"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Bash prompt linewrap with colors issues"
 link: "https://www.halkeye.net/2014/03/19/bash-prompt-linewrap-colors-issues/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "bash-prompt-linewrap-colors-issues"
 status: "publish"
 category: "Linux"
 tags: ['bash', 'linux', 'prompt']
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

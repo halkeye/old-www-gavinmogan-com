@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "US IS GOING CANADIAN!"
 link: "https://www.halkeye.net/2003/10/09/us_going_canadian/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "us_going_canadian"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

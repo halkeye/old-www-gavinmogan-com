@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Time Travel & Crushes"
 link: "https://www.halkeye.net/2003/10/08/time_travel_s_crushes_s/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "time_travel_s_crushes_s"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Stupid people shouldn't be allowed to go online"
 link: "https://www.halkeye.net/2004/06/16/stupid_people_shouldnt_be_allowed_go_online/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "stupid_people_shouldnt_be_allowed_go_online"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

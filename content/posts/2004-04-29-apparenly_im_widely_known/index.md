@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Apparenly i'm widely known?"
 link: "https://www.halkeye.net/2004/04/29/apparenly_im_widely_known/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "apparenly_im_widely_known"
 status: "publish"
 category: "Linux"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

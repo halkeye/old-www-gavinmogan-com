@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "New Design And New Software"
 link: "https://www.halkeye.net/2005/07/29/new_design_and_new_software/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "new_design_and_new_software"
 status: "publish"
 category: "Geek"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Tin Man"
 link: "https://www.halkeye.net/2007/12/03/tin_man/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "tin_man"
 status: "publish"
 category: "TV"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "The Story of the code monkey"
 link: "https://www.halkeye.net/2003/08/13/the_story_of_th/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "the_story_of_th"
 status: "publish"
 category: "Humor"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

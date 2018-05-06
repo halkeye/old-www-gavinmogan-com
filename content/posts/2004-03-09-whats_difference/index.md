@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "What's The Difference?"
 link: "https://www.halkeye.net/2004/03/09/whats_difference/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "whats_difference"
 status: "publish"
 category: "Humor"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

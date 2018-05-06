@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "gforge woes and praise"
 link: "https://www.halkeye.net/2006/02/12/gforge_woes_and_praise/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "gforge_woes_and_praise"
 status: "publish"
 category: "Linux"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

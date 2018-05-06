@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Sucky story teller, interesting stories"
 link: "https://www.halkeye.net/2004/02/29/sucky_story_teller_interesting_stories/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "sucky_story_teller_interesting_stories"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Love of the tidy!"
 link: "https://www.halkeye.net/2004/06/24/love_tidy/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "love_tidy"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

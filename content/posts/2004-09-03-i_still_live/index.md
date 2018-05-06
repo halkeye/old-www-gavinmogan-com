@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "I still live."
 link: "https://www.halkeye.net/2004/09/03/i_still_live/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "i_still_live"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "LEGO starwars"
 link: "https://www.halkeye.net/2005/03/13/lego_starwars/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "lego_starwars"
 status: "publish"
 category: "Linux"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

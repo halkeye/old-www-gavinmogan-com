@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Mailserver Update Update"
 link: "https://www.halkeye.net/2004/01/20/mailserver_update_update/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "mailserver_update_update"
 status: "publish"
 category: "Linux"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

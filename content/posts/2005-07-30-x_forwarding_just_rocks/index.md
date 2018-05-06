@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "X-Forwarding Just Rocks"
 link: "https://www.halkeye.net/2005/07/30/x_forwarding_just_rocks/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "x_forwarding_just_rocks"
 status: "publish"
 category: "Linux"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

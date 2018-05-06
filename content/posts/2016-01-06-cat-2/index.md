@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Look I have a cat!"
 link: "https://www.halkeye.net/2016/01/06/cat-2/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "cat-2"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

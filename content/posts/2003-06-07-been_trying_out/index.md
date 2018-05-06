@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Been trying out Day"
 link: "https://www.halkeye.net/2003/06/07/been_trying_out/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "been_trying_out"
 status: "publish"
 category: "Gaming"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

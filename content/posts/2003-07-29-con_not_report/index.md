@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Con... not Report"
 link: "https://www.halkeye.net/2003/07/29/con_not_report/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "con_not_report"
 status: "publish"
 category: "Anime"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

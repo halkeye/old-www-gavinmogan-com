@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Macross Plus"
 link: "https://www.halkeye.net/2005/03/13/macross_plus/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "macross_plus"
 status: "publish"
 category: "Anime"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

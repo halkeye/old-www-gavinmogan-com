@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "bash.org"
 link: "https://www.halkeye.net/2007/01/20/bash_org/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "bash_org"
 status: "publish"
 category: "Web"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

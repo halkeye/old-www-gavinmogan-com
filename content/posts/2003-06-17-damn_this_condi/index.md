@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Damn this condition"
 link: "https://www.halkeye.net/2003/06/17/damn_this_condi/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "damn_this_condi"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

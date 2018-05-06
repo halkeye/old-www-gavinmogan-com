@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "How to change from mate-terminal to xfce4-terminal"
 link: "https://www.halkeye.net/2012/07/16/change-mateterminal-xfce4terminal/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "change-mateterminal-xfce4terminal"
 status: "publish"
 category: "Linux"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

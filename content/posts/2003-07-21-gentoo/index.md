@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Gentoo++"
 link: "https://www.halkeye.net/2003/07/21/gentoo/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "gentoo"
 status: "publish"
 category: "Linux"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

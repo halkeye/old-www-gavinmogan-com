@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "I'm BACCCK! AND UPGRADED!"
 link: "https://www.halkeye.net/2004/01/02/im_baccck_and_upgraded/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "im_baccck_and_upgraded"
 status: "publish"
 category: "Applications"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

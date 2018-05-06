@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "iNinja"
 link: "https://www.halkeye.net/2004/01/30/ininja/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "ininja"
 status: "publish"
 category: "Gaming"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

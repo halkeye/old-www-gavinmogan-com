@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "This is why perl people rule."
 link: "https://www.halkeye.net/2004/04/14/why_perl_people_rule/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "why_perl_people_rule"
 status: "publish"
 category: "Coding"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

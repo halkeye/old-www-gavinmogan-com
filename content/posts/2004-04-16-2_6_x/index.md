@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "2.6.x"
 link: "https://www.halkeye.net/2004/04/16/2_6_x/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "2_6_x"
 status: "publish"
 category: "Linux"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

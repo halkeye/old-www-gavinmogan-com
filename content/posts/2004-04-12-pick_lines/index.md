@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Pick up lines?"
 link: "https://www.halkeye.net/2004/04/12/pick_lines/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "pick_lines"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

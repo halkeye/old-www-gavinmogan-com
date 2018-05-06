@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Pick Pocketing"
 link: "https://www.halkeye.net/2004/04/15/pick_pocketing/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "pick_pocketing"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

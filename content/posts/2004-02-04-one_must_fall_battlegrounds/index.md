@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "One Must Fall Battlegrounds"
 link: "https://www.halkeye.net/2004/02/04/one_must_fall_battlegrounds/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "one_must_fall_battlegrounds"
 status: "publish"
 category: "Gaming"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Renewed Interest in Dating"
 link: "https://www.halkeye.net/2003/10/18/renewed_interest_dating/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "renewed_interest_dating"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

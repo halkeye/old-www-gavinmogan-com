@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Stargate Atlantis"
 link: "https://www.halkeye.net/2004/05/01/stargate_atlantis/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "stargate_atlantis"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

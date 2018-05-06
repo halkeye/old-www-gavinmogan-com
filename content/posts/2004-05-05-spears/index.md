@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Spears"
 link: "https://www.halkeye.net/2004/05/05/spears/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "spears"
 status: "publish"
 category: "Music"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

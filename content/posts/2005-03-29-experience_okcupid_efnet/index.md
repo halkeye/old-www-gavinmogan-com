@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "experience with #okcupid on efnet"
 link: "https://www.halkeye.net/2005/03/29/experience_okcupid_efnet/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "experience_okcupid_efnet"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

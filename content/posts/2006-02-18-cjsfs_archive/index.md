@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "CJSF's archive"
 link: "https://www.halkeye.net/2006/02/18/cjsfs_archive/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "cjsfs_archive"
 status: "publish"
 category: "Anime"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

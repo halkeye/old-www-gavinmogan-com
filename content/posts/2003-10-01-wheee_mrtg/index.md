@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "WHEEE! MRTG"
 link: "https://www.halkeye.net/2003/10/01/wheee_mrtg/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "wheee_mrtg"
 status: "publish"
 category: "Linux"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

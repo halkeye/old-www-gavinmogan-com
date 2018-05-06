@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Projects"
 link: "https://www.halkeye.net/2016/09/05/projects/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "projects"
 status: "publish"
 category: "Internet"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

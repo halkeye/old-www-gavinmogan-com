@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Its emails like this that make it all worth it."
 link: "https://www.halkeye.net/2004/04/10/its_emails_make_it_all_worth_it/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "its_emails_make_it_all_worth_it"
 status: "publish"
 category: "Coding"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

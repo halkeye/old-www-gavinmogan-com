@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Apache Modifications"
 link: "https://www.halkeye.net/2004/04/13/apache_modifications/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "apache_modifications"
 status: "publish"
 category: "Work"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

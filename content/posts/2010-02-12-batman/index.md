@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "BATMAN"
 link: "https://www.halkeye.net/2010/02/12/batman/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "batman"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

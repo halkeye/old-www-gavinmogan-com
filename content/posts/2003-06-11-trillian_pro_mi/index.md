@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Trillian Pro, Miranda ICQ, Gaim"
 link: "https://www.halkeye.net/2003/06/11/trillian_pro_mi/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "trillian_pro_mi"
 status: "publish"
 category: "Applications"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

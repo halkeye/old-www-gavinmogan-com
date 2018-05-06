@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Hoobastank"
 link: "https://www.halkeye.net/2004/04/06/hoobastank/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "hoobastank"
 status: "publish"
 category: "Music"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

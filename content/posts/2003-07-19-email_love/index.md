@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Email Love"
 link: "https://www.halkeye.net/2003/07/19/email_love/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "email_love"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

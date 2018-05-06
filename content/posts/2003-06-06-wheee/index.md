@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Wheee"
 link: "https://www.halkeye.net/2003/06/06/wheee/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "wheee"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

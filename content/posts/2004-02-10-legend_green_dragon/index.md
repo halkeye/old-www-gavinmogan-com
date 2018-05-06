@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Legend Of the Green Dragon"
 link: "https://www.halkeye.net/2004/02/10/legend_green_dragon/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "legend_green_dragon"
 status: "publish"
 category: "Gaming"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

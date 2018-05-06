@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "First Post"
 link: "https://www.halkeye.net/2003/04/17/first_post/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "first_post"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Systemd + Tshock + Docker"
 link: "https://www.halkeye.net/2017/02/12/systemd-tshock-docker/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "systemd-tshock-docker"
 status: "publish"
 category: "General"
 tags: ['docker', 'systemd', 'terraria', 'tshock']
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

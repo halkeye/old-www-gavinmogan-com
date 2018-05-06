@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Gavin Got Game"
 link: "https://www.halkeye.net/2003/09/07/gavin_got_game/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "gavin_got_game"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

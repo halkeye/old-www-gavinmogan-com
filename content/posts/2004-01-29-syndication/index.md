@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Syndication"
 link: "https://www.halkeye.net/2004/01/29/syndication/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "syndication"
 status: "publish"
 category: "Coding"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

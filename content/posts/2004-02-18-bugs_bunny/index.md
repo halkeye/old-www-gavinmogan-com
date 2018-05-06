@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Bugs Bunny"
 link: "https://www.halkeye.net/2004/02/18/bugs_bunny/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "bugs_bunny"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

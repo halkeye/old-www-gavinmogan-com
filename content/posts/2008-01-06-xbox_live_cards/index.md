@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "xbox live cards"
 link: "https://www.halkeye.net/2008/01/06/xbox_live_cards/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "xbox_live_cards"
 status: "publish"
 category: "Web"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

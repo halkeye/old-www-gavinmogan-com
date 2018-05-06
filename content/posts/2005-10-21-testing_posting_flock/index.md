@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Testing posting from flock"
 link: "https://www.halkeye.net/2005/10/21/testing_posting_flock/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "testing_posting_flock"
 status: "publish"
 category: "Web"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

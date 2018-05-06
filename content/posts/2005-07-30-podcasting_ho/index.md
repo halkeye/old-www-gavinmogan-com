@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "PODCASTING HO!"
 link: "https://www.halkeye.net/2005/07/30/podcasting_ho/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "podcasting_ho"
 status: "publish"
 category: "Coding"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "No Purchase Necessary"
 link: "https://www.halkeye.net/2004/02/12/no_purchase_necessary/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "no_purchase_necessary"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

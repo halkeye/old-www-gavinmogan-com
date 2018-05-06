@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Hi SciFi Sources"
 link: "https://www.halkeye.net/2007/09/05/hi_scifi_sources/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "hi_scifi_sources"
 status: "publish"
 category: "Web"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

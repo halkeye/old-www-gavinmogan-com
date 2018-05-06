@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Post Secret Love"
 link: "https://www.halkeye.net/2006/03/12/post_secret_love/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "post_secret_love"
 status: "publish"
 category: "Web"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

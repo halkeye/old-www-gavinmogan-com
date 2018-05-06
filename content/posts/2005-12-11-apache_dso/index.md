@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Apache DSO"
 link: "https://www.halkeye.net/2005/12/11/apache_dso/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "apache_dso"
 status: "publish"
 category: "Web"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

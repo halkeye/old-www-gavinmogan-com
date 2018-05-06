@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "work"
 link: "https://www.halkeye.net/2004/04/17/work/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "work"
 status: "publish"
 category: "Work"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

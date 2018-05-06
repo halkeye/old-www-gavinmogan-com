@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "meow"
 link: "https://www.halkeye.net/2004/12/16/meow/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "meow"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

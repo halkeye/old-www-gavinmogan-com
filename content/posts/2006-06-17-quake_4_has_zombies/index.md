@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Quake 4 has zombies!"
 link: "https://www.halkeye.net/2006/06/17/quake_4_has_zombies/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "quake_4_has_zombies"
 status: "publish"
 category: "Gaming"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

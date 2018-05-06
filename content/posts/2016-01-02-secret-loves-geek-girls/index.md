@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "“The Secret Loves of Geek Girls”"
 link: "https://www.halkeye.net/2016/01/02/secret-loves-geek-girls/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "secret-loves-geek-girls"
 status: "publish"
 category: "Books"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

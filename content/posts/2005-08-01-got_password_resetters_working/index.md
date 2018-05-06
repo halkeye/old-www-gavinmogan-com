@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Got password resetters working"
 link: "https://www.halkeye.net/2005/08/01/got_password_resetters_working/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "got_password_resetters_working"
 status: "publish"
 category: "Hosting"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

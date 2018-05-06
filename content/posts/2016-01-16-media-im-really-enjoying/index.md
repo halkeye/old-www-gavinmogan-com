@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Media I'm really enjoying"
 link: "https://www.halkeye.net/2016/01/16/media-im-really-enjoying/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "media-im-really-enjoying"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

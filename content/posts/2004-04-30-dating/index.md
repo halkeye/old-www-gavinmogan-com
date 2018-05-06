@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Dating"
 link: "https://www.halkeye.net/2004/04/30/dating/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "dating"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "MT-Blacklist."
 link: "https://www.halkeye.net/2004/02/02/mt_blacklist/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "mt_blacklist"
 status: "publish"
 category: "Coding"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

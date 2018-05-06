@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Catch Phrases"
 link: "https://www.halkeye.net/2004/04/13/catch_phrases/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "catch_phrases"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Software and Site Updates"
 link: "https://www.halkeye.net/2003/06/27/software_and_si/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "software_and_si"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

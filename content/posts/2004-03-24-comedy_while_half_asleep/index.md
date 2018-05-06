@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Comedy while half asleep"
 link: "https://www.halkeye.net/2004/03/24/comedy_while_half_asleep/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "comedy_while_half_asleep"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

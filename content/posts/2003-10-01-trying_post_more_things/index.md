@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Trying to post more things :)"
 link: "https://www.halkeye.net/2003/10/01/trying_post_more_things/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "trying_post_more_things"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

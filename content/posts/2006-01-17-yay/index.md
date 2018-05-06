@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "yay!"
 link: "https://www.halkeye.net/2006/01/17/yay/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "yay"
 status: "publish"
 category: "Geek"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

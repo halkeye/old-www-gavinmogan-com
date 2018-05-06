@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Playing with my new camera"
 link: "https://www.halkeye.net/2005/04/12/playing_my_new_camera/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "playing_my_new_camera"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

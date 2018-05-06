@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "My Second Fringe Show: How to Adult"
 link: "https://www.halkeye.net/2016/09/20/my-second-fringe-show-how-to-adult/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "my-second-fringe-show-how-to-adult"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

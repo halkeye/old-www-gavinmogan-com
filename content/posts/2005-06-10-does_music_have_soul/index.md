@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Does music have a soul?"
 link: "https://www.halkeye.net/2005/06/10/does_music_have_soul/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "does_music_have_soul"
 status: "publish"
 category: "Music"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Tron"
 link: "https://www.halkeye.net/2004/04/07/tron/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "tron"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

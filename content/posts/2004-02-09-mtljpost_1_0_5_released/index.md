@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "MTLJPost 1.0.5 Released"
 link: "https://www.halkeye.net/2004/02/09/mtljpost_1_0_5_released/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "mtljpost_1_0_5_released"
 status: "publish"
 category: "Coding"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

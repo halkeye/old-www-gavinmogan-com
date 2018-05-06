@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "BOOOKS!"
 link: "https://www.halkeye.net/2004/03/03/boooks/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "boooks"
 status: "publish"
 category: "Books"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

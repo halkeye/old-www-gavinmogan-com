@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Laser Tag"
 link: "https://www.halkeye.net/2004/02/24/laser_tag/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "laser_tag"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

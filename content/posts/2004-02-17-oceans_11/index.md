@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Oceans 11"
 link: "https://www.halkeye.net/2004/02/17/oceans_11/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "oceans_11"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

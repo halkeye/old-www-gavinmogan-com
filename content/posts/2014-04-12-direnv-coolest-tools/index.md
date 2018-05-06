@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "direnv is one of the coolest tools ever"
 link: "https://www.halkeye.net/2014/04/12/direnv-coolest-tools/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "direnv-coolest-tools"
 status: "publish"
 category: "Linux"
 tags: ['Coding', 'direnv', 'linux']
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

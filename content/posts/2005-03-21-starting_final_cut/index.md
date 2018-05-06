@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "The starting of Final Cut"
 link: "https://www.halkeye.net/2005/03/21/starting_final_cut/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "starting_final_cut"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

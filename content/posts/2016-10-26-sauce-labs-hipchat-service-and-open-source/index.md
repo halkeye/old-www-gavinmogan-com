@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Sauce Labs Hipchat Service (and Open Source)"
 link: "https://www.halkeye.net/2016/10/26/sauce-labs-hipchat-service-and-open-source/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "sauce-labs-hipchat-service-and-open-source"
 status: "publish"
 category: "Work"
 tags: ['atlassian', 'hipchat', 'open source', 'sauce labs']
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

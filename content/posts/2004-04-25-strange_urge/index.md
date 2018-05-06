@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Strange urge"
 link: "https://www.halkeye.net/2004/04/25/strange_urge/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "strange_urge"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Site Update"
 link: "https://www.halkeye.net/2003/06/14/site_update/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "site_update"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

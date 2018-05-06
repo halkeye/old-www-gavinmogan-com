@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Y.A.O.I.R.P.G"
 link: "https://www.halkeye.net/2006/10/17/y_o_i_r_p_g/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "y_o_i_r_p_g"
 status: "publish"
 category: "Coding"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

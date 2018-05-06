@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Man its been a while."
 link: "https://www.halkeye.net/2005/02/09/man_its_been_while/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "man_its_been_while"
 status: "publish"
 category: "Work"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

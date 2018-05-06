@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "I got a Producer to respond to my blog :P"
 link: "https://www.halkeye.net/2003/07/10/i_got_a_produce/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "i_got_a_produce"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

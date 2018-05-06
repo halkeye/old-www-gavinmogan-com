@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Episode 16"
 link: "https://www.halkeye.net/2004/02/16/episode_16/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "episode_16"
 status: "publish"
 category: "Anime"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "My GoPro experiments"
 link: "https://www.halkeye.net/2016/05/14/my-gopro-experiments/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "my-gopro-experiments"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

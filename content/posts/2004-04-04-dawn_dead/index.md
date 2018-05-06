@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Dawn of the dead"
 link: "https://www.halkeye.net/2004/04/04/dawn_dead/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "dawn_dead"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

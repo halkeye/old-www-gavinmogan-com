@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "My ever so lame music rant"
 link: "https://www.halkeye.net/2003/06/09/my_ever_so_lame/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "my_ever_so_lame"
 status: "publish"
 category: "General"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

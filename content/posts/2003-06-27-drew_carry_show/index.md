@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Drew Carry Show & KY"
 link: "https://www.halkeye.net/2003/06/27/drew_carry_show/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "drew_carry_show"
 status: "publish"
 category: "Movies"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

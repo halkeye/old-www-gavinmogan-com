@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "AHH! SCAM! BEWARE!"
 link: "https://www.halkeye.net/2004/04/24/ahh_scam_beware/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "ahh_scam_beware"
 status: "publish"
 category: "People"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

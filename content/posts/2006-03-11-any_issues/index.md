@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Any Issues?"
 link: "https://www.halkeye.net/2006/03/11/any_issues/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "any_issues"
 status: "publish"
 category: "Hosting"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

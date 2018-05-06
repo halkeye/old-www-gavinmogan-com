@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Still Around"
 link: "https://www.halkeye.net/2005/05/28/still_around/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "still_around"
 status: "publish"
 category: "Work"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

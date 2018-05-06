@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Enders Game"
 link: "https://www.halkeye.net/2004/02/22/enders_game/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "enders_game"
 status: "publish"
 category: "Books"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

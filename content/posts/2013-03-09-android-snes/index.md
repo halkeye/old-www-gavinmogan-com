@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Android and SNES? Oh my!"
 link: "https://www.halkeye.net/2013/03/09/android-snes/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "android-snes"
 status: "publish"
 category: "Gaming"
 tags: ['android', 'gamepad', 'nexus 7', 'snes']
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Historical Livejournal"
 link: "https://www.halkeye.net/2012/02/08/historical-livejournal/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "historical-livejournal"
 status: "publish"
 category: "General"
 tags: ['livejournal']
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

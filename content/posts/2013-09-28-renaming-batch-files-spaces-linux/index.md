@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Renaming batch of files (with spaces) in linux"
 link: "https://www.halkeye.net/2013/09/28/renaming-batch-files-spaces-linux/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "renaming-batch-files-spaces-linux"
 status: "publish"
 category: "Linux"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 

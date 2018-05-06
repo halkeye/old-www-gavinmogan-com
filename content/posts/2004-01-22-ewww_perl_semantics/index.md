@@ -1,5 +1,4 @@
 ---
-cover: /cover-image.jpg
 title: "Ewww, perl semantics"
 link: "https://www.halkeye.net/2004/01/22/ewww_perl_semantics/"
 author: "halkeye"
@@ -12,6 +11,7 @@ post_name: "ewww_perl_semantics"
 status: "publish"
 category: "Coding"
 tags: []
+cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
