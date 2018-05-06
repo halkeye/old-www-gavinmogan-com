@@ -15,4 +15,10 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-Hey peoples out there in the grand land of the internet, A friend of mine is involved in a local indie production. They have met their goal but every extra bit helps a lot. [I wanna date u](https://www.indiegogo.com/projects/i-wanna-date-u-the-movie/x/219183#home)
+Hey peoples out there in the grand land of the internet,
+
+A friend of mine is involved in a local indie production. They have met their goal but every extra bit helps a lot.
+
+
+
+[I wanna date u](https://www.indiegogo.com/projects/i-wanna-date-u-the-movie/x/219183#home)

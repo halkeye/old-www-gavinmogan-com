@@ -15,4 +15,16 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-So a while ago I had posted [a hack](http://www.halkeye.net/2014/01/24/capistrano3-deploying-internal-git-server/) that lets capistrano deploy code from a git server from behind a firewall. So in a recent update to SSHKit they changed how they do ssh connections to use Threading and Pools. This broke my hack.   So long story short, I've updated my hack. This one uses net-ssh directly to make a forward. Disclaimer: This works for us at $work, but I can't claim it works anywhere else.   [gist id=f061872eb4b47dc0928e]https://gist.github.com/halkeye/f061872eb4b47dc0928e[/gist]
+So a while ago I had posted [a hack](http://www.halkeye.net/2014/01/24/capistrano3-deploying-internal-git-server/) that lets capistrano deploy code from a git server from behind a firewall.
+
+So in a recent update to SSHKit they changed how they do ssh connections to use Threading and Pools. This broke my hack.
+
+ 
+
+So long story short, I've updated my hack. This one uses net-ssh directly to make a forward.
+
+Disclaimer: This works for us at $work, but I can't claim it works anywhere else.
+
+ 
+
+[gist id=f061872eb4b47dc0928e]https://gist.github.com/halkeye/f061872eb4b47dc0928e[/gist]

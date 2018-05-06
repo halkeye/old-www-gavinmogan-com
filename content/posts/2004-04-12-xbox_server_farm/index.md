@@ -16,7 +16,12 @@ post_type: "post"
 ---
 
 Is it wrong I have an urge to put together an XBOX Server farm?  
-I mean, they are $199 canadian now, thats cheaper than most decent computers... I mean, I'd replace my firewall with it if i could get a second network card in it... Tempting no?
+
+I mean, they are $199 canadian now, thats cheaper than most decent computers...
+
+I mean, I'd replace my firewall with it if i could get a second network card in it...
+
+Tempting no?
 
 ## Comments
 

@@ -15,6 +15,18 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-Nothing is better to me than screwing up telemarketers. Today's guy was all friendly and loose. 
+Nothing is better to me than screwing up telemarketers.
 
-> "We do 1010 numbers for long distance" "Oh, we don't make long distance calls" "oh.. none at all?" "nope" "How about traveling?" "hrm, nope" "okay then.....*searching* I guess i can't help you with your long distance needs" "okay, sorry, bye."
+Today's guy was all friendly and loose.
+
+
+> 
+"We do 1010 numbers for long distance"
+"Oh, we don't make long distance calls"
+"oh.. none at all?"
+"nope"
+"How about traveling?"
+"hrm, nope"
+"okay then.....*searching* I guess i can't help you with
+your long distance needs"
+"okay, sorry, bye."

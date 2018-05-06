@@ -15,7 +15,16 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-I can't belive the coisidence.. This episode of Deep Space 9, is almost entirely like Oceans 11  
+I can't belive the coisidence..
+
+This episode of Deep Space 9, is almost entirely like Oceans 11  
+
 Down to *lines and stuff, so simular.  
-Heh. I find that kinda cool   
+
+Heh.
+
+I find that kinda cool
+
+  
+
 * Not really lines, but sooo simular

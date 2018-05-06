@@ -16,9 +16,18 @@ post_type: "post"
 ---
 
 Yes, i'm back, back on Movable Type.  
-Back to using MTLJPost (well playing with it and upgrading to use the new MT3 stuff as much as possible. Been anxiously awaiting sci-fi friday all weeek.  
+
+Back to using MTLJPost (well playing with it and upgrading to use the new MT3 stuff as much as possible.
+
+Been anxiously awaiting sci-fi friday all weeek.  
+
 Unfortuatly being I'm in canada and have basic if that cable, i have to wait a bit longer :(.  
-I mean, its not hard to tell that i'm a stargate fan, and now, there is 2 stargates and a Battlestar Galactica (which interesting enough, i went to highschool with one of the actresses) on fridays. Once I get my mythtv thing setup again properly (had cabling issues), I probably will consider ordering a dish or something so i can get this stuff properly (my tv card handles changing channels on recievers). I'm going to try and keep this site updated again, although for whatever reasons i've stopped in the past, will probaly happen again. Although I've gotten almost everything needed for http://hosting.kodekoan.com done, just a small tweak of the ftp, and all the frontend managemnet system (like changing passwords, adding email address, etc)
+
+I mean, its not hard to tell that i'm a stargate fan, and now, there is 2 stargates and a Battlestar Galactica (which interesting enough, i went to highschool with one of the actresses) on fridays. Once I get my mythtv thing setup again properly (had cabling issues), I probably will consider ordering a dish or something so i can get this stuff properly (my tv card handles changing channels on recievers).
+
+I'm going to try and keep this site updated again, although for whatever reasons i've stopped in the past, will probaly happen again.
+
+Although I've gotten almost everything needed for http://hosting.kodekoan.com done, just a small tweak of the ftp, and all the frontend managemnet system (like changing passwords, adding email address, etc)
 
 ## Comments
 

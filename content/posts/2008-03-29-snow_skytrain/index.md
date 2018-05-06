@@ -15,9 +15,18 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-![](http://farm4.static.flickr.com/3202/2370771978_aa6707554b_m.jpg)   
-[Snow at the skytrain](http://www.flickr.com/photos/halkeye/2370771978/)   
-Originally uploaded by [halkeye](http://www.flickr.com/people/halkeye/)
+![](http://farm4.static.flickr.com/3202/2370771978_aa6707554b_m.jpg)
+   
+
+ 
+ [Snow at the skytrain](http://www.flickr.com/photos/halkeye/2370771978/)
+   
+
+ Originally uploaded by [halkeye](http://www.flickr.com/people/halkeye/)
+ 
+
+
 
 look at the awesome snow we had this morning  
+
 it so barely is noticeable.

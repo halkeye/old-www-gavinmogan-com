@@ -15,4 +15,9 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-![](http://www.halkeye.net/files/images/6-17-2006-9.32.06%20AM.png) that is all. (note, thanks to the #mysql guys, i have figured out a bunch of issues the server was having with mysql.. its all good now.. [stupid bugs](http://bugs.mysql.com/bug.php?id=7331))
+![](http://www.halkeye.net/files/images/6-17-2006-9.32.06%20AM.png)
+
+that is all.
+
+
+(note, thanks to the #mysql guys, i have figured out a bunch of issues the server was having with mysql.. its all good now.. [stupid bugs](http://bugs.mysql.com/bug.php?id=7331))

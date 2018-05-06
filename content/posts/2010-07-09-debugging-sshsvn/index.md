@@ -15,10 +15,14 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-Posting here in case anyone else needs to know. Was trying to debug a ssh+svn connection. There is a very simple way to get debugging turned on: 
+Posting here in case anyone else needs to know.
+
+Was trying to debug a ssh+svn connection. There is a very simple way to get debugging turned on:
+
     
     
     $ export SVN_SSH="ssh -v "
-    $ svn checkout svn+ssh://
+$ svn checkout svn+ssh://
+
 
 Any other ssh commands can be put in that env variable too, so ports and such.

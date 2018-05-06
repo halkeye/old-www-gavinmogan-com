@@ -15,4 +15,6 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-I <3 bugs bunny. I so want to get those dvds.
+I <3 bugs bunny.
+
+I so want to get those dvds.

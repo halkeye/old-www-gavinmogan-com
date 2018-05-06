@@ -16,4 +16,5 @@ post_type: "post"
 ---
 
 Working hard at [River Styx Internet](http://www.riverstyx.net).  
+
 Have some stuff I'll hopefully post about this weekend. Including some new firefox stuff I've found out.

@@ -15,9 +15,13 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-I rename a lot of files. Often by hand as it's just easier. I've tried various combinations of find -print0 | xargs -0, and find -exec, without much luck. Just So I have reference on what does work: 
+I rename a lot of files. Often by hand as it's just easier. I've tried various combinations of find -print0 | xargs -0, and find -exec, without much luck.
+
+Just So I have reference on what does work:
+
     
     
     find -type f | while read file; do echo mv \"$file\" \"$(echo $file | sed -e 's/^Old Content/New Content/')\"; done | sh
+
 
 Yea I could probably drop the echo mv, and the |sh, but it feels safer to do a dry run

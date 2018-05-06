@@ -16,5 +16,9 @@ post_type: "post"
 ---
 
 Is it sad I miss work?  
+
 I got 2 days off  
-And I wish I was at work? Or they had a vpn so I could do stuff? meep
+
+And I wish I was at work? Or they had a vpn so I could do stuff?
+
+meep

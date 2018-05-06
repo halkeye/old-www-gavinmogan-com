@@ -15,4 +15,6 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-I have to appologize for abandoning the site. The job hunt ended up taking too long, so I had to take a position at dads place. It drains alot out of me, I'm so not used to having to get up 4:30. Does mean I have a 3 day weekend now. Never the less, I'm starting to get this sorta sorted out, and back to the general job hunting. Anyways, I hope everyone has been good and pledging or participating in the [Masturbate-A-Thon](http://www.masturbate-a-thon.com/) which is this afternoon. Would sure take your mind of the heat wave that is striking vancouver.
+I have to appologize for abandoning the site. The job hunt ended up taking too long, so I had to take a position at dads place. It drains alot out of me, I'm so not used to having to get up 4:30. Does mean I have a 3 day weekend now. Never the less, I'm starting to get this sorta sorted out, and back to the general job hunting.
+
+Anyways, I hope everyone has been good and pledging or participating in the [Masturbate-A-Thon](http://www.masturbate-a-thon.com/) which is this afternoon. Would sure take your mind of the heat wave that is striking vancouver.

@@ -15,6 +15,16 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-Holy Shit [Fullmetal Alchemist](http://www.animenfo.com/animetitle,1265,mybywf,fullmetal_alche.html) has become interesting again. I'm just loving the characters and plot twists and such. Specially now that they finally got the villians introduced. It wasn't a slow start, but its finally gotten to a point where they need to be introduced..  
-WHOA   
+Holy Shit [Fullmetal Alchemist](http://www.animenfo.com/animetitle,1265,mybywf,fullmetal_alche.html) has become interesting again.
+
+I'm just loving the characters and plot twists and such.
+
+Specially now that they finally got the villians introduced.
+
+It wasn't a slow start, but its finally gotten to a point where they need to be introduced..  
+
+WHOA
+
+  
+
 and to quote McDonalds and the [Jordan](http://j0rd.ath.cx)... **I'm loving it**

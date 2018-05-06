@@ -15,4 +15,6 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-Yea, a while ago [Alex](http://www.fustiar.org/) asked me to setup my own copy of [Legend of the Green Dragon](http://www.halkeye.net/logd/), after I showed him a global copy. So yea. I got [Legend of the Green Dragon](http://www.halkeye.net/logd/) setup, Go play! NOW NOW NOW!
+Yea, a while ago [Alex](http://www.fustiar.org/) asked me to setup my own copy of [Legend of the Green Dragon](http://www.halkeye.net/logd/), after I showed him a global copy.
+
+So yea. I got [Legend of the Green Dragon](http://www.halkeye.net/logd/) setup, Go play! NOW NOW NOW!

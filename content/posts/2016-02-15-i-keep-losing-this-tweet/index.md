@@ -15,4 +15,12 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-I use the favorites/love feature on twitter to come back to things later. https://twitter.com/misstoriz/status/12987279030 Is one of my all time favourite tweets. I have noticed when I directly go there through the website, it does not actually remember my initial tweet (Was very happy when I pasted it to wordpress it did give context). With the deadpool movie now out to top off all the other marvel movie stuff, I'm sure these kinds of thoughts won't leave my head any time soon.
+I use the favorites/love feature on twitter to come back to things later.
+
+https://twitter.com/misstoriz/status/12987279030
+
+Is one of my all time favourite tweets.
+
+I have noticed when I directly go there through the website, it does not actually remember my initial tweet (Was very happy when I pasted it to wordpress it did give context).
+
+With the deadpool movie now out to top off all the other marvel movie stuff, I'm sure these kinds of thoughts won't leave my head any time soon.

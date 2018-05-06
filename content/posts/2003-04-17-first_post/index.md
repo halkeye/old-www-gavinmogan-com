@@ -15,4 +15,7 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-Trying to see how this works as a journal.. yea, looks kinda cool, and a bit more freedom.. but i doubt i'll ever leave [livejournal](http://www.livejournal.com/), but its still cool. *goes back to busy himself*
+Trying to see how this works as a journal..
+yea, looks kinda cool, and a bit more freedom.. but i doubt i'll ever leave [livejournal](http://www.livejournal.com/), but its still cool.
+
+*goes back to busy himself*

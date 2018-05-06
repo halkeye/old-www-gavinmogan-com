@@ -16,4 +16,13 @@ post_type: "post"
 ---
 
 I think the next skill I should learn is pick pocketing  
-or japanese... But pick pocketing is more useful.. its almost as good as scavenging at the beach with a metal detector no? But more fun. PS. I'm farely certain I'm being silly.. Although I do have that clepto streak.
+
+or japanese...
+
+But pick pocketing is more useful.. its almost as good as scavenging at the beach with a metal detector no? But more fun.
+
+
+
+
+
+PS. I'm farely certain I'm being silly.. Although I do have that clepto streak.

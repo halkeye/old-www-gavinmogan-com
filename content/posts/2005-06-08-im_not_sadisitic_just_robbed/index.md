@@ -15,4 +15,8 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-Man, yet another screech without a crash. Someone once said, _when you hear a screech, you wait for that CRASH, when you don't hear it, you feel robbed_. Kingsway gets, on average, 3-4 a night of these.
+Man, yet another screech without a crash.
+
+Someone once said, _when you hear a screech, you wait for that CRASH, when you don't hear it, you feel robbed_.
+
+Kingsway gets, on average, 3-4 a night of these.

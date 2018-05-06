@@ -15,4 +15,10 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-Oh man. I used to post some really horrible jokes I found around the internet. https://twitter.com/halkeye/status/333769132 The answer is a seatbelt btw. I love seeing other peoples reactions. ![Justin Bad Seatbelt to Joke](https://www.halkeye.net/files/2016/02/Justin-Bad-Seatbelt-to-Joke.png)
+Oh man. I used to post some really horrible jokes I found around the internet.
+
+https://twitter.com/halkeye/status/333769132
+
+The answer is a seatbelt btw. I love seeing other peoples reactions.
+
+![Justin Bad Seatbelt to Joke](https://www.halkeye.net/files/2016/02/Justin-Bad-Seatbelt-to-Joke.png)

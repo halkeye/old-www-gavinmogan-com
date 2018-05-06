@@ -15,4 +15,18 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-![](http://www.halkeye.net/files/images/clp83.thumb.png) Doing a configuration interface. It looks kinda cool. At least until the Plugin Manager's config interface is done. Although this still might be better. Error message now actually work. I can't belive I never actually tested that, so the old messages would be really confusing. I can't say the html is currently any good. But for now, it works. If i can figure out how to store it (still havn't looked into it, probably use MT::PluginData again), I could even let you do multiple servers. Although I think it would probably delay posting time way to long. I think this method might be the best. Yea. Now to decide weither to goto sleep or finish this up sorta..
+![](http://www.halkeye.net/files/images/clp83.thumb.png)
+
+Doing a configuration interface. It looks kinda cool.
+
+At least until the Plugin Manager's config interface is done. Although this still might be better.
+
+Error message now actually work. I can't belive I never actually tested that, so the old messages would be really confusing.
+
+I can't say the html is currently any good. But for now, it works.
+
+If i can figure out how to store it (still havn't looked into it, probably use MT::PluginData again), I could even let you do multiple servers. Although I think it would probably delay posting time way to long.
+
+I think this method might be the best.
+
+Yea. Now to decide weither to goto sleep or finish this up sorta..

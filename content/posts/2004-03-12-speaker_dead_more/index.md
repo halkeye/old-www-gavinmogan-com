@@ -16,4 +16,9 @@ post_type: "post"
 ---
 
 After reading as much of speaker for the dead as I have. I want Andrew Wiggin to be a speaker at my death  
-that would be sooo cooool I was thinking that all last night.. From what I understand, its not that uncommon of a feeling.
+
+that would be sooo cooool
+
+I was thinking that all last night..
+
+From what I understand, its not that uncommon of a feeling.

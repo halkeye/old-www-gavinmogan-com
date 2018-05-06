@@ -17,10 +17,22 @@ post_type: "post"
 
 Playing with ecto and blogjet today.
 
+
+
+
 I have to say, I’m find blogjet so much better. I’m still not sure I want to *pay* for a client.
+
+
+
 
  
 
+
+
+
 PS, C&C3 is much better than expected. The FMV are so nice, I kinda hope it becomes a trend again.
+
+
+
 
 PPS, Livejournal has an [April Fools Post](http://news.livejournal.com/97749.html?mode=reply&style=mine) this year, albeit very early :)

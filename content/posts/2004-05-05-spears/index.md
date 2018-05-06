@@ -15,4 +15,6 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-...what happened to brittany spears producing music? I mean, I don't think even one of her songs since 'I'm a slave for you' has actually sounded remotely like music.
+...what happened to brittany spears producing music?
+
+I mean, I don't think even one of her songs since 'I'm a slave for you' has actually sounded remotely like music.

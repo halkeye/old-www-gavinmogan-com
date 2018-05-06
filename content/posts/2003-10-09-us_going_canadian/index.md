@@ -15,5 +15,12 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-Yea, so I can't exactly find any online proof, But I saw a commercial today... The United States seems to be getting a new 20 dollar bill. Its now colored... Just like canadian bills, I mean not nearly as much, but it stands out against the other bills now. First thing that came to mind had to be "THE US HAS GONE CANADIAN".   
+Yea, so I can't exactly find any online proof, But I saw a commercial today...
+
+The United States seems to be getting a new 20 dollar bill. Its now colored... Just like canadian bills, I mean not nearly as much, but it stands out against the other bills now.
+
+First thing that came to mind had to be "THE US HAS GONE CANADIAN".
+
+  
+
 Okay, so I'm quite lame.. but I though that was funny.

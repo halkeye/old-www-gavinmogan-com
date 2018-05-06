@@ -15,14 +15,34 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-1.0.2 Released [Download New Version](http://www.halkeye.net/files/?file=MTLJPost.tgz) # 1.0.2 - January 30, 2004  
+1.0.2 Released
+
+[Download New Version](http://www.halkeye.net/files/?file=MTLJPost.tgz)
+
+# 1.0.2 - January 30, 2004  
+
 # - Added config file because I got tired of always having to change the file for release  
+
 # # Format: blogid site username password  
+
 # # 3 www.livejournal.com test test  
+
 # # 4 www.deadjournal.com:90 test test  
+
 # - Added handler to check for LJ::Simple and give a message without it  
-# At this rate I actually might want to find a perm link.  
-I actually like this new version, the config file setup makes things alot easier to setup for multiple blog situations.. I just now want to see if I can't store extra information on a post, like what the postid and if it was posted and stuff, so any updates will be properly propegated to livejournal too. That would actually be cool. **Edit:** [Newer Version](http://www.kodekoan.com/project/MTLJPost)\--------------  
+
+#
+
+At this rate I actually might want to find a perm link.  
+
+I actually like this new version, the config file setup makes things alot easier to setup for multiple blog situations..
+
+I just now want to see if I can't store extra information on a post, like what the postid and if it was posted and stuff, so any updates will be properly propegated to livejournal too.
+
+That would actually be cool.
+
+**Edit:** [Newer Version](http://www.kodekoan.com/project/MTLJPost)\--------------  
+
 added some extended text.
 
 ## Comments

@@ -16,6 +16,13 @@ post_type: "post"
 ---
 
 Just recieved a second hand nikon camera this week.  
-Man I'm having so much fun with it. ![](http://farm3.static.flickr.com/2734/4200444579_6a8a271ae1_m.jpg)  
-\---  
-![](http://farm3.static.flickr.com/2537/4201198294_64272acbca_m.jpg) Just learned how to take night shots.
+
+Man I'm having so much fun with it.
+
+![](http://farm3.static.flickr.com/2734/4200444579_6a8a271ae1_m.jpg)  
+
+---  
+
+![](http://farm3.static.flickr.com/2537/4201198294_64272acbca_m.jpg)
+
+Just learned how to take night shots.

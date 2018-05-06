@@ -15,4 +15,12 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-Now that cloudflare will support ssl on every domain you host with them, I wanted to get some of my domains setup to use it. I didn't really get around to setting up the ssl cert on my side, but since cloudflare supports it, I wanted to redirect people to use it (as a convince, not a security factory) so setup this basic nginx config. [gist id=0dea284e6218fa49614b] It blindly trusts the header, so it is possible to hit these domains without ssl, but I don't want to prevent it, just let those that want it in. Figured it might be useful for others as well
+Now that cloudflare will support ssl on every domain you host with them, I wanted to get some of my domains setup to use it.
+
+I didn't really get around to setting up the ssl cert on my side, but since cloudflare supports it, I wanted to redirect people to use it (as a convince, not a security factory) so setup this basic nginx config.
+
+[gist id=0dea284e6218fa49614b]
+
+It blindly trusts the header, so it is possible to hit these domains without ssl, but I don't want to prevent it, just let those that want it in.
+
+Figured it might be useful for others as well

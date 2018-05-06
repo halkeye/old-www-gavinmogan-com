@@ -15,4 +15,10 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-Mostly for my own purposes `mateconftool-2 --set /desktop/mate/applications/terminal/exec --type string "xfce4-terminal"` I'm not a big fan of mate terminal, seems to hurt my eyes, like xfce better, so this still makes the "launch terminal" shortcut work, but launch a different terminal. Probably should switch it to use the debian standard "x-terminal-emulator"
+Mostly for my own purposes
+
+`mateconftool-2 --set /desktop/mate/applications/terminal/exec --type string "xfce4-terminal"`
+
+I'm not a big fan of mate terminal, seems to hurt my eyes, like xfce better, so this still makes the "launch terminal" shortcut work, but launch a different terminal.
+
+Probably should switch it to use the debian standard "x-terminal-emulator"

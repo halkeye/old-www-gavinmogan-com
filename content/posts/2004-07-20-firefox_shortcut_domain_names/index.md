@@ -15,4 +15,6 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-If you are like me, and just like going to common sites quickly. For me, its simply Control + L (goes to location bar) then "perldoc" which gets me to [http://www.perldoc.com](http://perldoc.perl.org/) which I also end up using many times during the day, as I need to look up specific behavior of functions, like grep :)
+If you are like me, and just like going to common sites quickly.
+
+For me, its simply Control + L (goes to location bar) then "perldoc" which gets me to [http://www.perldoc.com](http://perldoc.perl.org/) which I also end up using many times during the day, as I need to look up specific behavior of functions, like grep :)

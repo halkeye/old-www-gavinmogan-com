@@ -15,6 +15,14 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-1.0.1 Released [Download New Version](http://www.halkeye.net/files/?file=MTLJPost.tgz) # 1.0.1 - January 30, 2004  
+1.0.1 Released
+
+[Download New Version](http://www.halkeye.net/files/?file=MTLJPost.tgz)
+
+# 1.0.1 - January 30, 2004  
+
 # - Removing needing so many variables  
-# - Adding selecting of which blog you want. **Edit:** [Newer Version](http://www.kodekoan.com/project/MTLJPost)
+
+# - Adding selecting of which blog you want.
+
+**Edit:** [Newer Version](http://www.kodekoan.com/project/MTLJPost)

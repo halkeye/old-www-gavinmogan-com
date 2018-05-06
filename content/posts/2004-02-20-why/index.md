@@ -15,5 +15,12 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-Why is it called a booby trap? Why not a head trap? Breat trap? ETC? WHY WHY WHY?  
+Why is it called a booby trap?
+
+Why not a head trap?
+
+Breat trap?
+
+ETC? WHY WHY WHY?  
+
 ARE WOMEN THAT DANGEROUS?
