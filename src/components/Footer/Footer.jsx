@@ -7,10 +7,8 @@ import "./Footer.scss";
 
 class Footer extends Component {
   render() {
-    const url = config.siteRss;
     const { userLinks } = this.props;
-    const copyright = config.copyright;
-    const fixedFooter = config.fixedFooter;
+    const { siteRss, copyright, fixedFooter } = config;
     if (!copyright) {
       return null;
     }
@@ -23,7 +21,7 @@ class Footer extends Component {
           </div>
 
           <div className="rss">
-            <Link to={url}>
+            <Link to={siteRss}>
               <Button flat secondary iconClassName="fa fa-rss">
                 Subscribe
               </Button>
