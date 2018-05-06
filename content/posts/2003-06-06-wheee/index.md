@@ -19,7 +19,7 @@ My design is almost completly done. I'm going to be enabling the sidebar links a
 
 Next up will be the computers page.
 
-![](http://www.halkeye.net/files/images/clp41.thumb.png)I do have to mention, I found this awsome utility to play some older games like Sam And Max.. Its called [Scummvm](http://scummvm.sourceforge.net/). Its a virtual machine for the scumm based games, which is a very big chunk of the old lucasart games, such as Sam And Max, Monkey Island 1 and 2, Day of the tentical, and Full Throttle.
+![Sam And Max](clp41.png)I do have to mention, I found this awsome utility to play some older games like Sam And Max.. Its called [Scummvm](http://scummvm.sourceforge.net/). Its a virtual machine for the scumm based games, which is a very big chunk of the old lucasart games, such as Sam And Max, Monkey Island 1 and 2, Day of the tentical, and Full Throttle.
 
 Its defanatly a cool program, been replaying so many of my games since I found it. Well someone actually mentioned it to me, but same thing...
 

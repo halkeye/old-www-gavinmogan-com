@@ -17,7 +17,7 @@ post_type: "post"
 
 I will be the first to admit that I hate cygwin, it works just enough that its nice, but breaks more often than not so its so frustrating.
 
-![](http://www.halkeye.net/files/images/6742_2005-07-30-SNAG-0004.thumb.png)
+![](6742_2005-07-30-SNAG-0004.png)
 
 But as I was reading up on setting up the mail server properly, I found a quick tip for cygwin. Just install the X Server so you can X-Forward to a regular box.  
 
