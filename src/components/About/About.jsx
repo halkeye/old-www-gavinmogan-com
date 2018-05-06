@@ -1,11 +1,71 @@
 import React, { Component } from "react";
+import autobind from 'autobind';
+
+import Button from "react-md/lib/Buttons/Button";
 import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
+import InputField from 'react-md/lib/TextFields/InputField';
+import TextArea from 'react-md/lib/TextFields/TextArea';
+import CardTitle from "react-md/lib/Cards/CardTitle";
 import UserLinks from "../UserLinks/UserLinks";
 import config from "../../../data/SiteConfig";
+
 import "./About.scss";
 
 class About extends Component {
+  constructor (props) {
+    super(props);
+    this.state = { subject: '' };
+  }
+
+  @autobind
+  onClick () {
+    window.open(
+      `mailto:website@gavinmogan.com?subject=${window.encodeURIComponent(
+        this.state.subject
+      )}&body=${window.encodeURIComponent(this.state.body)}`
+    );
+  }
+
+  @autobind
+  handleChange (field) {
+    return (event) => {
+      this.setState({
+        [field]: event.target.value
+      });
+    }
+  }
+
+  renderInput (field, name) {
+    return (
+      <InputField
+        label={name}
+        placeholder={name}
+        value={this.state.subject}
+        block={true}
+        floatingLabel={true}
+        onChange={this.handleChange(field)}
+        id={field}
+      />
+    );
+  }
+
+  renderText (field, name) {
+    return (
+      <TextArea
+        id={field}
+        label={name}
+        placeholder={name}
+        block={true}
+        floatingLabel={true}
+        rows="6"
+        value={this.state.body}
+        style={{ width: '100%' }}
+        onChange={this.handleChange(field)}
+      />
+    );
+  }
+
   render() {
     return (
       <div className="about-container md-grid mobile-fix">
@@ -21,6 +81,15 @@ class About extends Component {
             </CardText>
             <UserLinks labeled config={config} />
           </div>
+        </Card>
+ 
+        <Card className="md-grid md-cell--8">
+          <CardText>
+            <CardTitle title="Contact" />
+            {this.renderInput('subject', 'Subject')}
+            {this.renderText('body', 'Body')}
+            <Button onClick={this.onClick} raised primary>Send Email</Button>
+          </CardText>
         </Card>
       </div>
     );

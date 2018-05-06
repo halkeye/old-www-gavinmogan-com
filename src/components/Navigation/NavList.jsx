@@ -34,6 +34,12 @@ function GetNavList(config) {
     component: Link,
     to: "/about/"
   });
+  NavList.push({
+    primaryText: "Computers",
+    leftIcon: <FontIcon>computer</FontIcon>,
+    component: Link,
+    to: "/computers/"
+  });
   return NavList;
 }
 export default GetNavList;
