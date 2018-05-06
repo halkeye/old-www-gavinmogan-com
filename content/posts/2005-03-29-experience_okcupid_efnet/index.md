@@ -25,19 +25,19 @@ Next came up the moderation (+m) mode which means nobody but the higher ups can 
 
 Now that pissed me off, mostly due to the general annoyed state I've been in lately, so I went about trying to see what the hell was going on. Went and logged into halkeye.net and tried to irc from there in. Got banned immediatly when I went "ban happy eh?".
 
-18:44 <galimon> i said 2 lines, i don't rhink either were offensive  
+18:44 &lt;galimon&gt; i said 2 lines, i don't rhink either were offensive  
 
-18:45 <noxic> no one's offended  
+18:45 &lt;noxic&gt; no one's offended  
 
-18:45 <noxic> don't give yourself that much credit  
+18:45 &lt;noxic&gt; don't give yourself that much credit  
 
-18:45 <galimon> i wasn't taking credit, just curious as to the ban happyness  
+18:45 &lt;galimon&gt; i wasn't taking credit, just curious as to the ban happyness  
 
-18:46 <noxic> you are unfunny and you changed your nick during +m  
+18:46 &lt;noxic&gt; you are unfunny and you changed your nick during +m  
 
-18:46 <noxic> and because i do not know who you are, i don't feel like putting up with it  
+18:46 &lt;noxic&gt; and because i do not know who you are, i don't feel like putting up with it  
 
-18:46 <noxic> eof
+18:46 &lt;noxic&gt; eof
 
 Pretty much next started to think of any shells I had access to. darkwarriors and sfu.com are no irc so they were out.  
 
