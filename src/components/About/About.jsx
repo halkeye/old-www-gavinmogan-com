@@ -4,9 +4,9 @@ import autobind from 'autobind';
 import Button from "react-md/lib/Buttons/Button";
 import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
+import CardTitle from "react-md/lib/Cards/CardTitle";
 import InputField from 'react-md/lib/TextFields/InputField';
 import TextArea from 'react-md/lib/TextFields/TextArea';
-import CardTitle from "react-md/lib/Cards/CardTitle";
 import UserLinks from "../UserLinks/UserLinks";
 import config from "../../../data/SiteConfig";
 

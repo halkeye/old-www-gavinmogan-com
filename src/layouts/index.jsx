@@ -24,6 +24,8 @@ export default class MainLayout extends React.Component {
       title = "Categories";
     } else if (currentPath === "about") {
       title = "About";
+    } else if (currentPath === "computers") {
+      title = "Computers";
     } else if (currentPath.includes("posts")) {
       title = "Article";
     } else if (currentPath.includes("tags")) {
