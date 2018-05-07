@@ -20,21 +20,13 @@ Went to futureshop (yea, i know, first mistake) to grab a new mouse ('cause mine
 Well, I did find a decent mouse, not the one or kind I wanted, but a good enough one, thier stock was half missing. But when i went looking for the dvd, not only could I find nobody to help me because like half of them were standing in front of a tv watching some game (suspect olympics, didn't check), and the one i eventually found was pretty rude.
 
 me: Do you have children of dune?  
-
 her: I'm not really sure  
-
 me: *points at the screen* says you do  
-
 her: Its often wrong  
-
-her: *as she checks her computer* its more often than wrong  
-
+her: \*as she checks her computer\* its more often than wrong  
 ...  
-
 her: Its not even listed at all  
-
 me: .. Does that mean its not carried at all? nowhere?  
-
 her: its not here and not really at other stores
 
 Okay, not quite rude, but not very helpful.
