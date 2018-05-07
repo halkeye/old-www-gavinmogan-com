@@ -16,7 +16,7 @@ post_type: "post"
 ---
 
 This update is a pretty update. I love the new web interface.
-
+```
 # 1.0.5 - Febuary 09, 2004  
 
 # - Started some hooks for MT Plugin Manager  
@@ -28,6 +28,7 @@ This update is a pretty update. I love the new web interface.
 # - Deletes from livejournal when entry is deleted from MT  
 
 # - Web interface to do configuration /mt-ljpost.cgi
+```
 
 Installation Instructions:  
 
