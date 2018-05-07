@@ -91,6 +91,12 @@ module.exports = {
       }
     },
     {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        policy: [{ userAgent: '*', disallow: ['*/tags/', '*/categories/']}]
+      }
+    },
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: config.siteTitle,
