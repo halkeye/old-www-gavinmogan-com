@@ -15,7 +15,7 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-![](http://www.halkeye.net/files/images/clp83.thumb.png)
+![](clp83.png)
 
 Doing a configuration interface. It looks kinda cool.
 
