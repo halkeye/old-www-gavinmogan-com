@@ -17,7 +17,7 @@ post_type: "post"
 
 Oh man. I used to post some really horrible jokes I found around the internet.
 
-https://twitter.com/halkeye/status/333769132
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">is wondering whats gets longer when pulled, fits between breasts, inserts neatly in a hole, and works best when jerked?</p>&mdash; Gavin Mogan (@halkeye) <a href="https://twitter.com/halkeye/status/333769132?ref_src=twsrc%5Etfw">October 13, 2007</a></blockquote>
 
 The answer is a seatbelt btw. I love seeing other peoples reactions.
 
