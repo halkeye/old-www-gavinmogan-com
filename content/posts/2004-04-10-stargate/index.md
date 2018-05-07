@@ -17,7 +17,7 @@ post_type: "post"
 
 So mom like found me a copy of stargate season 6 cheaper than normal this week.
 
-![stargate](http://www.halkeye.net/archives/xine_snapshot-4-thumb.png)
+![stargate](xine_snapshot-4.png)
 
 I'm so excited about it.. Season 2 would have been better, but dude!! ITS STARGATE!
 
