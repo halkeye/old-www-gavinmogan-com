@@ -19,6 +19,8 @@ post_type: "post"
 
 [Download New Version](http://www.halkeye.net/files/?file=MTLJPost.1.0.4.tgz)
 
+```
+
 # 1.0.3 - January 30, 2004  
 
 # - Entries will now edit after the inital post.  
@@ -32,8 +34,7 @@ post_type: "post"
 # If its a problem, set the date to now, post, then reset to old.  
 
 # Temp Fix
-
-  
+```
 
 Not sure how much more needs to be done. This was very fun to work on, and it works cleanly. I'm pretty sure it would work cleanly with any other plugins, but who knows.
 
@@ -49,11 +50,11 @@ Try Fix:
 
 replace:  
 
-if (defined $entry->text_more && $entry->text_mode ne "") {  
+`if (defined $entry->text_more && $entry->text_mode ne "") {`
 
 with  
 
-unless ( defined($entry->text_more) && $entry->text_more =~ /^\s*$/s ) {
+`unless ( defined($entry->text_more) && $entry->text_more =~ /^\s*$/s ) {`
 
 ## Comments
 

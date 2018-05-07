@@ -29,7 +29,7 @@ What do I think the perfect date is? Then i realized what I thought was a good d
 
 And... I think tommorow I'll finally post to the mt-dev mailing list. I figure, If I can get them to make a slight change for the next release (would barely require any work really), then I could easily make some configuration settings for plugins.
 
-My Idea is more. MT::App->add_config('PLUGINNAME'=>&output;_function); or something. Which would add a config page to the list under weblog config or something. Then output_function would have alot of ... lets say.. $config->add_text("Desc", \$var); and $config->add_blog("Desc", \$blog_id); $config->add_entry("Select an entry", \$entry); (not sure why anyone would use just one entry for a config.. but still) Stuff along that line... you could even have a $config->begin_group and begin_group("title") with ->end_group which would let you seperate items into groups...
+My Idea is more. `MT::App->add_config('PLUGINNAME'=>&output_function);` or something. Which would add a config page to the list under weblog config or something. Then output_function would have alot of ... lets say.. $config->add_text("Desc", \$var); and $config->add_blog("Desc", \$blog_id); $config->add_entry("Select an entry", \$entry); (not sure why anyone would use just one entry for a config.. but still) Stuff along that line... you could even have a $config->begin_group and begin_group("title") with ->end_group which would let you seperate items into groups...
 
 Hrm.. actually, even if they don't want to incorperate this into thier thing (they are adding hooks alot for developpers :D), I could write a plugin, that way it could even work with older versions..
 

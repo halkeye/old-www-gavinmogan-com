@@ -19,6 +19,7 @@ post_type: "post"
 
 [Download New Version](http://www.halkeye.net/files/?file=MTLJPost.tgz)
 
+```
 # 1.0.2 - January 30, 2004  
 
 # - Added config file because I got tired of always having to change the file for release  
@@ -31,7 +32,7 @@ post_type: "post"
 
 # - Added handler to check for LJ::Simple and give a message without it  
 
-#
+```
 
 At this rate I actually might want to find a perm link.  
 
@@ -41,7 +42,9 @@ I just now want to see if I can't store extra information on a post, like what t
 
 That would actually be cool.
 
-**Edit:** [Newer Version](http://www.kodekoan.com/project/MTLJPost)\--------------  
+**Edit:** [Newer Version](http://www.kodekoan.com/project/MTLJPost)
+
+--------------
 
 added some extended text.
 
