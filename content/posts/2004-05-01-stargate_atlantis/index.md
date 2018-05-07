@@ -15,9 +15,7 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-![100.jpg](http://www.halkeye.net/archives/100.jpg)  
-[
-](http://www.halkeye.net/archives/100.html)
+![100.jpg](100.jpg)  
 
 It seems that [Stargate Atlantis](http://www.gateworld.net/atlantis/s1/101.shtml) is almost here. Infact the specs on the pilot episode are up and published.
 
