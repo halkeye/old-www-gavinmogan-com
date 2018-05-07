@@ -15,9 +15,9 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-[18:01] halkeye> you think a web based icq or aim program like squirrelmail is would be useful at all?  
+[18:01] halkeye&gt; you think a web based icq or aim program like squirrelmail is would be useful at all?  
 
-[18:01] halkeye> like the non-java kind?
+[18:01] halkeye&gt; like the non-java kind?
 
 I'd really like to mess with perl some more anyways, havn't done a real project in it in a while.  
 
