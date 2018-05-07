@@ -15,25 +15,26 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-`if ($var ne "mode")  
+```perl
+if ($var ne "mode")
+{
+ return errmsg("Mode not set");
+}
+```
+```perl
+return errmsg("Mode not set") if ($var ne "mode");
+```
 
-{  
+```perl
+unless ($var eq "mode")
+{
+ return errmsg("Mode not set");
+}
+```
 
- return errmsg("Mode not set");  
-
-}`
-
-`return errmsg("Mode not set") if ($var ne "mode");`
-
-`unless ($var eq "mode")  
-
-{  
-
- return errmsg("Mode not set");  
-
-}`
-
-`return errmsg("Mode not set") unless ($var eq "mode");`
+```perl
+return errmsg("Mode not set") unless ($var eq "mode");
+```
 
 Whats the difference between those lines of code? (assuming i wrote them correctly) Absolutly nothing, other than your style.  
 
