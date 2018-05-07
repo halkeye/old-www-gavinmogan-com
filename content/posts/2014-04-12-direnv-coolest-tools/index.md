@@ -21,21 +21,15 @@ I started to have complex vim configs, and bash rcs that tried to look at what d
 
 That left bash configs though. Enter [DirEnv](http://direnv.net/). Its solved the second half for me. Makes all those configurations per project. A simple `direnv edit .` inside your project directory will open up $EDITOR. This lets you specify all kinds of things about that project. Anything you can do in bash you can do here. It works best with env variables but can do other things. I love the layout functions though.
 
-    
-    
-    
+```
 layout node
-
-
+```
 
 adds node_modules/.bin to your path
 
-    
-    
-    
+```
 layout python
-
-
+```
 
 Creates a new virtualenv and adds it to your path.
 ..etc
