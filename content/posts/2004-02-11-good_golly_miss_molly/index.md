@@ -17,7 +17,8 @@ post_type: "post"
 
 Finished [XIII](http://www.xiii-thegame.com/) tonight. I have to say I was kinda disappointed. Well.. Not really, as it was advertised on the bus and on tv, so I didn't have very high hopes for it anyways.
 
-![](http://www.halkeye.net/files/images/XIII/thumbs/clp00014.thumb.png)![](http://www.halkeye.net/files/images/XIII/thumbs/clp00007.thumb.png)
+![](clp00014.png)
+![](clp00007.png)
 
 Hrm, what to say...
 
