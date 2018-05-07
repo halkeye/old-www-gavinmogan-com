@@ -15,9 +15,9 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-![](http://farm3.static.flickr.com/2773/4201688685_95deeee9ac_t.jpg)
+![](4201688685_95deeee9ac.jpg)
 
-![](http://farm3.static.flickr.com/2786/4201688511_0d1e3ddb3e_t.jpg)
+![](4201688511_0d1e3ddb3e.jpg)
 
 I've never had more fun watching tv and anime and such..
 

@@ -16,13 +16,13 @@ post_type: "post"
 ---
 
 lets tell a story...
-![](http://farm3.static.flickr.com/2692/4202463656_140e4aa651_t.jpg)
+![](4202463656_140e4aa651.jpg)
 there once was a code monkey,
 always working hard, doing work for others
-![](http://farm5.static.flickr.com/4007/4202464026_2bc3ee4381_t.jpg)
+![](4202464026_2bc3ee4381.jpg)
 then one day, he turned completly evil,
 refused todo his work, went after people with plastic knives
-![](http://farm3.static.flickr.com/2582/4201706163_1b67517208_t.jpg)
+![](4201706163_1b67517208.jpg)
 so then he had to be taken care of in the most humane way possible.
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Drew Carry Show &amp; KY"
+title: "Drew Carry Show & KY"
 link: "https://www.halkeye.net/2003/06/27/drew_carry_show/"
 author: "halkeye"
 description: ""

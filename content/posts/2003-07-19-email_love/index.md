@@ -15,7 +15,7 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-![Screenshot of Mozilla Thunderbird](http://www.halkeye.net/files/images/3018_8f63e91df34bc1b2683e96e21a98a5ec.thumb.png)
+![Screenshot of Mozilla Thunderbird](3018_8f63e91df34bc1b2683e96e21a98a5ec.png)
 
 Man, I'm finding more and more I like to email people instead of IM people. Not to mention the fact that more often I find people are not online, or away or whatever. But i like handling emails, I guess thats why I liked livejournal so much in the past, there was a lot of replying to things... heh.. Much easier to converse In my opinion anyways.
 
