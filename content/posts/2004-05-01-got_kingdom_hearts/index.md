@@ -15,9 +15,9 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-15:47 < halkeye> hahah  
+15:47 &lt; halkeye&gt; hahah  
 
-15:48 < halkeye> it only took me like 10 tries, but i finally beat riku in the race
+15:48 &lt; halkeye&gt; it only took me like 10 tries, but i finally beat riku in the race
 
 I so miss this game, I can't belive I restarted it so many times just to beat riku. I mean, I know that cutscene by heart now.
 
