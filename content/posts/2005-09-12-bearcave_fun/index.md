@@ -18,42 +18,41 @@ post_type: "post"
 I had alot of fun, but apparently i was tricked into this channel on efnet called #bearcave. I randomly chatted for a bit, and then got booted out by paranoid bots. Got a message from someone a few minutes later.
 
 
-> 
-<Hadal> Sorry about that. I would have liked you to stay.
-<halkeye> heh
-<halkeye> no worries man
-<Hadal> Honestly. You seem fairly keen.
-<halkeye> heh, just bored
-<halkeye> this weird fella said i should go there
-<halkeye> so i did
-<Hadal> Not a prank, I hope?
-<halkeye> him, or me
-<halkeye> CrazyPale is pretty weird
-<Hadal> Did you know what the channel's purpose was before entering?
-<halkeye> not a clue
-<Hadal> Hmm.
-<Hadal> So you're not gay, then? :)
-<halkeye> me, no, sorry man
-<halkeye> but thats what i figured the channel was
-* Hadal nods
-<halkeye> i'm not sure why the paranoid security is though
-<Hadal> A prank after all. I'm doubly sorry for the trouble.
-<Hadal> Oh, apparently it's a common joke to tell people to go to this channel, without an explanation.
-<halkeye> heh
-<halkeye> oh really? thats seem silly
-<halkeye> why goto places with good conversations?
-<halkeye> i mean a little quiet
-<halkeye> but decent enough
-<Hadal> You're supposed to freak out when you realise you're in a channel full of homos.
-<halkeye> oh no, was i? i'll get right on that
-<Hadal> That's the way it usually works, anyway.
-<halkeye> right after the witch burning
-<halkeye> and stoning
-<Hadal> If you hurry, you won't be late for the crucifixtion.
-<halkeye> sweet
-<halkeye> but don't want to forget the witches
-<halkeye> they might feel left out
-<Hadal> Yes; and their supple, pale flesh burns ever so nicely.
-<halkeye> and the old latex hats
-<halkeye> the smell, god the hell
-<Hadal> The resultant bonemeal is excellent for vigorous roses, however.
+&lt;Hadal&gt; Sorry about that. I would have liked you to stay.  
+&lt;halkeye&gt; heh  
+&lt;halkeye&gt; no worries man  
+&lt;Hadal&gt; Honestly. You seem fairly keen.  
+&lt;halkeye&gt; heh, just bored  
+&lt;halkeye&gt; this weird fella said i should go there  
+&lt;halkeye&gt; so i did  
+&lt;Hadal&gt; Not a prank, I hope?  
+&lt;halkeye&gt; him, or me  
+&lt;halkeye&gt; CrazyPale is pretty weird  
+&lt;Hadal&gt; Did you know what the channel's purpose was before entering?  
+&lt;halkeye&gt; not a clue  
+&lt;Hadal&gt; Hmm.  
+&lt;Hadal&gt; So you're not gay, then? :)  
+&lt;halkeye&gt; me, no, sorry man  
+&lt;halkeye&gt; but thats what i figured the channel was  
+\* Hadal nods  
+&lt;halkeye&gt; i'm not sure why the paranoid security is though  
+&lt;Hadal&gt; A prank after all. I'm doubly sorry for the trouble.  
+&lt;Hadal&gt; Oh, apparently it's a common joke to tell people to go to this channel, without an explanation.  
+&lt;halkeye&gt; heh  
+&lt;halkeye&gt; oh really? thats seem silly  
+&lt;halkeye&gt; why goto places with good conversations?  
+&lt;halkeye&gt; i mean a little quiet  
+&lt;halkeye&gt; but decent enough  
+&lt;Hadal&gt; You're supposed to freak out when you realise you're in a channel full of homos.  
+&lt;halkeye&gt; oh no, was i? i'll get right on that  
+&lt;Hadal&gt; That's the way it usually works, anyway.  
+&lt;halkeye&gt; right after the witch burning  
+&lt;halkeye&gt; and stoning  
+&lt;Hadal&gt; If you hurry, you won't be late for the crucifixtion.  
+&lt;halkeye&gt; sweet  
+&lt;halkeye&gt; but don't want to forget the witches  
+&lt;halkeye&gt; they might feel left out  
+&lt;Hadal&gt; Yes; and their supple, pale flesh burns ever so nicely.  
+&lt;halkeye&gt; and the old latex hats  
+&lt;halkeye&gt; the smell, god the hell  
+&lt;Hadal&gt; The resultant bonemeal is excellent for vigorous roses, however.  
