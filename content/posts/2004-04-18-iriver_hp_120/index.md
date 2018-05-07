@@ -15,7 +15,7 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-![](http://www.iriveramerica.com/images/prod/120/1.jpg)
+![](iriver.jpg)
 I think Chad’s right.. I should get this...
 
 Its alot better than the IPod from what I hear, which seems to either die for people, or need proprietary software, and all that stuff. Doesn't come with any accessories, not even a usb cable. And the HP-120 is almost exactly the same price, if not cheaper.
