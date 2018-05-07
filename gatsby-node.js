@@ -44,11 +44,11 @@ function urlDatePrefix(node) {
     Object.prototype.hasOwnProperty.call(node.frontmatter, "date")
   ) {
     const date = new Date(node.frontmatter.date);
-    return '/' + [
+    return `/${[
       date.getFullYear(),
       date.getMonth()+1,
       date.getDate()
-    ].map(v => _.pad(v, 2, '0')).join('/');
+    ].map(v => _.padStart(v, 2, '0')).join('/')}`;
   }
   return '';
 }
