@@ -35,7 +35,7 @@ Added use statements, installed modules.
 
 Hrm, nope, still no go.
 
-Oh, the $csr->claimed_identity("https://www.google.com/accounts/o8/id") and $claimed_identity->check_url calls only need to be made once? Okay, that was commented, but not really clear, no worries, simple little fix.
+Oh, the `$csr->claimed_identity("https://www.google.com/accounts/o8/id")` and `$claimed_identity->check_url` calls only need to be made once? Okay, that was commented, but not really clear, no worries, simple little fix.
 
 Yay! now its redirecting and returning just fine. Oh wait, its complaining about bad_mode, something about **setup_needed**.
 
@@ -45,14 +45,14 @@ Finally, flash of random insight. What other modules are used? Looked a bit more
 
 Quickly updated my code to the following:
 
-    
-    
-    my $check_url = $claimed_identity->check_url(
-delayed_return => 1,
-return_to  => "http://localhost/cgi-bin/test.cgi?yourarg=val",
-trust_root => "http://localhost/",
-);
 
+```perl
+my $check_url = $claimed_identity->check_url(
+  delayed_return => 1,
+  return_to  => "http://localhost/cgi-bin/test.cgi?yourarg=val",
+  trust_root => "http://localhost/",
+);
+```
 
 Ran my test again. Everything is golden. Works perfectly out of the box. Next I need to look at AX support, and moving the code into dancer (or something else).
 
