@@ -17,7 +17,7 @@ module.exports = {
   userLocation: "Burnaby, BC, Canada", // User location to display in the author segment.
   userAvatar: "https://s.gravatar.com/avatar/498c5ac6ca28f18f1e118c7081255793.png", // User avatar to display in the author segment.
   userDescription:
-    "Not sure what to say here yet.", // User description to display in the author segment.
+    "I'm a software developer at the awesome Sauce Labs. I do a bunch of other random open source development. I also play games, both board and video games and love to read. You can usually find me on various services as halkeye", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
