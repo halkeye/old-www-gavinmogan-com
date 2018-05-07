@@ -38,6 +38,20 @@ function addSiblingNodes(createNodeField) {
   }
 }
 
+function urlDatePrefix(node) {
+  if (
+    Object.prototype.hasOwnProperty.call(node, "frontmatter") &&
+    Object.prototype.hasOwnProperty.call(node.frontmatter, "date")
+  ) {
+    const date = new Date(node.frontmatter.date);
+    return '/' + [
+      date.getFullYear(),
+      date.getMonth()+1,
+      date.getDate()
+    ].map(v => _.pad(v, 2, '0')).join('/');
+  }
+  return '';
+}
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators;
   let slug;
@@ -46,9 +60,14 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     const parsedFilePath = path.parse(fileNode.relativePath);
     if (
       Object.prototype.hasOwnProperty.call(node, "frontmatter") &&
+      Object.prototype.hasOwnProperty.call(node.frontmatter, "post_name")
+    ) {
+      slug = `${urlDatePrefix(node)}/${node.frontmatter.post_name}`;
+    } else if (
+      Object.prototype.hasOwnProperty.call(node, "frontmatter") &&
       Object.prototype.hasOwnProperty.call(node.frontmatter, "title")
     ) {
-      slug = `/${_.kebabCase(node.frontmatter.title)}`;
+      slug = `${urlDatePrefix(node)}/${_.kebabCase(node.frontmatter.title)}`;
     } else if (parsedFilePath.name !== "index" && parsedFilePath.dir !== "") {
       slug = `/${parsedFilePath.dir}/${parsedFilePath.name}/`;
     } else if (parsedFilePath.dir === "") {
