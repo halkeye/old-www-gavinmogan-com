@@ -15,7 +15,7 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-![](http://pics.halkeye.net/pic/00673e1e/t644b)
+![](legostarwars.png)
 
 Tried [LEGO Starwars](http://www.3dgamers.com/games/legostarwars/) this morning. Man, it was very cute, everything is done in LEGO, and you can destroy most things with your lightsaber / blaster.
 
