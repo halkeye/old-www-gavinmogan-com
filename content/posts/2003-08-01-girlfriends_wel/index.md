@@ -22,9 +22,11 @@ I have a great tendency to focus my attention on the female population, not beca
 Anyways, back to the point at hand, I've found, for whatever reason, that a lot of people these days are making their girlfriends or boyfriends their entire life. It almost seems like you are hanging out with the SO instead of them.
 
 
-Them: "My boyfriend goes to that school too, he takes the ... program"
-me: "Really? and what do you take?"
-Them: "he's really enjoying it"...
+> Them: "My boyfriend goes to that school too, he takes the ... program"
+
+> me: "Really? and what do you take?"
+
+> Them: "he's really enjoying it"...
 
 
 Which pretty much turns me right off there from wanting anything more to to-do with them EVER.
