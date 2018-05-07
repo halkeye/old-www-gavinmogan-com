@@ -15,7 +15,7 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-![](http://www.halkeye.net/files/images/Composite_Jan_30_005.thumb.png)
+![](./Composite_Jan_30_005.jpg)
 
 Been playing iNinja again between releases.. okay, since first release and second of MTLJPost...
 
