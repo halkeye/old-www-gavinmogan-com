@@ -15,7 +15,7 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-Finished my [computers](http://www.halkeye.net/computers/) page about 30 minutes ago, been tweaking things, trimming the sidebar a bit.
+Finished my [computers](/computers/) page about 30 minutes ago, been tweaking things, trimming the sidebar a bit.
 
 I'm pretty happy about the way the site has been turning out so far, except for the guestbook (i havn't gotten to it yet) everything is totally table free.
 
