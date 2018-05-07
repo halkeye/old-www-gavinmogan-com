@@ -17,17 +17,17 @@ post_type: "post"
 
 I have now finished version 1.0 of MTLJTag.
 
-I decided to call it MTLJTag instead of MTLJUSER because I'm supporting the <lj comm> too.
+I decided to call it MTLJTag instead of MTLJUSER because I'm supporting the &lt;lj comm&gt; too.
 
 So, for version 1.0:
 
-<lj user=halkeye> =   
+&lt;lj user=halkeye&gt; =   
 
-<lj user="halkeye"> =   
+&lt;lj user="halkeye"&gt; =   
 
-<lj comm=halkeye> =   
+&lt;lj comm=halkeye&gt; =   
 
-<lj comm="halkeye"> = 
+&lt;lj comm="halkeye"&gt; = 
 
 Future (1.1):   
 

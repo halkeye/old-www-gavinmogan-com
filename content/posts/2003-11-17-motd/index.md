@@ -19,9 +19,7 @@ Duude, irc.desync.com has the absolute best motd I've seen in a long time.
 
 
 
-    
-    
-    
+```
 -                                   |: |
 -                  .e$$$e.          |: |
 -                 ;$$$$$$$$$e.      |: |   WE CAN'T HAVE SEX WITH REAL
@@ -70,6 +68,7 @@ Duude, irc.desync.com has the absolute best motd I've seen in a long time.
 -  M888                   MMMM8888  |::|
 -  MY88b                  "M  "8888b.::|
 -  M MMMM. jf              M   MMMMMM::|
+```
 
 
 
