@@ -15,6 +15,6 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-22:08 < halkeye> give a man a fish, you feed him for a day  
+22:08 &lt; halkeye&gt; give a man a fish, you feed him for a day  
 
-22:08 < halkeye> teach a man to fish, and he'll be angry you didn't just give him one
+22:08 &lt; halkeye&gt; teach a man to fish, and he'll be angry you didn't just give him one
