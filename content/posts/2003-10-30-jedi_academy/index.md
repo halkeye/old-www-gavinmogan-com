@@ -27,6 +27,6 @@ The best part though was the one "mission" that started you off with no lightsab
 
 Overall, i'd have to give it:  
 
-![](http://www.halkeye.net/img/star.gif)![](http://www.halkeye.net/img/star.gif)![](http://www.halkeye.net/img/star.gif) 3 / 5 stars
+![](/img/star.gif)![](/img/star.gif)![](/img/star.gif) 3 / 5 stars
 
 Maybe I was a little harsh, but I really didn't find it THAT enjoyable. I hope _Knights of the Old Republic_ doesn't disappoint me, I have high hopes for it, unfortuatly, that usually means that it will :( I still am a sucker for just about anything starwars though. I think i'll try the sith arc this time, even if it is just for one mission or whatever... Actually, maybe later, those final few levels are annoying.
