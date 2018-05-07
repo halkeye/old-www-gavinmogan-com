@@ -10,7 +10,7 @@ comment_status: "open"
 post_name: "cjsf_changed_thier_schema_again"
 status: "publish"
 category: "Web"
-tags: []
+tags: ['hiscifi', 'dr who']
 cover: "/cover-image.jpg"
 post_type: "post"
 ---
@@ -26,5 +26,3 @@ I’m hoping this means it’ll run automaticly again. I can’t say I’ve been
 
 
 Side note though, really nice to see Dr Who at it again!
-
-Tags: [hiscifi](http://technorati.com/tag/hiscifi), [dr+who](http://technorati.com/tag/dr+who)
