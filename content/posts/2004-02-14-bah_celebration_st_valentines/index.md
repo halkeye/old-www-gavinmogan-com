@@ -23,7 +23,7 @@ But this Year, well, I seem to be chipper-er-er-er, so I shoudln't be so down as
 
 Tonight I heard about some extravagant plan layed out by a friend for her boyfriend, which only got me downish as I know I can't even count on parental units this year to do anything, not that I want them to, but after hearing other friends and thier parents, I'm sort of envious.
 
-At least, somehow, I've managed to avoid all the commercials and other advertisments trying to push all the material goods that go along with valentines day. I know its been said before, and I'll say it before. Why is the symbol of love the bloodiest organ of them all? Why not a cute kitten? or a skull and cross bones? Why the heart? Why Chocolate? Well I [know why chocolate](http://www.halkeye.net/files/images/432_77b4cfe97611183be2489521e5284cab.jpg). But still.
+At least, somehow, I've managed to avoid all the commercials and other advertisments trying to push all the material goods that go along with valentines day. I know its been said before, and I'll say it before. Why is the symbol of love the bloodiest organ of them all? Why not a cute kitten? or a skull and cross bones? Why the heart? Why Chocolate? Well I know why chocolate. But still. ![](432_77b4cfe97611183be2489521e5284cab.jpg)
 
 I donno, I guess I am bitter, I had my hopes up for a bit.
 
