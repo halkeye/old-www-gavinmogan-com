@@ -15,28 +15,19 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-![](http://www.halkeye.net/img/blog/tips/bookmarks1.jpg)  
-
+![](bookmarks1.jpg)  
 if you goto manage bookmarks, then new bookmark  
-
 you can set keywords for bookmarks  
-
 then if you put a %s in, you can do  string
 
-![](http://www.halkeye.net/img/blog/tips/bookmarks2.jpg)  
-
+![](bookmarks2.jpg)  
 http://search.cpan.org/search?query=%s&mode;=all  
-
 keyword: cpan  
-
 "cpan Module::name"
-
 And Voila!!!  
 
-![](http://www.halkeye.net/img/blog/tips/bookmarks3.jpg)  
-
+![](bookmarks3.jpg)  
 Nice and simple cpan searching
-
   
 
 (Tip was originally mention to me by [Jordan](http://j0rd.ath.cx))
