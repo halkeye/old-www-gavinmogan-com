@@ -15,7 +15,7 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-![](http://www.halkeye.net/files/images/6-17-2006-9.32.06%20AM.png)
+![](screenshot.png)
 
 that is all.
 
