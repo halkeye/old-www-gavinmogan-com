@@ -20,7 +20,7 @@
     "gatsby-plugin-sass": "^1.0.15",
     "gatsby-plugin-sharp": "^1.6.24",
     "gatsby-plugin-sitemap": "^1.2.9",
-    "gatsby-plugin-twitter": "^1.0.14",
+    "gatsby-plugin-twitter": "^1.0.20",
     "gatsby-remark-autolink-headers": "^1.4.11",
     "gatsby-remark-copy-linked-files": "^1.5.25",
     "gatsby-remark-images": "^1.5.36",
