@@ -19,8 +19,8 @@ Now that cloudflare will support ssl on every domain you host with them, I wante
 
 I didn't really get around to setting up the ssl cert on my side, but since cloudflare supports it, I wanted to redirect people to use it (as a convince, not a security factory) so setup this basic nginx config.
 
-[gist id=0dea284e6218fa49614b]
+<github-gist id="halkeye/0dea284e6218fa49614b"></github-gist>
 
-It blindly trusts the header, so it is possible to hit these domains without ssl, but I don't want to prevent it, just let those that want it in.
+It blindly trusts the header, so it's possible to hit these domains without ssl, but I don't want to prevent it, just let those that want it in.
 
 Figured it might be useful for others as well
