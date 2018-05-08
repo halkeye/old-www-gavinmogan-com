@@ -15,7 +15,7 @@ cover: "/cover-image.jpg"
 post_type: "post"
 ---
 
-![Groundedpromophotolutalicatheatre-768x768.jpg](https://www.halkeye.net/files/2016/09/Groundedpromophotolutalicatheatre-768x768.jpg)Only a week later. I’m getting way better at this.
+![Groundedpromophotolutalicatheatre-768x768.jpg](Groundedpromophotolutalicatheatre-768x768.jpg)Only a week later. I’m getting way better at this.
 
 Last weekend my friend [Joanna Gaskell](http://www.joannagaskell.com/) stared in this fringe festival play called [Grounded](http://thecultch.com/event/vancouver-fringe-festival-2016-presents-grounded-3/). Other than knowing it was about a female fighter pilot, I went in not knowing anything else about it. I’ve been finding the more I do it, the more I enjoy the entire experience. This would also be my first experience with anything fringe festival related.
 
