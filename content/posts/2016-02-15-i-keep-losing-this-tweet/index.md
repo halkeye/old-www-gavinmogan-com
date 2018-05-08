@@ -17,7 +17,7 @@ post_type: "post"
 
 I use the favorites/love feature on twitter to come back to things later.
 
-https://twitter.com/misstoriz/status/12987279030
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/halkeye?ref_src=twsrc%5Etfw">@halkeye</a> lol so that&#39;s the kind of thought that runs through Gavin&#39;s head.. Comicbook paranoia!</p>&mdash; Victoria Wong (@misstoriz) <a href="https://twitter.com/misstoriz/status/12987279030?ref_src=twsrc%5Etfw">April 28, 2010</a></blockquote>
 
 Is one of my all time favourite tweets.
 
