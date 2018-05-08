@@ -27,9 +27,8 @@ Did a bit more reading. Found out you can have input from a tty, but output to t
 
 So for people like me that want to run tshock this way, here's my systemd service file:
 
-    
-    
-    [Unit]
+```
+[Unit]
 Description=terraria
 After=docker.service
 Requires=docker.service
@@ -56,3 +55,4 @@ ExecStart=/usr/bin/docker run --rm -it \
 
 [Install]
 WantedBy=multi-user.target
+```
