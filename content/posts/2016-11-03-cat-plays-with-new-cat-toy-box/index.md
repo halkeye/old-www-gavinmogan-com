@@ -21,14 +21,14 @@ I'm off on vacation this week so I kinda decided to do a bunch of chores. Among 
 
 The best part is that it comes in a little box that you are supposed to cut a hole into and put a few treats in to make a quick cat toy. I decided why not....
 
-[youtube https://www.youtube.com/watch?v=kA8QBOpeoe8&w;=560&h;=315]
+`youtube:https://www.youtube.com/embed/kA8QBOpeoe8`
 
 I had to make the hole a tiny bit bigger before I took this video, she wasn't having any luck whats so ever. She's a super smart little one, but when it comes to food, completely dumb :D
 
 She managed to get the handful of treats out in the end, but I thought it was quite awesome.
 
-So next up I put one of her [springs ](https://www.halkeye.net/2016/01/06/cat-2/)(which she absolutely still loves) in the box.
+So next up I put one of her [springs](/2016/01/06/cat-2/) (which she absolutely still loves) in the box.
 
-[youtube https://www.youtube.com/watch?v=A1XlABeiFWs&w;=560&h;=315]
+`youtube:https://www.youtube.com/embed/A1XlABeiFWs`
 
 That was less successful, so i eventually took it out for her. I just loved the meow at the end.
