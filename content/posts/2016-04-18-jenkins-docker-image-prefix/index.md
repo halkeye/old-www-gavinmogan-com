@@ -17,16 +17,10 @@ post_type: "post"
 
 I'm probably going to need this again sometime.
 
- 
-
-
 ## Upstart
 
-
-
-    
-    
-    # cat /etc/init/jenkins.conf
+```
+# cat /etc/init/jenkins.conf
 description "Jenkins"
 author "Gavin Mogan"
 start on filesystem and started docker
@@ -37,19 +31,11 @@ script
    /usr/bin/docker rm jenkins || true
    /usr/bin/docker run --rm --name="jenkins" -p 8080:8080 -p 50000:50000 -v /var/lib/jenkins:/var/jenkins_home jenkinsci/jenkins:2.0-rc-1 --prefix=/jenkins
 end script
-
-
-
-
-
+```
 
 ## Systemd
 
-
-
-    
-    
-    
+```
 $ cat /etc/systemd/system/jenkins-docker.service
 [Unit]
 Description=Jenkins
@@ -65,3 +51,4 @@ ExecStart=/usr/bin/docker run --name="jenkins" -p 8080:8080 -p 50000:50000 -v /h
 
 [Install]
 WantedBy=multi-user.target
+```
