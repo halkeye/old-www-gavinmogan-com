@@ -19,7 +19,7 @@ One of my personal goals for this year is to start getting more comfortable shar
 
 This is my second [Code and Coffee](http://www.meetup.com/Code-Coffee-Vancouver/) talk ever, and I can see I'm still pretty nervious giving the talk, but I think other than a few technical glitches (which were thankfully edited out) it went really well.
 
-[youtube https://www.youtube.com/watch?v=iPGSJVASCkc]
+`youtube:https://www.youtube.com/embed/iPGSJVASCkc`
 
 I have so much fun doing them. I love the fact that people come up to you afterwards and walk to talk about topics.
 
