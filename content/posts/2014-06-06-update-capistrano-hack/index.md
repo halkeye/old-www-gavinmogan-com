@@ -19,12 +19,8 @@ So a while ago I had posted [a hack](http://www.halkeye.net/2014/01/24/capistran
 
 So in a recent update to SSHKit they changed how they do ssh connections to use Threading and Pools. This broke my hack.
 
- 
-
 So long story short, I've updated my hack. This one uses net-ssh directly to make a forward.
 
 Disclaimer: This works for us at $work, but I can't claim it works anywhere else.
 
- 
-
-[gist id=f061872eb4b47dc0928e]https://gist.github.com/halkeye/f061872eb4b47dc0928e[/gist]
+<github-gist id='halkeye/f061872eb4b47dc0928e'></github-gist>

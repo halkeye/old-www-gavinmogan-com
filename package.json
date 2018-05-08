@@ -35,10 +35,12 @@
     "react": "^16.3.1",
     "react-disqus-comments": "^1.1.1",
     "react-dom": "^16.3.1",
+    "react-gist": "^1.2.1",
     "react-helmet": "^5.2.0",
     "react-md": "^1.2.9",
     "react-share": "^2.1.0",
-    "react-twitter-widgets": "^1.7.1"
+    "react-twitter-widgets": "^1.7.1",
+    "rehype-react": "^3.0.2"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
