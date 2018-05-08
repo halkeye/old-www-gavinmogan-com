@@ -23,20 +23,12 @@ The penguins were past world competitors and had a lot of experience, but they w
 
 As I love to mentor and build up people, especially kids, I very quickly signed up. Even got work to sponsor.
 
-
-> 
-
-> 
-> Honored to sponsor [@penguinrobotics](https://twitter.com/penguinrobotics) RobotC Workshop in YVR last weekend - kids rule! Thx [@halkeye](https://twitter.com/halkeye) for the hookup. <https://t.co/e5lqtcQzvU> [pic.twitter.com/pTrMsUvse7](https://t.co/pTrMsUvse7)
-> 
-> 
-— Sauce Labs (@saucelabs) [September 27, 2016](https://twitter.com/saucelabs/status/780858352251334656)
-
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Honored to sponsor <a href="https://twitter.com/penguinrobotics?ref_src=twsrc%5Etfw">@penguinrobotics</a> RobotC Workshop in YVR last weekend - kids rule! Thx <a href="https://twitter.com/halkeye?ref_src=twsrc%5Etfw">@halkeye</a> for the hookup. <a href="https://t.co/e5lqtcQzvU">https://t.co/e5lqtcQzvU</a> <a href="https://t.co/pTrMsUvse7">pic.twitter.com/pTrMsUvse7</a></p>&mdash; Sauce Labs (@saucelabs) <a href="https://twitter.com/saucelabs/status/780858352251334656?ref_src=twsrc%5Etfw">September 27, 2016</a></blockquote>
 
 Last month due to traveling I wasn't able to get involved, but when the tournament rolled around and again I was asked if I was up for helping judging I promptly signed up.
 
 We had about 8 people, so that easily allowed us to have pairs. We had 3 groups of 2 setup at tables so the various clubs could come and get reviewed and judged. Some were really amazing and had been doing this for a long while. Others were just starting out and it was a bit better to give them feed back instead of worrying about judges.
-![20161105_153829.jpg](https://www.halkeye.net/files/2016/11/20161105_153829.jpg)
+![20161105_153829.jpg](20161105_153829.jpg)
 
 The other judges were outside watching the games, and watched how the various students/drivers performed.
 
