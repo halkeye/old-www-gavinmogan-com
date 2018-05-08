@@ -41,6 +41,13 @@ module.exports = {
           {
             resolve: "gatsby-remark-responsive-iframe"
           },
+          {
+            resolve: 'gatsby-remark-embed-youtube',
+            options: {
+              width: 800,
+              height: 400
+            }
+          },
           "gatsby-remark-prismjs",
           "gatsby-remark-copy-linked-files",
           "gatsby-remark-autolink-headers"
@@ -59,6 +66,7 @@ module.exports = {
         color: "#c62828"
       }
     },
+    'gatsby-remark-embed-youtube',
     "gatsby-plugin-sharp",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-twitter",
