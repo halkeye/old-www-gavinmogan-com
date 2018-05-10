@@ -3,7 +3,7 @@ import Card from "react-md/lib/Cards/Card";
 import CardTitle from "react-md/lib/Cards/CardTitle";
 import CardText from "react-md/lib/Cards/CardText";
 import Avatar from "react-md/lib/Avatars";
-import FontIcon from "react-md/lib/FontIcons";
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import IconSeparator from "react-md/lib/Helpers/IconSeparator";
 import { Follow } from "react-twitter-widgets";
 import UserLinks from "../UserLinks/UserLinks";
@@ -53,7 +53,7 @@ class UserInfo extends Component {
         <CardText expandable={!expanded}>
           {userLocation && (
             <IconSeparator label={userLocation} iconBefore>
-              <FontIcon iconClassName="fa fa-map-marker" />
+              <FontAwesomeIcon icon={['fas','map-marker']} />
             </IconSeparator>
           )}
           <p>{userDescription && userDescription}</p>

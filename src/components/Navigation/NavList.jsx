@@ -1,6 +1,7 @@
 import React from "react";
 import FontIcon from "react-md/lib/FontIcons";
 import Link from "gatsby-link";
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 
 function GetNavList(config) {
   const NavList = [
@@ -19,7 +20,7 @@ function GetNavList(config) {
     config.userLinks.forEach(link => {
       NavList.push({
         primaryText: link.label,
-        leftIcon: <FontIcon forceSize iconClassName={link.iconClassName} />,
+        leftIcon: <FontAwesomeIcon icon={link.icon} className="md-icon" />,
         component: "a",
         href: link.url
       });

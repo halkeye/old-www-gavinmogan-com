@@ -4,6 +4,7 @@ import Avatar from "react-md/lib/Avatars";
 import FontIcon from "react-md/lib/FontIcons";
 import Link from "gatsby-link";
 import _ from "lodash";
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import "./PostInfo.scss";
 
 class PostInfo extends Component {
@@ -13,7 +14,7 @@ class PostInfo extends Component {
     return (
       <div className="post-info">
         <CardTitle
-          avatar={<Avatar icon={<FontIcon iconClassName="fa fa-calendar" />} />}
+          avatar={<Avatar icon={<FontAwesomeIcon icon={['fas', 'calendar']} className="md-icon" />} />}
           title={`Published on ${post.date}`}
           subtitle={`${postNode.timeToRead} min read`}
         />
@@ -23,7 +24,7 @@ class PostInfo extends Component {
         >
           <CardTitle
             avatar={
-              <Avatar icon={<FontIcon iconClassName="fa fa-folder-open" />} />
+              <Avatar icon={<FontAwesomeIcon icon={['fas', 'folder-open']} className="md-icon" />} />
             }
             title="In category"
             subtitle={post.category}
