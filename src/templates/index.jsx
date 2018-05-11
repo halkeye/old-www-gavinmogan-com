@@ -1,17 +1,9 @@
 import React from "react";
-import Link from "gatsby-link";
 import Helmet from "react-helmet";
 import PostListing from "../components/PostListing/PostListing";
 import Pagination from "../components/Pagination/Pagination";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
-
-const NavLink = props => {
-  if (!props.test) {
-    return <Link to={props.url}>{props.text}</Link>;
-  }
-  return <span>{props.text}</span>;
-};
 
 class IndexPage extends React.Component {
   render() {
