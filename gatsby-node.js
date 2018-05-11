@@ -1,6 +1,7 @@
 const path = require("path");
 const _ = require("lodash");
 const webpackLodashPlugin = require("lodash-webpack-plugin");
+const createPaginatedPages = require("gatsby-paginate");
 
 const postNodes = [];
 
@@ -98,6 +99,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
 
   return new Promise((resolve, reject) => {
+    const indexPage = path.resolve("src/templates/index.jsx");
     const postPage = path.resolve("src/templates/post.jsx");
     const tagPage = path.resolve("src/templates/tag.jsx");
     const categoryPage = path.resolve("src/templates/category.jsx");
@@ -105,15 +107,19 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       graphql(
         `
           {
-            allMarkdownRemark {
+            allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
               edges {
                 node {
-                  frontmatter {
-                    tags
-                    category
-                  }
                   fields {
                     slug
+                  }
+                  excerpt
+                  timeToRead
+                  frontmatter {
+                    title
+                    tags
+                    cover
+                    date
                   }
                 }
               }
@@ -129,6 +135,14 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
         const tagSet = new Set();
         const categorySet = new Set();
+        createPaginatedPages({
+          edges: result.data.allMarkdownRemark.edges,
+          createPage,
+          pageTemplate:  indexPage,
+          pageLength: 5, // This is optional and defaults to 10 if not used
+          pathPrefix: "", // This is optional and defaults to an empty string if not used
+          context: {} // This is optional and defaults to an empty object if not used
+        });
         result.data.allMarkdownRemark.edges.forEach(edge => {
           if (edge.node.frontmatter.tags) {
             edge.node.frontmatter.tags.forEach(tag => {
