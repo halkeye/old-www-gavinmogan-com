@@ -3,7 +3,7 @@ import RehypeReact from "rehype-react";
 import Gist from "react-gist";
 
 import Helmet from "react-helmet";
-import { Card, CardText, Media } from "react-md";
+import { Card, CardText } from "react-md";
 import UserInfo from "../components/UserInfo/UserInfo";
 import Disqus from "../components/Disqus/Disqus";
 import PostTags from "../components/PostTags/PostTags";
