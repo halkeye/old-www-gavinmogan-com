@@ -36,9 +36,11 @@ pipeline {
       }
       environment {
         SURGE = credentials('halkeye-surge')
+        NETLIFY = credentials('netlify-gavinmogan')
       }
       steps {
         sh 'SURGE_LOGIN=$SURGE_USR SURGE_TOKEN=$SURGE_PSW npx surge -p public -d blog.gavinmogan.com'
+        sh 'npx netlify-cli deploy -t $NETLIFY'
       }
     }
   }
