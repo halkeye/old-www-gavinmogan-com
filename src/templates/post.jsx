@@ -3,8 +3,7 @@ import RehypeReact from "rehype-react";
 import Gist from "react-gist";
 
 import Helmet from "react-helmet";
-import Card from "react-md/lib/Cards";
-import CardText from "react-md/lib/Cards/CardText";
+import { Card, CardText, Media } from "react-md";
 import UserInfo from "../components/UserInfo/UserInfo";
 import Disqus from "../components/Disqus/Disqus";
 import PostTags from "../components/PostTags/PostTags";
@@ -68,11 +67,11 @@ export default class PostTemplate extends React.Component {
           <link rel="canonical" href={`${config.siteUrl}${post.id}`} />
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
-        <PostCover postInfo={toPostInfo({ node: postNode })} />
         <div
           className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
         >
           <Card className="md-grid md-cell md-cell--12 post">
+            <PostCover postInfo={toPostInfo({ node: postNode })} />
             <CardText className="post-body">
               <h1 className="md-display-2 post-header">{post.title}</h1>
               <PostInfo postNode={postNode} />
