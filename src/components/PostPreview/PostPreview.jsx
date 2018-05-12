@@ -4,10 +4,11 @@ import CardTitle from "react-md/lib/Cards/CardTitle";
 import Button from "react-md/lib/Buttons";
 import Avatar from "react-md/lib/Avatars";
 import CardText from "react-md/lib/Cards/CardText";
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import Link from "gatsby-link";
 import Media, { MediaOverlay } from "react-md/lib/Media";
 import PostTags from "../PostTags/PostTags";
+import PostCover from "../PostCover/PostCover";
 import "./PostPreview.scss";
 
 class PostPreview extends Component {
@@ -38,21 +39,12 @@ class PostPreview extends Component {
     const { postInfo } = this.props;
     const { mobile } = this.state;
     const expand = mobile;
-    /* eslint no-undef: "off" */
-    const cover = postInfo.cover.startsWith("/")
-      ? __PATH_PREFIX__ + postInfo.cover
-      : postInfo.cover;
-    const coverHeight = mobile ? 162 : 225;
+    console.log("postInfo", postInfo);
     return (
       <Card key={postInfo.path} raise className="md-grid md-cell md-cell--12">
         <Link style={{ textDecoration: "none" }} to={postInfo.path}>
-          <Media
-            style={{
-              backgroundImage: `url(${cover})`,
-              height: `${coverHeight}px`
-            }}
-            className="post-preview-cover"
-          >
+          <Media className="post-preview-cover" style={{ height: "225px" }}>
+            <PostCover postInfo={postInfo} />
             <MediaOverlay>
               <CardTitle title={postInfo.title}>
                 <Button raised secondary className="md-cell--right">
@@ -64,7 +56,16 @@ class PostPreview extends Component {
         </Link>
         <CardTitle
           expander={expand}
-          avatar={<Avatar icon={<FontAwesomeIcon icon={['fas', 'calendar']} className="md-icon" />} />}
+          avatar={
+            <Avatar
+              icon={
+                <FontAwesomeIcon
+                  icon={["fas", "calendar"]}
+                  className="md-icon"
+                />
+              }
+            />
+          }
           title={`Published on ${postInfo.date}`}
           subtitle={`${postInfo.timeToRead} min read`}
         />

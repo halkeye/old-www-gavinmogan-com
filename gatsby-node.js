@@ -1,7 +1,6 @@
 const path = require("path");
 const _ = require("lodash");
 const webpackLodashPlugin = require("lodash-webpack-plugin");
-const createPaginatedPages = require("gatsby-paginate");
 
 const postNodes = [];
 
@@ -45,13 +44,11 @@ function urlDatePrefix(node) {
     Object.prototype.hasOwnProperty.call(node.frontmatter, "date")
   ) {
     const date = new Date(node.frontmatter.date);
-    return `/${[
-      date.getFullYear(),
-      date.getMonth()+1,
-      date.getDate()
-    ].map(v => _.padStart(v, 2, '0')).join('/')}`;
+    return `/${[date.getFullYear(), date.getMonth() + 1, date.getDate()]
+      .map(v => _.padStart(v, 2, "0"))
+      .join("/")}`;
   }
-  return '';
+  return "";
 }
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators;
@@ -107,7 +104,9 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       graphql(
         `
           {
-            allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+            allMarkdownRemark(
+              sort: { fields: [frontmatter___date], order: DESC }
+            ) {
               edges {
                 node {
                   fields {
@@ -118,7 +117,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                   frontmatter {
                     title
                     tags
-                    cover
                     date
                   }
                 }
@@ -135,13 +133,40 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
         const tagSet = new Set();
         const categorySet = new Set();
-        createPaginatedPages({
-          edges: result.data.allMarkdownRemark.edges,
-          createPage,
-          pageTemplate:  indexPage,
-          pageLength: 5, // This is optional and defaults to 10 if not used
-          pathPrefix: "", // This is optional and defaults to an empty string if not used
-          context: {} // This is optional and defaults to an empty object if not used
+        const paginationPath = (uri, page, totalPages) => {
+          if (page === 0) {
+            return uri;
+          } else if (page < 0 || page >= totalPages) {
+            return "";
+          }
+          return path.join(uri, (page + 1).toString());
+        };
+
+        const blogPosts = result.data.allMarkdownRemark.edges;
+        // How many posts per paginated page?
+        const blogPostsPerPaginatedPage = 10;
+        // How many paginated pages do we need?
+        const paginatedPagesCount = Math.ceil(
+          blogPosts.length / blogPostsPerPaginatedPage
+        );
+
+        // Create each paginated page
+        _.times(paginatedPagesCount, index => {
+          createPage({
+            path: paginationPath("/", index, paginatedPagesCount),
+            // Set the component as normal
+            component: indexPage,
+            // Pass the following context to the component
+            context: {
+              index,
+              // Skip this number of posts from the beginning
+              skip: index * blogPostsPerPaginatedPage,
+              // How many posts to show on this paginated page
+              limit: blogPostsPerPaginatedPage,
+              // How many paginated pages there are in total
+              paginatedPagesCount
+            }
+          });
         });
         result.data.allMarkdownRemark.edges.forEach(edge => {
           if (edge.node.frontmatter.tags) {

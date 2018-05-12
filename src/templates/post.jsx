@@ -1,6 +1,6 @@
 import React from "react";
 import RehypeReact from "rehype-react";
-import Gist from 'react-gist';
+import Gist from "react-gist";
 
 import Helmet from "react-helmet";
 import Card from "react-md/lib/Cards";
@@ -14,13 +14,14 @@ import SocialLinks from "../components/SocialLinks/SocialLinks";
 import PostSuggestions from "../components/PostSuggestions/PostSuggestions";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
+import { toPostInfo } from "../postUtils";
 import "./b16-tomorrow-dark.css";
 import "./post.scss";
 
 const renderAst = new RehypeReact({
   createElement: React.createElement,
-  components: { "github-gist": Gist },
-}).Compiler
+  components: { "github-gist": Gist }
+}).Compiler;
 
 export default class PostTemplate extends React.Component {
   constructor(props) {
@@ -67,7 +68,7 @@ export default class PostTemplate extends React.Component {
           <link rel="canonical" href={`${config.siteUrl}${post.id}`} />
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
-        <PostCover postNode={postNode} mobile={mobile} />
+        <PostCover postNode={toPostInfo(postNode)} />
         <div
           className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
         >
@@ -82,7 +83,7 @@ export default class PostTemplate extends React.Component {
               <SocialLinks
                 postPath={slug}
                 postNode={postNode}
-                mobile={this.state.mobile}
+                mobile={mobile}
               />
             </div>
           </Card>
@@ -109,7 +110,13 @@ export const pageQuery = graphql`
       excerpt
       frontmatter {
         title
-        cover
+        cover {
+          childImageSharp {
+            resolutions(height: 225, width: 724) {
+              ...GatsbyImageSharpResolutions
+            }
+          }
+        }
         date
         category
         tags

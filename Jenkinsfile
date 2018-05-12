@@ -27,6 +27,7 @@ pipeline {
       steps {
         sh 'npm run clean'
         sh 'npm run build:pp'
+        sh 'test -e public/index.html || exit 1'
       }
     }
 

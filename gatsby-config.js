@@ -2,7 +2,7 @@ const config = require("./data/SiteConfig");
 
 const pathPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
 
-const regexExcludeRobots = /^(?!\/(dev-404-page|404|offline-plugin-app-shell-fallback|tags|categories)).*$/
+const regexExcludeRobots = /^(?!\/(dev-404-page|404|offline-plugin-app-shell-fallback|tags|categories)).*$/;
 
 module.exports = {
   pathPrefix: config.pathPrefix,
@@ -19,6 +19,8 @@ module.exports = {
     }
   },
   plugins: [
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     {
@@ -42,7 +44,7 @@ module.exports = {
             resolve: "gatsby-remark-responsive-iframe"
           },
           {
-            resolve: 'gatsby-remark-embed-youtube',
+            resolve: "gatsby-remark-embed-youtube",
             options: {
               width: 800,
               height: 400
@@ -66,8 +68,7 @@ module.exports = {
         color: "#c62828"
       }
     },
-    'gatsby-remark-embed-youtube',
-    "gatsby-plugin-sharp",
+    "gatsby-remark-embed-youtube",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-twitter",
     {
@@ -101,7 +102,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        policy: [{ userAgent: '*', disallow: ['*/tags/', '*/categories/']}]
+        policy: [{ userAgent: "*", disallow: ["*/tags/", "*/categories/"] }]
       }
     },
     {
