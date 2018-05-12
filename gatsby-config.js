@@ -181,11 +181,9 @@ module.exports = {
                   node {
                     excerpt
                     html
-                    timeToRead
                     fields { slug }
                     frontmatter {
                       title
-                      cover
                       date
                       category
                       tags
