@@ -16,7 +16,7 @@ class PostCover extends Component {
     return (
       <Img
         outerWrapperClassName="post-cover-outer-wrapper"
-        resolutions={postInfo.cover.childImageSharp.resolutions}
+        {...postInfo.cover.childImageSharp}
       />
     );
   }
