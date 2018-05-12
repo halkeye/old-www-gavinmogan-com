@@ -112,10 +112,9 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                   fields {
                     slug
                   }
-                  excerpt
-                  timeToRead
                   frontmatter {
                     title
+                    category
                     tags
                     date
                   }

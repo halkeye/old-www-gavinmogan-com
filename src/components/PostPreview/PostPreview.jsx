@@ -39,7 +39,6 @@ class PostPreview extends Component {
     const { postInfo } = this.props;
     const { mobile } = this.state;
     const expand = mobile;
-    console.log("postInfo", postInfo);
     return (
       <Card key={postInfo.path} raise className="md-grid md-cell md-cell--12">
         <Link style={{ textDecoration: "none" }} to={postInfo.path}>
