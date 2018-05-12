@@ -67,11 +67,11 @@ export default class PostTemplate extends React.Component {
           <link rel="canonical" href={`${config.siteUrl}${post.id}`} />
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
+        <PostCover postInfo={toPostInfo({ node: postNode })} />
         <div
           className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
         >
           <Card className="md-grid md-cell md-cell--12 post">
-            <PostCover postInfo={toPostInfo({ node: postNode })} />
             <CardText className="post-body">
               <h1 className="md-display-2 post-header">{post.title}</h1>
               <PostInfo postNode={postNode} />
@@ -111,8 +111,8 @@ export const pageQuery = graphql`
         title
         cover {
           childImageSharp {
-            resolutions(height: 225, width: 724) {
-              ...GatsbyImageSharpResolutions
+            sizes(maxWidth: 800) {
+              ...GatsbyImageSharpSizes
             }
           }
         }

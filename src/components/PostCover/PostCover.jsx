@@ -15,7 +15,8 @@ class PostCover extends Component {
     }
     return (
       <Img
-        outerWrapperClassName="post-cover-outer-wrapper"
+        outerWrapperClassName="md-grid md-cell--9 post-cover"
+        className="post-cover-image-wrapper"
         {...postInfo.cover.childImageSharp}
       />
     );

@@ -39,8 +39,8 @@ export const pageQuery = graphql`
             title
             cover {
               childImageSharp {
-                resolutions(height: 225, width: 724) {
-                  ...GatsbyImageSharpResolutions
+                sizes(maxWidth: 800) {
+                  ...GatsbyImageSharpSizes
                 }
               }
             }
