@@ -11,7 +11,7 @@ post_name: "picture_21_jpg"
 status: "publish"
 category: "Work"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

@@ -11,7 +11,7 @@ post_name: "lego_starwars_0"
 status: "publish"
 category: "Linux"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

@@ -11,7 +11,7 @@ post_name: "bugs_bunny"
 status: "publish"
 category: "Movies"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

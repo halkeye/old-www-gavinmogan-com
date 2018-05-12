@@ -11,7 +11,7 @@ post_name: "gforge_woes_and_praise"
 status: "publish"
 category: "Linux"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

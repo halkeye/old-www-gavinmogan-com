@@ -11,7 +11,7 @@ post_name: "android-snes"
 status: "publish"
 category: "Gaming"
 tags: ['android', 'gamepad', 'nexus 7', 'snes']
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

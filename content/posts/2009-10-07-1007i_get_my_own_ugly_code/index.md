@@ -11,7 +11,7 @@ post_name: "1007i_get_my_own_ugly_code"
 status: "publish"
 category: "Coding"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

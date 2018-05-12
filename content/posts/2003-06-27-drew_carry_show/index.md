@@ -11,7 +11,7 @@ post_name: "drew_carry_show"
 status: "publish"
 category: "Movies"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

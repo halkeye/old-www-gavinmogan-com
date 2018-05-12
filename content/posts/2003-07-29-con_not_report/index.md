@@ -11,7 +11,7 @@ post_name: "con_not_report"
 status: "publish"
 category: "Anime"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

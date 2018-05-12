@@ -11,7 +11,7 @@ post_name: "dovecot_and_squirrelmail"
 status: "publish"
 category: "Linux"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

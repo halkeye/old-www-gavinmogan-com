@@ -11,7 +11,7 @@ post_name: "demos"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

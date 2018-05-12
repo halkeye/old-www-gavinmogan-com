@@ -11,7 +11,7 @@ post_name: "animal_crossing_and_ideal_house"
 status: "publish"
 category: "General"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

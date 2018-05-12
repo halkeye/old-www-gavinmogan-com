@@ -11,7 +11,7 @@ post_name: "gui_design"
 status: "publish"
 category: "Coding"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

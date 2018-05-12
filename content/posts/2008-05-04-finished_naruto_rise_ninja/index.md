@@ -11,7 +11,7 @@ post_name: "finished_naruto_rise_ninja"
 status: "publish"
 category: "xbox360"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

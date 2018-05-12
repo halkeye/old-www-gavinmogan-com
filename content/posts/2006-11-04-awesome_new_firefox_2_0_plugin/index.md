@@ -11,7 +11,7 @@ post_name: "awesome_new_firefox_2_0_plugin"
 status: "publish"
 category: "Web"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

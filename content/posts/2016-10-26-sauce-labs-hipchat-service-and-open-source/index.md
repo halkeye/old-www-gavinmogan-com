@@ -11,7 +11,7 @@ post_name: "sauce-labs-hipchat-service-and-open-source"
 status: "publish"
 category: "Work"
 tags: ['atlassian', 'hipchat', 'open source', 'sauce labs']
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

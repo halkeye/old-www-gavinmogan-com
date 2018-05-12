@@ -11,7 +11,7 @@ post_name: "why"
 status: "publish"
 category: "Humor"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

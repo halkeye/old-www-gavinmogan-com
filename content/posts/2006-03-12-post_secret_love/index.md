@@ -11,7 +11,7 @@ post_name: "post_secret_love"
 status: "publish"
 category: "Web"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

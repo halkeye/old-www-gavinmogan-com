@@ -11,7 +11,7 @@ post_name: "i_got_a_produce"
 status: "publish"
 category: "Movies"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

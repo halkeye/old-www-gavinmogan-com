@@ -11,7 +11,7 @@ post_name: "enders_game"
 status: "publish"
 category: "Books"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

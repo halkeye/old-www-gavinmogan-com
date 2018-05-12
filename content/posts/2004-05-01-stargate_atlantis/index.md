@@ -11,7 +11,7 @@ post_name: "stargate_atlantis"
 status: "publish"
 category: "Movies"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

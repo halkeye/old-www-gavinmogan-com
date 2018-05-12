@@ -11,7 +11,7 @@ post_name: "software_and_si"
 status: "publish"
 category: "General"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

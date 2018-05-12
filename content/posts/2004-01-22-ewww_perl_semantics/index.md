@@ -11,7 +11,7 @@ post_name: "ewww_perl_semantics"
 status: "publish"
 category: "Coding"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

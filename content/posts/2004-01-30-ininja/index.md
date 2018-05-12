@@ -11,7 +11,7 @@ post_name: "ininja"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

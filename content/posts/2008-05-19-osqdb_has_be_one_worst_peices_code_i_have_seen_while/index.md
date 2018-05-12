@@ -11,7 +11,7 @@ post_name: "osqdb_has_be_one_worst_peices_code_i_have_seen_while"
 status: "publish"
 category: "Coding"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

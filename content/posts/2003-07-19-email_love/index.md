@@ -11,7 +11,7 @@ post_name: "email_love"
 status: "publish"
 category: "General"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

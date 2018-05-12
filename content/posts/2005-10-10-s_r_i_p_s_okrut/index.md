@@ -11,7 +11,7 @@ post_name: "s_r_i_p_s_okrut"
 status: "publish"
 category: "Geek"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

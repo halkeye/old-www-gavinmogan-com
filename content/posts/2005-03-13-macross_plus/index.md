@@ -11,7 +11,7 @@ post_name: "macross_plus"
 status: "publish"
 category: "Anime"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

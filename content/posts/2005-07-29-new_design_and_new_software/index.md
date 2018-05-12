@@ -11,7 +11,7 @@ post_name: "new_design_and_new_software"
 status: "publish"
 category: "Geek"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

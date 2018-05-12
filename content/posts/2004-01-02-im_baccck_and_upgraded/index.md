@@ -11,7 +11,7 @@ post_name: "im_baccck_and_upgraded"
 status: "publish"
 category: "Applications"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

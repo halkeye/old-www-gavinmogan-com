@@ -11,7 +11,7 @@ post_name: "outside_free_comic_book_day_elfsar"
 status: "publish"
 category: "People"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

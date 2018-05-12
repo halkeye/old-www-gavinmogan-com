@@ -11,7 +11,7 @@ post_name: "2013-review"
 status: "publish"
 category: "General"
 tags: ['2013', 'new years eve']
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

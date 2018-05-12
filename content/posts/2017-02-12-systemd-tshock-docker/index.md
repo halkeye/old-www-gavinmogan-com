@@ -11,7 +11,7 @@ post_name: "systemd-tshock-docker"
 status: "publish"
 category: "General"
 tags: ['docker', 'systemd', 'terraria', 'tshock']
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

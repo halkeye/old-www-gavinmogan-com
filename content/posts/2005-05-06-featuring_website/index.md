@@ -11,7 +11,7 @@ post_name: "featuring_website"
 status: "publish"
 category: "Coding"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

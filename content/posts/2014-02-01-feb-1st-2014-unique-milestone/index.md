@@ -11,7 +11,7 @@ post_name: "feb-1st-2014-unique-milestone"
 status: "publish"
 category: "People"
 tags: ['dating', 'personal', 'single']
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

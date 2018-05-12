@@ -11,7 +11,7 @@ post_name: "superman_such_peeping_tom"
 status: "publish"
 category: "Movies"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

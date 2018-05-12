@@ -11,7 +11,7 @@ post_name: "testing_posting_flock"
 status: "publish"
 category: "Web"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

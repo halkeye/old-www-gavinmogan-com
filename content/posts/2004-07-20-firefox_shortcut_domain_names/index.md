@@ -11,7 +11,7 @@ post_name: "firefox_shortcut_domain_names"
 status: "publish"
 category: "Internet"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

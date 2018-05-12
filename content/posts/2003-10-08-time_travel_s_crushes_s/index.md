@@ -11,7 +11,7 @@ post_name: "time_travel_s_crushes_s"
 status: "publish"
 category: "Movies"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

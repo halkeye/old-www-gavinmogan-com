@@ -11,7 +11,7 @@ post_name: "sorry"
 status: "publish"
 category: "Work"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

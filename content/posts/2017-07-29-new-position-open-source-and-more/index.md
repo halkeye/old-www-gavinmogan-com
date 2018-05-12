@@ -11,7 +11,7 @@ post_name: "new-position-open-source-and-more"
 status: "publish"
 category: "Work"
 tags: ['atlassian connect', 'bamboohr', 'jira', 'open source', 'sauce labs']
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

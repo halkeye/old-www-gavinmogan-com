@@ -11,7 +11,7 @@ post_name: "comedy_while_half_asleep"
 status: "publish"
 category: "People"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

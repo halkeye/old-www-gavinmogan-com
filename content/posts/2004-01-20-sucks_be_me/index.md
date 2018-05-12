@@ -11,7 +11,7 @@ post_name: "sucks_be_me"
 status: "publish"
 category: "Linux"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

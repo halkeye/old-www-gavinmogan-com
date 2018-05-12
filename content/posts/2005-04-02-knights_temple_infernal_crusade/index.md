@@ -11,7 +11,7 @@ post_name: "knights_temple_infernal_crusade"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

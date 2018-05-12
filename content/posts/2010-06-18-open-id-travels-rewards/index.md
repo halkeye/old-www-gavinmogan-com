@@ -11,7 +11,7 @@ post_name: "open-id-travels-rewards"
 status: "publish"
 category: "Coding"
 tags: ['Coding', 'Net::OpenID::Consumer', 'openid', 'perl', 'php']
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

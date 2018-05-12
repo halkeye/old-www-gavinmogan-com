@@ -11,7 +11,7 @@ post_name: "y_o_i_r_p_g"
 status: "publish"
 category: "Coding"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

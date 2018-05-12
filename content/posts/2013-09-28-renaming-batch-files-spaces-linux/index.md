@@ -11,7 +11,7 @@ post_name: "renaming-batch-files-spaces-linux"
 status: "publish"
 category: "Linux"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

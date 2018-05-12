@@ -11,7 +11,7 @@ post_name: "im_not_sadisitic_just_robbed"
 status: "publish"
 category: "People"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

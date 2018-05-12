@@ -11,7 +11,7 @@ post_name: "updating-wordpress-plugins-helper"
 status: "publish"
 category: "Web"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

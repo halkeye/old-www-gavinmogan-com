@@ -11,7 +11,7 @@ post_name: "knights_of_the_1"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

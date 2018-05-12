@@ -11,7 +11,7 @@ post_name: "got_password_resetters_working"
 status: "publish"
 category: "Hosting"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

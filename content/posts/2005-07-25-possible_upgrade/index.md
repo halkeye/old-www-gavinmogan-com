@@ -11,7 +11,7 @@ post_name: "possible_upgrade"
 status: "publish"
 category: "Linux"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

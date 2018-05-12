@@ -11,7 +11,7 @@ post_name: "scott_adams_genius"
 status: "publish"
 category: "Humor"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

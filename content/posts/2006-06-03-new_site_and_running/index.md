@@ -11,7 +11,7 @@ post_name: "new_site_and_running"
 status: "publish"
 category: "Web"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

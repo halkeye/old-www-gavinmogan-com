@@ -11,7 +11,7 @@ post_name: "eternitys_end"
 status: "publish"
 category: "Books"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

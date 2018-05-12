@@ -11,7 +11,7 @@ post_name: "deep_space_nine"
 status: "publish"
 category: "Movies"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

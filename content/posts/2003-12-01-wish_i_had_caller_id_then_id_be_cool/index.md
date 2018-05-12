@@ -11,7 +11,7 @@ post_name: "wish_i_had_caller_id_then_id_be_cool"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

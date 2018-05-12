@@ -11,7 +11,7 @@ post_name: "new_mtljpost_version"
 status: "publish"
 category: "Coding"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

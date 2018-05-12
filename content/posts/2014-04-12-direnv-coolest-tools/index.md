@@ -11,7 +11,7 @@ post_name: "direnv-coolest-tools"
 status: "publish"
 category: "Linux"
 tags: ['Coding', 'direnv', 'linux']
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

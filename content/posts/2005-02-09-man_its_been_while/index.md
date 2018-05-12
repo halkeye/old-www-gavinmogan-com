@@ -11,7 +11,7 @@ post_name: "man_its_been_while"
 status: "publish"
 category: "Work"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

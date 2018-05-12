@@ -11,7 +11,7 @@ post_name: "xbox_server_farm"
 status: "publish"
 category: "Geek"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

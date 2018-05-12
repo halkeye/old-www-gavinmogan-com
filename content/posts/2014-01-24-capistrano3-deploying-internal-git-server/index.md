@@ -11,7 +11,7 @@ post_name: "capistrano3-deploying-internal-git-server"
 status: "publish"
 category: "Internet"
 tags: ['amazon', 'capistrano', 'programming', 'ruby']
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

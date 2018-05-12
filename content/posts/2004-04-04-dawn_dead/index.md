@@ -11,7 +11,7 @@ post_name: "dawn_dead"
 status: "publish"
 category: "Movies"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

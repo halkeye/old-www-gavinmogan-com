@@ -11,7 +11,7 @@ post_name: "debugging-sshsvn"
 status: "publish"
 category: "Linux"
 tags: ['debug', 'ssh', 'ssh+svn', 'svn']
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

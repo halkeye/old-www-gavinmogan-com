@@ -11,7 +11,7 @@ post_name: "dockerizing-services"
 status: "publish"
 category: "General"
 tags: ['docker', 'kubernetes']
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

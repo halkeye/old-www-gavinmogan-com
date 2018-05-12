@@ -11,7 +11,7 @@ post_name: "trying_post_more_things"
 status: "publish"
 category: "General"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

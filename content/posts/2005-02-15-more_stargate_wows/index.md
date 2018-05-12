@@ -11,7 +11,7 @@ post_name: "more_stargate_wows"
 status: "publish"
 category: "Movies"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

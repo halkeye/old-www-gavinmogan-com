@@ -11,7 +11,7 @@ post_name: "apparenly_im_widely_known"
 status: "publish"
 category: "Linux"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

@@ -11,7 +11,7 @@ post_name: "high-school-robotics-compeition"
 status: "publish"
 category: "Sauce Labs"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

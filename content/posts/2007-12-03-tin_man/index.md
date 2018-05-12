@@ -11,7 +11,7 @@ post_name: "tin_man"
 status: "publish"
 category: "TV"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

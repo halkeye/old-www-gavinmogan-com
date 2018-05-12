@@ -11,7 +11,7 @@ post_name: "my_ever_so_lame"
 status: "publish"
 category: "General"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

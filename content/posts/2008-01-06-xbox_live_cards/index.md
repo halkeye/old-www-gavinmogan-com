@@ -11,7 +11,7 @@ post_name: "xbox_live_cards"
 status: "publish"
 category: "Web"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

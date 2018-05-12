@@ -11,7 +11,7 @@ post_name: "episode_16"
 status: "publish"
 category: "Anime"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

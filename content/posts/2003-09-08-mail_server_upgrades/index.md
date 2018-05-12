@@ -11,7 +11,7 @@ post_name: "mail_server_upgrades"
 status: "publish"
 category: "Linux"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 

@@ -11,7 +11,7 @@ post_name: "iriver_hp_120"
 status: "publish"
 category: "Music"
 tags: []
-cover: ""
+cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
