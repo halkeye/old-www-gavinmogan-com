@@ -11,7 +11,7 @@ post_name: "telltales-back-to-the-future"
 status: "publish"
 category: "PC"
 tags: ['back to the future']
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

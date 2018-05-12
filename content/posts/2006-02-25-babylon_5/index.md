@@ -11,7 +11,7 @@ post_name: "babylon_5"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

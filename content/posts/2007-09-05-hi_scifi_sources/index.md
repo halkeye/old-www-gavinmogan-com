@@ -11,7 +11,7 @@ post_name: "hi_scifi_sources"
 status: "publish"
 category: "Web"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

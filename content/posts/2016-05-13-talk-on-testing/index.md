@@ -11,7 +11,7 @@ post_name: "talk-on-testing"
 status: "publish"
 category: "Work"
 tags: ['code and coffee', 'meetup', 'talks', 'testing', 'vancouver']
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

@@ -11,7 +11,7 @@ post_name: "stats_tracking"
 status: "publish"
 category: "Hosting"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

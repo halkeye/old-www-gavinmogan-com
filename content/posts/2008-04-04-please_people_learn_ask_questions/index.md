@@ -11,7 +11,7 @@ post_name: "please_people_learn_ask_questions"
 status: "publish"
 category: "Internet"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

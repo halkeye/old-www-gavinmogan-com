@@ -11,7 +11,7 @@ post_name: "gming"
 status: "publish"
 category: "RPGs"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

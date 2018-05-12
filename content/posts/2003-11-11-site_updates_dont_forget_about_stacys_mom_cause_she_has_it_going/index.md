@@ -11,7 +11,7 @@ post_name: "site_updates_dont_forget_about_stacys_mom_cause_she_has_it_going"
 status: "publish"
 category: "Linux"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

@@ -11,7 +11,7 @@ post_name: "im_so_much_love_google_video"
 status: "publish"
 category: "Web"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

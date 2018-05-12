@@ -11,7 +11,7 @@ post_name: "spears"
 status: "publish"
 category: "Music"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

@@ -11,7 +11,7 @@ post_name: "i-keep-losing-this-tweet"
 status: "publish"
 category: "People"
 tags: ['random thoughts', 'twitter', 'victoria']
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

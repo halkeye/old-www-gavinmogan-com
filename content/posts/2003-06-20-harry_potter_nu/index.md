@@ -11,7 +11,7 @@ post_name: "harry_potter_nu"
 status: "publish"
 category: "Books"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

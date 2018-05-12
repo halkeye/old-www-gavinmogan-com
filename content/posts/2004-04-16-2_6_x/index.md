@@ -11,7 +11,7 @@ post_name: "2_6_x"
 status: "publish"
 category: "Linux"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

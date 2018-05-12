@@ -11,7 +11,7 @@ post_name: "typekey"
 status: "publish"
 category: "Geek"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

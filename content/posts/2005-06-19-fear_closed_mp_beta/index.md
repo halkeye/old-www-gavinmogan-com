@@ -11,7 +11,7 @@ post_name: "fear_closed_mp_beta"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

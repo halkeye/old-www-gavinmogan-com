@@ -11,7 +11,7 @@ post_name: "x_forwarding_just_rocks"
 status: "publish"
 category: "Linux"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

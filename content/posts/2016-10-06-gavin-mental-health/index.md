@@ -11,7 +11,7 @@ post_name: "gavin-mental-health"
 status: "publish"
 category: "General"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

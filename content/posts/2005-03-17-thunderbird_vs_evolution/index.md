@@ -11,7 +11,7 @@ post_name: "thunderbird_vs_evolution"
 status: "publish"
 category: "General"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

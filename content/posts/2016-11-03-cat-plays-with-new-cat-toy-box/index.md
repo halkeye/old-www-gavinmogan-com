@@ -11,7 +11,7 @@ post_name: "cat-plays-with-new-cat-toy-box"
 status: "publish"
 category: "General"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

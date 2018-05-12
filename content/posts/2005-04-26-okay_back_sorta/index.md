@@ -11,7 +11,7 @@ post_name: "okay_back_sorta"
 status: "publish"
 category: "Applications"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

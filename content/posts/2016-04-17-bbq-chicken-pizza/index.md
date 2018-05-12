@@ -11,7 +11,7 @@ post_name: "bbq-chicken-pizza"
 status: "publish"
 category: "General"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

@@ -11,7 +11,7 @@ post_name: "my_k-pax_review"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

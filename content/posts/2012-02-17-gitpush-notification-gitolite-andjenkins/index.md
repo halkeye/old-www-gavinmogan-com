@@ -11,7 +11,7 @@ post_name: "gitpush-notification-gitolite-andjenkins"
 status: "publish"
 category: "General"
 tags: ['git', 'gitolite', 'jenkins']
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

@@ -11,7 +11,7 @@ post_name: "kode_kode_coding"
 status: "publish"
 category: "Geek"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

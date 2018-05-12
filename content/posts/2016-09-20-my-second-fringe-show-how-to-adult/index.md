@@ -11,7 +11,7 @@ post_name: "my-second-fringe-show-how-to-adult"
 status: "publish"
 category: "General"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

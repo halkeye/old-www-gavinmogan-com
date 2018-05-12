@@ -11,7 +11,7 @@ post_name: "does_music_have_soul"
 status: "publish"
 category: "Music"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

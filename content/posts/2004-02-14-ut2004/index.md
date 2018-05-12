@@ -11,7 +11,7 @@ post_name: "ut2004"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

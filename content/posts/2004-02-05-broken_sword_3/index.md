@@ -11,7 +11,7 @@ post_name: "broken_sword_3"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

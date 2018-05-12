@@ -11,7 +11,7 @@ post_name: "yaoirpg"
 status: "publish"
 category: "Internet"
 tags: ['school', 'yaoirpg']
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

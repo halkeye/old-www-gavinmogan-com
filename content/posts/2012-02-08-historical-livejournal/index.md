@@ -11,7 +11,7 @@ post_name: "historical-livejournal"
 status: "publish"
 category: "General"
 tags: ['livejournal']
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

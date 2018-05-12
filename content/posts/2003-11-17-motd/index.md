@@ -11,7 +11,7 @@ post_name: "motd"
 status: "publish"
 category: "Humor"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

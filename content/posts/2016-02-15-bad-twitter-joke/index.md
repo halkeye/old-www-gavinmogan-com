@@ -11,7 +11,7 @@ post_name: "bad-twitter-joke"
 status: "publish"
 category: "People"
 tags: ['jokes', 'justin', 'telegram', 'twitter']
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

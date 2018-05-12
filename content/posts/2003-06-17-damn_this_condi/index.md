@@ -11,7 +11,7 @@ post_name: "damn_this_condi"
 status: "publish"
 category: "General"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

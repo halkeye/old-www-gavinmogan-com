@@ -11,7 +11,7 @@ post_name: "one_must_fall_battlegrounds"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

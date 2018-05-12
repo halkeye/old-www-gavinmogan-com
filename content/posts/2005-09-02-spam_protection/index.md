@@ -11,7 +11,7 @@ post_name: "spam_protection"
 status: "publish"
 category: "General"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

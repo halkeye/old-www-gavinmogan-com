@@ -11,7 +11,7 @@ post_name: "got_kingdom_hearts"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

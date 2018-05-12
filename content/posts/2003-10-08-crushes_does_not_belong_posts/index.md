@@ -11,7 +11,7 @@ post_name: "crushes_does_not_belong_posts"
 status: "publish"
 category: "People"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

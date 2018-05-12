@@ -11,7 +11,7 @@ post_name: "slightly_new_color_scheme"
 status: "publish"
 category: "General"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

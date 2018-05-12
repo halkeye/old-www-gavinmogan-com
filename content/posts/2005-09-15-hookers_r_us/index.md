@@ -11,7 +11,7 @@ post_name: "hookers_r_us"
 status: "publish"
 category: "People"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

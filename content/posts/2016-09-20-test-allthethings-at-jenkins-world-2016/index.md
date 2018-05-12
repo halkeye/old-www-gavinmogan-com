@@ -11,8 +11,7 @@ post_name: "test-allthethings-at-jenkins-world-2016"
 status: "publish"
 category: "General"
 tags: []
-cover: "/cover-image.jpg"
-cover2: "PANO_20160914_072416.jpg"
+cover: "./PANO_20160914_072416.jpg"
 post_type: "post"
 ---
 ![CsXFwi9UMAA-2vI](CsXFwi9UMAA-2vI.jpg)

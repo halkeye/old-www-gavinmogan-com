@@ -11,7 +11,7 @@ post_name: "wheee_mrtg"
 status: "publish"
 category: "Linux"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

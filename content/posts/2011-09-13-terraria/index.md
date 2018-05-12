@@ -11,7 +11,7 @@ post_name: "terraria"
 status: "publish"
 category: "PC"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

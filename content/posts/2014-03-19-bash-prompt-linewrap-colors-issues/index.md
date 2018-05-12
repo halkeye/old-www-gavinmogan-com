@@ -11,7 +11,7 @@ post_name: "bash-prompt-linewrap-colors-issues"
 status: "publish"
 category: "Linux"
 tags: ['bash', 'linux', 'prompt']
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

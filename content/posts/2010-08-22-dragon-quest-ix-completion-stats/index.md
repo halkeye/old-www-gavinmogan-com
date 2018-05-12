@@ -11,7 +11,7 @@ post_name: "dragon-quest-ix-completion-stats"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

@@ -11,7 +11,7 @@ post_name: "new_book_all_my_friends_are_superheroes"
 status: "publish"
 category: "Books"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

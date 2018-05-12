@@ -11,7 +11,7 @@ post_name: "i_still_live"
 status: "publish"
 category: "General"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

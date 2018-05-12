@@ -11,7 +11,7 @@ post_name: "cjsfs_archive"
 status: "publish"
 category: "Anime"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

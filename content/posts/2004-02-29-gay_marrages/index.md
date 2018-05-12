@@ -11,7 +11,7 @@ post_name: "gay_marrages"
 status: "publish"
 category: "People"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

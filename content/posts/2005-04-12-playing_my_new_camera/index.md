@@ -11,7 +11,7 @@ post_name: "playing_my_new_camera"
 status: "publish"
 category: "General"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

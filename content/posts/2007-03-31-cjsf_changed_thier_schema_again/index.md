@@ -11,7 +11,7 @@ post_name: "cjsf_changed_thier_schema_again"
 status: "publish"
 category: "Web"
 tags: ['hiscifi', 'dr who']
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

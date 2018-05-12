@@ -11,7 +11,7 @@ post_name: "good_news_bad_n"
 status: "publish"
 category: "General"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

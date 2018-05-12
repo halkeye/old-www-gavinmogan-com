@@ -11,7 +11,7 @@ post_name: "stupid_people_shouldnt_be_allowed_go_online"
 status: "publish"
 category: "People"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

@@ -11,7 +11,7 @@ post_name: "trillian_pro_mi"
 status: "publish"
 category: "Applications"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

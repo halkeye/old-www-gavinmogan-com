@@ -11,7 +11,7 @@ post_name: "drive_gets_canceled"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

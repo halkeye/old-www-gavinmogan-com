@@ -11,7 +11,7 @@ post_name: "projects"
 status: "publish"
 category: "Internet"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

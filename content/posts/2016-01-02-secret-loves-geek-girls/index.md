@@ -11,7 +11,7 @@ post_name: "secret-loves-geek-girls"
 status: "publish"
 category: "Books"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

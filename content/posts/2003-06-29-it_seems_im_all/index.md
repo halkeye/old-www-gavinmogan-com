@@ -11,7 +11,7 @@ post_name: "it_seems_im_all"
 status: "publish"
 category: "General"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

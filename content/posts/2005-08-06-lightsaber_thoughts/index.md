@@ -11,7 +11,7 @@ post_name: "lightsaber_thoughts"
 status: "publish"
 category: "Geek"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

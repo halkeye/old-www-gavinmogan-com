@@ -11,7 +11,7 @@ post_name: "wow_ecto_impressive"
 status: "publish"
 category: "Applications"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

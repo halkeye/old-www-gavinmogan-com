@@ -11,7 +11,7 @@ post_name: "mp3_cd_player_rant"
 status: "publish"
 category: "Music"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

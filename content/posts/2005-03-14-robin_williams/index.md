@@ -11,7 +11,7 @@ post_name: "robin_williams"
 status: "publish"
 category: "Anime"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

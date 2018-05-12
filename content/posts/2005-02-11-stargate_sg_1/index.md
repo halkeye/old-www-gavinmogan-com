@@ -11,7 +11,7 @@ post_name: "stargate_sg_1"
 status: "publish"
 category: "Geek"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

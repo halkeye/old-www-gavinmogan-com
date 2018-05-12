@@ -11,7 +11,7 @@ post_name: "i_think_i_found_client_i_love"
 status: "publish"
 category: "Anime"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

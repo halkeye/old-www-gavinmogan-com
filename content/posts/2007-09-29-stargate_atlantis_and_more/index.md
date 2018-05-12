@@ -11,7 +11,7 @@ post_name: "stargate_atlantis_and_more"
 status: "publish"
 category: "TV"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

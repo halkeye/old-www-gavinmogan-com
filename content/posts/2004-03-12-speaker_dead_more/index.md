@@ -11,7 +11,7 @@ post_name: "speaker_dead_more"
 status: "publish"
 category: "Books"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

@@ -11,7 +11,7 @@ post_name: "more_jabber_ideas"
 status: "publish"
 category: "Hosting"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

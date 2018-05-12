@@ -11,7 +11,7 @@ post_name: "bash_org"
 status: "publish"
 category: "Web"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 

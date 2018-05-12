@@ -11,7 +11,7 @@ post_name: "good_golly_miss_molly"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "/cover-image.jpg"
+cover: ""
 post_type: "post"
 ---
 
