@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-**Edit:** I updated my "hack" to work with newer versions of capistrano/sshkit - <http://www.halkeye.net/2014/06/06/update-capistrano-hack/>
+**Edit:** I updated my ["hack"](/2014/06/06/update-capistrano-hack/) to work with newer versions of capistrano/sshkit
 
 To set the scene. New team has been using capistrano to deploy some of its apps (all internal/behind our firewall). So new POC project comes along. Nothing sensitive but needs to be publicly accessible. I get very excited because this is the first time I've setup capistrano from scratch. I follow the getting started guide. Deploy to internal test. No problem there. Go to deploy to the amazon box (Go Free Tier) and fail... Riiight, can't talk to our git server.
 
@@ -26,7 +26,7 @@ Well fine, I always need the excuse to learn more about ruby, so start digging i
 
 So here it is, config/deploy/production in all its glory:
 
-[gist]https://gist.github.com/halkeye/8609506[/gist]
+<github-gist id="halkeye/8609506"></github-gist>
 
 ## Comments
 
