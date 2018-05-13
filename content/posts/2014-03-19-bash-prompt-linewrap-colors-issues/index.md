@@ -34,7 +34,7 @@ So, after a lot of research and reading various forum posts, I found out that co
   export PS1="\[${BG_CYAN}${FG_GREEN}\]\u@\h \[${RESET}\]$"
 ```
 
-Note the \\[ and \\] wrapping the codes. This allows bash to properly figure out the length of the line. Note: I just grabbed random colors, I suspect this example looks bad.
+Note the `\\[` and `\\]` wrapping the codes. This allows bash to properly figure out the length of the line. Note: I just grabbed random colors, I suspect this example looks bad.
 
 I did find a slight exception
 
