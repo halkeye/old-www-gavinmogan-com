@@ -18,8 +18,7 @@ How far back does one go when telling a story? I've loved savage worlds since I 
 
 Well, the last two pieces of the had to be the anxiety based breakdown I had last year (And shout outs to the people I was about to talk too) and the subsequent doctors visits and medication. The last and final part was reading about the last parsec adventures at <http://ilive4crits.blogspot.ca/>
 
-
-After all that, I decided as a way of learning to deal with my anxiety again, I'm going to stop putting things off and start GMing again. No campaigns, at least not yet, just something fun and light weight. To ease back into it, I gathered a group of people for a simple instance of of [School Daze](http://www.sandandsteam.net/schooldaze-2/#school-daze) since I had not even played anything in a year, and not run anything in an even longer time.
+After all that, I decided as a way of learning to deal with my anxiety again, I'm going to stop putting things off and start GMing again. No campaigns, at least not yet, just something fun and light weight. To ease back into it, I gathered a group of people for a simple instance of of [School Daze](https://web.archive.org/web/20150805064859/http://www.sandandsteam.net/schooldaze-2/) since I had not even played anything in a year, and not run anything in an even longer time.
 
 After that success, I decided it was time to get back into something with a little more structure. This was Friday. I'll admit, due to many factors, I was not nearly as prepared as I had wanted to be, but I knew if i kept using that as an excuse, I'd put it off. We decided to hand wave and bypass a bunch of stuff to just try to keep it smooth and fluid. Now that being said, I don't think I'd run an interface zero game again any time soon. Its just too much more mechanics to learn when you are not comfortable with the base game. All in all, it was a great first attempt.
 

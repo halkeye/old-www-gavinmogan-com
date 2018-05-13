@@ -87,7 +87,8 @@
   },
   "remarkConfig": {
     "plugins": [
-      "remark-preset-lint-recommended"
+      "remark-preset-lint-recommended",
+      ["remark-lint-no-literal-urls", false]
     ]
   }
 }
