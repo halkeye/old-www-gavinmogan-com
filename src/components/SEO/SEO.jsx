@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
 import get from "lodash/get";
+import trimStart from "lodash/trimStart";
 import config from "../../../data/SiteConfig";
 
 class SEO extends Component {
@@ -9,6 +10,7 @@ class SEO extends Component {
     let title;
     let description;
     let image;
+    let date;
     let postURL;
     if (postSEO) {
       const postMeta = postNode.frontmatter;
@@ -16,15 +18,15 @@ class SEO extends Component {
       description = postMeta.description
         ? postMeta.description
         : postNode.excerpt;
+      date = new Date(get(postNode, "frontmatter.date"));
       image = get(postNode, "frontmatter.cover.childImageSharp.sizes.src");
-      postURL = config.siteUrl + config.pathPrefix + postPath;
+      postURL = config.siteUrl + config.pathPrefix + trimStart(postPath, "/");
     } else {
       title = config.siteTitle;
       description = config.siteDescription;
       image = config.siteLogo;
     }
-    const realPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
-    image = config.siteUrl + realPrefix + image;
+    image = config.siteUrl + config.pathPrefix + trimStart(image, "/");
     const blogURL = config.siteUrl + config.pathPrefix;
     const schemaOrgJSONLD = [
       {
@@ -79,6 +81,8 @@ class SEO extends Component {
         </script>
 
         {/* OpenGraph tags */}
+        <meta property="og:site_name" content={config.siteTitle} />
+        <meta property="og:locale" content="en_US" />
         <meta property="og:url" content={postSEO ? postURL : blogURL} />
         {postSEO ? <meta property="og:type" content="article" /> : null}
         <meta property="og:title" content={title} />
@@ -98,6 +102,12 @@ class SEO extends Component {
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
+
+        {/* Article Tags */}
+        <meta
+          name="article:published_time"
+          content={date ? date.toISOString() : ""}
+        />
       </Helmet>
     );
   }
