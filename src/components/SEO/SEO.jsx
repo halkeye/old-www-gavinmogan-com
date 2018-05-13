@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
-import config from "../../../data/SiteConfig";
 import get from "lodash/get";
+import config from "../../../data/SiteConfig";
 
 class SEO extends Component {
   render() {
