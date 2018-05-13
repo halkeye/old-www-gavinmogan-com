@@ -5,7 +5,7 @@ import config from "../../data/SiteConfig";
 
 export default class CategoryTemplate extends React.Component {
   render() {
-    const { category } = this.props.pathContext;
+    const { category, slug } = this.props.pathContext;
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <div className="category-container">
@@ -13,10 +13,7 @@ export default class CategoryTemplate extends React.Component {
           <title>
             {`Posts in category "${category}" | ${config.siteTitle}`}
           </title>
-          <link
-            rel="canonical"
-            href={`${config.siteUrl}/categories/${category}`}
-          />
+          <link rel="canonical" href={`${config.siteUrl}${slug}`} />
         </Helmet>
         <PostListing postEdges={postEdges} />
       </div>

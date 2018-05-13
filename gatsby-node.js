@@ -193,7 +193,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             path: `/tags/${_.kebabCase(tag)}/`,
             component: tagPage,
             context: {
-              tag
+              tag,
+              slug: `/tags/${_.kebabCase(tag)}/`
             }
           });
         });
@@ -204,7 +205,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             path: `/categories/${_.kebabCase(category)}/`,
             component: categoryPage,
             context: {
-              category
+              category,
+              slug: `/categories/${_.kebabCase(category)}/`
             }
           });
         });

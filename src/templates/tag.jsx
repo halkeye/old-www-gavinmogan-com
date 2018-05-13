@@ -5,13 +5,13 @@ import config from "../../data/SiteConfig";
 
 export default class TagTemplate extends React.Component {
   render() {
-    const { tag } = this.props.pathContext;
+    const { tag, slug } = this.props.pathContext;
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <div className="tag-container">
         <Helmet>
           <title>{`Posts tagged as "${tag}" | ${config.siteTitle}`}</title>
-          <link rel="canonical" href={`${config.siteUrl}/tags/${tag}`} />
+          <link rel="canonical" href={`${config.siteUrl}${slug}`} />
         </Helmet>
         <PostListing postEdges={postEdges} />
       </div>
