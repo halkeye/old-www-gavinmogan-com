@@ -32,6 +32,7 @@ Short story even shorter, I managed to get [Flask-AtlassianConnect](https://halk
 
 I wasn't done there. I wanted to get the original JIRA plugin all cleaned up and open sourced. We can't be the only people out there that use BambooHR and also JIRA. So again, in between tasks I cleaned up the implementation. Now it had a full config screen. Let you pick what to display. Let you choose with projects it would be integrated with. Etc. Now it was ready to go. Plus now I knew how to write tests.
 
-So I'm proud to [announce ](https://saucelabs.com/blog/jira-cloud-and-bamboohr-integration)(a little late here though) that the BambooHR + Jira Cloud plugin I wrote is open source. I had so much fun doing it. I hope this new position will lead to many more projects that we can open source for others to use as needed.
+So I'm proud to [announce](https://saucelabs.com/blog/jira-cloud-and-bamboohr-integration) (a little late here though) that the BambooHR + Jira Cloud plugin I wrote is open source. I had so much fun doing it. I hope this new position will lead to many more projects that we can open source for others to use as needed.
 
 <https://saucelabs.com/blog/jira-cloud-and-bamboohr-integration>
+

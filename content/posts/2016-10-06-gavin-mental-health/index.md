@@ -40,3 +40,4 @@ I think <https://imgur.com/a/uVIvv> does a way better job at explaining some o
 Oh, totally wanted to mention. Every time I feel like someone praises how awesome, or smart I am, I want to curl up and hide. I am not that good. Stop compairing me to those. I didn't finish school. I'm alone a lot. I can't do math. Everyone knows more than me. But I get past it. I know the intention. I know I am actually good at what I do, because I try really hard, and I'm excited about it. I'm not better than anyone else. But I am good. I can do this.
 
 I'll end it off on a positive mental health poem. [A guy speaking about how his OCD is calmed by a love.](http://genius.com/Neil-hilborn-ocd-annotated) ([Video](https://www.youtube.com/watch?v=vnKZ4pdSU-s))
+
