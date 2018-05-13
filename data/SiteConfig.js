@@ -3,7 +3,7 @@ module.exports = {
   siteTitle: "The Nameless Site", // Site title.
   siteTitleAlt: "The Nameless Site", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
-  siteUrl: "https://halkeye.net", // Domain of your website without pathPrefix.
+  siteUrl: "https://blog.gavinmogan.com", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription: "Meow Meow Meow Meow Neow?", // Website description used for RSS feeds/meta description tag.
@@ -11,6 +11,7 @@ module.exports = {
   siteFBAppID: null, // FB Application ID for using app insights
   siteGATrackingID: `UA-89920-2`, // Tracking code ID for google analytics.
   disqusShortname: "halkeye-net", // Disqus shortname.
+  disqusUrl: "https://halkeye.net", // Domain of your website without pathPrefix.
   postDefaultCategoryID: "Tech", // Default category for posts.
   userName: "Gavin Mogan", // Username to display in the author segment.
   userTwitter: "halkeye", // Optionally renders "Follow Me" in the UserInfo segment.

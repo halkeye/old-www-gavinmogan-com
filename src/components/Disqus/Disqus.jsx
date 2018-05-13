@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactDisqusComments from "react-disqus-comments";
+import trimStart from "lodash/trimStart";
 import Card from "react-md/lib/Cards/Card";
 import CardTitle from "react-md/lib/Cards/CardTitle";
 import CardText from "react-md/lib/Cards/CardText";
@@ -33,7 +34,8 @@ class Disqus extends Component {
       return null;
     }
     const post = postNode.frontmatter;
-    const url = config.pathPrefix !== '/' ? config.siteUrl + config.pathPrefix + postNode.fields.slug : config.siteUrl + postNode.fields.slug;
+    const url =
+      config.siteUrl + config.pathPrefix + trimStart(postNode.fields.slug, "/");
     return (
       <Card className="md-grid md-cell md-cell--12">
         <CardTitle
