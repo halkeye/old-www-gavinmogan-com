@@ -54,9 +54,6 @@ export default class PostTemplate extends React.Component {
     const postOverlapClass = mobile ? "post-overlap-mobile" : "post-overlap";
     const postNode = this.props.data.markdownRemark;
     const post = postNode.frontmatter;
-    if (!post.id) {
-      post.id = slug;
-    }
     if (!post.category_id) {
       post.category_id = config.postDefaultCategoryID;
     }
@@ -64,7 +61,7 @@ export default class PostTemplate extends React.Component {
       <div className="post-page md-grid md-grid--no-spacing">
         <Helmet>
           <title>{`${post.title} | ${config.siteTitle}`}</title>
-          <link rel="canonical" href={`${config.siteUrl}${post.id}`} />
+          <link rel="canonical" href={`${config.siteUrl}${slug}`} />
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <PostCover postInfo={toPostInfo({ node: postNode })} />
