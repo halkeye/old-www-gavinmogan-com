@@ -18,7 +18,7 @@ It seems there is a new version of [Moveable Type](http://www.movabletype.org/ne
 
 I had a rant, but i've gotten so tired I really forgot what it was.
 
-Been doing alot of changes to my site, sidebar has moved, colors have changed. Started to work on a [about me](/aboutme/). Its quite lame now, and I don't think anyone would ever look at it.
+Been doing alot of changes to my site, sidebar has moved, colors have changed. Started to work on a [about me](/about/). Its quite lame now, and I don't think anyone would ever look at it.
 
 I need some feedback though, going to bug people after work tommorow. I really would hope someday I can make something as good looking as Mike's [Slurrey Dot com](http://www.slurrey.com). It really doesn't have any of the fad things like opening in tiny javascript windows, 90% graphics, all these newfangled things.. Just really looks nice.
 
