@@ -18,7 +18,7 @@ class SEO extends Component {
       description = postMeta.description
         ? postMeta.description
         : postNode.excerpt;
-      date = new Date(get(postNode, "frontmatter.date"));
+      date = get(postNode, "frontmatter.date");
       image = get(postNode, "frontmatter.cover.childImageSharp.sizes.src");
       postURL = config.siteUrl + config.pathPrefix + trimStart(postPath, "/");
     } else {
@@ -107,10 +107,12 @@ class SEO extends Component {
         <meta name="twitter:image" content={image} />
 
         {/* Article Tags */}
-        <meta
-          name="article:published_time"
-          content={date ? date.toISOString() : ""}
-        />
+        {date && (
+          <meta
+            name="article:published_time"
+            content={new Date(date).toISOString()}
+          />
+        )}
       </Helmet>
     );
   }
