@@ -20,18 +20,9 @@ Original post:
 
 I decided a while ago to put pull all the plugin source codes for this wordpress install directly from subversion. This makes it easier when files need manual patching or more likely, a file gets deleted.
 
-
-
- 
-  * <http://plugins.svn.wordpress.org/> is the svn root for all the wordpress plugins.
-
- 
-  * <http://themes.svn.wordpress.org/> is the svn root for all the themes
-
-
+*   <http://plugins.svn.wordpress.org/> is the svn root for all the wordpress plugins.
+*   <http://themes.svn.wordpress.org/> is the svn root for all the themes
 
 So I created this little helper script that I can use to do a mass update when I get too out of date.
 
-<https://gist.github.com/halkeye/6288018>
-
-[gist id=6288018]
+<github-gist id="halkeye/6288018"></github-gist>
