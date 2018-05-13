@@ -88,6 +88,9 @@ class SEO extends Component {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={image} />
+        {image.includes("https://") && (
+          <meta property="og:image:secure" content={image} />
+        )}
         <meta
           property="fb:app_id"
           content={config.siteFBAppID ? config.siteFBAppID : ""}
