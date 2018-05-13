@@ -22,4 +22,4 @@ Been doing alot of changes to my site, sidebar has moved, colors have changed. S
 
 I need some feedback though, going to bug people after work tommorow. I really would hope someday I can make something as good looking as Mike's [Slurrey Dot com](http://www.slurrey.com). It really doesn't have any of the fad things like opening in tiny javascript windows, 90% graphics, all these newfangled things.. Just really looks nice.
 
-I also learned that none of my icons work in IE.. I knew transparent PNGS do not work in IE, but i didn't expect them to be that bad, i thought they would be more like the [computer icon](http://www.halkeye.net/img/blog/General.png), which does seem to sorta work in IE.
+I also learned that none of my icons work in IE.. I knew transparent PNGS do not work in IE, but i didn't expect them to be that bad, i thought they would be more like the [computer icon](General.png), which does seem to sorta work in IE.

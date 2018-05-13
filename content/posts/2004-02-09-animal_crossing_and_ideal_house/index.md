@@ -22,4 +22,4 @@ Yea, I think that could be fun, people could come over, play video games and suc
 
 I donno on the other hand it would be kinda cool to have some roommates, and setup an samba authenticated network with remote profiles (including nfs/samba home directories for *nix users). That could be fun too, except then I'd be in charge of keeping it running, which would be a nightmare. I could settle for just something simular to what we have here, the dns server and stuff, maybe even a file server for cd images or something.
 
-Either way, I've quickly become interested in moving out once again, and job hunting, I'm really not sure what triggered it, probably not being pressured again. Either way, I gotta get started, but i Really don't know anything about how good my [resume](http://www.halkeye.net/files/?file=Gavin%20Resume.doc) is or isn't.
+Either way, I've quickly become interested in moving out once again, and job hunting, I'm really not sure what triggered it, probably not being pressured again. Either way, I gotta get started, but i Really don't know anything about how good my [resume](https://files.halkeye.net/Gavin%20Resume.doc) is or isn't.

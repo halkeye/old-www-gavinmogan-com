@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-I really like this new program called TeamSpeak, which is alot like roger wilco, but it seems to be cleaner and such. Unfortuatly thier site barely works, so you can [Download the Client](http://www.halkeye.net/files/?file=ts2_client_rc2_2032.exe) from my website.
+I really like this new program called TeamSpeak, which is alot like roger wilco, but it seems to be cleaner and such. Unfortuatly thier site barely works, so you can [Download the Client](https://files.halkeye.net/ts2_client_rc2_2032.exe) from my website.
 
 Yea, donno what else to say about it, so far i'm liking it, you can easily lock it down and such,0 preven people you don't want from using it (only allow registered users and such), which makes a perm server that much easier.   
 

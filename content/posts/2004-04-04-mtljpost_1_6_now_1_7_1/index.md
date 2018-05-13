@@ -18,7 +18,7 @@ Yea Yea, if this works, then MTLJPost 1.6 Is ready to go.
 
 1.7 will follow quite quickly.. but I want to make a clean realease of this before i move on.
 
-<s>[Download Version 1.6](http://www.halkeye.net/files/?file=MTLJPost.1.6.tgz).</s>
+<s>[Download Version 1.6](https://files.halkeye.net/MTLJPost.1.6.tgz).</s>
 
 This comes with MANY improvements, as the other one died most of the time.
 
@@ -38,6 +38,6 @@ The javascript on the login information page is NIIIICE.
 
 **Update:** added [Instructions](http://www.kodekoan.com/project/MTLJPost) and submitted to [mt-plugins.org](http://www.mt-plugins.org)
 
-<s>**Update:** [Download Version 1.6.5](http://www.halkeye.net/files/?file=MTLJPost.1.6.5.tgz).</s>
+<s>**Update:** [Download Version 1.6.5](https://files.halkeye.net/MTLJPost.1.6.5.tgz).</s>
 
-**Update:** [Download Version 1.7.1](http://www.halkeye.net/files/?file=MTLJPost.1.7.1.tgz).
+**Update:** [Download Version 1.7.1](https://files.halkeye.net/MTLJPost.1.7.1.tgz).

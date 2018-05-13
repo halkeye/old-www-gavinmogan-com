@@ -49,7 +49,7 @@ MTLJPost.pl => mt/plugins/
 
 (I suck at instructions.)
 
-[Download](http://www.halkeye.net/files/?file=MTLJPost.1.0.5.tgz)
+[Download](https://files.halkeye.net/MTLJPost.1.0.5.tgz)
 
 I eventually want to make it so you can post certan categories to certain journals.
 

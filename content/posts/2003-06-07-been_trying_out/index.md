@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-![](http://www.halkeye.net/files/images/dott_surf_animate.thumb.gif) Been trying out Day of the Tentacle again. Its kinda weird 'cause I am able to speed play the game. Like being able to grab the items without really ever having to look for them, or ask for hints from the different characters, I pretty just can finish it.. I think i'm still 2 or 3 hours in that game, but I guarantee it could be sped up to 1 hour.. less that that would be really hard.
+![](dott_surf_animate.thumb.gif) Been trying out Day of the Tentacle again. Its kinda weird 'cause I am able to speed play the game. Like being able to grab the items without really ever having to look for them, or ask for hints from the different characters, I pretty just can finish it.. I think i'm still 2 or 3 hours in that game, but I guarantee it could be sped up to 1 hour.. less that that would be really hard.
 
 Its an awesome game though, best of its time.. I've played it OVER AND OVER AND OVER again, hence why I can finish it quickly.. It's not as funny though.. Weird.. donno if its the time, the um.. material, etc.. I think its out grown me a bit.. Ah well.
 

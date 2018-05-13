@@ -18,7 +18,7 @@ I have now finished version 1.0 of MTLJPost.
 
 Yea, this was after [Kristian](http://www.departmentk.com) told me how he did it, I figured I could simplified things. And I did.
 
-[Download here](http://www.halkeye.net/files/?file=MTLJPost.tgz)
+[Download here](https://files.halkeye.net/MTLJPost.tgz)
 
 Instructions:  
 

@@ -16,7 +16,7 @@ post_type: "post"
 
 <s>1.0.3</s>1.0.4 Released
 
-[Download New Version](http://www.halkeye.net/files/?file=MTLJPost.1.0.4.tgz)
+[Download New Version](https://files.halkeye.net/MTLJPost.1.0.4.tgz)
 
 ```
 

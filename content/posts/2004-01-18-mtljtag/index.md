@@ -20,17 +20,16 @@ I decided to call it MTLJTag instead of MTLJUSER because I'm supporting the &lt;
 
 So, for version 1.0:
 
-&lt;lj user=halkeye&gt; =   
+```
+<lj user=halkeye>
+<lj user="halkeye">
+<lj comm=halkeye>
+<lj comm="halkeye">
+```
 
-&lt;lj user="halkeye"&gt; =   
+Future (1.1):
 
-&lt;lj comm=halkeye&gt; =   
-
-&lt;lj comm="halkeye"&gt; = 
-
-Future (1.1):   
-
-lj syn  
+lj syn
 
 comment support (only works for entries right now, I need to track that down.)  
 
@@ -38,7 +37,7 @@ lj-cut (Maybe, but it can sorta be done.)
 
 Preview Entry Support (Probably not useful)
 
-[Download here](http://www.halkeye.net/files/?file=MTLJTag.tgz)
+[Download here](https://files.halkeye.net/MTLJTag.tgz)
 
 Next Up: A serious site design... Trying to layout something now.. I wish I was way more artisticly creative.
 
