@@ -1,6 +1,5 @@
 ---
 title: "Merry Christmas"
-link: "https://www.halkeye.net/2005/01/02/merry_christmas/"
 author: "halkeye"
 description: ""
 post_id: "26"

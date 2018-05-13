@@ -1,6 +1,5 @@
 ---
 title: "Stargate Atlantis"
-link: "https://www.halkeye.net/2004/05/01/stargate_atlantis/"
 author: "halkeye"
 description: ""
 post_id: "38"

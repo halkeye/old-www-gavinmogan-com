@@ -1,6 +1,5 @@
 ---
 title: "New Site up and running"
-link: "https://www.halkeye.net/2006/06/03/new_site_and_running/"
 author: "halkeye"
 description: ""
 post_id: "262"

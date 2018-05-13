@@ -1,6 +1,5 @@
 ---
 title: "Bugs Bunny"
-link: "https://www.halkeye.net/2004/02/18/bugs_bunny/"
 author: "halkeye"
 description: ""
 post_id: "81"

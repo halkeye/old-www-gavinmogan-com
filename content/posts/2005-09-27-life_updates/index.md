@@ -1,6 +1,5 @@
 ---
 title: "Life Updates"
-link: "https://www.halkeye.net/2005/09/27/life_updates/"
 author: "halkeye"
 description: ""
 post_id: "141"

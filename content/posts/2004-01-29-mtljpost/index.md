@@ -1,6 +1,5 @@
 ---
 title: "MTLJPost"
-link: "https://www.halkeye.net/2004/01/29/mtljpost/"
 author: "halkeye"
 description: ""
 post_id: "106"

@@ -1,6 +1,5 @@
 ---
 title: "xbox live cards"
-link: "https://www.halkeye.net/2008/01/06/xbox_live_cards/"
 author: "halkeye"
 description: ""
 post_id: "329"

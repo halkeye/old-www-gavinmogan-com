@@ -1,6 +1,5 @@
 ---
 title: "Nikitia"
-link: "https://www.halkeye.net/2005/02/20/nikitia/"
 author: "halkeye"
 description: ""
 post_id: "20"

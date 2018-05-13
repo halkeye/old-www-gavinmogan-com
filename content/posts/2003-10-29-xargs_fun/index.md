@@ -1,6 +1,5 @@
 ---
 title: "XARGS FUN!"
-link: "https://www.halkeye.net/2003/10/29/xargs_fun/"
 author: "halkeye"
 description: ""
 post_id: "120"

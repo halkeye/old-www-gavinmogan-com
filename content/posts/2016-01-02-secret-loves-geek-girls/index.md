@@ -1,6 +1,5 @@
 ---
 title: "“The Secret Loves of Geek Girls”"
-link: "https://www.halkeye.net/2016/01/02/secret-loves-geek-girls/"
 author: "halkeye"
 description: ""
 post_id: "592"

@@ -1,6 +1,5 @@
 ---
 title: "picture(21).jpg"
-link: "https://www.halkeye.net/2006/11/02/picture_21_jpg/"
 author: "halkeye"
 description: ""
 post_id: "302"

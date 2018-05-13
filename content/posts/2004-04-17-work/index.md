@@ -1,6 +1,5 @@
 ---
 title: "work"
-link: "https://www.halkeye.net/2004/04/17/work/"
 author: "halkeye"
 description: ""
 post_id: "48"

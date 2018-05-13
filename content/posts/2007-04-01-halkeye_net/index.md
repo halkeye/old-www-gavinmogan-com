@@ -1,6 +1,5 @@
 ---
 title: "Halkeye.net"
-link: "https://www.halkeye.net/2007/04/01/halkeye_net/"
 author: "halkeye"
 description: ""
 post_id: "321"

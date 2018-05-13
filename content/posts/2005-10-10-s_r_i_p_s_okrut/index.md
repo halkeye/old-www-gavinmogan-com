@@ -1,6 +1,5 @@
 ---
 title: "R.I.P. Okrut"
-link: "https://www.halkeye.net/2005/10/10/s_r_i_p_s_okrut/"
 author: "halkeye"
 description: ""
 post_id: "144"

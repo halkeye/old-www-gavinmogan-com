@@ -1,6 +1,5 @@
 ---
 title: "Gentoo++"
-link: "https://www.halkeye.net/2003/07/21/gentoo/"
 author: "halkeye"
 description: ""
 post_id: "346"

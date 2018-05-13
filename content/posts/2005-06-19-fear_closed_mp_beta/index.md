@@ -1,6 +1,5 @@
 ---
 title: "FEAR Closed MP Beta"
-link: "https://www.halkeye.net/2005/06/19/fear_closed_mp_beta/"
 author: "halkeye"
 description: ""
 post_id: "394"

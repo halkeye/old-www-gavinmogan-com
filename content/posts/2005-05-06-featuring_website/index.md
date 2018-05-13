@@ -1,6 +1,5 @@
 ---
 title: "Featuring website"
-link: "https://www.halkeye.net/2005/05/06/featuring_website/"
 author: "halkeye"
 description: ""
 post_id: "6"

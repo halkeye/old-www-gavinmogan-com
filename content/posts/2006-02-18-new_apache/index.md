@@ -1,6 +1,5 @@
 ---
 title: "New Apache"
-link: "https://www.halkeye.net/2006/02/18/new_apache/"
 author: "halkeye"
 description: ""
 post_id: "152"

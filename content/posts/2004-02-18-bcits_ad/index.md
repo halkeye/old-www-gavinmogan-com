@@ -1,6 +1,5 @@
 ---
 title: "BCIT's Ad"
-link: "https://www.halkeye.net/2004/02/18/bcits_ad/"
 author: "halkeye"
 description: ""
 post_id: "79"

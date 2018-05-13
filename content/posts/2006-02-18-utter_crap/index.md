@@ -1,6 +1,5 @@
 ---
 title: "Utter crap"
-link: "https://www.halkeye.net/2006/02/18/utter_crap/"
 author: "halkeye"
 description: ""
 post_id: "154"

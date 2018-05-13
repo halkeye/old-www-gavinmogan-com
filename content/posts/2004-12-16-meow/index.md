@@ -1,6 +1,5 @@
 ---
 title: "meow"
-link: "https://www.halkeye.net/2004/12/16/meow/"
 author: "halkeye"
 description: ""
 post_id: "27"

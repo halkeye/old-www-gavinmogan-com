@@ -1,6 +1,5 @@
 ---
 title: "Spam Protection"
-link: "https://www.halkeye.net/2005/09/02/spam_protection/"
 author: "halkeye"
 description: ""
 post_id: "137"

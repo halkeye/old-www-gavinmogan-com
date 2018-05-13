@@ -1,6 +1,5 @@
 ---
 title: "Still Around"
-link: "https://www.halkeye.net/2005/05/28/still_around/"
 author: "halkeye"
 description: ""
 post_id: "396"

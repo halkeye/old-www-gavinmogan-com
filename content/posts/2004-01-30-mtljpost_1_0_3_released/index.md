@@ -1,6 +1,5 @@
 ---
 title: "MTLJPost 1.0.3 Released"
-link: "https://www.halkeye.net/2004/01/30/mtljpost_1_0_3_released/"
 author: "halkeye"
 description: ""
 post_id: "102"

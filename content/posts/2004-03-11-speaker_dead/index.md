@@ -1,6 +1,5 @@
 ---
 title: "Speaker for the Dead"
-link: "https://www.halkeye.net/2004/03/11/speaker_dead/"
 author: "halkeye"
 description: ""
 post_id: "70"

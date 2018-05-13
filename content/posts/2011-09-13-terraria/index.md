@@ -1,6 +1,5 @@
 ---
 title: "Terraria"
-link: "https://www.halkeye.net/2011/09/13/terraria/"
 author: "halkeye"
 description: ""
 post_id: "415"

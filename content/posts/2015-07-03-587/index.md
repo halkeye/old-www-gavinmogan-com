@@ -1,6 +1,5 @@
 ---
 title: "Bash Remove Extension"
-link: "https://www.halkeye.net/2015/07/03/587/"
 author: "halkeye"
 description: ""
 post_id: "587"

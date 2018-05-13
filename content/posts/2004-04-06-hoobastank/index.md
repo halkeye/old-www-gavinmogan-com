@@ -1,6 +1,5 @@
 ---
 title: "Hoobastank"
-link: "https://www.halkeye.net/2004/04/06/hoobastank/"
 author: "halkeye"
 description: ""
 post_id: "60"

@@ -1,6 +1,5 @@
 ---
 title: "Sucky story teller, interesting stories"
-link: "https://www.halkeye.net/2004/02/29/sucky_story_teller_interesting_stories/"
 author: "halkeye"
 description: ""
 post_id: "74"

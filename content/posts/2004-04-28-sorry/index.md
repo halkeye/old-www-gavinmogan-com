@@ -1,6 +1,5 @@
 ---
 title: "Sorry"
-link: "https://www.halkeye.net/2004/04/28/sorry/"
 author: "halkeye"
 description: ""
 post_id: "43"

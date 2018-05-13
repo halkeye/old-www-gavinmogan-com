@@ -1,6 +1,5 @@
 ---
 title: "Good Golly Miss Molly"
-link: "https://www.halkeye.net/2004/02/11/good_golly_miss_molly/"
 author: "halkeye"
 description: ""
 post_id: "90"

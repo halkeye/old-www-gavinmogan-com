@@ -1,6 +1,5 @@
 ---
 title: "DevilMan Lady Review"
-link: "https://www.halkeye.net/2003/08/12/devilman_lady_r/"
 author: "halkeye"
 description: ""
 post_id: "341"

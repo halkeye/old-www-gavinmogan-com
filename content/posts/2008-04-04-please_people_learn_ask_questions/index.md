@@ -1,6 +1,5 @@
 ---
 title: "Please people...learn to ask questions."
-link: "https://www.halkeye.net/2008/04/04/please_people_learn_ask_questions/"
 author: "halkeye"
 description: ""
 post_id: "332"

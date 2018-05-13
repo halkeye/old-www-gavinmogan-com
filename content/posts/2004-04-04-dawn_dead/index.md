@@ -1,6 +1,5 @@
 ---
 title: "Dawn of the dead"
-link: "https://www.halkeye.net/2004/04/04/dawn_dead/"
 author: "halkeye"
 description: ""
 post_id: "63"

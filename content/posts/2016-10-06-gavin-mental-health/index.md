@@ -1,6 +1,5 @@
 ---
 title: "Gavin mental health"
-link: "https://www.halkeye.net/2016/10/06/gavin-mental-health/"
 author: "halkeye"
 description: ""
 post_id: "917"

@@ -1,6 +1,5 @@
 ---
 title: "Trying to post more things :)"
-link: "https://www.halkeye.net/2003/10/01/trying_post_more_things/"
 author: "halkeye"
 description: ""
 post_id: "129"

@@ -1,6 +1,5 @@
 ---
 title: "Stating the Obvious"
-link: "https://www.halkeye.net/2004/02/15/stating_obvious/"
 author: "halkeye"
 description: ""
 post_id: "85"

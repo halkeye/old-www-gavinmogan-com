@@ -1,6 +1,5 @@
 ---
 title: "Docker - Pi Hole, DNSSec, DNSCrypt"
-link: "https://www.halkeye.net/2018/02/04/docker-pi-hole-dnssec-dnscrypt/"
 author: "halkeye"
 description: ""
 post_id: "1160"

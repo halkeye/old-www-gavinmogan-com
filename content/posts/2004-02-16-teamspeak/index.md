@@ -1,6 +1,5 @@
 ---
 title: "TeamSpeak"
-link: "https://www.halkeye.net/2004/02/16/teamspeak/"
 author: "halkeye"
 description: ""
 post_id: "84"

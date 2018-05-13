@@ -1,6 +1,5 @@
 ---
 title: "Syndication"
-link: "https://www.halkeye.net/2004/01/29/syndication/"
 author: "halkeye"
 description: ""
 post_id: "105"

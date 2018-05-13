@@ -1,6 +1,5 @@
 ---
 title: "mod_perl"
-link: "https://www.halkeye.net/2004/03/28/mod_perl/"
 author: "halkeye"
 description: ""
 post_id: "65"

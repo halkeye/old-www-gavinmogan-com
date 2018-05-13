@@ -1,6 +1,5 @@
 ---
 title: "Babylon 5"
-link: "https://www.halkeye.net/2006/02/25/babylon_5/"
 author: "halkeye"
 description: ""
 post_id: "155"

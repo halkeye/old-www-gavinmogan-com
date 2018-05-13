@@ -1,6 +1,5 @@
 ---
 title: "AHH! SCAM! BEWARE!"
-link: "https://www.halkeye.net/2004/04/24/ahh_scam_beware/"
 author: "halkeye"
 description: ""
 post_id: "46"

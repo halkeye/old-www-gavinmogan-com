@@ -1,6 +1,5 @@
 ---
 title: "Testing posting from flock"
-link: "https://www.halkeye.net/2005/10/21/testing_posting_flock/"
 author: "halkeye"
 description: ""
 post_id: "145"

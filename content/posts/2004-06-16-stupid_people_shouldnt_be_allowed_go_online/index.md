@@ -1,6 +1,5 @@
 ---
 title: "Stupid people shouldn't be allowed to go online"
-link: "https://www.halkeye.net/2004/06/16/stupid_people_shouldnt_be_allowed_go_online/"
 author: "halkeye"
 description: ""
 post_id: "33"

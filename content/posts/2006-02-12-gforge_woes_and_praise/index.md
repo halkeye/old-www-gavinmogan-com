@@ -1,6 +1,5 @@
 ---
 title: "gforge woes and praise"
-link: "https://www.halkeye.net/2006/02/12/gforge_woes_and_praise/"
 author: "halkeye"
 description: ""
 post_id: "150"

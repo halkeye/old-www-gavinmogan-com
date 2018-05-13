@@ -1,6 +1,5 @@
 ---
 title: "Projects"
-link: "https://www.halkeye.net/2016/09/05/projects/"
 author: "halkeye"
 description: ""
 post_id: "788"

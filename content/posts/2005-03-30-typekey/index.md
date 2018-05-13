@@ -1,6 +1,5 @@
 ---
 title: "TypeKey"
-link: "https://www.halkeye.net/2005/03/30/typekey/"
 author: "halkeye"
 description: ""
 post_id: "10"

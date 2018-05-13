@@ -1,6 +1,5 @@
 ---
 title: "Nuvexport"
-link: "https://www.halkeye.net/2006/04/10/nuvexport/"
 author: "halkeye"
 description: ""
 post_id: "158"

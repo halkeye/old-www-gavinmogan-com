@@ -1,6 +1,5 @@
 ---
 title: "But Maaaaaa!!!"
-link: "https://www.halkeye.net/2004/02/05/maaaaaa/"
 author: "halkeye"
 description: ""
 post_id: "96"

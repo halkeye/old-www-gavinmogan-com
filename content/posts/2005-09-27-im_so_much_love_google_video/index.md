@@ -1,6 +1,5 @@
 ---
 title: "I'm in so much love with google video"
-link: "https://www.halkeye.net/2005/09/27/im_so_much_love_google_video/"
 author: "halkeye"
 description: ""
 post_id: "140"

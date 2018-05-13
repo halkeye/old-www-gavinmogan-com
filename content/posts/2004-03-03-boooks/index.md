@@ -1,6 +1,5 @@
 ---
 title: "BOOOKS!"
-link: "https://www.halkeye.net/2004/03/03/boooks/"
 author: "halkeye"
 description: ""
 post_id: "72"

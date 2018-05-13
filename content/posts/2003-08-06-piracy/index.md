@@ -1,6 +1,5 @@
 ---
 title: "Piracy"
-link: "https://www.halkeye.net/2003/08/06/piracy/"
 author: "halkeye"
 description: ""
 post_id: "342"

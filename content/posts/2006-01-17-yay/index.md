@@ -1,6 +1,5 @@
 ---
 title: "yay!"
-link: "https://www.halkeye.net/2006/01/17/yay/"
 author: "halkeye"
 description: ""
 post_id: "149"

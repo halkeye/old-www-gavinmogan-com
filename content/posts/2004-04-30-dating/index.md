@@ -1,6 +1,5 @@
 ---
 title: "Dating"
-link: "https://www.halkeye.net/2004/04/30/dating/"
 author: "halkeye"
 description: ""
 post_id: "41"

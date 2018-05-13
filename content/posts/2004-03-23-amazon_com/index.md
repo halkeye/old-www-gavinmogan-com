@@ -1,6 +1,5 @@
 ---
 title: "Amazon.com"
-link: "https://www.halkeye.net/2004/03/23/amazon_com/"
 author: "halkeye"
 description: ""
 post_id: "68"

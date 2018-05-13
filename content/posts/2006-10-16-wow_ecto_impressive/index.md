@@ -1,6 +1,5 @@
 ---
 title: "Wow.. ecto is impressive"
-link: "https://www.halkeye.net/2006/10/16/wow_ecto_impressive/"
 author: "halkeye"
 description: ""
 post_id: "299"

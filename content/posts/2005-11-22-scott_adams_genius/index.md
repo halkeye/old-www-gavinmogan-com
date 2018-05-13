@@ -1,6 +1,5 @@
 ---
 title: "Scott Adams is a genius"
-link: "https://www.halkeye.net/2005/11/22/scott_adams_genius/"
 author: "halkeye"
 description: ""
 post_id: "147"

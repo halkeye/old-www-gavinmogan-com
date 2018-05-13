@@ -1,6 +1,5 @@
 ---
 title: "Epic movie"
-link: "https://www.halkeye.net/2007/02/14/epic_movie/"
 author: "halkeye"
 description: ""
 post_id: "313"

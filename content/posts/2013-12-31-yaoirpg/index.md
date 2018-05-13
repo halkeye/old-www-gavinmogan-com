@@ -1,6 +1,5 @@
 ---
 title: "YAOIRPG"
-link: "https://www.halkeye.net/2013/12/31/yaoirpg/"
 author: "halkeye"
 description: ""
 post_id: "506"

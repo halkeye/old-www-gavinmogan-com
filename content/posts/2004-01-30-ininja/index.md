@@ -1,6 +1,5 @@
 ---
 title: "iNinja"
-link: "https://www.halkeye.net/2004/01/30/ininja/"
 author: "halkeye"
 description: ""
 post_id: "101"

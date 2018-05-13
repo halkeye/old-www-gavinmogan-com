@@ -1,6 +1,5 @@
 ---
 title: "mIRC Scripts.. snippets"
-link: "https://www.halkeye.net/2003/08/02/mirc_scripts_sn/"
 author: "halkeye"
 description: ""
 post_id: "343"

@@ -1,6 +1,5 @@
 ---
 title: "2013 In Review."
-link: "https://www.halkeye.net/2013/12/31/2013-review/"
 author: "halkeye"
 description: ""
 post_id: "504"

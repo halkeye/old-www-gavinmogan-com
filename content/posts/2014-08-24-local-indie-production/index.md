@@ -1,6 +1,5 @@
 ---
 title: "Local Indie Production"
-link: "https://www.halkeye.net/2014/08/24/local-indie-production/"
 author: "halkeye"
 description: ""
 post_id: "564"

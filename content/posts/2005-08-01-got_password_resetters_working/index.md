@@ -1,6 +1,5 @@
 ---
 title: "Got password resetters working"
-link: "https://www.halkeye.net/2005/08/01/got_password_resetters_working/"
 author: "halkeye"
 description: ""
 post_id: "135"

@@ -1,6 +1,5 @@
 ---
 title: "Crushes ( :) does not belong in posts)"
-link: "https://www.halkeye.net/2003/10/08/crushes_does_not_belong_posts/"
 author: "halkeye"
 description: ""
 post_id: "126"

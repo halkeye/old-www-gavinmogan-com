@@ -1,6 +1,5 @@
 ---
 title: "Man its been a while."
-link: "https://www.halkeye.net/2005/02/09/man_its_been_while/"
 author: "halkeye"
 description: ""
 post_id: "25"

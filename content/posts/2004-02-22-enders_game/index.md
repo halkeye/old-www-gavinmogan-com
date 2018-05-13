@@ -1,6 +1,5 @@
 ---
 title: "Enders Game"
-link: "https://www.halkeye.net/2004/02/22/enders_game/"
 author: "halkeye"
 description: ""
 post_id: "77"

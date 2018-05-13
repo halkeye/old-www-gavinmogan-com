@@ -1,6 +1,5 @@
 ---
 title: "Emails"
-link: "https://www.halkeye.net/2003/10/18/emails/"
 author: "halkeye"
 description: ""
 post_id: "121"

@@ -1,6 +1,5 @@
 ---
 title: "Thunderbird Vs Evolution"
-link: "https://www.halkeye.net/2005/03/17/thunderbird_vs_evolution/"
 author: "halkeye"
 description: ""
 post_id: "13"

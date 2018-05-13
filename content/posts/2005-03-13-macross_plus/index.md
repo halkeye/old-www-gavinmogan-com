@@ -1,6 +1,5 @@
 ---
 title: "Macross Plus"
-link: "https://www.halkeye.net/2005/03/13/macross_plus/"
 author: "halkeye"
 description: ""
 post_id: "18"

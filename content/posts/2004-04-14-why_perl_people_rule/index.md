@@ -1,6 +1,5 @@
 ---
 title: "This is why perl people rule."
-link: "https://www.halkeye.net/2004/04/14/why_perl_people_rule/"
 author: "halkeye"
 description: ""
 post_id: "51"

@@ -1,6 +1,5 @@
 ---
 title: "May is a fun month"
-link: "https://www.halkeye.net/2004/05/07/may_fun_month/"
 author: "halkeye"
 description: ""
 post_id: "36"

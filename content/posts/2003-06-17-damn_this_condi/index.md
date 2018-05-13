@@ -1,6 +1,5 @@
 ---
 title: "Damn this condition"
-link: "https://www.halkeye.net/2003/06/17/damn_this_condi/"
 author: "halkeye"
 description: ""
 post_id: "356"

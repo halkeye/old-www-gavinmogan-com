@@ -1,6 +1,5 @@
 ---
 title: "MTLJTag"
-link: "https://www.halkeye.net/2004/01/18/mtljtag/"
 author: "halkeye"
 description: ""
 post_id: "111"

@@ -1,6 +1,5 @@
 ---
 title: "More Stargate WOWs"
-link: "https://www.halkeye.net/2005/02/15/more_stargate_wows/"
 author: "halkeye"
 description: ""
 post_id: "21"

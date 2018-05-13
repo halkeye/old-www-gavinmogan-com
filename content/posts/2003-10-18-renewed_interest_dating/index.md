@@ -1,6 +1,5 @@
 ---
 title: "Renewed Interest in Dating"
-link: "https://www.halkeye.net/2003/10/18/renewed_interest_dating/"
 author: "halkeye"
 description: ""
 post_id: "122"

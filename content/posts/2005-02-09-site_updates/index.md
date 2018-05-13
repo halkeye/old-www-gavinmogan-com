@@ -1,6 +1,5 @@
 ---
 title: "Site Updates"
-link: "https://www.halkeye.net/2005/02/09/site_updates/"
 author: "halkeye"
 description: ""
 post_id: "24"

@@ -1,6 +1,5 @@
 ---
 title: "Website Design"
-link: "https://www.halkeye.net/2005/02/21/website_design/"
 author: "halkeye"
 description: ""
 post_id: "19"

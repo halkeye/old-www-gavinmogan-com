@@ -1,6 +1,5 @@
 ---
 title: "How to output pretty json in puppet"
-link: "https://www.halkeye.net/2012/03/14/output-pretty-json-puppet/"
 author: "halkeye"
 description: ""
 post_id: "444"

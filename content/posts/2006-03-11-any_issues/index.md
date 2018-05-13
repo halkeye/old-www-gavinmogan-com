@@ -1,6 +1,5 @@
 ---
 title: "Any Issues?"
-link: "https://www.halkeye.net/2006/03/11/any_issues/"
 author: "halkeye"
 description: ""
 post_id: "156"

@@ -1,6 +1,5 @@
 ---
 title: "Rockport P.D"
-link: "https://www.halkeye.net/2003/06/16/rockport_pd/"
 author: "halkeye"
 description: ""
 post_id: "357"

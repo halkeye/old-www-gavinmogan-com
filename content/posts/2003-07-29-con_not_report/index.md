@@ -1,6 +1,5 @@
 ---
 title: "Con... not Report"
-link: "https://www.halkeye.net/2003/07/29/con_not_report/"
 author: "halkeye"
 description: ""
 post_id: "345"

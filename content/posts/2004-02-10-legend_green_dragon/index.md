@@ -1,6 +1,5 @@
 ---
 title: "Legend Of the Green Dragon"
-link: "https://www.halkeye.net/2004/02/10/legend_green_dragon/"
 author: "halkeye"
 description: ""
 post_id: "91"

@@ -1,6 +1,5 @@
 ---
 title: "Movie Prices"
-link: "https://www.halkeye.net/2004/04/04/movie_prices/"
 author: "halkeye"
 description: ""
 post_id: "62"

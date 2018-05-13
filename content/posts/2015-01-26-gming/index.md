@@ -1,6 +1,5 @@
 ---
 title: "GMing again"
-link: "https://www.halkeye.net/2015/01/26/gming/"
 author: "halkeye"
 description: ""
 post_id: "575"

@@ -1,6 +1,5 @@
 ---
 title: "Girlfriends, Well Boyfriends too"
-link: "https://www.halkeye.net/2003/08/01/girlfriends_wel/"
 author: "halkeye"
 description: ""
 post_id: "344"

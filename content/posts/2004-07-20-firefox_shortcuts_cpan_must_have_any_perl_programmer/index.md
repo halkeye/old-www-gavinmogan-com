@@ -1,6 +1,5 @@
 ---
 title: "Firefox Shortcuts - CPAN - a must have for any perl programmer"
-link: "https://www.halkeye.net/2004/07/20/firefox_shortcuts_cpan_must_have_any_perl_programmer/"
 author: "halkeye"
 description: ""
 post_id: "30"

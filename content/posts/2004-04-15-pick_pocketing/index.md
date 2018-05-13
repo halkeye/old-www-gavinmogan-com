@@ -1,6 +1,5 @@
 ---
 title: "Pick Pocketing"
-link: "https://www.halkeye.net/2004/04/15/pick_pocketing/"
 author: "halkeye"
 description: ""
 post_id: "50"

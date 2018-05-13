@@ -1,6 +1,5 @@
 ---
 title: "MOTD"
-link: "https://www.halkeye.net/2003/11/17/motd/"
 author: "halkeye"
 description: ""
 post_id: "117"

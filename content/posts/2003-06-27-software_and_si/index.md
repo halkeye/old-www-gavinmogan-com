@@ -1,6 +1,5 @@
 ---
 title: "Software and Site Updates"
-link: "https://www.halkeye.net/2003/06/27/software_and_si/"
 author: "halkeye"
 description: ""
 post_id: "354"

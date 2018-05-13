@@ -1,6 +1,5 @@
 ---
 title: "Grounded"
-link: "https://www.halkeye.net/2016/09/16/grounded/"
 author: "halkeye"
 description: ""
 post_id: "833"

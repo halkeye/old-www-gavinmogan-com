@@ -1,6 +1,5 @@
 ---
 title: "Possible Upgrade"
-link: "https://www.halkeye.net/2005/07/25/possible_upgrade/"
 author: "halkeye"
 description: ""
 post_id: "397"

@@ -1,6 +1,5 @@
 ---
 title: "Snow at the skytrain"
-link: "https://www.halkeye.net/2008/03/29/snow_skytrain/"
 author: "halkeye"
 description: ""
 post_id: "331"

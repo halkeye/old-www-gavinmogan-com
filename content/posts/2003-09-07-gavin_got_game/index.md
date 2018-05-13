@@ -1,6 +1,5 @@
 ---
 title: "Gavin Got Game"
-link: "https://www.halkeye.net/2003/09/07/gavin_got_game/"
 author: "halkeye"
 description: ""
 post_id: "339"

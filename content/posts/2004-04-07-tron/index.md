@@ -1,6 +1,5 @@
 ---
 title: "Tron"
-link: "https://www.halkeye.net/2004/04/07/tron/"
 author: "halkeye"
 description: ""
 post_id: "59"

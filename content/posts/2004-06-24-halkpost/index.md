@@ -1,6 +1,5 @@
 ---
 title: "HalkPost"
-link: "https://www.halkeye.net/2004/06/24/halkpost/"
 author: "halkeye"
 description: ""
 post_id: "31"

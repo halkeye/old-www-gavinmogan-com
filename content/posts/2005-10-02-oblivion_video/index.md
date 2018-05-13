@@ -1,6 +1,5 @@
 ---
 title: "Oblivion Video"
-link: "https://www.halkeye.net/2005/10/02/oblivion_video/"
 author: "halkeye"
 description: ""
 post_id: "142"

@@ -1,6 +1,5 @@
 ---
 title: "Love of the tidy!"
-link: "https://www.halkeye.net/2004/06/24/love_tidy/"
 author: "halkeye"
 description: ""
 post_id: "32"

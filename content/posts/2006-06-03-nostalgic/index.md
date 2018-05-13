@@ -1,6 +1,5 @@
 ---
 title: "Nostalgic"
-link: "https://www.halkeye.net/2006/06/03/nostalgic/"
 author: "halkeye"
 description: ""
 post_id: "261"

@@ -1,6 +1,5 @@
 ---
 title: "Stargate"
-link: "https://www.halkeye.net/2004/04/10/stargate/"
 author: "halkeye"
 description: ""
 post_id: "58"

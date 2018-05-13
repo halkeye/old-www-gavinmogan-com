@@ -1,6 +1,5 @@
 ---
 title: "Spears"
-link: "https://www.halkeye.net/2004/05/05/spears/"
 author: "halkeye"
 description: ""
 post_id: "37"

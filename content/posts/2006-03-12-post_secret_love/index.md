@@ -1,6 +1,5 @@
 ---
 title: "Post Secret Love"
-link: "https://www.halkeye.net/2006/03/12/post_secret_love/"
 author: "halkeye"
 description: ""
 post_id: "157"

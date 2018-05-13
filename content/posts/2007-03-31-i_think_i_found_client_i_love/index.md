@@ -1,6 +1,5 @@
 ---
 title: "I think I found a client I love."
-link: "https://www.halkeye.net/2007/03/31/i_think_i_found_client_i_love/"
 author: "halkeye"
 description: ""
 post_id: "320"

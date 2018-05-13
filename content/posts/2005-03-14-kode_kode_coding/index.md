@@ -1,6 +1,5 @@
 ---
 title: "Kode Kode Coding"
-link: "https://www.halkeye.net/2005/03/14/kode_kode_coding/"
 author: "halkeye"
 description: ""
 post_id: "14"

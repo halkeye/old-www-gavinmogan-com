@@ -1,6 +1,5 @@
 ---
 title: "Site Updates, don't forget about stacy's mom, 'cause she has it going on."
-link: "https://www.halkeye.net/2003/11/11/site_updates_dont_forget_about_stacys_mom_cause_she_has_it_going/"
 author: "halkeye"
 description: ""
 post_id: "118"

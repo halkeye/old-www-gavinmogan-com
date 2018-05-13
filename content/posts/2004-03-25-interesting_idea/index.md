@@ -1,6 +1,5 @@
 ---
 title: "An interesting idea..."
-link: "https://www.halkeye.net/2004/03/25/interesting_idea/"
 author: "halkeye"
 description: ""
 post_id: "66"

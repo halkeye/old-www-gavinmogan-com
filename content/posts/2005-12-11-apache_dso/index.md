@@ -1,6 +1,5 @@
 ---
 title: "Apache DSO"
-link: "https://www.halkeye.net/2005/12/11/apache_dso/"
 author: "halkeye"
 description: ""
 post_id: "148"

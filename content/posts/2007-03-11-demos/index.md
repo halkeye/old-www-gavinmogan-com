@@ -1,6 +1,5 @@
 ---
 title: "Demos"
-link: "https://www.halkeye.net/2007/03/11/demos/"
 author: "halkeye"
 description: ""
 post_id: "317"

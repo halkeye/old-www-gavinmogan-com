@@ -1,6 +1,5 @@
 ---
 title: "Upgrade Galore"
-link: "https://www.halkeye.net/2007/01/14/upgrade_galore/"
 author: "halkeye"
 description: ""
 post_id: "307"

@@ -1,6 +1,5 @@
 ---
 title: "One Must Fall Battlegrounds"
-link: "https://www.halkeye.net/2004/02/04/one_must_fall_battlegrounds/"
 author: "halkeye"
 description: ""
 post_id: "98"

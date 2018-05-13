@@ -1,6 +1,5 @@
 ---
 title: "Wish I Had caller ID, then I'd be cool."
-link: "https://www.halkeye.net/2003/12/01/wish_i_had_caller_id_then_id_be_cool/"
 author: "halkeye"
 description: ""
 post_id: "116"

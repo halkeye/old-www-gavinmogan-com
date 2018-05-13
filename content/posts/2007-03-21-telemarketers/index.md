@@ -1,6 +1,5 @@
 ---
 title: "Telemarketers"
-link: "https://www.halkeye.net/2007/03/21/telemarketers/"
 author: "halkeye"
 description: ""
 post_id: "318"

@@ -1,6 +1,5 @@
 ---
 title: "Multi Theft Auto"
-link: "https://www.halkeye.net/2003/09/20/multi_theft_auto/"
 author: "halkeye"
 description: ""
 post_id: "130"

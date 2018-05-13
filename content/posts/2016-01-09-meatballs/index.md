@@ -1,6 +1,5 @@
 ---
 title: "Meatballs"
-link: "https://www.halkeye.net/2016/01/09/meatballs/"
 author: "halkeye"
 description: ""
 post_id: "626"

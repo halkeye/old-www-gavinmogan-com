@@ -1,6 +1,5 @@
 ---
 title: "Wheee"
-link: "https://www.halkeye.net/2003/06/06/wheee/"
 author: "halkeye"
 description: ""
 post_id: "362"

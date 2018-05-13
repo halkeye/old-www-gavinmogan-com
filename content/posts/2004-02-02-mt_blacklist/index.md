@@ -1,6 +1,5 @@
 ---
 title: "MT-Blacklist."
-link: "https://www.halkeye.net/2004/02/02/mt_blacklist/"
 author: "halkeye"
 description: ""
 post_id: "99"

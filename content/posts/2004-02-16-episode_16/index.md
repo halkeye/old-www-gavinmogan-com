@@ -1,6 +1,5 @@
 ---
 title: "Episode 16"
-link: "https://www.halkeye.net/2004/02/16/episode_16/"
 author: "halkeye"
 description: ""
 post_id: "83"

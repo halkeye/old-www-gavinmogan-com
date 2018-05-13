@@ -1,6 +1,5 @@
 ---
 title: "direnv is one of the coolest tools ever"
-link: "https://www.halkeye.net/2014/04/12/direnv-coolest-tools/"
 author: "halkeye"
 description: ""
 post_id: "542"

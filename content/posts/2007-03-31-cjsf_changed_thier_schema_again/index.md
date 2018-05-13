@@ -1,6 +1,5 @@
 ---
 title: "CJSF changed thier schema again."
-link: "https://www.halkeye.net/2007/03/31/cjsf_changed_thier_schema_again/"
 author: "halkeye"
 description: ""
 post_id: "319"

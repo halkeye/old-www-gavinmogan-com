@@ -1,6 +1,5 @@
 ---
 title: "US IS GOING CANADIAN!"
-link: "https://www.halkeye.net/2003/10/09/us_going_canadian/"
 author: "halkeye"
 description: ""
 post_id: "125"

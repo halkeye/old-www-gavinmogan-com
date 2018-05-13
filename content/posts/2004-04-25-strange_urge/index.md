@@ -1,6 +1,5 @@
 ---
 title: "Strange urge"
-link: "https://www.halkeye.net/2004/04/25/strange_urge/"
 author: "halkeye"
 description: ""
 post_id: "45"

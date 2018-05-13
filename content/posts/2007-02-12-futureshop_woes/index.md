@@ -1,6 +1,5 @@
 ---
 title: "Futureshop Woes"
-link: "https://www.halkeye.net/2007/02/12/futureshop_woes/"
 author: "halkeye"
 description: ""
 post_id: "312"
