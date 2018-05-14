@@ -24,20 +24,21 @@ export const pageQuery = graphql`
   query TagPage($tag: String) {
     allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
+      filter: { fields: { type: { eq: "blog" }, tags: { in: [$tag] } } }
+      sort: { fields: [fields___date], order: DESC }
     ) {
       totalCount
       edges {
         node {
           fields {
             slug
+            date
+            tags
           }
           excerpt
           timeToRead
           frontmatter {
             title
-            tags
             cover {
               childImageSharp {
                 sizes(maxWidth: 800) {
@@ -45,7 +46,6 @@ export const pageQuery = graphql`
                 }
               }
             }
-            date
           }
         }
       }

@@ -29,7 +29,8 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       limit: $limit
       skip: $skip
-      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { fields: { type: { eq: "blog" } } }
+      sort: { fields: [fields___date], order: DESC }
     ) {
       edges {
         node {
@@ -44,11 +45,11 @@ export const pageQuery = graphql`
                 }
               }
             }
-            date
-            category
-            tags
           }
           fields {
+            tags
+            category
+            date
             slug
           }
         }

@@ -3,7 +3,9 @@ import CardTitle from "react-md/lib/Cards/CardTitle";
 import Avatar from "react-md/lib/Avatars";
 import Link from "gatsby-link";
 import _ from "lodash";
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import FontAwesomeIcon from "@fortawesome/react-fontawesome";
+import fasCalendar from "@fortawesome/fontawesome-free-solid/faCalendar";
+import fasFolderOpen from "@fortawesome/fontawesome-free-solid/faFolderOpen";
 import "./PostInfo.scss";
 
 class PostInfo extends Component {
@@ -13,7 +15,11 @@ class PostInfo extends Component {
     return (
       <div className="post-info">
         <CardTitle
-          avatar={<Avatar icon={<FontAwesomeIcon icon={['fas', 'calendar']} className="md-icon" />} />}
+          avatar={
+            <Avatar
+              icon={<FontAwesomeIcon icon={fasCalendar} className="md-icon" />}
+            />
+          }
           title={`Published on ${post.date}`}
           subtitle={`${postNode.timeToRead} min read`}
         />
@@ -23,7 +29,11 @@ class PostInfo extends Component {
         >
           <CardTitle
             avatar={
-              <Avatar icon={<FontAwesomeIcon icon={['fas', 'folder-open']} className="md-icon" />} />
+              <Avatar
+                icon={
+                  <FontAwesomeIcon icon={fasFolderOpen} className="md-icon" />
+                }
+              />
             }
             title="In category"
             subtitle={post.category}

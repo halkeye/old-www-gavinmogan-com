@@ -7,7 +7,6 @@ const fasBook = require("@fortawesome/fontawesome-free-solid/faBook");
 const fasEnvelope = require("@fortawesome/fontawesome-free-solid/faEnvelope");
 
 module.exports = {
-  blogPostDir: "posts", // The name of directory that contains your posts.
   siteTitle: "The Nameless Site", // Site title.
   siteTitleAlt: "The Nameless Site", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.

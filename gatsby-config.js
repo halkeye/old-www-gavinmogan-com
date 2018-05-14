@@ -26,8 +26,15 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "posts",
-        path: `${__dirname}/content/${config.blogPostDir}`
+        name: "blog",
+        path: `${__dirname}/content/posts`
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "project",
+        path: `${__dirname}/content/projects`
       }
     },
     {
@@ -164,7 +171,8 @@ module.exports = {
             {
               allMarkdownRemark(
                 limit: 1000,
-                sort: { order: DESC, fields: [frontmatter___date] },
+                filter: {fields: {type: {eq: "blog"}}}, 
+                sort: { order: DESC, fields: [fields___date] },
               ) {
                 edges {
                   node {
