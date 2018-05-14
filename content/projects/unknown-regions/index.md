@@ -13,10 +13,11 @@ The first MUD project I deveoped and ran. Conflicts between adminstrators caused
 
 Starwars Themed mud based on the SWR codebase.
 
+Some of the features include:  (At time of writing its been more than 10 years)
+
 *   Adult Emote Support
 *   Bone breaking and healing
 *   Child bearing
 *   Crafting
 *   Random events such as earthquakes
-*   More features (its been many many years now)
 
