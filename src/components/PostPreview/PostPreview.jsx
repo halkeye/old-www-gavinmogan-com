@@ -6,7 +6,6 @@ import Avatar from "react-md/lib/Avatars";
 import CardText from "react-md/lib/Cards/CardText";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import fasCalendar from "@fortawesome/fontawesome-free-solid/faCalendar";
-import fasFolderOpen from "@fortawesome/fontawesome-free-solid/faFolderOpen";
 import Link from "gatsby-link";
 import Media, { MediaOverlay } from "react-md/lib/Media";
 import PostTags from "../PostTags/PostTags";
