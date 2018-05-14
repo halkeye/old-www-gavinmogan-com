@@ -3,7 +3,7 @@ title: "Electronic Convention Management"
 link: https://ecm.apps.gavinmogan.com/
 links:
   - type: github
-  url: https://github.com/halkeye/ecmproject
+    url: https://github.com/halkeye/ecmproject
 tags:
   - Legacy / KodeKoan Projects
 ---
