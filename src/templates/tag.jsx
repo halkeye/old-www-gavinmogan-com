@@ -32,13 +32,13 @@ export const pageQuery = graphql`
         node {
           fields {
             slug
-            date
             tags
           }
           excerpt
           timeToRead
           frontmatter {
             title
+            date
             cover {
               childImageSharp {
                 sizes(maxWidth: 800) {
