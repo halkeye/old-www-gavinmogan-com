@@ -1,15 +1,7 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
 import Img from "gatsby-image";
-import {
-  Button,
-  Card,
-  CardText,
-  CardTitle,
-  CardActions,
-  Grid,
-  Cell
-} from "react-md";
+import { Button, Card, CardText, CardTitle, CardActions, Chip } from "react-md";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import fabGithub from "@fortawesome/fontawesome-free-brands/faGithub";
 import fasQuestionCircle from "@fortawesome/fontawesome-free-solid/faQuestionCircle";
@@ -39,7 +31,7 @@ export default class ProjectsPage extends Component {
           {this.props.data.allMarkdownRemark.edges.map(data => {
             const {
               node: {
-                fields: { slug },
+                fields: { slug, tags },
                 frontmatter: { image, link, links, title },
                 html
               }
@@ -54,10 +46,12 @@ export default class ProjectsPage extends Component {
                         <Img {...image.childImageSharp} />
                       </div>
                     )}
-                    <div
-                      className="md-cell--9"
-                      dangerouslySetInnerHTML={{ __html: html }}
-                    />
+                    <div className="md-cell--9">
+                      {tags && (
+                        <div>{tags.map(tag => <Chip label={tag} />)}</div>
+                      )}
+                      <span dangerouslySetInnerHTML={{ __html: html }} />
+                    </div>
                   </div>
                 </CardText>
                 <CardActions>
@@ -96,6 +90,7 @@ export const pageQuery = graphql`
           fields {
             slug
             date
+            tags
           }
           html
           frontmatter {

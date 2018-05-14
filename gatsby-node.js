@@ -103,7 +103,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     createNodeField({
       node,
       name: "tags",
-      value: ["default"].concat(_.get(node, "frontmatter.tags") || [])
+      value: [].concat(_.get(node, "frontmatter.tags") || [])
     });
     if (fileNode.sourceInstanceName === "blog") {
       postNodes.push(node);
