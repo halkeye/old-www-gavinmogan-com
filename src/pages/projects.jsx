@@ -96,7 +96,6 @@ export default class ProjectsPage extends Component {
         return ret;
       }, {})
     ).filter(tag => tag);
-    console.log("tags", allTags);
     return (
       <div className="computer-container">
         <Helmet>
