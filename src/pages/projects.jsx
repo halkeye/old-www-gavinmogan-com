@@ -1,7 +1,15 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
 import Img from "gatsby-image";
-import { Button, Card, CardText, CardTitle, CardActions } from "react-md";
+import {
+  Button,
+  Card,
+  CardText,
+  CardTitle,
+  CardActions,
+  Grid,
+  Cell
+} from "react-md";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import fabGithub from "@fortawesome/fontawesome-free-brands/faGithub";
 import fasQuestionCircle from "@fortawesome/fontawesome-free-solid/faQuestionCircle";
@@ -37,13 +45,18 @@ export default class ProjectsPage extends Component {
               }
             } = data;
             return (
-              <Card key={slug} className="md-cell md-cell--9">
-                <CardTitle
-                  title={title}
-                  avatar={<Img {...image.childImageSharp} />}
-                />
+              <Card key={slug} className="md-cell md-cell--10">
+                <CardTitle title={title} />
                 <CardText>
-                  <div dangerouslySetInnerHTML={{ __html: html }} />
+                  <div className="md-grid">
+                    <div className="md-cell--3">
+                      <Img {...image.childImageSharp} />
+                    </div>
+                    <div
+                      className="md-cell--9"
+                      dangerouslySetInnerHTML={{ __html: html }}
+                    />
+                  </div>
                 </CardText>
                 <CardActions>
                   {[{ type: "web", url: link }].concat(links).map(l => (
