@@ -49,9 +49,11 @@ export default class ProjectsPage extends Component {
                 <CardTitle title={title} />
                 <CardText>
                   <div className="md-grid">
-                    <div className="md-cell--3">
-                      <Img {...image.childImageSharp} />
-                    </div>
+                    {image && (
+                      <div className="md-cell--3">
+                        <Img {...image.childImageSharp} />
+                      </div>
+                    )}
                     <div
                       className="md-cell--9"
                       dangerouslySetInnerHTML={{ __html: html }}
@@ -59,7 +61,7 @@ export default class ProjectsPage extends Component {
                   </div>
                 </CardText>
                 <CardActions>
-                  {[{ type: "web", url: link }].concat(links).map(l => (
+                  {[{ type: "web", url: link }].concat(links || []).map(l => (
                     <Button
                       flat
                       key={l.type}
