@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import ReactDisqusComments from "react-disqus-comments";
+import FontAwesomeIcon from "@fortawesome/react-fontawesome";
+import fasComment from "@fortawesome/fontawesome-free-solid/faComment";
 import trimStart from "lodash/trimStart";
 import Card from "react-md/lib/Cards/Card";
 import CardTitle from "react-md/lib/Cards/CardTitle";
 import CardText from "react-md/lib/Cards/CardText";
 import Avatar from "react-md/lib/Avatars";
-import FontIcon from "react-md/lib/FontIcons";
 import Snackbar from "react-md/lib/Snackbars";
 import config from "../../../data/SiteConfig";
 
@@ -42,7 +43,7 @@ class Disqus extends Component {
       <Card className="md-grid md-cell md-cell--12">
         <CardTitle
           title="Comments"
-          avatar={<Avatar icon={<FontIcon>comment</FontIcon>} />}
+          avatar={<Avatar icon={<FontAwesomeIcon icon={fasComment} />} />}
           expander={!expanded}
         />
         <CardText expandable={!expanded}>
