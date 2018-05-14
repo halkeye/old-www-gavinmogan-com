@@ -71,6 +71,7 @@ const ProjectList = ({ edges, tag }) => (
       }
       return (
         <Project
+          key={slug}
           html={html}
           slug={slug}
           tags={tags}
