@@ -130,7 +130,10 @@ exports.createPages = async ({ graphql, boundActionCreators }) => {
   await graphql(
     `
       {
-        allMarkdownRemark(sort: { fields: [fields___date], order: DESC }) {
+        allMarkdownRemark(
+          sort: { fields: [fields___date], order: DESC }
+          filter: { fields: { type: { eq: "blog" } } }
+        ) {
           edges {
             node {
               fields {
