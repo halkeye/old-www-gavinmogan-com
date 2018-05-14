@@ -1,16 +1,18 @@
 import React from "react";
-import FontIcon from "react-md/lib/FontIcons";
 import Link from "gatsby-link";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import fasTasks from "@fortawesome/fontawesome-free-solid/faTasks";
 import fasUser from "@fortawesome/fontawesome-free-solid/faUser";
 import fasDesktop from "@fortawesome/fontawesome-free-solid/faDesktop";
+import fasHome from "@fortawesome/fontawesome-free-solid/faHome";
 
 function GetNavList(config) {
   const NavList = [
     {
       primaryText: "Home",
-      leftIcon: <FontIcon>home</FontIcon>,
+      leftIcon: (
+        <FontAwesomeIcon icon={fasHome} className="md-icon" fixedWidth />
+      ),
       component: Link,
       to: "/"
     },
