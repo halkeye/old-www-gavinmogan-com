@@ -1,3 +1,11 @@
+const fabGithub = require("@fortawesome/fontawesome-free-brands/faGithub");
+const fabTwitter = require("@fortawesome/fontawesome-free-brands/faTwitter");
+const fabGoodreads = require("@fortawesome/fontawesome-free-brands/faGoodreads");
+const fabLinkedin = require("@fortawesome/fontawesome-free-brands/faLinkedin");
+const fabSteam = require("@fortawesome/fontawesome-free-brands/faSteam");
+const fasBook = require("@fortawesome/fontawesome-free-solid/faBook");
+const fasEnvelope = require("@fortawesome/fontawesome-free-solid/faEnvelope");
+
 module.exports = {
   blogPostDir: "posts", // The name of directory that contains your posts.
   siteTitle: "The Nameless Site", // Site title.
@@ -28,32 +36,37 @@ module.exports = {
     {
       label: "Github",
       url: "https://github.com/halkeye",
-      icon: ["fab", "github"]
+      icon: fabGithub
     },
     {
       label: "Salty Stories",
       url: "https://books.saltystories.ca",
-      icon: ["fas", "book"]
+      icon: fasBook
     },
     {
       label: "Twitter",
       url: "https://twitter.com/halkeye",
-      icon: ["fab", "twitter"]
+      icon: fabTwitter
     },
     {
       label: "Goodreads",
       url: "https://www.goodreads.com/halkeye",
-      icon: ["fab", "goodreads"]
+      icon: fabGoodreads
     },
     {
       label: "Linked In",
       url: "https://www.linkedin.com/in/halkeye",
-      icon: ["fab", "linkedin"]
+      icon: fabLinkedin
+    },
+    {
+      label: "Steam",
+      url: "https://steamcommunity.com/id/halkeye",
+      icon: fabSteam
     },
     {
       label: "Email",
       url: "mailto:website@gavinmogan.com",
-      icon: ["fas", "envelope"]
+      icon: fasEnvelope
     }
   ],
   copyright: "Copyright © 2003. Gavin Mogan" // Copyright string for the footer of the website and RSS feed.
