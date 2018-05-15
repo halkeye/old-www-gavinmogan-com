@@ -5,6 +5,7 @@ import fasTasks from "@fortawesome/fontawesome-free-solid/faTasks";
 import fasUser from "@fortawesome/fontawesome-free-solid/faUser";
 import fasDesktop from "@fortawesome/fontawesome-free-solid/faDesktop";
 import fasHome from "@fortawesome/fontawesome-free-solid/faHome";
+import fasFilePowerpoint from "@fortawesome/fontawesome-free-solid/faFilePowerpoint";
 
 function GetNavList(config) {
   const NavList = [
@@ -42,6 +43,18 @@ function GetNavList(config) {
     ),
     component: Link,
     to: "/projects/"
+  });
+  NavList.push({
+    primaryText: "Presentations",
+    leftIcon: (
+      <FontAwesomeIcon
+        icon={fasFilePowerpoint}
+        className="md-icon"
+        fixedWidth
+      />
+    ),
+    component: Link,
+    to: "/presentations/"
   });
   NavList.push({
     primaryText: "About",
