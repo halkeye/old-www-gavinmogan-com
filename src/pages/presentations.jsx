@@ -1,36 +1,54 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
-import Presentation from "../components/Project/Project";
+import Img from "gatsby-image";
+import {
+  Button,
+  Card,
+  CardTitle,
+  CardText,
+  CardActions,
+  Media,
+  MediaOverlay,
+  Chip
+} from "react-md";
 import config from "../../data/SiteConfig";
 
-const PresentationList = ({ edges, onlyCategory }) => (
+const PresentationList = ({ edges }) => (
   <div>
     {edges.map(data => {
       const {
         node: {
-          fields: { slug, tags, category },
+          fields: { slug, tags },
           frontmatter: { image, link, links, title },
           html
         }
       } = data;
-      if (onlyCategory && onlyCategory !== category) {
-        return null;
-      }
-      if (!onlyCategory && category) {
-        return null;
-      }
       return (
-        <Presentation
-          key={slug}
-          html={html}
-          slug={slug}
-          tags={tags}
-          category={category}
-          image={image}
-          link={link}
-          links={links}
-          title={title}
-        />
+        <Card key={slug} className="md-cell md-cell--6 md-cell--8-tablet">
+          <Media>
+            {image && <Img {...image.childImageSharp} />}
+            <MediaOverlay>
+              <CardTitle title={title}>
+                <Button className="md-cell--right" raised secondary href={link}>
+                  Go
+                </Button>
+              </CardTitle>
+            </MediaOverlay>
+          </Media>
+          <CardText>
+            {tags && (
+              <div>{tags.map(tag => <Chip key={tag} label={tag} />)}</div>
+            )}
+            <span dangerouslySetInnerHTML={{ __html: html }} />
+          </CardText>
+          <CardActions>
+            {(links || []).map(l => (
+              <Button flat key={l.type} href={l.url}>
+                {l.type}
+              </Button>
+            ))}
+          </CardActions>
+        </Card>
       );
     })}
   </div>
@@ -39,11 +57,6 @@ const PresentationList = ({ edges, onlyCategory }) => (
 export default class PresentationsPage extends Component {
   render() {
     const { edges } = this.props.data.allMarkdownRemark;
-    const allCategory = Object.keys(
-      edges
-        .map(data => data.node.fields.category)
-        .reduce((cur, category) => ({ ...cur, [category]: 1 }), {})
-    ).filter(category => category);
     return (
       <div className="Presentations-container">
         <Helmet>
@@ -53,12 +66,6 @@ export default class PresentationsPage extends Component {
         <h1>Presentations</h1>
         <div className="md-grid">
           <PresentationList edges={edges} />
-          {allCategory.map(category => (
-            <div key={category}>
-              <h1>{category}</h1>
-              <PresentationList edges={edges} onlyCategory={category} />
-            </div>
-          ))}
         </div>
       </div>
     );
@@ -86,8 +93,8 @@ export const pageQuery = graphql`
             title
             image {
               childImageSharp {
-                resolutions(width: 128) {
-                  ...GatsbyImageSharpResolutions
+                sizes(maxHeight: 250) {
+                  ...GatsbyImageSharpSizes
                 }
               }
             }
