@@ -14,7 +14,7 @@ import {
 import config from "../../data/SiteConfig";
 
 const PresentationList = ({ edges }) => (
-  <div>
+  <div className="md-grid">
     {edges.map(data => {
       const {
         node: {
@@ -64,9 +64,7 @@ export default class PresentationsPage extends Component {
           <link rel="canonical" href={`${config.siteUrl}/presentations/`} />
         </Helmet>
         <h1>Presentations</h1>
-        <div className="md-grid">
-          <PresentationList edges={edges} />
-        </div>
+        <PresentationList edges={edges} />
       </div>
     );
   }
