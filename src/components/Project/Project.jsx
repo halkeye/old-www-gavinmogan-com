@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Img from "gatsby-image";
 import { Button, Card, CardText, CardTitle, CardActions, Chip } from "react-md";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";

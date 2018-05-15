@@ -2,11 +2,10 @@
 title: "MTLJPost"
 link: https://github.com/halkeye/MTLJPost
 image: "../kodekoan.jpg"
+category: Legacy / KodeKoan Projects
 links:
   - type: github
     url: https://github.com/halkeye/MTLJPost
-tags:
-  - Legacy / KodeKoan Projects
 ---
 
 Long time ago in a galaxy far far away, I was using Moveable Type as a blogging engine.

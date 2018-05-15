@@ -2,11 +2,11 @@
 title: "Dark Warriors"
 link: https://github.com/halkeye/darkwarriors/releases/tag/dw-0.0.1361
 image: "../kodekoan.jpg"
+category: Muds
 links:
   - type: github
     url: https://github.com/halkeye/darkwarriors
 tags:
-  - Legacy / KodeKoan Projects
   - muds
 ---
 The second of two MUDs I worked on.

@@ -3,20 +3,20 @@ import Helmet from "react-helmet";
 import Project from "../components/Project/Project";
 import config from "../../data/SiteConfig";
 
-const ProjectList = ({ edges, tag }) => (
+const ProjectList = ({ edges, onlyCategory }) => (
   <div>
     {edges.map(data => {
       const {
         node: {
-          fields: { slug, tags },
+          fields: { slug, tags, category },
           frontmatter: { image, link, links, title },
           html
         }
       } = data;
-      if (tag && !tags.includes(tag)) {
+      if (onlyCategory && onlyCategory !== category) {
         return null;
       }
-      if (!tag && tags.length !== 0) {
+      if (!onlyCategory && category) {
         return null;
       }
       return (
@@ -25,6 +25,7 @@ const ProjectList = ({ edges, tag }) => (
           html={html}
           slug={slug}
           tags={tags}
+          category={category}
           image={image}
           link={link}
           links={links}
@@ -38,15 +39,11 @@ const ProjectList = ({ edges, tag }) => (
 export default class ProjectsPage extends Component {
   render() {
     const { edges } = this.props.data.allMarkdownRemark;
-    const allTags = Object.keys(
-      edges.map(data => data.node.fields.tags).reduce((cur, tags) => {
-        const ret = { ...cur };
-        tags.forEach(tag => {
-          ret[tag] = 1;
-        });
-        return ret;
-      }, {})
-    ).filter(tag => tag);
+    const allCategory = Object.keys(
+      edges
+        .map(data => data.node.fields.category)
+        .reduce((cur, category) => ({ ...cur, [category]: 1 }), {})
+    ).filter(category => category);
     return (
       <div className="projects-container">
         <Helmet>
@@ -55,11 +52,11 @@ export default class ProjectsPage extends Component {
         </Helmet>
         <h1>Projects</h1>
         <div className="md-grid">
-          <ProjectList edges={edges} tag="" />
-          {allTags.map(tag => (
-            <div key={tag}>
-              <h1>{tag}</h1>
-              <ProjectList edges={edges} tag={tag} />
+          <ProjectList edges={edges} />
+          {allCategory.map(category => (
+            <div key={category}>
+              <h1>{category}</h1>
+              <ProjectList edges={edges} onlyCategory={category} />
             </div>
           ))}
         </div>
@@ -79,6 +76,7 @@ export const pageQuery = graphql`
             slug
             date
             tags
+            category
           }
           html
           frontmatter {
