@@ -8,6 +8,7 @@ import CardTitle from "react-md/lib/Cards/CardTitle";
 import TextField from "react-md/lib/TextFields/TextField";
 import UserLinks from "../UserLinks/UserLinks";
 import config from "../../../data/SiteConfig";
+import avatar from "./Gavin-December-1989.png";
 
 import "./About.scss";
 
@@ -63,13 +64,9 @@ class About extends Component {
   render() {
     return (
       <div className="about-container md-grid mobile-fix">
-        <Card className="md-grid md-cell--8">
+        <Card className="md-cell md-cell--8">
           <div className="about-wrapper">
-            <img
-              src={config.userAvatar}
-              className="about-img"
-              alt={config.userName}
-            />
+            <img src={avatar} className="about-img" alt={config.userName} />
             <CardText>
               <p className="about-text md-body-1">{config.userDescription}</p>
             </CardText>
@@ -77,7 +74,7 @@ class About extends Component {
           </div>
         </Card>
 
-        <Card className="md-grid md-cell--8">
+        <Card className="md-cell md-cell--8">
           <CardText>
             <CardTitle title="Contact" />
             {this.renderInput("subject", "Subject")}
