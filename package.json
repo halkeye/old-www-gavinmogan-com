@@ -90,7 +90,8 @@
     "format:js": "prettier '**/*.{js,jsx}' --write"
   },
   "lint-staged": {
-    "*.js": ["eslint --fix", "git add"]
+    "*.js": ["eslint --fix", "git add"],
+    "*.jsx": ["eslint --fix", "git add"]
   },
   "remarkConfig": {
     "plugins": [
