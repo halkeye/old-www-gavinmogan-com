@@ -1,5 +1,6 @@
 ---
 title: Devops (Jan 2015)
+image: title.png
 tags:
   - Work
   - Internal
@@ -10,4 +11,13 @@ links:
   - type: slides
     url: http://presentations.gavinmogan.com/devops/
 ---
-Presentation on sharing my devops interest to align our team on what needs to be done next and why
+
+Encouraged by my manager at the time, we decided to share what I thought devops meant and specifically what it would mean for the team.
+
+Includes:
+
+*   Some future projects (mostly scaling based, I guess what lead to my excitement about docker/k8s)
+*   Things I was excited about (at the time, puppet, stats, monitoring)
+*   Some lofty ideas
+
+I don't think anything was very Telus specific. I'm pretty proud of this one, was kind of my first time making slides, and the presentation went over so well. People even laughed at the right time.

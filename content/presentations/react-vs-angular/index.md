@@ -1,5 +1,6 @@
 ---
 title: React Vs Angular (June 2015)
+image: title.png
 tags:
   - Work
   - Internal
@@ -10,4 +11,7 @@ links:
   - type: slides
     url: http://presentations.gavinmogan.com/react-vs-angular/
 ---
-Tried to show off some of the things that react does better than angular to the team.
+
+Team presentation to try and show off to the team some of the features that (In my opinion) react did better than angular.
+
+Slight focus on items we had issues with in our own projects with angular 1.x
