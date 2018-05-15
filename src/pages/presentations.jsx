@@ -29,7 +29,13 @@ const PresentationList = ({ edges }) => (
             {image && <Img {...image.childImageSharp} />}
             <MediaOverlay>
               <CardTitle title={title}>
-                <Button className="md-cell--right" raised secondary href={link}>
+                <Button
+                  className="md-cell--right"
+                  target="blank"
+                  raised
+                  secondary
+                  href={link}
+                >
                   Go
                 </Button>
               </CardTitle>
@@ -43,7 +49,7 @@ const PresentationList = ({ edges }) => (
           </CardText>
           <CardActions>
             {(links || []).map(l => (
-              <Button flat key={l.type} href={l.url}>
+              <Button flat key={l.type} target="blank" href={l.url}>
                 {l.type}
               </Button>
             ))}
