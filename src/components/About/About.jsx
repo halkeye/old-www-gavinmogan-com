@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import autobind from "autobind";
 
-import Button from "react-md/lib/Buttons/Button";
-import Card from "react-md/lib/Cards/Card";
-import CardText from "react-md/lib/Cards/CardText";
-import CardTitle from "react-md/lib/Cards/CardTitle";
-import TextField from "react-md/lib/TextFields/TextField";
+import {
+  Button,
+  Card,
+  CardText,
+  CardTitle,
+  CardActions,
+  TextField
+} from "react-md";
 import UserLinks from "../UserLinks/UserLinks";
 import config from "../../../data/SiteConfig";
 import avatar from "./Gavin-December-1989.png";
@@ -72,6 +75,56 @@ class About extends Component {
             </CardText>
             <UserLinks labeled config={config} />
           </div>
+        </Card>
+
+        <Card className="md-cell md-cell--8">
+          <CardText>
+            <CardTitle title="Where can you find me?" />
+            <div className="md-grid">
+              <Card className="md-cell md-cell--8">
+                <CardTitle title="NodeSchool Vancouver" />
+                <CardText>
+                  <img
+                    alt="nodeschool logo"
+                    src="https://cdn.rawgit.com/kennethormandy/nodeschool-vancouver/ko-logo/logo.svg"
+                    value="nodeschool"
+                  />
+                  Help out where I can. Usually finding a group that wants to do
+                  a certain excersize at our events and help mentor them.
+                </CardText>
+                <CardActions>
+                  <Button
+                    href="https://community.vancouvertech.com/groups/nodeschool"
+                    flat
+                    secondary
+                  >
+                    forum
+                  </Button>
+                  <Button
+                    href="https://github.com/nodeschool/vancouver"
+                    flat
+                    secondary
+                  >
+                    github
+                  </Button>
+                  <Button
+                    href="https://meetup.com/nodeschool-vancouver"
+                    flat
+                    secondary
+                  >
+                    meetup
+                  </Button>
+                  <Button
+                    href="https://twitter.com/nodeschoolyvr"
+                    flat
+                    secondary
+                  >
+                    twitter
+                  </Button>
+                </CardActions>
+              </Card>
+            </div>
+          </CardText>
         </Card>
 
         <Card className="md-cell md-cell--8">
