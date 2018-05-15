@@ -58,6 +58,8 @@
     "eslint-plugin-react": "^7.8.1",
     "gatsby": "^1.9.260",
     "gh-pages": "^1.1.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.1.0",
     "prettier": "^1.12.1",
     "prettier-eslint-cli": "^4.7.1",
     "remark-cli": "^5.0.0",
@@ -74,6 +76,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
+    "precommit": "lint-staged",
     "develop": "gatsby develop",
     "dev": "npm run develop",
     "serve": "gatsby serve",
@@ -86,11 +89,17 @@
     "write-good": "write-good $(glob 'content/posts/**/*.md')",
     "format:js": "prettier '**/*.{js,jsx}' --write"
   },
+  "lint-staged": {
+    "*.js": ["eslint --fix", "git add"]
+  },
   "remarkConfig": {
     "plugins": [
       [
         "frontmatter",
-        { "type": "yaml", "marker": "-" }
+        {
+          "type": "yaml",
+          "marker": "-"
+        }
       ],
       "remark-preset-lint-recommended",
       [
