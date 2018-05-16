@@ -4,3 +4,8 @@
 [Build]
   Publish = ""
   Functions = ""
+
+[[redirect]]
+  from = "/voluteering"
+  to = "/about"
+  status = 301
