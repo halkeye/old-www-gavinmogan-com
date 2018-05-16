@@ -178,7 +178,7 @@ module.exports = {
             {
               allMarkdownRemark(
                 limit: 1000,
-                filter: {fields: {type: {eq: "blog"}}}, 
+                filter: {fields: {type: {eq: "blog"}}},
                 sort: { order: DESC, fields: [fields___date] },
               ) {
                 edges {
@@ -203,5 +203,5 @@ module.exports = {
       }
     },
     "gatsby-plugin-netlify"
-  ]
+  ],
 };

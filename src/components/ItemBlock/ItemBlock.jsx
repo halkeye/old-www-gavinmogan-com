@@ -11,6 +11,8 @@ import {
   Chip
 } from "react-md";
 
+import "./itemblock.scss";
+
 export default function ItemBlock({ edge }) {
   const {
     node: {
@@ -20,7 +22,7 @@ export default function ItemBlock({ edge }) {
     }
   } = edge;
   return (
-    <Card key={slug} className="md-cell md-cell--6 md-cell--8-tablet">
+    <Card key={slug} className="itemblock">
       <Media>
         {image && <Img {...image.childImageSharp} />}
         <MediaOverlay>
