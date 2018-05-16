@@ -31,8 +31,9 @@ const PresentationList = ({ edges }) => (
             <MediaOverlay>
               <CardTitle title={title}>
                 <Button
-                  className="md-cell--right"
+                  className="md-cell--right presentation-go-button"
                   target="blank"
+                  type="button"
                   raised
                   secondary
                   href={link}
