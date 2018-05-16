@@ -1,37 +1,24 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
-import Project from "../components/Project/Project";
+import ItemBlock from "../components/ItemBlock/ItemBlock";
+import SubHeader from "../components/SubHeader/SubHeader";
 import config from "../../data/SiteConfig";
 
 const ProjectList = ({ edges, onlyCategory }) => (
-  <div>
-    {edges.map(data => {
+  <div className="md-grid">
+    {edges.map(edge => {
       const {
         node: {
-          fields: { slug, tags, category },
-          frontmatter: { image, link, links, title },
-          html
+          fields: { category }
         }
-      } = data;
+      } = edge;
       if (onlyCategory && onlyCategory !== category) {
         return null;
       }
       if (!onlyCategory && category) {
         return null;
       }
-      return (
-        <Project
-          key={slug}
-          html={html}
-          slug={slug}
-          tags={tags}
-          category={category}
-          image={image}
-          link={link}
-          links={links}
-          title={title}
-        />
-      );
+      return <ItemBlock edge={edge} />;
     })}
   </div>
 );
@@ -50,12 +37,13 @@ export default class ProjectsPage extends Component {
           <title>{`Projects | ${config.siteTitle}`}</title>
           <link rel="canonical" href={`${config.siteUrl}/projects/`} />
         </Helmet>
-        <h1>Projects</h1>
-        <div className="md-grid">
+        <SubHeader title="Projects" />
+
+        <div>
           <ProjectList edges={edges} />
           {allCategory.map(category => (
             <div key={category}>
-              <h1>{category}</h1>
+              <SubHeader title={category} />
               <ProjectList edges={edges} onlyCategory={category} />
             </div>
           ))}
@@ -83,8 +71,8 @@ export const pageQuery = graphql`
             title
             image {
               childImageSharp {
-                resolutions(height: 100, width: 100) {
-                  ...GatsbyImageSharpResolutions
+                sizes(maxWidth: 320) {
+                  ...GatsbyImageSharpSizes
                 }
               }
             }

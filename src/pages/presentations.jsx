@@ -1,65 +1,12 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
-import Img from "gatsby-image";
-import {
-  Button,
-  Card,
-  CardTitle,
-  CardText,
-  CardActions,
-  Media,
-  MediaOverlay,
-  Chip
-} from "react-md";
+import ItemBlock from "../components/ItemBlock/ItemBlock";
+import SubHeader from "../components/SubHeader/SubHeader";
 import config from "../../data/SiteConfig";
 import "./presentations.scss";
 
 const PresentationList = ({ edges }) => (
-  <div className="md-grid">
-    {edges.map(data => {
-      const {
-        node: {
-          fields: { slug, tags },
-          frontmatter: { image, link, links, title },
-          html
-        }
-      } = data;
-      return (
-        <Card key={slug} className="md-cell md-cell--6 md-cell--8-tablet">
-          <Media>
-            {image && <Img {...image.childImageSharp} />}
-            <MediaOverlay>
-              <CardTitle title={title}>
-                <Button
-                  className="md-cell--right presentation-go-button"
-                  target="blank"
-                  type="button"
-                  raised
-                  secondary
-                  href={link}
-                >
-                  Go
-                </Button>
-              </CardTitle>
-            </MediaOverlay>
-          </Media>
-          <CardText>
-            {tags && (
-              <div>{tags.map(tag => <Chip key={tag} label={tag} />)}</div>
-            )}
-            <span dangerouslySetInnerHTML={{ __html: html }} />
-          </CardText>
-          <CardActions>
-            {(links || []).map(l => (
-              <Button flat key={l.type} target="blank" href={l.url}>
-                {l.type}
-              </Button>
-            ))}
-          </CardActions>
-        </Card>
-      );
-    })}
-  </div>
+  <div className="md-grid">{edges.map(edge => <ItemBlock edge={edge} />)}</div>
 );
 
 export default class PresentationsPage extends Component {
@@ -71,9 +18,7 @@ export default class PresentationsPage extends Component {
           <title>{`Presentations | ${config.siteTitle}`}</title>
           <link rel="canonical" href={`${config.siteUrl}/presentations/`} />
         </Helmet>
-        <Card className="md-grid md-cell md-cell--12">
-          <CardTitle title="Presentations" className="page-title" />
-        </Card>
+        <SubHeader title="Presentations" />
 
         <PresentationList edges={edges} />
       </div>
@@ -102,7 +47,7 @@ export const pageQuery = graphql`
             title
             image {
               childImageSharp {
-                sizes(maxHeight: 250) {
+                sizes(maxWidth: 320) {
                   ...GatsbyImageSharpSizes
                 }
               }
