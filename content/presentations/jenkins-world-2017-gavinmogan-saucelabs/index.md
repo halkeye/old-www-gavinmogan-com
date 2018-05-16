@@ -6,6 +6,7 @@ tags:
   - Work
   - Interview
 image: devops.png
+link: https://www.youtube.com/watch?v=hshD-a2YHCs
 links:
   - type: youtube
     url: https://www.youtube.com/watch?v=hshD-a2YHCs
