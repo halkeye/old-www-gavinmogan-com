@@ -12,6 +12,7 @@ import {
   Chip
 } from "react-md";
 import config from "../../data/SiteConfig";
+import "./presentations.scss";
 
 const PresentationList = ({ edges }) => (
   <div className="md-grid">
@@ -64,12 +65,15 @@ export default class PresentationsPage extends Component {
   render() {
     const { edges } = this.props.data.allMarkdownRemark;
     return (
-      <div className="Presentations-container">
+      <div className="presentations-container">
         <Helmet>
           <title>{`Presentations | ${config.siteTitle}`}</title>
           <link rel="canonical" href={`${config.siteUrl}/presentations/`} />
         </Helmet>
-        <h1>Presentations</h1>
+        <Card className="md-grid md-cell md-cell--12">
+          <CardTitle title="Presentations" className="page-title" />
+        </Card>
+
         <PresentationList edges={edges} />
       </div>
     );
