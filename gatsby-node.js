@@ -120,7 +120,13 @@ exports.setFieldsOnGraphQLNodeType = ({ type, boundActionCreators }) => {
 };
 
 exports.createPages = async ({ graphql, boundActionCreators }) => {
-  const { createPage } = boundActionCreators;
+  const { createPage, createRedirect } = boundActionCreators;
+
+  createRedirect({
+    fromPath: "/volunteering",
+    toPath: "/about",
+    isPermanent: true
+  });
 
   const indexPage = path.resolve("src/templates/index.jsx");
   const postPage = path.resolve("src/templates/post.jsx");
