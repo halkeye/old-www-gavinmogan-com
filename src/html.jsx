@@ -3,6 +3,7 @@
 /* eslint global-require:"off" */
 import React from "react";
 import favicon from "./favicon.png";
+import config from "../gatsby-config.js";
 
 let inlinedStyles = "";
 if (process.env.NODE_ENV === "production") {
@@ -26,6 +27,13 @@ export default class HTML extends React.Component {
         />
       );
     }
+    const verification =
+      config.siteMetadata && config.siteMetadata.googleVerification ? (
+        <meta
+          name="google-site-verification"
+          content={config.siteMetadata.googleVerification}
+        />
+      ) : null;
     return (
       <html lang="en">
         <head>
@@ -37,6 +45,7 @@ export default class HTML extends React.Component {
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
           {css}
+          {verification}
         </head>
         <body>
           <div
