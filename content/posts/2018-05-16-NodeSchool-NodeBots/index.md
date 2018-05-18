@@ -30,7 +30,7 @@ Fast forward to just about 2 months ago now, [Conf and Coffee](https://www.meetu
 
 About a week before the event, I found out Elgin-Skye was going to be running everything out of pocket. She was borrowing from friends and using her own equipment. This is why we ended up with a tiny workshop with a max of 10 people.
 
-After a bunch of poking and proding at work, I got Sauce Labs to sponsor the event. We were hoping to just get a couple more units to attach to Node School for this and future events, but work went above and beyond and sponsored us to have 20 brand new units to give to everyone that attended. Elgin-Skye and I managed to keep it a secret up until the actual event. It was so awesome to watch that moment when everyone realized it was thiers.  I think this tweet sums it up the best.
+After a bunch of poking and prodding at work, I got Sauce Labs to sponsor the event. We were hoping to just get a couple more units to attach to Node School for this and future events, but work went above and beyond and sponsored us to have 20 brand new units to give to everyone that attended. Elgin-Skye and I managed to keep it a secret up until the actual event. It was so awesome to watch that moment when everyone realized it was theirs.  I think this tweet sums it up the best.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">This happened this morning at <a href="https://twitter.com/codecoffeeyvr?ref_src=twsrc%5Etfw">@codecoffeeyvr</a> / <a href="https://twitter.com/hashtag/confcoffee?src=hash&amp;ref_src=twsrc%5Etfw">#confcoffee</a>! - Except with tiny robots instead of bees. Thank you for so generously financing the Arduino kits <a href="https://twitter.com/saucelabs?ref_src=twsrc%5Etfw">@saucelabs</a> and to <a href="https://twitter.com/elginskye?ref_src=twsrc%5Etfw">@elginskye</a> for running such an inspiring workshop! 🙌💥🤖 <a href="https://t.co/dQI0OuJC4F">pic.twitter.com/dQI0OuJC4F</a></p>&mdash; Adam Vernon (@hanenbro) <a href="https://twitter.com/hanenbro/status/985614810581618688?ref_src=twsrc%5Etfw">April 15, 2018</a></blockquote>
 
@@ -38,7 +38,7 @@ Manil managed to snag an awesome picture of the entire group learning:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My fave photo of the NodeBots workshop run by <a href="https://twitter.com/elginskye?ref_src=twsrc%5Etfw">@elginskye</a> at <a href="https://twitter.com/codecoffeeyvr?ref_src=twsrc%5Etfw">@codecoffeeyvr</a>&#39;s <a href="https://twitter.com/hashtag/confcoffee?src=hash&amp;ref_src=twsrc%5Etfw">#confcoffee</a> this morning 🤩⚡🤖<br><br>All these botmakers! 🙌🏽 <a href="https://t.co/hi22EiccQq">pic.twitter.com/hi22EiccQq</a></p>&mdash; 🇨🇦 /manil/ hears Yanny 🎧 (@keywordnew) <a href="https://twitter.com/keywordnew/status/985610674419073024?ref_src=twsrc%5Etfw">April 15, 2018</a></blockquote>
 
-Overall the workshop went amazing. Elgin-skye and her pineapple taught a really great class. I ran around being essentially the TA and helping people get node working. Helping with syntax. Even helped explain the simple circuits and did some 1:1 teaching with people. Its exactly the kind of setup I personally like (I can do up infront of groups, but I like helping people individually a lot more).
+Overall the workshop went amazing. Elgin-skye and her pineapple taught a really great class. I ran around being essentially the TA and helping people get node working. Helping with syntax. Even helped explain the simple circuits and did some 1:1 teaching with people. Its exactly the kind of setup I personally like (I can do up in front of groups, but I like helping people individually a lot more).
 
 By the end of the workshop I'd say at least half had LEDs blinking, motors spinning, and servos serving.
 
@@ -48,4 +48,4 @@ We have our [next meetup](https://www.meetup.com/nodeschool-vancouver/events/250
 
 ---
 
-I have a bunch of random tweets by the attendies I could find up in a Twitter Moment - <https://twitter.com/i/moments/985708978532335617?ref_src=twsrc%5Etfw>
+I have a bunch of random tweets by the attendees I could find up in a Twitter Moment - <https://twitter.com/i/moments/985708978532335617?ref_src=twsrc%5Etfw>
