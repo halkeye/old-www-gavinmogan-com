@@ -8,6 +8,7 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     siteUrl: config.siteUrl + pathPrefix,
+    siteDescription: config.siteDescription,
     rssMetadata: {
       site_url: config.siteUrl + pathPrefix,
       feed_url: config.siteUrl + pathPrefix + config.siteRss,
@@ -203,5 +204,5 @@ module.exports = {
       }
     },
     "gatsby-plugin-netlify"
-  ],
+  ]
 };
