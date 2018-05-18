@@ -9,7 +9,7 @@ comment_status: "open"
 post_name: "2013-review"
 status: "publish"
 category: "General"
-tags: ['2013', 'new years eve']
+tags: ['Year In Review']
 cover: "../cover-image.jpg"
 post_type: "post"
 ---
