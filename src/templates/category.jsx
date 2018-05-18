@@ -42,7 +42,7 @@ export const pageQuery = graphql`
             tags
             cover {
               childImageSharp {
-                sizes(maxWidth: 800) {
+                sizes(maxWidth: 800, cropFocus: ENTROPY) {
                   ...GatsbyImageSharpSizes
                 }
               }

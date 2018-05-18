@@ -63,7 +63,7 @@ export default class PostTemplate extends React.Component {
           <title>{`${post.title} | ${config.siteTitle}`}</title>
           <link rel="canonical" href={`${config.siteUrl}${slug}`} />
         </Helmet>
-        <SEO postPath={slug} postNode={postNode} postSEO />
+        <SEO postPath={slug} postNode={postNode} postSEO type="article" />
         <PostCover postInfo={toPostInfo({ node: postNode })} />
         <div
           className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
@@ -108,7 +108,7 @@ export const pageQuery = graphql`
         title
         cover {
           childImageSharp {
-            sizes(maxHeight: 300) {
+            sizes(maxWidth: 800, maxHeight: 300, cropFocus: ENTROPY) {
               ...GatsbyImageSharpSizes
             }
           }
