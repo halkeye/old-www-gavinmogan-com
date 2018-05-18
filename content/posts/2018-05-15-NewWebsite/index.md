@@ -7,7 +7,7 @@ tags:
   - Gatsby
   - React
 cover: ./branko-stancevic-417172-unsplash.jpg
-date: "2018/05/05 20:00:00"
+date: "2018/05/15 20:00:00"
 ---
 
 If you are seeing this, then the brand new website is fully functional and deployed. Exciting isn't it?
