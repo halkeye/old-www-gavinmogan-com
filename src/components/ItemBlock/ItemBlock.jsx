@@ -18,7 +18,8 @@ export default function ItemBlock({ edge }) {
     node: {
       fields: { slug, tags },
       frontmatter: { image, link, links, title },
-      html
+      html,
+      excerpt
     }
   } = edge;
   return (
@@ -42,7 +43,7 @@ export default function ItemBlock({ edge }) {
       </Media>
       <CardText>
         {tags && <div>{tags.map(tag => <Chip key={tag} label={tag} />)}</div>}
-        <span dangerouslySetInnerHTML={{ __html: html }} />
+        <span dangerouslySetInnerHTML={{ __html: excerpt || html }} />
       </CardText>
       <CardActions>
         {(links || []).map(l => (

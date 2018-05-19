@@ -43,6 +43,7 @@ export const pageQuery = graphql`
             category
           }
           html
+          excerpt
           frontmatter {
             title
             image {
