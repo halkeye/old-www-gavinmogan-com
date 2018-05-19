@@ -1,0 +1,104 @@
+
+
+
+Function                                Command
+
+search                                  /       or      ?
+search specific content                 /\<media\>              searches for only the word 'media' on its own
+go to Line                              :45             (goes to line 45)
+go to bottom of page                    Shift + g
+go to top of page                       gg
+change background                       :set background=dark
+go to beginning of line                 ^
+go to the end of line                   $
+insert mode                             i
+append mode                             a
+delete char and insert mode             s
+delete char                             x
+delete multiple char's                  5x              (deletes 5 char's)
+undo                                    u
+redo                                    ctrl + r
+increment number                        ctrl + a
+decrement number                        ctrl + x
+copy line                               yy
+copy multiple lines                     10yy            (copies 10 lines into buffer)
+paste line                              p
+paste multiple lines                    7p              (pastes buffer 7 times)
+cut line                                dd
+cut multiple lines                      3dd             (cuts 3 lines into buffer)
+
+Visual mode                             v               (now you can move arrow keyes to select text, then run desired function)
+make lowercase                          u               (in visual mode)
+make uppercase                          U               (in visual mode)
+Visual Line Mode                        shift + v       (now you can only use up and down arrow key)
+Visual Block Mode                       ctrl + v        (now you can only select blocks with the arrow keys)
+
+substitute (on current line)            :s/a/b/g        (replace 'a' with 'b' globally on current line)
+Comment line with substitute            :s/^/#          (useful with visual mode selection)
+
+Substitution on entire document         :%s/a/b/g       (replace all 'a' with 'b')
+
+write to file                           :w
+write and quit                          :wq
+quit                                    :q
+quit without saving                     :q!
+force write                             :w!             (even read-only files that are modified by permitted users)
+force write and quit                    :wq!            (even read-only files that are modified by permitted users)
+new line                                o
+show line numbers                       :set number     OR      :set nu
+hide line numbers                       :set nonumber   OR      :set nonu
+set c indent                            :set cindent
+unset c indent                          :set nocindent
+set auto indent                         :set autoindent         
+unset auto indent                       :set noautoindent               
+set smart indent                        :set smartindent
+unset smart indent                      :set usmartindent
+
+set paste mode                          :set paste
+unset paste mode                        :set nopaste
+
+
+Indent line                             shift + >>              OR      go to visual mode -->   v + shift + >
+Indent multiple lines                   5 + shift + >>          OR      go to visual mode -->   v + 5 + shift + >
+Unindent line                           shift + <<              OR      go to visual mode -->   v + shift + <
+Unindent multiple lines                 5 + shift + <<          OR      go to visual mode -->   v + 5 + shift + <
+
+Set shift width                         :set shiftwidth=3
+set expandtab                           :set expandtab
+set tabstop                             :set tabstop=4
+auto tab                                ==
+auto tab - visual mode                  v + =
+set mouse                               :set mouse=a
+unset mouse                             :set mouse=
+Switch between brackets (braces)        on a brace - %
+
+Ignore case                             :set ignorecase
+Don't Ignore case                       :set noignorecase
+
+next file                               :next                   OR      :n                      goes to next file in buffer
+list files in buffer                    :buffer 
+go to specific file                     :e filename
+
+horizontally split screen               :split
+vertically split screen                 :vsplit
+
+navigate next screen                    ctrl + ww
+navigate any screen                     ctrl + w arrowkey
+
+General Help screen                     :help
+Help on specific command                :help buffer            searches the help for the buffer command
+
+Run command line command                :r!uname -a             executes the command 'uname -a' and pastes the output
+Run command line command on selection   v + :!command
+
+vimdiff                                 vimdiff
+
+
+
+
+
+
+
+Vim website:    http://www.vim.org/tips
+                                
+

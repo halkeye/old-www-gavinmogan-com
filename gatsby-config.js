@@ -67,7 +67,8 @@ module.exports = {
           },
           "gatsby-remark-prismjs",
           "gatsby-remark-copy-linked-files",
-          "gatsby-remark-autolink-headers"
+          "gatsby-remark-autolink-headers",
+          "gatsby-remark-emoji"
         ]
       }
     },
@@ -203,6 +204,14 @@ module.exports = {
         ]
       }
     },
-    "gatsby-plugin-netlify"
+    "gatsby-plugin-netlify",
+    {
+      resolve: "gatsby-plugin-sentry",
+      options: {
+        dsn: "https://92e7f916ad8c46feb3a2618f215c3ba6@sentry.io/1209802",
+        // Raven.js version, this is optional.
+        version: "3.19.1"
+      }
+    }
   ]
 };

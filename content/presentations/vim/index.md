@@ -1,5 +1,5 @@
 ---
-title: Rough Vim Q & A
+title: "Rough Vim Q & A"
 image: mqdefault.jpg
 tags:
   - Work
@@ -9,6 +9,8 @@ link: https://www.youtube.com/watch?v=__SJWsWSD9M
 links:
   - type: youtube
     url: https://www.youtube.com/watch?v=__SJWsWSD9M
+  - type: commands
+    url: ./vi-commands-gavin.txt
 ---
 I did a quick tutorial session for my last workplace. Covers a lot of the vim basics.
 
