@@ -31,7 +31,7 @@ export const pageQuery = graphql`
   query PresentationsPage {
     allMarkdownRemark(
       sort: { fields: [fields___date], order: DESC }
-      filter: { fields: { type: { eq: "presentation" } } }
+      filter: { fields: { sourceName: { eq: "presentation" } } }
     ) {
       totalCount
       edges {

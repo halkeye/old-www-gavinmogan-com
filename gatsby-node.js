@@ -94,7 +94,6 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
       name: "date",
       value: getDateFromNode(node, fileNode)
     });
-    createNodeField({ node, name: "type", value: fileNode.sourceInstanceName });
     createNodeField({
       node,
       name: "category",
@@ -138,7 +137,7 @@ exports.createPages = async ({ graphql, boundActionCreators }) => {
       {
         allMarkdownRemark(
           sort: { fields: [fields___date], order: DESC }
-          filter: { fields: { type: { eq: "blog" } } }
+          filter: { fields: { sourceName: { eq: "blog" } } }
         ) {
           edges {
             node {

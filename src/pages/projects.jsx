@@ -56,7 +56,7 @@ export default class ProjectsPage extends Component {
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query ProjectsPage {
-    allMarkdownRemark(filter: { fields: { type: { eq: "project" } } }) {
+    allMarkdownRemark(filter: { fields: { sourceName: { eq: "project" } } }) {
       totalCount
       edges {
         node {

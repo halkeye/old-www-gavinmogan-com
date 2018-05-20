@@ -50,6 +50,7 @@ module.exports = {
       options: {
         excerpt_separator: "<!-- excerpt -->",
         plugins: [
+          "gatsby-remark-source-name",
           {
             resolve: "gatsby-remark-images",
             options: {
@@ -66,6 +67,7 @@ module.exports = {
               height: 400
             }
           },
+
           "gatsby-remark-prismjs",
           "gatsby-remark-copy-linked-files",
           "gatsby-remark-autolink-headers",
@@ -181,7 +183,7 @@ module.exports = {
             {
               allMarkdownRemark(
                 limit: 1000,
-                filter: {fields: {type: {eq: "blog"}}},
+                filter: {fields: {sourceName: {eq: "blog"}}},
                 sort: { order: DESC, fields: [fields___date] },
               ) {
                 edges {

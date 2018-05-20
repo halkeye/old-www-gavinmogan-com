@@ -29,7 +29,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       limit: $limit
       skip: $skip
-      filter: { fields: { type: { eq: "blog" } } }
+      filter: { fields: { sourceName: { eq: "blog" } } }
       sort: { fields: [fields___date], order: DESC }
     ) {
       edges {
