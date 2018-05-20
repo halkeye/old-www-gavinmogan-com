@@ -13,7 +13,6 @@ export default class IndexPage extends React.Component {
       <div className="index-container">
         <Helmet>
           <title>{config.siteTitle}</title>
-          <link rel="canonical" href={`${config.siteUrl}`} />
         </Helmet>
         <SEO postEdges={postEdges} />
         <PostListing postEdges={postEdges} />

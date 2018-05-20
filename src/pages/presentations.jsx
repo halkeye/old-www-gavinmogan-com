@@ -16,7 +16,6 @@ export default class PresentationsPage extends Component {
       <div className="presentations-container">
         <Helmet>
           <title>{`Presentations | ${config.siteTitle}`}</title>
-          <link rel="canonical" href={`${config.siteUrl}/presentations/`} />
         </Helmet>
         <SubHeader title="Presentations" />
 

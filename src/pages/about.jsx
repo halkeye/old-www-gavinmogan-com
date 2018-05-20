@@ -9,7 +9,6 @@ class AboutPage extends Component {
       <div className="about-container">
         <Helmet>
           <title>{`About | ${config.siteTitle}`}</title>
-          <link rel="canonical" href={`${config.siteUrl}/about/`} />
         </Helmet>
         <About />
       </div>

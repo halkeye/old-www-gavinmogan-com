@@ -17,7 +17,6 @@ class ComputersPage extends Component {
       <div className="computer-container">
         <Helmet>
           <title>{`Computers | ${config.siteTitle}`}</title>
-          <link rel="canonical" href={`${config.siteUrl}/computers/`} />
         </Helmet>
         <h1>Computers</h1>
 

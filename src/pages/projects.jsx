@@ -35,7 +35,6 @@ export default class ProjectsPage extends Component {
       <div className="projects-container">
         <Helmet>
           <title>{`Projects | ${config.siteTitle}`}</title>
-          <link rel="canonical" href={`${config.siteUrl}/projects/`} />
         </Helmet>
         <SubHeader title="Projects" />
 

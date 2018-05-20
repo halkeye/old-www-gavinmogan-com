@@ -61,7 +61,6 @@ export default class PostTemplate extends React.Component {
       <div className="post-page md-grid md-grid--no-spacing">
         <Helmet>
           <title>{`${post.title} | ${config.siteTitle}`}</title>
-          <link rel="canonical" href={`${config.siteUrl}${slug}`} />
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO type="article" />
         <PostCover postInfo={toPostInfo({ node: postNode })} />
