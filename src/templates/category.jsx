@@ -33,6 +33,10 @@ export const pageQuery = graphql`
         node {
           excerpt
           timeToRead
+          fields {
+            slug
+            category
+          }
           frontmatter {
             title
             tags

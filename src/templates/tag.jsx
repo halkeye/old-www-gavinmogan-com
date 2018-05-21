@@ -30,6 +30,7 @@ export const pageQuery = graphql`
       edges {
         node {
           fields {
+            slug
             tags
           }
           excerpt
