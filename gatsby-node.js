@@ -38,8 +38,8 @@ function addSiblingNodes(createNodeField) {
   }
 }
 
-function urlDatePrefix(node) {
-  if (node.sourceInstanceName !== "blog") {
+function urlDatePrefix(node, fileNode) {
+  if (fileNode.sourceInstanceName !== "blog") {
     return "";
   }
   if (Object.prototype.hasOwnProperty.call(node.frontmatter, "date")) {
@@ -66,7 +66,7 @@ function getSlugFromNode(node, fileNode) {
       return `/${_.kebabCase(node.frontmatter.slug)}`;
     }
     if (Object.prototype.hasOwnProperty.call(node.frontmatter, "post_name")) {
-      return `${urlDatePrefix(node)}/${node.frontmatter.post_name}`;
+      return `${urlDatePrefix(node, fileNode)}/${node.frontmatter.post_name}`;
     }
   }
   const parsedFilePath = path.parse(fileNode.relativePath);
@@ -204,6 +204,12 @@ exports.createPages = async ({ graphql, boundActionCreators }) => {
       /* eslint no-console: "off" */
       console.log(result.errors);
       throw result.errors;
+    }
+    if (
+      !result.data.allMarkdownRemark ||
+      !result.data.allMarkdownRemark.edges
+    ) {
+      return;
     }
 
     const tagSet = new Set();
