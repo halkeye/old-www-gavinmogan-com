@@ -93,7 +93,6 @@ module.exports = {
         color: "#c62828"
       }
     },
-    "gatsby-remark-embed-youtube",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-twitter",
     {

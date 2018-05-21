@@ -1,5 +1,5 @@
 ---
-title: No REST for the wicked? (July 2016)
+title: Give your development a portable home with vagrant (Sept 2015)
 tags:
   - Meetup
 date: 2015-09-01

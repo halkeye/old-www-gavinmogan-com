@@ -1,26 +1,16 @@
 import React from "react";
-import RehypeReact from "rehype-react";
-import Gist from "react-gist";
 
 import Helmet from "react-helmet";
-import { Card, CardText } from "react-md";
-import UserInfo from "../components/UserInfo/UserInfo";
-import Disqus from "../components/Disqus/Disqus";
+import Link from "gatsby-link";
+import { Card, CardText, CardActions } from "react-md";
+import ItemBlockLinks from "../components/ItemBlockLinks/ItemBlockLinks";
 import PostTags from "../components/PostTags/PostTags";
 import PostCover from "../components/PostCover/PostCover";
-import PostInfo from "../components/PostInfo/PostInfo";
 import SocialLinks from "../components/SocialLinks/SocialLinks";
-import PostSuggestions from "../components/PostSuggestions/PostSuggestions";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
-import { toPostInfo } from "../postUtils";
 import "./b16-tomorrow-dark.css";
 import "./post.scss";
-
-const renderAst = new RehypeReact({
-  createElement: React.createElement,
-  components: { "github-gist": Gist }
-}).Compiler;
 
 export default class PostTemplate extends React.Component {
   constructor(props) {
@@ -50,47 +40,52 @@ export default class PostTemplate extends React.Component {
   render() {
     const { mobile } = this.state;
     const { slug } = this.props.pathContext;
-    const expanded = !mobile;
     const postOverlapClass = mobile ? "post-overlap-mobile" : "post-overlap";
     const postNode = this.props.data.markdownRemark;
-    const post = postNode.frontmatter;
-    if (!post.category_id) {
-      post.category_id = config.postDefaultCategoryID;
-    }
+    const {
+      fields: { tags, sourceName },
+      frontmatter: { image, link, links, title, attachments },
+      html
+    } = this.props.data.markdownRemark;
     return (
       <div className="post-page md-grid md-grid--no-spacing">
         <Helmet>
-          <title>{`${post.title} | ${config.siteTitle}`}</title>
+          <title>{`${title} | ${config.siteTitle}`}</title>
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO type="article" />
-        <PostCover image={toPostInfo({ node: postNode }).cover} />
+        <PostCover image={image} />
         <div
           className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
         >
           <Card className="md-grid md-cell md-cell--12 post">
+            <Link to={`/${sourceName}s`}>&lt; Back</Link>
             <CardText className="post-body">
-              <h1 className="md-display-2 post-header">{post.title}</h1>
-              <PostInfo postNode={postNode} />
-              {renderAst(postNode.htmlAst)}
+              <a href={link}>
+                <h1 className="md-display-2 post-header">{title}</h1>
+              </a>
+              <div dangerouslySetInnerHTML={{ __html: html }} />
             </CardText>
             <div className="post-meta">
-              <PostTags tags={post.tags} />
+              <PostTags tags={tags} />
               <SocialLinks
                 postPath={slug}
                 postNode={postNode}
                 mobile={mobile}
               />
             </div>
+            {links && (
+              <CardActions className="md-divider-border md-divider-border--top">
+                {links.map(l => (
+                  <ItemBlockLinks
+                    key={`link_${l.type}`}
+                    {...l}
+                    attachments={attachments}
+                  />
+                ))}
+              </CardActions>
+            )}
           </Card>
-          <UserInfo
-            className="md-grid md-cell md-cell--12"
-            config={config}
-            expanded={expanded}
-          />
-          <Disqus postNode={postNode} expanded={expanded} />
         </div>
-
-        <PostSuggestions postNode={postNode} />
       </div>
     );
   }
@@ -98,16 +93,14 @@ export default class PostTemplate extends React.Component {
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query PresentationPostBySlug($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
-      htmlAst
-      timeToRead
-      excerpt
+      html
       frontmatter {
         title
-        cover {
+        image {
           childImageSharp {
-            sizes(maxWidth: 800, maxHeight: 300, cropFocus: ENTROPY) {
+            sizes(maxWidth: 800, maxHeight: 320, cropFocus: ENTROPY) {
               ...GatsbyImageSharpSizes
             }
           }
@@ -115,12 +108,17 @@ export const pageQuery = graphql`
         date
         category
         tags
+        attachments {
+          absolutePath
+          publicURL
+        }
+        links {
+          type
+          url
+        }
       }
       fields {
-        nextTitle
-        nextSlug
-        prevTitle
-        prevSlug
+        sourceName
         slug
       }
     }

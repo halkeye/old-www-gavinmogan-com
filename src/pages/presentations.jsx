@@ -6,7 +6,11 @@ import config from "../../data/SiteConfig";
 import "./presentations.scss";
 
 const PresentationList = ({ edges }) => (
-  <div className="md-grid">{edges.map(edge => <ItemBlock edge={edge} />)}</div>
+  <div className="md-grid">
+    {edges.map(edge => (
+      <ItemBlock key={edge.node.id} edge={edge} urlPrefix="/presentations" />
+    ))}
+  </div>
 );
 
 export default class PresentationsPage extends Component {
@@ -41,8 +45,8 @@ export const pageQuery = graphql`
             tags
             category
           }
+          id
           html
-          excerpt
           frontmatter {
             title
             image {
@@ -56,6 +60,10 @@ export const pageQuery = graphql`
             links {
               type
               url
+            }
+            attachments {
+              absolutePath
+              publicURL
             }
           }
         }

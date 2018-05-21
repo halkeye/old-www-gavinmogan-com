@@ -39,6 +39,9 @@ function addSiblingNodes(createNodeField) {
 }
 
 function urlDatePrefix(node) {
+  if (node.sourceInstanceName !== "blog") {
+    return "";
+  }
   if (Object.prototype.hasOwnProperty.call(node.frontmatter, "date")) {
     const date = new Date(node.frontmatter.date);
     return `/${[date.getFullYear(), date.getMonth() + 1, date.getDate()]
@@ -64,9 +67,6 @@ function getSlugFromNode(node, fileNode) {
     }
     if (Object.prototype.hasOwnProperty.call(node.frontmatter, "post_name")) {
       return `${urlDatePrefix(node)}/${node.frontmatter.post_name}`;
-    }
-    if (Object.prototype.hasOwnProperty.call(node.frontmatter, "title")) {
-      return `${urlDatePrefix(node)}/${_.kebabCase(node.frontmatter.title)}`;
     }
   }
   const parsedFilePath = path.parse(fileNode.relativePath);
@@ -131,6 +131,51 @@ exports.createPages = async ({ graphql, boundActionCreators }) => {
   const postPage = path.resolve("src/templates/post.jsx");
   const tagPage = path.resolve("src/templates/tag.jsx");
   const categoryPage = path.resolve("src/templates/category.jsx");
+  const itemPage = path.resolve("src/templates/items.jsx");
+
+  await Promise.all(
+    ["presentation", "project"].map(async sourceName =>
+      graphql(
+        `
+        {
+          allMarkdownRemark(
+            sort: { fields: [fields___date], order: DESC }
+            filter: { fields: { sourceName: { eq: "${sourceName}" } } }
+          ) {
+            edges {
+              node {
+                fields {
+                  slug
+                  category
+                  tags
+                }
+                frontmatter {
+                  title
+                  tags
+                }
+              }
+            }
+          }
+        }
+      `
+      ).then(result => {
+        if (result.errors) {
+          /* eslint no-console: "off" */
+          console.log(result.errors);
+          throw result.errors;
+        }
+        result.data.allMarkdownRemark.edges.forEach(edge => {
+          createPage({
+            path: `/${sourceName}s${edge.node.fields.slug}`,
+            component: itemPage,
+            context: {
+              slug: edge.node.fields.slug
+            }
+          });
+        });
+      })
+    )
+  );
 
   await graphql(
     `

@@ -10,6 +10,10 @@ links:
     url: http://slides.com/halkeye/why-not-testing
   - type: youtube
     url: https://www.youtube.com/watch?v=iPGSJVASCkc
+  - type: pdf
+    url: ./why-not-testing.pdf
+attachments:
+  - ./why-not-testing.pdf
 ---
 Testing presentation for [Code Coffee Vancouver](http://www.meetup.com/Code-Coffee-Vancouver/events/230135012/).
 

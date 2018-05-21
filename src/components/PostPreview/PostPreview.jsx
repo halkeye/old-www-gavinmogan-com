@@ -44,7 +44,7 @@ class PostPreview extends Component {
       <Card key={postInfo.path} raise className="md-grid md-cell md-cell--12">
         <Link style={{ textDecoration: "none" }} to={postInfo.path}>
           <Media className="post-preview-cover" style={{ height: "185px" }}>
-            <PostCover postInfo={postInfo} />
+            <PostCover image={postInfo.conver} />
             <MediaOverlay>
               <CardTitle title={postInfo.title}>
                 <Button raised secondary className="md-cell--right">

@@ -18,7 +18,7 @@ const ProjectList = ({ edges, onlyCategory }) => (
       if (!onlyCategory && category) {
         return null;
       }
-      return <ItemBlock edge={edge} />;
+      return <ItemBlock key={edge.node.id} edge={edge} urlPrefix="/projects" />;
     })}
   </div>
 );
@@ -65,6 +65,7 @@ export const pageQuery = graphql`
             tags
             category
           }
+          id
           html
           frontmatter {
             title
@@ -79,6 +80,10 @@ export const pageQuery = graphql`
             links {
               type
               url
+            }
+            attachments {
+              absolutePath
+              publicURL
             }
           }
         }
