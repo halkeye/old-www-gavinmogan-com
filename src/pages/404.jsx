@@ -1,8 +1,10 @@
 import React from "react";
 
 const NotFoundPage = () => {
-  if (window.Raven) {
-    window.Raven.captureMessage("got404");
+  if (typeof window !== `undefined`) {
+    if (window.Raven) {
+      window.Raven.captureMessage("got404");
+    }
   }
   return (
     <div>
