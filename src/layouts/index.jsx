@@ -12,33 +12,39 @@ export default class MainLayout extends React.Component {
     }
     const pathPrefix = config.pathPrefix ? config.pathPrefix : "/";
     const currentPath = this.props.location.pathname
-      .replace(pathPrefix, "")
-      .replace("/", "");
-    let title = "";
-    if (currentPath === "") {
+      .replace(new RegExp(`^${pathPrefix}`), "")
+      .split("/");
+    let title = capitalize(currentPath[0]);
+    if (currentPath[0] === "") {
       title = "Home";
-    } else if (currentPath === "tags") {
-      title = "Tags";
-    } else if (currentPath === "categories") {
-      title = "Categories";
-    } else if (currentPath === "about") {
+    } else if (currentPath[0] === "about") {
       title = "About";
-    } else if (currentPath === "computers") {
+    } else if (currentPath[0] === "computers") {
       title = "Computers";
-    } else if (currentPath.includes("posts")) {
-      title = "Article";
-    } else if (currentPath.includes("tags")) {
-      const tag = currentPath
-        .replace("tags", "")
-        .replace("/", "")
-        .replace("-", " ");
-      title = `Tagged in ${capitalize(tag)}`;
-    } else if (currentPath.includes("categories")) {
-      const category = currentPath
-        .replace("categories", "")
-        .replace("/", "")
-        .replace("-", " ");
-      title = `${capitalize(category)}`;
+    } else if (currentPath[0] === "tags") {
+      const tag = currentPath[1];
+      title = "Tags";
+      if (tag) {
+        title = `Tagged in ${capitalize(tag)}`;
+      }
+    } else if (currentPath[0] === "categories") {
+      const category = currentPath[1];
+      title = "Categories";
+      if (category) {
+        title = `Category - ${capitalize(category)}`;
+      }
+    } else if (currentPath[0] === "projects") {
+      const project = currentPath[1];
+      title = "Projects";
+      if (project) {
+        title = `Project - ${capitalize(project)}`;
+      }
+    } else if (currentPath[0] === "presentations") {
+      const presentation = currentPath[1];
+      title = "Presentations";
+      if (presentation) {
+        title = `Presentation - ${capitalize(presentation)}`;
+      }
     }
     return title;
   }

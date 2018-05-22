@@ -1,8 +1,17 @@
 {
-  "name": "gatsby-starter-material",
-  "description": "GatsbyJS Material Blog theme.",
-  "version": "1.1.0",
-  "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
+  "name": "www-gavinmogan-com",
+  "private": true,
+  "description": "My Website powered by gatsby",
+  "version": "0.0.0",
+  "author": "Gavin Mogan <npm@gavinmogan.com> (https://www.gavinmogan.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halkeye/www-gavinmogan-com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/halkeye/www-gavinmogan-com/issues"
+  },
+  "homepage": "https://www.gavinmogan.com",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
@@ -54,7 +63,11 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
+    "babel-jest": "^22.4.4",
     "cli-glob": "^0.1.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.4",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
@@ -64,11 +77,14 @@
     "gatsby": "^1.9.261",
     "gh-pages": "^1.1.0",
     "husky": "^0.14.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^22.4.4",
     "lint-staged": "^7.1.1",
     "markdownlint": "^0.9.0",
     "markdownlint-cli": "^0.9.0",
     "prettier": "^1.12.1",
     "prettier-eslint-cli": "^4.7.1",
+    "react-test-renderer": "^16.3.2",
     "remark-cli": "^5.0.0",
     "remark-frontmatter": "^1.2.0",
     "remark-preset-lint-recommended": "^3.0.1",
@@ -94,7 +110,9 @@
     "lint:js": "eslint --ext .js,.jsx .",
     "lint:md": "remark content/posts/",
     "write-good": "write-good $(glob 'content/posts/**/*.md')",
-    "format:js": "prettier '**/*.{js,jsx}' --write"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "lint-staged": {
     "*.js": [
@@ -120,6 +138,24 @@
         "remark-lint-no-literal-urls",
         false
       ]
+    ]
+  },
+  "jest": {
+    "testPathIgnorePatterns": ["/node_modules/", "<rootDir>/.cache/"],
+    "globals": {
+      "__PATH_PREFIX__": ""
+    },
+    "transform": {
+      "^.+\\.jsx?$": "<rootDir>/test/transformer.js"
+    },
+    "moduleNameMapper": {
+      "^.+\\.(css|scss)$": "identity-obj-proxy"
+    },
+    "setupFiles": [
+      "./jestSetup.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
     ]
   }
 }
