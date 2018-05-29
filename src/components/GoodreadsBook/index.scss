@@ -1,0 +1,18 @@
+.goodreads {
+  height: 65px;
+  min-width: 150px;
+  margin: 5px;
+
+  .bookImage {
+    float: right;
+    overflow: hidden;
+    height: 60px;
+
+    img {
+      width: 39px;
+    }
+  }
+
+  // .rating { }
+  // .title { }
+}

@@ -1,5 +1,8 @@
 import React from "react";
 import Helmet from "react-helmet";
+import Img from "gatsby-image";
+import Link from "gatsby-link";
+import GoodreadsBook from "../components/GoodreadsBook/GoodreadsBook";
 import Navigation from "../components/Navigation/Navigation";
 import config from "../../data/SiteConfig";
 import "./index.scss";
@@ -14,7 +17,7 @@ export default class MainLayout extends React.Component {
     const currentPath = this.props.location.pathname
       .replace(new RegExp(`^${pathPrefix}`), "")
       .split("/");
-    let title = capitalize(currentPath[0]);
+    let title = capitalize(currentPath[currentPath.length - 1]);
     if (currentPath[0] === "") {
       title = "Home";
     } else if (currentPath[0] === "about") {
@@ -49,16 +52,132 @@ export default class MainLayout extends React.Component {
     return title;
   }
   render() {
-    const { children } = this.props;
+    const {
+      children,
+      data: {
+        profileImage,
+        currentlyReading: { edges: currentlyReading },
+        recentlyRead: { edges: recentlyRead }
+      }
+    } = this.props;
     return (
       <Navigation config={config} LocalTitle={this.getLocalTitle()}>
         <div>
           <Helmet>
             <meta name="description" content={config.siteDescription} />
           </Helmet>
-          {children()}
+          <div id="page">
+            <section id="body">{children()}</section>
+            <section id="profile">
+              <Img
+                {...profileImage}
+                alt="Gavin December 1989"
+                className="profile-img"
+              />
+              <h1>Gavin Mogan</h1>
+              <h2>
+                Hi. I&apos;m Gavin. I&apos;m a coder at Sauce Labs. At home I
+                code, game, hang out, all the cool non robot things to do.
+                #notarobot
+              </h2>
+              <p>Friends Sites</p>
+              <ul>
+                <li>
+                  <a rel="friend" href="https://forgreatjustice.ca/">
+                    For Great Justice
+                  </a>{" "}
+                  (<Link to="/tags/nigel">Nigel</Link>)
+                </li>
+              </ul>
+              {currentlyReading &&
+                currentlyReading.length && (
+                  <div>
+                    <p>Currently Reading</p>
+                    {currentlyReading.map(node => (
+                      <GoodreadsBook
+                        rating={node.node.review.rating}
+                        {...node.node.book}
+                      />
+                    ))}
+                  </div>
+                )}
+              {recentlyRead &&
+                recentlyRead.length && (
+                  <div>
+                    <p>Recently Read</p>
+                    {recentlyRead.map(node => (
+                      <GoodreadsBook
+                        rating={node.node.review.rating}
+                        {...node.node.book}
+                      />
+                    ))}
+                  </div>
+                )}
+            </section>
+          </div>
         </div>
       </Navigation>
     );
   }
 }
+/* eslint no-undef: "off" */
+export const pageQuery = graphql`
+  query IndexLayout {
+    profileImage: imageSharp(
+      id: { regex: "/src/images/Gavin-December-1989.png/" }
+    ) {
+      resolutions(height: 150, width: 150) {
+        ...GatsbyImageSharpResolutions
+      }
+    }
+    currentlyReading: allGoodreadsBook(
+      limit: 2
+      sort: { fields: [review___readAt], order: DESC }
+      filter: { shelfNames: { in: ["currently-reading"] } }
+    ) {
+      edges {
+        node {
+          review {
+            rating
+          }
+          book {
+            bookID
+            link
+            title
+            titleWithoutSeries
+            imageUrl: smallImageUrl
+            authors {
+              link
+              name
+            }
+          }
+        }
+      }
+    }
+    recentlyRead: allGoodreadsBook(
+      limit: 5
+      sort: { fields: [review___readAt], order: DESC }
+      filter: { review: { readAt: { ne: null } }, shelfNames: { in: ["read"] } }
+    ) {
+      edges {
+        node {
+          review {
+            readAt
+            rating
+          }
+          book {
+            bookID
+            link
+            title
+            titleWithoutSeries
+            imageUrl: smallImageUrl
+            authors {
+              link
+              name
+            }
+          }
+        }
+      }
+    }
+  }
+`;

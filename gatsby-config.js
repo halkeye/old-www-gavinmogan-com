@@ -52,6 +52,13 @@ module.exports = {
       }
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: `${__dirname}/src/images`
+      }
+    },
+    {
       resolve: "gatsby-transformer-remark",
       options: {
         excerpt_separator: "<!-- excerpt -->",
@@ -219,6 +226,13 @@ module.exports = {
         dsn: "https://92e7f916ad8c46feb3a2618f215c3ba6@sentry.io/1209802",
         // Raven.js version, this is optional.
         version: "3.19.1"
+      }
+    },
+    {
+      resolve: "@halkeye/gatsby-source-goodreads",
+      options: {
+        developerKey: process.env.GOODREADS_PSW,
+        goodReadsUserId: process.env.GOODREADS_USR
       }
     }
   ]

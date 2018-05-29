@@ -10,18 +10,11 @@ import "./Footer.scss";
 class Footer extends Component {
   render() {
     const { userLinks } = this.props;
-    const { siteRss, copyright, fixedFooter } = config;
-    if (!copyright) {
-      return null;
-    }
+    const { siteRss, fixedFooter } = config;
     return (
       <footer className={fixedFooter ? "footer footer-fixed" : "footer"}>
         {userLinks ? <UserLinks config={config} labeled /> : null}
         <div className="notice-container">
-          <div className="copyright">
-            <h4>{copyright}</h4>
-          </div>
-
           <div className="rss">
             <Link to={siteRss}>
               <Button
@@ -32,14 +25,6 @@ class Footer extends Component {
                 Subscribe
               </Button>
             </Link>
-          </div>
-          <div className="based-on">
-            <h4>
-              Based on{" "}
-              <a href="https://github.com/Vagr9K/gatsby-material-starter">
-                Gatsby Material Starter
-              </a>.
-            </h4>
           </div>
         </div>
       </footer>

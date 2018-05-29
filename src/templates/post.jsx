@@ -65,7 +65,7 @@ export default class PostTemplate extends React.Component {
         <SEO postPath={slug} postNode={postNode} postSEO type="article" />
         <PostCover image={toPostInfo({ node: postNode }).cover} />
         <div
-          className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
+          className={`md-grid md-cell--12 post-page-contents mobile-fix ${postOverlapClass}`}
         >
           <Card className="md-grid md-cell md-cell--12 post">
             <CardText className="post-body">

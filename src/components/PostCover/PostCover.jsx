@@ -7,13 +7,13 @@ export default function PostCover({ image }) {
     return (
       <div
         style={{ backgroundImage: `url(/cover-image.jpg)`, height: `350px` }}
-        className="md-grid md-cell--9 post-cover"
+        className="md-grid md-cell--12 post-cover"
       />
     );
   }
   return (
     <Img
-      outerWrapperClassName="md-grid md-cell--9 post-cover"
+      outerWrapperClassName="md-grid md-cell--12 post-cover"
       className="post-cover-image-wrapper"
       {...image.childImageSharp}
     />

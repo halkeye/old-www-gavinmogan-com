@@ -24,6 +24,9 @@ pipeline {
       }
     }
     stage('Build') {
+      environment {
+        GOODREADS = credentials('goodreads')
+      }
       steps {
         sh 'npm run clean'
         sh 'npm run build'

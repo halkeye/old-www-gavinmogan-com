@@ -9,7 +9,7 @@ comment_status: "open"
 post_name: "talk-on-testing"
 status: "publish"
 category: "Work"
-tags: ['code and coffee', 'meetup', 'talks', 'testing', 'vancouver']
+tags: ['Code and Coffee', 'Meetup', 'Talks', 'Testing', 'Vancouver']
 cover: "../cover-image.jpg"
 post_type: "post"
 ---
