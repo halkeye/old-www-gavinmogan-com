@@ -43,7 +43,7 @@ export default class PostTemplate extends React.Component {
     const postOverlapClass = mobile ? "post-overlap-mobile" : "post-overlap";
     const postNode = this.props.data.markdownRemark;
     const {
-      fields: { tags, sourceName },
+      fields: { tags, category, sourceName },
       frontmatter: { image, link, links, title, attachments },
       html
     } = this.props.data.markdownRemark;
@@ -52,7 +52,14 @@ export default class PostTemplate extends React.Component {
         <Helmet>
           <title>{`${title} | ${config.siteTitle}`}</title>
         </Helmet>
-        <SEO postPath={slug} postNode={postNode} postSEO type="article" />
+        <SEO
+          postPath={slug}
+          postNode={postNode}
+          postSEO
+          type="article"
+          tags={tags}
+          category={category}
+        />
         <PostCover image={image} />
         <div
           className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}

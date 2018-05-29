@@ -6,7 +6,7 @@ import config from "../../../data/SiteConfig";
 
 class SEO extends Component {
   render() {
-    const { postNode, postPath, postSEO, type } = this.props;
+    const { postNode, postPath, postSEO, type, tags, category } = this.props;
     let title;
     let description;
     let image;
@@ -74,6 +74,8 @@ class SEO extends Component {
         {/* General tags */}
         <meta name="description" content={description} />
         <meta name="image" content={image} />
+        <link rel="publisher" href="https://plus.google.com/+gavinmogan" />
+        <link rel="author" href="https://plus.google.com/+gavinmogan" />
 
         {/* Schema.org tags */}
         <script type="application/ld+json">
@@ -102,6 +104,10 @@ class SEO extends Component {
           name="twitter:creator"
           content={config.userTwitter ? config.userTwitter : ""}
         />
+        <meta
+          name="twitter:site"
+          content={config.userTwitter ? config.userTwitter : ""}
+        />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
@@ -113,13 +119,21 @@ class SEO extends Component {
             content={new Date(date).toISOString()}
           />
         )}
+        {tags.map(tag => <meta name="article:tag" content={tag} />)}
+        {category && <meta name="article:section" content={category} />}
+        <meta
+          name="article:author"
+          content="https://www.gavinmogan.com/about/"
+        />
       </Helmet>
     );
   }
 }
 
 SEO.defaultProps = {
-  type: "website"
+  type: "website",
+  tags: [],
+  category: null
 };
 
 export default SEO;

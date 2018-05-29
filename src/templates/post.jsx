@@ -62,7 +62,14 @@ export default class PostTemplate extends React.Component {
         <Helmet>
           <title>{`${post.title} | ${config.siteTitle}`}</title>
         </Helmet>
-        <SEO postPath={slug} postNode={postNode} postSEO type="article" />
+        <SEO
+          postPath={slug}
+          postNode={postNode}
+          postSEO
+          type="article"
+          tags={postNode.frontmatter.tags}
+          category={postNode.frontmatter.category}
+        />
         <PostCover image={toPostInfo({ node: postNode }).cover} />
         <div
           className={`md-grid md-cell--12 post-page-contents mobile-fix ${postOverlapClass}`}
