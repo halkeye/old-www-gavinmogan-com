@@ -120,6 +120,14 @@ export default class MainLayout extends React.Component {
     );
   }
 }
+
+MainLayout.defaultProps = {
+  data: {
+    profileImage: null,
+    currentlyReading: { edges: null },
+    recentlyRead: { edges: null }
+  }
+};
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query IndexLayout {
