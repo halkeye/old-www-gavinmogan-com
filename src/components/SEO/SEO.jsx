@@ -6,7 +6,7 @@ import config from "../../../data/SiteConfig";
 
 class SEO extends Component {
   render() {
-    const { postNode, postPath, postSEO } = this.props;
+    const { postNode, postPath, postSEO, type } = this.props;
     let title;
     let description;
     let image;
@@ -84,7 +84,7 @@ class SEO extends Component {
         <meta property="og:site_name" content={config.siteTitle} />
         <meta property="og:locale" content="en_US" />
         <meta property="og:url" content={postSEO ? postURL : blogURL} />
-        {postSEO ? <meta property="og:type" content="article" /> : null}
+        <meta property="og:type" content={type} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={image} />
@@ -117,5 +117,9 @@ class SEO extends Component {
     );
   }
 }
+
+SEO.defaultProps = {
+  type: "website"
+};
 
 export default SEO;
