@@ -13,7 +13,12 @@ function PaginationButton({ page, index }) {
   const url = page === 1 ? "" : page.toString();
   return (
     <Link to={url}>
-      <Button floating secondary={index === page} iconEl={<div>{page}</div>}>
+      <Button
+        title={`Go to page${page}`}
+        floating
+        secondary={index === page}
+        iconEl={<div>{page}</div>}
+      >
         {page}
       </Button>
     </Link>
@@ -49,7 +54,11 @@ class Pagination extends Component {
         <CardText style={{ textAlign: "center" }}>
           {!pages.includes(1) && (
             <Link to={"".toString()}>
-              <Button floating iconEl={angleDoubleLeft} />
+              <Button
+                title="Go to first page"
+                floating
+                iconEl={angleDoubleLeft}
+              />
             </Link>
           )}
           {pages.map(page => (
@@ -57,7 +66,11 @@ class Pagination extends Component {
           ))}
           {!pages.includes(pageCount - 1) && (
             <Link to={(pageCount - 1).toString()}>
-              <Button floating iconEl={angleDoubleRight} />
+              <Button
+                title="Go to last page"
+                floating
+                iconEl={angleDoubleRight}
+              />
             </Link>
           )}
         </CardText>
