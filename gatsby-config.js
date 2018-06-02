@@ -149,7 +149,7 @@ module.exports = {
         icon: "src/logo.jpg"
       }
     },
-    // "gatsby-plugin-offline",
+    "gatsby-plugin-offline",
     {
       resolve: "gatsby-plugin-feed",
       options: {
