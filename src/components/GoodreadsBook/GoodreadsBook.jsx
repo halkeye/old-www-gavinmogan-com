@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import "./index.scss";
 
@@ -26,13 +27,14 @@ export default function GoodreadsBook({
         }}
       >
         <a title={title} rel={rel} href={externalLink}>
-          <img alt={title} border="0" src={imageUrl} />
+          <LazyLoadImage alt={title} border="0" src={imageUrl} />
         </a>
       </div>
       <div className="rating">
         <span className="staticStars" title="really liked it">
-          {Array.from({ length: rating }).map(() => (
-            <img
+          {Array.from({ length: rating }).map(val => (
+            <LazyLoadImage
+              key={`rating${val}`}
               alt=""
               src="https://www.goodreads.com/images/layout/gr_red_star_active.png"
             />

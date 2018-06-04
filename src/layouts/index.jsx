@@ -135,7 +135,7 @@ export const pageQuery = graphql`
       id: { regex: "/src/images/Gavin-December-1989.png/" }
     ) {
       resolutions(height: 150, width: 150) {
-        ...GatsbyImageSharpResolutions
+        ...GatsbyImageSharpResolutions_withWebp_tracedSVG
       }
     }
     currentlyReading: allGoodreadsBook(
