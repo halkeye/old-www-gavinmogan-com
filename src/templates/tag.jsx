@@ -5,7 +5,7 @@ import config from "../../data/SiteConfig";
 
 export default class TagTemplate extends React.Component {
   render() {
-    const { tag }  = this.props.pathContext;
+    const { tag } = this.props.pathContext;
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <div className="tag-container">
@@ -41,7 +41,7 @@ export const pageQuery = graphql`
             cover {
               childImageSharp {
                 sizes(maxWidth: 800, cropFocus: ENTROPY) {
-                  ...GatsbyImageSharpSizes
+                  ...GatsbyImageSharpSizes_withWebp_tracedSVG
                 }
               }
             }
