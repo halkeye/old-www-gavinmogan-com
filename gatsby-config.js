@@ -26,8 +26,6 @@ module.exports = {
         siteUrl: config.siteUrl + pathPrefix
       }
     },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     {
@@ -88,6 +86,8 @@ module.exports = {
         ]
       }
     },
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
