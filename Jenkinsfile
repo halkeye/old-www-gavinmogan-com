@@ -6,8 +6,8 @@ pipeline {
   }
 
   options {
-    timeout(time: 10, unit: 'MINUTES')
-      ansiColor('xterm')
+    timeout(time: 20, unit: 'MINUTES')
+    ansiColor('xterm')
   }
 
   stages {
