@@ -140,7 +140,8 @@ module.exports = {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: config.siteTitle,
-        short_name: config.siteTitle,
+        // short name should be no longer than 12 characters
+        short_name: "Gavin Mogan",
         description: config.siteDescription,
         start_url: config.pathPrefix,
         background_color: "#e0e0e0",
