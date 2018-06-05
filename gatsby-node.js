@@ -120,6 +120,7 @@ exports.setFieldsOnGraphQLNodeType = ({ type, boundActionCreators }) => {
 
 const redirects = {
   "/volunteering": "/about",
+  "/project": "/projects",
   "/project/ur": "/projects/unknown-regions",
   "/project/MTLJPost": "/projects/MTLJPost/",
   "/project/darkwarriors": "/projects/dark-warriors",
