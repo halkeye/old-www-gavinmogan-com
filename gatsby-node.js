@@ -120,7 +120,7 @@ exports.setFieldsOnGraphQLNodeType = ({ type, boundActionCreators }) => {
 
 const redirects = {
   "/volunteering": "/about",
-  "/project/ur": "projects/unknown-regions/"
+  "/project/ur": "/projects/unknown-regions"
 };
 
 exports.createPages = async ({ graphql, boundActionCreators }) => {
