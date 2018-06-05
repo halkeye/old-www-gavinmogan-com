@@ -51,7 +51,7 @@ pipeline {
     post {
       success {
         mail(
-          to: 'jenkins-builds@gavinmogan.com'
+          to: 'jenkins-builds@gavinmogan.com',
           subject: "SUCCESSFUL: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
           body: """<p>SUCCESSFUL: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
           <p>Check console output at &QUOT;<a href='${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a>&QUOT;</p>""",
@@ -59,7 +59,7 @@ pipeline {
       }
       failure {
         mail (
-          to: 'jenkins-builds@gavinmogan.com'
+          to: 'jenkins-builds@gavinmogan.com',
           subject: "FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
           body: """<p>FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
           <p>Check console output at &QUOT;<a href='${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a>&QUOT;</p>""",
