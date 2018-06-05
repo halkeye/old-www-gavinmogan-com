@@ -118,14 +118,17 @@ exports.setFieldsOnGraphQLNodeType = ({ type, boundActionCreators }) => {
   }
 };
 
+const redirects = {
+  "/volunteering": "/about",
+  "/project/ur": "projects/unknown-regions/"
+};
+
 exports.createPages = async ({ graphql, boundActionCreators }) => {
   const { createPage, createRedirect } = boundActionCreators;
 
-  createRedirect({
-    fromPath: "/volunteering",
-    toPath: "/about",
-    isPermanent: true
-  });
+  Object.entries(redirects).forEach(([fromPath, toPath]) =>
+    createRedirect({ fromPath, toPath, isPermanent: true })
+  );
 
   const indexPage = path.resolve("src/templates/index.jsx");
   const postPage = path.resolve("src/templates/post.jsx");
