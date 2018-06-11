@@ -1,4 +1,5 @@
 const config = require("./data/SiteConfig");
+const path = require("path");
 
 const pathPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
 
@@ -14,7 +15,6 @@ module.exports = {
       feed_url: config.siteUrl + pathPrefix + config.siteRss,
       title: config.siteTitle,
       description: config.siteDescription,
-      image_url: `${config.siteUrl + pathPrefix}/logos/logo-512.png`,
       author: config.userName,
       copyright: config.copyright
     }
@@ -137,6 +137,26 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./src/images/logo.png",
+        injectHTML: true,
+        icons: {
+          android: false,
+          appleIcon: true,
+          appleStartup: true,
+          coast: true,
+          favicons: true,
+          // doesn't do anything yet
+          firefox: true,
+          // doesn't do anything yet, but open graph headers should be managed in a different way i think
+          twitter: false,
+          yandex: true,
+          windows: true
+        }
+      }
+    },
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: config.siteTitle,
@@ -147,7 +167,7 @@ module.exports = {
         background_color: "#e0e0e0",
         theme_color: "#c62828",
         display: "minimal-ui",
-        icon: "src/logo.jpg"
+        icon: "src/images/logo.png"
       }
     },
     "gatsby-plugin-offline",
@@ -156,12 +176,21 @@ module.exports = {
       options: {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
+          ret.image_url = path.join(
+            config.siteUrl,
+            ref.query.profileImage.resolutions.src
+          );
           ret.allMarkdownRemark = ref.query.allMarkdownRemark;
           ret.generator = "GatsbyJS Material Starter";
           return ret;
         },
         query: `
         {
+          profileImage: imageSharp(id: { regex: "/src/images/logo.png/" }) {
+            resolutions(height: 512, width: 512) {
+              src
+            }
+          }
           site {
             siteMetadata {
               rssMetadata {
@@ -169,7 +198,6 @@ module.exports = {
                 feed_url
                 title
                 description
-                image_url
                 author
                 copyright
               }
