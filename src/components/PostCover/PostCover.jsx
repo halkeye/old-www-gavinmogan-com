@@ -1,8 +1,8 @@
-import React from "react";
-import Img from "gatsby-image";
-import "./PostCover.scss";
+import React from 'react';
+import Img from 'gatsby-image';
+import './PostCover.scss';
 
-export default function PostCover({ image }) {
+export default function PostCover ({ image }) {
   if (!image) {
     return (
       <div

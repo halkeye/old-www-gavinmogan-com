@@ -1,17 +1,17 @@
-import React, { Component } from "react";
-import ReactDisqusComments from "react-disqus-comments";
-import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-import fasComment from "@fortawesome/fontawesome-free-solid/faComment";
-import trimStart from "lodash/trimStart";
-import Card from "react-md/lib/Cards/Card";
-import CardTitle from "react-md/lib/Cards/CardTitle";
-import CardText from "react-md/lib/Cards/CardText";
-import Avatar from "react-md/lib/Avatars";
-import Snackbar from "react-md/lib/Snackbars";
-import config from "../../../data/SiteConfig";
+import React, { Component } from 'react';
+import ReactDisqusComments from 'react-disqus-comments';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import fasComment from '@fortawesome/fontawesome-free-solid/faComment';
+import trimStart from 'lodash/trimStart';
+import Card from 'react-md/lib/Cards/Card';
+import CardTitle from 'react-md/lib/Cards/CardTitle';
+import CardText from 'react-md/lib/Cards/CardText';
+import Avatar from 'react-md/lib/Avatars';
+import Snackbar from 'react-md/lib/Snackbars';
+import config from '../../../data/SiteConfig';
 
 class Disqus extends Component {
-  constructor(props) {
+  constructor (props) {
     super(props);
     this.state = {
       toasts: []
@@ -20,16 +20,16 @@ class Disqus extends Component {
     this.onSnackbarDismiss = this.onSnackbarDismiss.bind(this);
   }
 
-  onSnackbarDismiss() {
+  onSnackbarDismiss () {
     const [, ...toasts] = this.state.toasts;
     this.setState({ toasts });
   }
-  notifyAboutComment() {
+  notifyAboutComment () {
     const toasts = this.state.toasts.slice();
-    toasts.push({ text: "New comment available!" });
+    toasts.push({ text: 'New comment available!' });
     this.setState({ toasts });
   }
-  render() {
+  render () {
     const { postNode, expanded } = this.props;
     if (!config.disqusShortname) {
       return null;
@@ -38,7 +38,7 @@ class Disqus extends Component {
     const url =
       (config.disqusUrl || config.siteUrl) +
       config.pathPrefix +
-      trimStart(postNode.fields.slug, "/");
+      trimStart(postNode.fields.slug, '/');
     return (
       <Card className="md-grid md-cell md-cell--12">
         <CardTitle

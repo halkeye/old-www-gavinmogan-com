@@ -1,17 +1,17 @@
-import React, { Component } from "react";
-import Card from "react-md/lib/Cards/Card";
-import CardTitle from "react-md/lib/Cards/CardTitle";
-import CardText from "react-md/lib/Cards/CardText";
-import Avatar from "react-md/lib/Avatars";
-import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-import fasMapMarker from "@fortawesome/fontawesome-free-solid/faMapMarker";
-import IconSeparator from "react-md/lib/Helpers/IconSeparator";
-import { Follow } from "react-twitter-widgets";
-import UserLinks from "../UserLinks/UserLinks";
-import "./UserInfo.scss";
+import React, { Component } from 'react';
+import Card from 'react-md/lib/Cards/Card';
+import CardTitle from 'react-md/lib/Cards/CardTitle';
+import CardText from 'react-md/lib/Cards/CardText';
+import Avatar from 'react-md/lib/Avatars';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import fasMapMarker from '@fortawesome/fontawesome-free-solid/faMapMarker';
+import IconSeparator from 'react-md/lib/Helpers/IconSeparator';
+import { Follow } from 'react-twitter-widgets';
+import UserLinks from '../UserLinks/UserLinks.jsx';
+import './UserInfo.scss';
 
 class UserInfo extends Component {
-  render() {
+  render () {
     const {
       userAvatar,
       userName,
@@ -44,10 +44,10 @@ class UserInfo extends Component {
             userTwitter ? (
               <Follow
                 username={userTwitter}
-                options={{ count: expanded ? "none" : "none" }}
+                options={{ count: expanded ? 'none' : 'none' }}
               />
             ) : (
-              "Author"
+              'Author'
             )
           }
         />

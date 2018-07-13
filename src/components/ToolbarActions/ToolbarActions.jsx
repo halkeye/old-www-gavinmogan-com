@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import UserLinks from "../UserLinks/UserLinks";
-import "./ToolbarActions.scss";
+import React, { Component } from 'react';
+import UserLinks from '../UserLinks/UserLinks.jsx';
+import './ToolbarActions.scss';
 
 class Toolbar extends Component {
-  render() {
+  render () {
     const { config } = this.props;
     return (
       <div className="toolbar-actions">

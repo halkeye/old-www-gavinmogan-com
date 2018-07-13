@@ -1,35 +1,35 @@
-import React from "react";
+import React from 'react';
 
-import Helmet from "react-helmet";
-import Link from "gatsby-link";
-import { Card, CardText, CardActions } from "react-md";
-import ItemBlockLinks from "../components/ItemBlockLinks/ItemBlockLinks";
-import PostTags from "../components/PostTags/PostTags";
-import PostCover from "../components/PostCover/PostCover";
-import SocialLinks from "../components/SocialLinks/SocialLinks";
-import SEO from "../components/SEO/SEO";
-import config from "../../data/SiteConfig";
-import "./b16-tomorrow-dark.css";
-import "./post.scss";
+import Helmet from 'react-helmet';
+import Link from 'gatsby-link';
+import { Card, CardText, CardActions } from 'react-md';
+import ItemBlockLinks from '../components/ItemBlockLinks/ItemBlockLinks.jsx';
+import PostTags from '../components/PostTags/PostTags.jsx';
+import PostCover from '../components/PostCover/PostCover.jsx';
+import SocialLinks from '../components/SocialLinks/SocialLinks.jsx';
+import SEO from '../components/SEO/SEO.jsx';
+import config from '../../data/SiteConfig.js';
+import './b16-tomorrow-dark.css';
+import './post.scss';
 
 export default class PostTemplate extends React.Component {
-  constructor(props) {
+  constructor (props) {
     super(props);
     this.state = {
       mobile: true
     };
     this.handleResize = this.handleResize.bind(this);
   }
-  componentDidMount() {
+  componentDidMount () {
     this.handleResize();
-    window.addEventListener("resize", this.handleResize);
+    window.addEventListener('resize', this.handleResize);
   }
 
-  componentWillUnmount() {
-    window.removeEventListener("resize", this.handleResize);
+  componentWillUnmount () {
+    window.removeEventListener('resize', this.handleResize);
   }
 
-  handleResize() {
+  handleResize () {
     if (window.innerWidth >= 640) {
       this.setState({ mobile: false });
     } else {
@@ -37,10 +37,10 @@ export default class PostTemplate extends React.Component {
     }
   }
 
-  render() {
+  render () {
     const { mobile } = this.state;
     const { slug } = this.props.pathContext;
-    const postOverlapClass = mobile ? "post-overlap-mobile" : "post-overlap";
+    const postOverlapClass = mobile ? 'post-overlap-mobile' : 'post-overlap';
     const postNode = this.props.data.markdownRemark;
     const {
       fields: { tags, category, sourceName },

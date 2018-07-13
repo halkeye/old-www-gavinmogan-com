@@ -1,45 +1,45 @@
-import React from "react";
-import RehypeReact from "rehype-react";
-import Gist from "react-gist";
+import React from 'react';
+import RehypeReact from 'rehype-react';
+import Gist from 'react-gist';
 
-import Helmet from "react-helmet";
-import { Card, CardText } from "react-md";
-import UserInfo from "../components/UserInfo/UserInfo";
-import Disqus from "../components/Disqus/Disqus";
-import PostTags from "../components/PostTags/PostTags";
-import PostCover from "../components/PostCover/PostCover";
-import PostInfo from "../components/PostInfo/PostInfo";
-import SocialLinks from "../components/SocialLinks/SocialLinks";
-import PostSuggestions from "../components/PostSuggestions/PostSuggestions";
-import SEO from "../components/SEO/SEO";
-import config from "../../data/SiteConfig";
-import { toPostInfo } from "../postUtils";
-import "./b16-tomorrow-dark.css";
-import "./post.scss";
+import Helmet from 'react-helmet';
+import { Card, CardText } from 'react-md';
+import UserInfo from '../components/UserInfo/UserInfo.jsx';
+import Disqus from '../components/Disqus/Disqus.jsx';
+import PostTags from '../components/PostTags/PostTags.jsx';
+import PostCover from '../components/PostCover/PostCover.jsx';
+import PostInfo from '../components/PostInfo/PostInfo.jsx';
+import SocialLinks from '../components/SocialLinks/SocialLinks.jsx';
+import PostSuggestions from '../components/PostSuggestions/PostSuggestions.jsx';
+import SEO from '../components/SEO/SEO.jsx';
+import config from '../../data/SiteConfig.js';
+import { toPostInfo } from '../postUtils.js';
+import './b16-tomorrow-dark.css';
+import './post.scss';
 
 const renderAst = new RehypeReact({
   createElement: React.createElement,
-  components: { "github-gist": Gist }
+  components: { 'github-gist': Gist }
 }).Compiler;
 
 export default class PostTemplate extends React.Component {
-  constructor(props) {
+  constructor (props) {
     super(props);
     this.state = {
       mobile: true
     };
     this.handleResize = this.handleResize.bind(this);
   }
-  componentDidMount() {
+  componentDidMount () {
     this.handleResize();
-    window.addEventListener("resize", this.handleResize);
+    window.addEventListener('resize', this.handleResize);
   }
 
-  componentWillUnmount() {
-    window.removeEventListener("resize", this.handleResize);
+  componentWillUnmount () {
+    window.removeEventListener('resize', this.handleResize);
   }
 
-  handleResize() {
+  handleResize () {
     if (window.innerWidth >= 640) {
       this.setState({ mobile: false });
     } else {
@@ -47,11 +47,11 @@ export default class PostTemplate extends React.Component {
     }
   }
 
-  render() {
+  render () {
     const { mobile } = this.state;
     const { slug } = this.props.pathContext;
     const expanded = !mobile;
-    const postOverlapClass = mobile ? "post-overlap-mobile" : "post-overlap";
+    const postOverlapClass = mobile ? 'post-overlap-mobile' : 'post-overlap';
     const postNode = this.props.data.markdownRemark;
     const post = postNode.frontmatter;
     if (!post.category_id) {

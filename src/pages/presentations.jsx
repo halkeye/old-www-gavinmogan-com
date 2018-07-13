@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import Helmet from "react-helmet";
-import ItemBlock from "../components/ItemBlock/ItemBlock";
-import SubHeader from "../components/SubHeader/SubHeader";
-import config from "../../data/SiteConfig";
-import "./presentations.scss";
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
+import ItemBlock from '../components/ItemBlock/ItemBlock.jsx';
+import SubHeader from '../components/SubHeader/SubHeader.jsx';
+import config from '../../data/SiteConfig.js';
+import './presentations.scss';
 
 const PresentationList = ({ edges }) => (
   <div className="md-grid">
@@ -14,7 +14,7 @@ const PresentationList = ({ edges }) => (
 );
 
 export default class PresentationsPage extends Component {
-  render() {
+  render () {
     const { edges } = this.props.data.allMarkdownRemark;
     return (
       <div className="presentations-container">

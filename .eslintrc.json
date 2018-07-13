@@ -1,19 +1,74 @@
 {
+  "root": true,
   "parser": "babel-eslint",
-  "extends": ["airbnb", "prettier"],
-  "plugins": ["react", "jsx-a11y", "import"],
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:jest/recommended",
+    "standard"
+  ],
+  "plugins": [
+    "standard",
+    "babel",
+    "jsx-a11y",
+    "promise",
+    "import",
+    "jest",
+    "react"
+  ],
+  "settings": {
+    "import/core-modules": []
+  },
   "rules": {
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.test.jsx", "jestSetup.js", "test/**/*.js", "test/**/*.jsx"]}],
-    "jsx-a11y/anchor-is-valid": [ "error", { "components": [ "Link" ], "specialLink": [ "to" ] } ],
+    "semi": [
+      2,
+      "always"
+    ],
+    "no-var": "error",
+    "no-func-assign": "error",
+    "no-class-assign": "error",
+    "import/no-cycle": "error",
+    "import/no-self-import": "error",
+    "import/no-absolute-path": "error",
+    "import/no-webpack-loader-syntax": "error",
+    "import/no-mutable-exports": "error",
+    "import/no-duplicates": "error",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.test.jsx",
+          "jestSetup.js",
+          "test/**/*.js",
+          "test/**/*.jsx"
+        ]
+      }
+    ],
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": [
+          "Link"
+        ],
+        "specialLink": [
+          "to"
+        ]
+      }
+    ],
     "react/prefer-stateless-function": "off",
     "react/no-children-prop": "error",
     "react/prop-types": "off",
     "react/no-danger": "off"
   },
-  "settings": {
-    "import/core-modules": []
-  },
   "env": {
-    "browser": true
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
   }
 }

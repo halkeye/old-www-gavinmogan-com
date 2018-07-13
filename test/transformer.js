@@ -5,19 +5,19 @@ module.exports = require('babel-jest').createTransformer({
     ['env', {
       modules: 'commonjs',
       targets: {
-        node: 'current',
+        node: 'current'
       },
-      exclude: ['transform-regenerator', 'transform-es2015-typeof-symbol'],
+      exclude: ['transform-regenerator', 'transform-es2015-typeof-symbol']
     }],
     'stage-0',
-    'react',
+    'react'
     // custom...
   ],
   plugins: [
     // built-in
     'gatsby/dist/utils/babel-plugin-extract-graphql',
     'add-module-exports',
-    'transform-object-assign',
+    'transform-object-assign'
     // custom...
-  ],
-})
+  ]
+});

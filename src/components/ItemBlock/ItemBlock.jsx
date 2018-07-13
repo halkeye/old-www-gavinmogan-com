@@ -1,6 +1,6 @@
-import React from "react";
-import Img from "gatsby-image";
-import Link from "gatsby-link";
+import React from 'react';
+import Img from 'gatsby-image';
+import Link from 'gatsby-link';
 import {
   Button,
   Card,
@@ -10,12 +10,12 @@ import {
   Media,
   MediaOverlay,
   Chip
-} from "react-md";
-import ItemBlockLinks from "../ItemBlockLinks/ItemBlockLinks";
+} from 'react-md';
+import ItemBlockLinks from '../ItemBlockLinks/ItemBlockLinks.jsx';
 
-import "./itemblock.scss";
+import './itemblock.scss';
 
-export default function ItemBlock({ edge, urlPrefix }) {
+export default function ItemBlock ({ edge, urlPrefix }) {
   const {
     node: {
       fields: { slug, tags },

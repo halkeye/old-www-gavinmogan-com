@@ -1,10 +1,10 @@
-const path = require("path");
-const _ = require("lodash");
-const webpackLodashPlugin = require("lodash-webpack-plugin");
+const path = require('path');
+const _ = require('lodash');
+const webpackLodashPlugin = require('lodash-webpack-plugin');
 
 const postNodes = [];
 
-function addSiblingNodes(createNodeField) {
+function addSiblingNodes (createNodeField) {
   postNodes.sort(
     ({ fields: { date: date1 } }, { fields: { date: date2 } }) =>
       new Date(date1) - new Date(date2)
@@ -17,62 +17,62 @@ function addSiblingNodes(createNodeField) {
     const prevNode = postNodes[prevID];
     createNodeField({
       node: currNode,
-      name: "nextTitle",
+      name: 'nextTitle',
       value: nextNode.frontmatter.title
     });
     createNodeField({
       node: currNode,
-      name: "nextSlug",
+      name: 'nextSlug',
       value: nextNode.fields.slug
     });
     createNodeField({
       node: currNode,
-      name: "prevTitle",
+      name: 'prevTitle',
       value: prevNode.frontmatter.title
     });
     createNodeField({
       node: currNode,
-      name: "prevSlug",
+      name: 'prevSlug',
       value: prevNode.fields.slug
     });
   }
 }
 
-function urlDatePrefix(node, fileNode) {
-  if (fileNode.sourceInstanceName !== "blog") {
-    return "";
+function urlDatePrefix (node, fileNode) {
+  if (fileNode.sourceInstanceName !== 'blog') {
+    return '';
   }
-  if (Object.prototype.hasOwnProperty.call(node.frontmatter, "date")) {
+  if (Object.prototype.hasOwnProperty.call(node.frontmatter, 'date')) {
     const date = new Date(node.frontmatter.date);
     return `/${[date.getFullYear(), date.getMonth() + 1, date.getDate()]
-      .map(v => _.padStart(v, 2, "0"))
-      .join("/")}`;
+      .map(v => _.padStart(v, 2, '0'))
+      .join('/')}`;
   }
-  return "";
+  return '';
 }
 
-function getDateFromNode(node /* , fileNode */) {
-  if (Object.prototype.hasOwnProperty.call(node, "frontmatter")) {
-    if (Object.prototype.hasOwnProperty.call(node.frontmatter, "date")) {
+function getDateFromNode (node /* , fileNode */) {
+  if (Object.prototype.hasOwnProperty.call(node, 'frontmatter')) {
+    if (Object.prototype.hasOwnProperty.call(node.frontmatter, 'date')) {
       return node.frontmatter.date;
     }
   }
-  return "";
+  return '';
 }
 
-function getSlugFromNode(node, fileNode) {
-  if (Object.prototype.hasOwnProperty.call(node, "frontmatter")) {
-    if (Object.prototype.hasOwnProperty.call(node.frontmatter, "slug")) {
+function getSlugFromNode (node, fileNode) {
+  if (Object.prototype.hasOwnProperty.call(node, 'frontmatter')) {
+    if (Object.prototype.hasOwnProperty.call(node.frontmatter, 'slug')) {
       return `/${_.kebabCase(node.frontmatter.slug)}`;
     }
-    if (Object.prototype.hasOwnProperty.call(node.frontmatter, "post_name")) {
+    if (Object.prototype.hasOwnProperty.call(node.frontmatter, 'post_name')) {
       return `${urlDatePrefix(node, fileNode)}/${node.frontmatter.post_name}`;
     }
   }
   const parsedFilePath = path.parse(fileNode.relativePath);
-  if (parsedFilePath.name !== "index" && parsedFilePath.dir !== "") {
+  if (parsedFilePath.name !== 'index' && parsedFilePath.dir !== '') {
     return `/${parsedFilePath.dir}/${parsedFilePath.name}/`;
-  } else if (parsedFilePath.dir === "") {
+  } else if (parsedFilePath.dir === '') {
     return `/${parsedFilePath.name}/`;
   }
   return `/${parsedFilePath.dir}/`;
@@ -81,30 +81,30 @@ function getSlugFromNode(node, fileNode) {
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators;
 
-  if (node.internal.type === "MarkdownRemark") {
+  if (node.internal.type === 'MarkdownRemark') {
     const fileNode = getNode(node.parent);
 
     createNodeField({
       node,
-      name: "slug",
+      name: 'slug',
       value: getSlugFromNode(node, fileNode)
     });
     createNodeField({
       node,
-      name: "date",
+      name: 'date',
       value: getDateFromNode(node, fileNode)
     });
     createNodeField({
       node,
-      name: "category",
-      value: _.get(node, "frontmatter.category") || ""
+      name: 'category',
+      value: _.get(node, 'frontmatter.category') || ''
     });
     createNodeField({
       node,
-      name: "tags",
-      value: [].concat(_.get(node, "frontmatter.tags") || [])
+      name: 'tags',
+      value: [].concat(_.get(node, 'frontmatter.tags') || [])
     });
-    if (fileNode.sourceInstanceName === "blog") {
+    if (fileNode.sourceInstanceName === 'blog') {
       postNodes.push(node);
     }
   }
@@ -113,19 +113,19 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
 exports.setFieldsOnGraphQLNodeType = ({ type, boundActionCreators }) => {
   const { name } = type;
   const { createNodeField } = boundActionCreators;
-  if (name === "MarkdownRemark") {
+  if (name === 'MarkdownRemark') {
     addSiblingNodes(createNodeField);
   }
 };
 
 const redirects = {
-  "/volunteering": "/about",
-  "/project": "/projects",
-  "/project/ur": "/projects/unknown-regions",
-  "/project/MTLJPost": "/projects/MTLJPost/",
-  "/project/darkwarriors": "/projects/dark-warriors",
-  "/project/kodefotobackup": "/projects/kode_foto_backup",
-  "/project/drupal modules": "/projects"
+  '/volunteering': '/about',
+  '/project': '/projects',
+  '/project/ur': '/projects/unknown-regions',
+  '/project/MTLJPost': '/projects/MTLJPost/',
+  '/project/darkwarriors': '/projects/dark-warriors',
+  '/project/kodefotobackup': '/projects/kode_foto_backup',
+  '/project/drupal modules': '/projects'
 };
 
 exports.createPages = async ({ graphql, boundActionCreators }) => {
@@ -135,14 +135,14 @@ exports.createPages = async ({ graphql, boundActionCreators }) => {
     createRedirect({ fromPath, toPath, isPermanent: true })
   );
 
-  const indexPage = path.resolve("src/templates/index.jsx");
-  const postPage = path.resolve("src/templates/post.jsx");
-  const tagPage = path.resolve("src/templates/tag.jsx");
-  const categoryPage = path.resolve("src/templates/category.jsx");
-  const itemPage = path.resolve("src/templates/items.jsx");
+  const indexPage = path.resolve('src/templates/index.jsx');
+  const postPage = path.resolve('src/templates/post.jsx');
+  const tagPage = path.resolve('src/templates/tag.jsx');
+  const categoryPage = path.resolve('src/templates/category.jsx');
+  const itemPage = path.resolve('src/templates/items.jsx');
 
   await Promise.all(
-    ["presentation", "project"].map(async sourceName =>
+    ['presentation', 'project'].map(async sourceName =>
       graphql(
         `
         {
@@ -226,7 +226,7 @@ exports.createPages = async ({ graphql, boundActionCreators }) => {
       if (page === 0) {
         return uri;
       } else if (page < 0 || page >= totalPages) {
-        return "";
+        return '';
       }
       return path.join(uri, (page + 1).toString());
     };
@@ -242,7 +242,7 @@ exports.createPages = async ({ graphql, boundActionCreators }) => {
     // Create each paginated page
     _.times(paginatedPagesCount, index => {
       createPage({
-        path: paginationPath("/", index, paginatedPagesCount),
+        path: paginationPath('/', index, paginatedPagesCount),
         // Set the component as normal
         component: indexPage,
         // Pass the following context to the component
@@ -304,7 +304,7 @@ exports.createPages = async ({ graphql, boundActionCreators }) => {
 };
 
 exports.modifyWebpackConfig = ({ config, stage }) => {
-  if (stage === "build-javascript") {
-    config.plugin("Lodash", webpackLodashPlugin, null);
+  if (stage === 'build-javascript') {
+    config.plugin('Lodash', webpackLodashPlugin, null);
   }
 };

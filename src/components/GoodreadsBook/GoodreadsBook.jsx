@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import "./index.scss";
+import './index.scss';
 
-export default function GoodreadsBook({
+export default function GoodreadsBook ({
   title,
   titleWithoutSeries,
   bookID,
@@ -12,17 +12,17 @@ export default function GoodreadsBook({
   rating
 }) {
   const externalLink = `${link}?utm_medium=api&utm_source=custom_widget`;
-  const rel = "external noreferrer noopener nofollow";
+  const rel = 'external noreferrer noopener nofollow';
   return (
     <div key={bookID} className="goodreads">
       <div
         className="bookImage"
         style={{
-          float: "right",
-          overflow: "hidden",
-          height: "60px",
-          marginLeft: "4px",
-          width: "39px"
+          float: 'right',
+          overflow: 'hidden',
+          height: '60px',
+          marginLeft: '4px',
+          width: '39px'
         }}
       >
         <a title={title} rel={rel} href={externalLink}>
@@ -46,15 +46,15 @@ export default function GoodreadsBook({
         </a>
       </div>
       <div className="byline">
-        {"by "}
+        {'by '}
         <span className="authors">
           {authors
             .map(author => (
-              <a rel={rel} href={author.link}>
+              <a key={author.id} rel={rel} href={author.link}>
                 {author.name}
               </a>
             ))
-            .reduce((prev, curr) => [prev, ", ", curr])}
+            .reduce((prev, curr) => [prev, ', ', curr])}
         </span>
       </div>
     </div>

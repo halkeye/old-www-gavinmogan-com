@@ -1,49 +1,49 @@
-import React, { Component } from "react";
-import Card from "react-md/lib/Cards/Card";
-import CardTitle from "react-md/lib/Cards/CardTitle";
-import Button from "react-md/lib/Buttons";
-import Avatar from "react-md/lib/Avatars";
-import CardText from "react-md/lib/Cards/CardText";
-import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-import fasCalendar from "@fortawesome/fontawesome-free-solid/faCalendar";
-import Link from "gatsby-link";
-import Media, { MediaOverlay } from "react-md/lib/Media";
-import PostTags from "../PostTags/PostTags";
-import PostCover from "../PostCover/PostCover";
-import "./PostPreview.scss";
+import React, { Component } from 'react';
+import Card from 'react-md/lib/Cards/Card';
+import CardTitle from 'react-md/lib/Cards/CardTitle';
+import Button from 'react-md/lib/Buttons';
+import Avatar from 'react-md/lib/Avatars';
+import CardText from 'react-md/lib/Cards/CardText';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import fasCalendar from '@fortawesome/fontawesome-free-solid/faCalendar';
+import Link from 'gatsby-link';
+import Media, { MediaOverlay } from 'react-md/lib/Media';
+import PostTags from '../PostTags/PostTags.jsx';
+import PostCover from '../PostCover/PostCover.jsx';
+import './PostPreview.scss';
 
 class PostPreview extends Component {
-  constructor(props) {
+  constructor (props) {
     super(props);
     this.state = {
       mobile: true
     };
     this.handleResize = this.handleResize.bind(this);
   }
-  componentDidMount() {
+  componentDidMount () {
     this.handleResize();
-    window.addEventListener("resize", this.handleResize);
+    window.addEventListener('resize', this.handleResize);
   }
 
-  componentWillUnmount() {
-    window.removeEventListener("resize", this.handleResize);
+  componentWillUnmount () {
+    window.removeEventListener('resize', this.handleResize);
   }
 
-  handleResize() {
+  handleResize () {
     if (window.innerWidth >= 640) {
       this.setState({ mobile: false });
     } else {
       this.setState({ mobile: true });
     }
   }
-  render() {
+  render () {
     const { postInfo } = this.props;
     const { mobile } = this.state;
     const expand = mobile;
     return (
       <Card key={postInfo.path} raise className="md-grid md-cell md-cell--12">
-        <Link style={{ textDecoration: "none" }} to={postInfo.path}>
-          <Media className="post-preview-cover" style={{ height: "185px" }}>
+        <Link style={{ textDecoration: 'none' }} to={postInfo.path}>
+          <Media className="post-preview-cover" style={{ height: '185px' }}>
             <PostCover image={postInfo.cover} />
             <MediaOverlay>
               <CardTitle title={postInfo.title}>

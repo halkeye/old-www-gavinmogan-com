@@ -1,12 +1,12 @@
-import React from "react";
-import Helmet from "react-helmet";
-import PostListing from "../components/PostListing/PostListing";
-import Pagination from "../components/Pagination/Pagination";
-import SEO from "../components/SEO/SEO";
-import config from "../../data/SiteConfig";
+import React from 'react';
+import Helmet from 'react-helmet';
+import PostListing from '../components/PostListing/PostListing.jsx';
+import Pagination from '../components/Pagination/Pagination.jsx';
+import SEO from '../components/SEO/SEO.jsx';
+import config from '../../data/SiteConfig.js';
 
 export default class IndexPage extends React.Component {
-  render() {
+  render () {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     const { index, paginatedPagesCount } = this.props.pathContext;
     return (

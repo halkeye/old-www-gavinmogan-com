@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import autobind from "autobind";
+import React, { Component } from 'react';
+import autobind from 'autobind';
 
 import {
   Button,
@@ -8,21 +8,21 @@ import {
   CardTitle,
   CardActions,
   TextField
-} from "react-md";
-import UserLinks from "../UserLinks/UserLinks";
-import config from "../../../data/SiteConfig";
-import avatar from "./Gavin-December-1989.png";
+} from 'react-md';
+import UserLinks from '../UserLinks/UserLinks.jsx';
+import config from '../../../data/SiteConfig';
+import avatar from './Gavin-December-1989.png';
 
-import "./About.scss";
+import './About.scss';
 
 class About extends Component {
-  constructor(props) {
+  constructor (props) {
     super(props);
-    this.state = { subject: "" };
+    this.state = { subject: '' };
   }
 
   @autobind
-  onClick() {
+  onClick () {
     window.open(
       `mailto:website@gavinmogan.com?subject=${window.encodeURIComponent(
         this.state.subject
@@ -31,26 +31,26 @@ class About extends Component {
   }
 
   @autobind
-  handleChange(field) {
+  handleChange (field) {
     return value => {
       this.setState({ [field]: value });
     };
   }
 
-  renderInput(field, name) {
+  renderInput (field, name) {
     return (
       <TextField
         label={name}
         placeholder={name}
         value={this.state.subject}
         onChange={this.handleChange(field)}
-        style={{ width: "100%" }}
+        style={{ width: '100%' }}
         id={field}
       />
     );
   }
 
-  renderText(field, name) {
+  renderText (field, name) {
     return (
       <TextField
         id={field}
@@ -58,13 +58,13 @@ class About extends Component {
         placeholder={name}
         rows={6}
         value={this.state.body}
-        style={{ width: "100%" }}
+        style={{ width: '100%' }}
         onChange={this.handleChange(field)}
       />
     );
   }
 
-  render() {
+  render () {
     return (
       <div className="about-container md-grid mobile-fix">
         <Card className="md-cell md-cell--8">
@@ -130,8 +130,8 @@ class About extends Component {
         <Card className="md-cell md-cell--8">
           <CardText>
             <CardTitle title="Contact" />
-            {this.renderInput("subject", "Subject")}
-            {this.renderText("body", "Body")}
+            {this.renderInput('subject', 'Subject')}
+            {this.renderText('body', 'Body')}
             <Button onClick={this.onClick} raised primary>
               Send Email
             </Button>

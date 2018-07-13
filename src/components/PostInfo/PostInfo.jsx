@@ -1,15 +1,15 @@
-import React, { Component } from "react";
-import CardTitle from "react-md/lib/Cards/CardTitle";
-import Avatar from "react-md/lib/Avatars";
-import Link from "gatsby-link";
-import _ from "lodash";
-import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-import fasCalendar from "@fortawesome/fontawesome-free-solid/faCalendar";
-import fasFolderOpen from "@fortawesome/fontawesome-free-solid/faFolderOpen";
-import "./PostInfo.scss";
+import React, { Component } from 'react';
+import CardTitle from 'react-md/lib/Cards/CardTitle';
+import Avatar from 'react-md/lib/Avatars';
+import Link from 'gatsby-link';
+import _ from 'lodash';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import fasCalendar from '@fortawesome/fontawesome-free-solid/faCalendar';
+import fasFolderOpen from '@fortawesome/fontawesome-free-solid/faFolderOpen';
+import './PostInfo.scss';
 
 class PostInfo extends Component {
-  render() {
+  render () {
     const { postNode } = this.props;
     const post = postNode.frontmatter;
     return (

@@ -1,10 +1,10 @@
-import React from "react";
-import PostPreview from "../PostPreview/PostPreview";
-import { toPostInfo } from "../../postUtils";
-import "./style.scss";
+import React from 'react';
+import PostPreview from '../PostPreview/PostPreview.jsx';
+import { toPostInfo } from '../../postUtils';
+import './style.scss';
 
 class PostListing extends React.Component {
-  render() {
+  render () {
     const postList = this.props.postEdges.map(toPostInfo);
     return (
       <div className="post-listing">

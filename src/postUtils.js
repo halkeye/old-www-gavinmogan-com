@@ -1,4 +1,4 @@
-export function toPostInfo(postEdge) {
+export function toPostInfo (postEdge) {
   return {
     path: postEdge.node.fields.slug,
     tags: postEdge.node.fields.tags,

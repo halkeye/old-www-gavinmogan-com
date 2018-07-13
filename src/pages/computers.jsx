@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Helmet from "react-helmet";
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 import {
   Card,
   CardText,
@@ -7,12 +7,12 @@ import {
   List,
   ListItem,
   Media,
-  Grid, Cell,
+  Grid, Cell
 } from 'react-md';
-import config from "../../data/SiteConfig";
+import config from '../../data/SiteConfig';
 
 class ComputersPage extends Component {
-  render() {
+  render () {
     return (
       <div className="computer-container">
         <Helmet>

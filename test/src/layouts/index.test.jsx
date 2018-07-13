@@ -1,21 +1,21 @@
 /* eslint-env jest */
-import React from "react";
-import { shallow } from "enzyme";
-import MainLayout from "../../../src/layouts/index";
+import React from 'react';
+import { shallow } from 'enzyme';
+import MainLayout from '../../../src/layouts/index.jsx';
 
-describe("layout", () => {
-  describe("pathnames to titles", () => {
+describe('layout', () => {
+  describe('pathnames to titles', () => {
     const pathNames = {
-      "/": "Home",
-      "/computers": "Computers",
-      "/projects": "Projects",
-      "/projects/Unknown Region": "Project - Unknown Region",
-      "/presentations": "Presentations",
-      "/presentations/vim": "Presentation - Vim",
-      "/tags": "Tags",
-      "/tags/docker": "Tagged in Docker",
-      "/categories": "Categories",
-      "/categories/docker": "Category - Docker"
+      '/': 'Home',
+      '/computers': 'Computers',
+      '/projects': 'Projects',
+      '/projects/Unknown Region': 'Project - Unknown Region',
+      '/presentations': 'Presentations',
+      '/presentations/vim': 'Presentation - Vim',
+      '/tags': 'Tags',
+      '/tags/docker': 'Tagged in Docker',
+      '/categories': 'Categories',
+      '/categories/docker': 'Category - Docker'
     };
     Object.entries(pathNames).forEach(([url, title]) => {
       test(url, () => {
@@ -23,7 +23,7 @@ describe("layout", () => {
           <MainLayout location={{ pathname: url }}>{jest.fn()}</MainLayout>
         );
         expect(wrapper).toBeTruthy();
-        expect(wrapper.find("Navigation").props().LocalTitle).toEqual(title);
+        expect(wrapper.find('Navigation').props().LocalTitle).toEqual(title);
       });
     });
   });

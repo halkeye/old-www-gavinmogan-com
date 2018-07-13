@@ -1,21 +1,21 @@
-import React from "react";
-import Link from "gatsby-link";
-import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-import fasTasks from "@fortawesome/fontawesome-free-solid/faTasks";
-import fasUser from "@fortawesome/fontawesome-free-solid/faUser";
-import fasDesktop from "@fortawesome/fontawesome-free-solid/faDesktop";
-import fasHome from "@fortawesome/fontawesome-free-solid/faHome";
-import fasFilePowerpoint from "@fortawesome/fontawesome-free-solid/faFilePowerpoint";
+import React from 'react';
+import Link from 'gatsby-link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import fasTasks from '@fortawesome/fontawesome-free-solid/faTasks';
+import fasUser from '@fortawesome/fontawesome-free-solid/faUser';
+import fasDesktop from '@fortawesome/fontawesome-free-solid/faDesktop';
+import fasHome from '@fortawesome/fontawesome-free-solid/faHome';
+import fasFilePowerpoint from '@fortawesome/fontawesome-free-solid/faFilePowerpoint';
 
-function GetNavList(config) {
+function GetNavList (config) {
   const NavList = [
     {
-      primaryText: "Home",
+      primaryText: 'Home',
       leftIcon: (
         <FontAwesomeIcon icon={fasHome} className="md-icon" fixedWidth />
       ),
       component: Link,
-      to: "/"
+      to: '/'
     },
     {
       divider: true
@@ -29,7 +29,7 @@ function GetNavList(config) {
         leftIcon: (
           <FontAwesomeIcon icon={link.icon} className="md-icon" fixedWidth />
         ),
-        component: "a",
+        component: 'a',
         href: link.url
       });
     });
@@ -37,15 +37,15 @@ function GetNavList(config) {
   NavList.push({ divider: true });
 
   NavList.push({
-    primaryText: "Projects",
+    primaryText: 'Projects',
     leftIcon: (
       <FontAwesomeIcon icon={fasTasks} className="md-icon" fixedWidth />
     ),
     component: Link,
-    to: "/projects/"
+    to: '/projects/'
   });
   NavList.push({
-    primaryText: "Presentations",
+    primaryText: 'Presentations',
     leftIcon: (
       <FontAwesomeIcon
         icon={fasFilePowerpoint}
@@ -54,21 +54,21 @@ function GetNavList(config) {
       />
     ),
     component: Link,
-    to: "/presentations/"
+    to: '/presentations/'
   });
   NavList.push({
-    primaryText: "About",
+    primaryText: 'About',
     leftIcon: <FontAwesomeIcon icon={fasUser} className="md-icon" fixedWidth />,
     component: Link,
-    to: "/about/"
+    to: '/about/'
   });
   NavList.push({
-    primaryText: "Computers",
+    primaryText: 'Computers',
     leftIcon: (
       <FontAwesomeIcon icon={fasDesktop} className="md-icon" fixedWidth />
     ),
     component: Link,
-    to: "/computers/"
+    to: '/computers/'
   });
   return NavList;
 }

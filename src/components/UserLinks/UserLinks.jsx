@@ -1,12 +1,12 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import FontAwesomeIcon from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import Button from "react-md/lib/Buttons";
-import "./UserLinks.scss";
+import Button from 'react-md/lib/Buttons';
+import './UserLinks.scss';
 
 class UserLinks extends Component {
-  getLinkElements() {
+  getLinkElements () {
     const { userLinks } = this.props.config;
     const { labeled } = this.props;
     return userLinks.map(link => (
@@ -18,11 +18,11 @@ class UserLinks extends Component {
         href={link.url}
         iconEl={<FontAwesomeIcon size="2x" icon={link.icon} />}
       >
-        {labeled ? link.label : ""}
+        {labeled ? link.label : ''}
       </Button>
     ));
   }
-  render() {
+  render () {
     const { userLinks } = this.props.config;
     if (!userLinks) {
       return null;

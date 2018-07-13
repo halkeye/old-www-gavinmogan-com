@@ -1,57 +1,57 @@
-import React from "react";
-import Helmet from "react-helmet";
-import Img from "gatsby-image";
-import Link from "gatsby-link";
-import GoodreadsBook from "../components/GoodreadsBook/GoodreadsBook";
-import Navigation from "../components/Navigation/Navigation";
-import config from "../../data/SiteConfig";
-import "./index.scss";
-import "./global.scss";
+import React from 'react';
+import Helmet from 'react-helmet';
+import Img from 'gatsby-image';
+import Link from 'gatsby-link';
+import GoodreadsBook from '../components/GoodreadsBook/GoodreadsBook.jsx';
+import Navigation from '../components/Navigation/Navigation.jsx';
+import config from '../../data/SiteConfig.js';
+import './index.scss';
+import './global.scss';
 
 export default class MainLayout extends React.Component {
-  getLocalTitle() {
-    function capitalize(string) {
+  getLocalTitle () {
+    function capitalize (string) {
       return string.charAt(0).toUpperCase() + string.slice(1);
     }
-    const pathPrefix = config.pathPrefix ? config.pathPrefix : "/";
+    const pathPrefix = config.pathPrefix ? config.pathPrefix : '/';
     const currentPath = this.props.location.pathname
-      .replace(new RegExp(`^${pathPrefix}`), "")
-      .split("/");
+      .replace(new RegExp(`^${pathPrefix}`), '')
+      .split('/');
     let title = capitalize(currentPath[currentPath.length - 1]);
-    if (currentPath[0] === "") {
-      title = "Home";
-    } else if (currentPath[0] === "about") {
-      title = "About";
-    } else if (currentPath[0] === "computers") {
-      title = "Computers";
-    } else if (currentPath[0] === "tags") {
+    if (currentPath[0] === '') {
+      title = 'Home';
+    } else if (currentPath[0] === 'about') {
+      title = 'About';
+    } else if (currentPath[0] === 'computers') {
+      title = 'Computers';
+    } else if (currentPath[0] === 'tags') {
       const tag = currentPath[1];
-      title = "Tags";
+      title = 'Tags';
       if (tag) {
         title = `Tagged in ${capitalize(tag)}`;
       }
-    } else if (currentPath[0] === "categories") {
+    } else if (currentPath[0] === 'categories') {
       const category = currentPath[1];
-      title = "Categories";
+      title = 'Categories';
       if (category) {
         title = `Category - ${capitalize(category)}`;
       }
-    } else if (currentPath[0] === "projects") {
+    } else if (currentPath[0] === 'projects') {
       const project = currentPath[1];
-      title = "Projects";
+      title = 'Projects';
       if (project) {
         title = `Project - ${capitalize(project)}`;
       }
-    } else if (currentPath[0] === "presentations") {
+    } else if (currentPath[0] === 'presentations') {
       const presentation = currentPath[1];
-      title = "Presentations";
+      title = 'Presentations';
       if (presentation) {
         title = `Presentation - ${capitalize(presentation)}`;
       }
     }
     return title;
   }
-  render() {
+  render () {
     const {
       children,
       data: {
@@ -85,34 +85,36 @@ export default class MainLayout extends React.Component {
                 <li>
                   <a rel="friend" href="https://forgreatjustice.ca/">
                     For Great Justice
-                  </a>{" "}
+                  </a>{' '}
                   (<Link to="/tags/nigel">Nigel</Link>)
                 </li>
               </ul>
               {currentlyReading &&
                 currentlyReading.length && (
-                  <div>
-                    <p>Currently Reading</p>
-                    {currentlyReading.map(node => (
-                      <GoodreadsBook
-                        rating={node.node.review.rating}
-                        {...node.node.book}
-                      />
-                    ))}
-                  </div>
-                )}
+                <div>
+                  <p>Currently Reading</p>
+                  {currentlyReading.map(node => (
+                    <GoodreadsBook
+                      key={node.node.book.id}
+                      rating={node.node.review.rating}
+                      {...node.node.book}
+                    />
+                  ))}
+                </div>
+              )}
               {recentlyRead &&
                 recentlyRead.length && (
-                  <div>
-                    <p>Recently Read</p>
-                    {recentlyRead.map(node => (
-                      <GoodreadsBook
-                        rating={node.node.review.rating}
-                        {...node.node.book}
-                      />
-                    ))}
-                  </div>
-                )}
+                <div>
+                  <p>Recently Read</p>
+                  {recentlyRead.map(node => (
+                    <GoodreadsBook
+                      key={node.node.book.id}
+                      rating={node.node.review.rating}
+                      {...node.node.book}
+                    />
+                  ))}
+                </div>
+              )}
             </section>
           </div>
         </div>

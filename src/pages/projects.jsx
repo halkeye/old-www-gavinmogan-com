@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import Helmet from "react-helmet";
-import ItemBlock from "../components/ItemBlock/ItemBlock";
-import SubHeader from "../components/SubHeader/SubHeader";
-import config from "../../data/SiteConfig";
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
+import ItemBlock from '../components/ItemBlock/ItemBlock.jsx';
+import SubHeader from '../components/SubHeader/SubHeader.jsx';
+import config from '../../data/SiteConfig.js';
 
 const ProjectList = ({ edges, onlyCategory }) => (
   <div className="md-grid">
@@ -24,7 +24,7 @@ const ProjectList = ({ edges, onlyCategory }) => (
 );
 
 export default class ProjectsPage extends Component {
-  render() {
+  render () {
     const { edges } = this.props.data.allMarkdownRemark;
     const allCategory = Object.keys(
       edges
