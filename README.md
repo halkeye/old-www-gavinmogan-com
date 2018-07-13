@@ -1,6 +1,8 @@
 Website
 =======
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/halkeye/www-gavinmogan-com.svg)](https://greenkeeper.io/)
+
 Some details to put here later
 
 * https://opengraphcheck.com/result.php?url=https%3A%2F%2Fhalkeye.net%2F2016%2F09%2F20%2Ftest-allthethings-at-jenkins-world-2016%2F
