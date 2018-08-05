@@ -34,6 +34,6 @@ $sql = mysql_query("UPDATE quotes SET ip = '$ip' WHERE id = '$newid'");
 1) It loops through 1 entry trying to find the latest entry number (I'm sure max() is faster than order by and limit).
 2) Once its it found, it does one insert with the id being set. Then it does 3 more queries setting each field in its own query.
 
-That sorta explains why the db doesn't have auto_increment fields turned on, but its scary. I'm afraid of looking at much more of the code. Luckily I then found [Rash Quote Management System](http://sourceforge.net/projects/rqms/). I don't like this one very much either.. but they are more personal reasons versus code issues.
+That sorta explains why the db doesn't have auto_increment fields turned on, but its scary. I'm afraid of looking at much more of the code. Luckily I then found [Rash Quote Management System](https://sourceforge.net/projects/rqms/). I don't like this one very much either.. but they are more personal reasons versus code issues.
 
 I should clean up and submit patches (it doesn't seem to have been updated since 2006) for rqms.

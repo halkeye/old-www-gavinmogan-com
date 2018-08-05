@@ -18,4 +18,4 @@ Sin Episode 1 was so awesome. I'm pretty sure i'm one of the very few people who
 
 I'm surprised that the game works so well in episode format.. Its weird, being only a couple hours long per episode, but its highly action packed, etc..
 
-got so many pictures up in the [New Gallery](http://www.halkeye.net/node/193).
+got so many pictures up in the [New Gallery](https://www.halkeye.net/node/193).

@@ -253,13 +253,6 @@ module.exports = {
         // Raven.js version, this is optional.
         version: '3.19.1'
       }
-    },
-    {
-      resolve: '@halkeye/gatsby-source-goodreads',
-      options: {
-        developerKey: process.env.GOODREADS_PSW,
-        goodReadsUserId: process.env.GOODREADS_USR
-      }
     }
   ]
 };

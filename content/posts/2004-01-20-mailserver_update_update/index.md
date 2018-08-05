@@ -60,7 +60,7 @@ Connected to smtp3.oregonstate.edu.
 Escape character is '^]'.  
   
 
-554 Service unavailable; [24.87.47.123] blocked using dul.dnsbl.sorbs.net, reason: Dynamic IP Address See: http://www.dnsbl.sorbs.net/cgi-bin/lookup?IP=24.87.47.123  
+554 Service unavailable; [24.87.47.123] blocked using dul.dnsbl.sorbs.net, reason: Dynamic IP Address See: https://www.dnsbl.sorbs.net/cgi-bin/lookup?IP=24.87.47.123  
 
 
 I can't belive the tiny little one liner fix in main.cf for postfix did all this.  

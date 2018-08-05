@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-Holy Shit [Fullmetal Alchemist](http://www.animenfo.com/animetitle,1265,mybywf,fullmetal_alche.html) has become interesting again.
+Holy Shit [Fullmetal Alchemist](https://www.animenfo.com/animetitle,1265,mybywf,fullmetal_alche.html) has become interesting again.
 
 I'm just loving the characters and plot twists and such.
 
@@ -26,4 +26,4 @@ WHOA
 
   
 
-and to quote McDonalds and the [Jordan](http://j0rd.ath.cx)... **I'm loving it**
+and to quote McDonalds and the [Jordan](https://j0rd.ath.cx)... **I'm loving it**

@@ -19,4 +19,4 @@ post_type: "post"
 that is all.
 
 
-(note, thanks to the #mysql guys, i have figured out a bunch of issues the server was having with mysql.. its all good now.. [stupid bugs](http://bugs.mysql.com/bug.php?id=7331))
+(note, thanks to the #mysql guys, i have figured out a bunch of issues the server was having with mysql.. its all good now.. [stupid bugs](https://bugs.mysql.com/bug.php?id=7331))

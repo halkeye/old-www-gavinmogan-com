@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-Since [@geekmentalhelp](http://geekmentalhelp.com/) is doing a week of articles talking about mental health, I've decided to nudge myself into doing something as well. This is even more scary now that some of my posts are getting tweeted/shared out by work so I'm actually having visitors.
+Since [@geekmentalhelp](https://geekmentalhelp.com/) is doing a week of articles talking about mental health, I've decided to nudge myself into doing something as well. This is even more scary now that some of my posts are getting tweeted/shared out by work so I'm actually having visitors.
 
 I'm pretty open about my issues, at least the easy to digest versions. I've always in the back of my mind (and possibly a bit been told growing up) that I'll scare people away. Just act normal so people want to be around you. I know I've been trying pretty hard to find the right balance of things. I don't like hiding from me. I also very much like teaching and helping people learn things/grow.
 
@@ -39,5 +39,5 @@ I think <https://imgur.com/a/uVIvv> does a way better job at explaining some o
 
 Oh, totally wanted to mention. Every time I feel like someone praises how awesome, or smart I am, I want to curl up and hide. I am not that good. Stop compairing me to those. I didn't finish school. I'm alone a lot. I can't do math. Everyone knows more than me. But I get past it. I know the intention. I know I am actually good at what I do, because I try really hard, and I'm excited about it. I'm not better than anyone else. But I am good. I can do this.
 
-I'll end it off on a positive mental health poem. [A guy speaking about how his OCD is calmed by a love.](http://genius.com/Neil-hilborn-ocd-annotated) ([Video](https://www.youtube.com/watch?v=vnKZ4pdSU-s))
+I'll end it off on a positive mental health poem. [A guy speaking about how his OCD is calmed by a love.](https://genius.com/Neil-hilborn-ocd-annotated) ([Video](https://www.youtube.com/watch?v=vnKZ4pdSU-s))
 

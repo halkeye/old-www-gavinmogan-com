@@ -36,7 +36,7 @@ Pretty much next started to think of any shells I had access to. darkwarriors an
 
 I don't want to get jordan's connection banned if he had any interest in poping in there. So just gave up on those avenues.
 
-Did learn tonight that its much harder to use proxies than it used to be, I was hoping to cause a problem (bad me) and get more ip ranged banned, that would have just been cool. But found out that [TOR](http://www.torproject.org) was banned already from efnet and none of the other proxy lists i could get my hands on worked for irc anyways. So sorta just gave up.
+Did learn tonight that its much harder to use proxies than it used to be, I was hoping to cause a problem (bad me) and get more ip ranged banned, that would have just been cool. But found out that [TOR](https://www.torproject.org) was banned already from efnet and none of the other proxy lists i could get my hands on worked for irc anyways. So sorta just gave up.
 
 ## Comments
 

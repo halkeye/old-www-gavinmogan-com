@@ -16,4 +16,4 @@ post_type: "post"
 
 yay!
 
-[gtalk and jabber now talk to eachother](http://googletalk.blogspot.com/2006/01/xmpp-federation.html)
+[gtalk and jabber now talk to eachother](https://googletalk.blogspot.com/2006/01/xmpp-federation.html)

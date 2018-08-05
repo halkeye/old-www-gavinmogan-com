@@ -18,7 +18,7 @@ This being sweeps week, and me being sick for now.. 6 days, I've had the chance 
 
 Now, I did watch a couple season openers too, CSI, How I Met Your Mother, Simpsons, House, random other ones from dvds (Red Dwarf, Beast Wars), and I have to say, none of them even could compare to the season opener to Stargate Atlantis. Man that was a good one, It makes it worth while having to wait the 6(?) months for the cliffhanger to end, well... endish.
 
-Go Atlantis! I already couldn't wait to see this years season after [Joseph Mallozzi](http://josephmallozzi.blogspot.com/)'s QA session at [Anime Evolution](http://animeevolution.com/) this year, and I'll defiantly make the effort to keep up to date and not try to watch them in batches like I have other years.
+Go Atlantis! I already couldn't wait to see this years season after [Joseph Mallozzi](https://josephmallozzi.blogspot.com/)'s QA session at [Anime Evolution](https://animeevolution.com/) this year, and I'll defiantly make the effort to keep up to date and not try to watch them in batches like I have other years.
 
 
 Oh, before I forget, Heroes was pretty awesome too, but I think Atlantis had a better season opener.

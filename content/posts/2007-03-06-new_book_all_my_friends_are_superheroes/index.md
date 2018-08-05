@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-This weekend [Nigel](http://www.flickr.com/photos/spatulus/) loaned me this short book called _All my friends are superheroes_. So far its been pretty awesome, but there's just one superhero description I have to share.
+This weekend [Nigel](https://www.flickr.com/photos/spatulus/) loaned me this short book called _All my friends are superheroes_. So far its been pretty awesome, but there's just one superhero description I have to share.
 
 
 

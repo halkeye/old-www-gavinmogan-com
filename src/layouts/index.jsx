@@ -2,7 +2,6 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Img from 'gatsby-image';
 import Link from 'gatsby-link';
-import GoodreadsBook from '../components/GoodreadsBook/GoodreadsBook.jsx';
 import Navigation from '../components/Navigation/Navigation.jsx';
 import config from '../../data/SiteConfig.js';
 import './index.scss';
@@ -55,9 +54,7 @@ export default class MainLayout extends React.Component {
     const {
       children,
       data: {
-        profileImage,
-        currentlyReading: { edges: currentlyReading },
-        recentlyRead: { edges: recentlyRead }
+        profileImage
       }
     } = this.props;
     return (
@@ -89,32 +86,6 @@ export default class MainLayout extends React.Component {
                   (<Link to="/tags/nigel">Nigel</Link>)
                 </li>
               </ul>
-              {currentlyReading &&
-                currentlyReading.length && (
-                <div>
-                  <p>Currently Reading</p>
-                  {currentlyReading.map(node => (
-                    <GoodreadsBook
-                      key={node.node.book.id}
-                      rating={node.node.review.rating}
-                      {...node.node.book}
-                    />
-                  ))}
-                </div>
-              )}
-              {recentlyRead &&
-                recentlyRead.length && (
-                <div>
-                  <p>Recently Read</p>
-                  {recentlyRead.map(node => (
-                    <GoodreadsBook
-                      key={node.node.book.id}
-                      rating={node.node.review.rating}
-                      {...node.node.book}
-                    />
-                  ))}
-                </div>
-              )}
             </section>
           </div>
         </div>
@@ -138,55 +109,6 @@ export const pageQuery = graphql`
     ) {
       resolutions(height: 150, width: 150) {
         ...GatsbyImageSharpResolutions_withWebp_tracedSVG
-      }
-    }
-    currentlyReading: allGoodreadsBook(
-      limit: 2
-      sort: { fields: [review___readAt], order: DESC }
-      filter: { shelfNames: { in: ["currently-reading"] } }
-    ) {
-      edges {
-        node {
-          review {
-            rating
-          }
-          book {
-            bookID
-            link
-            title
-            titleWithoutSeries
-            imageUrl: smallImageUrl
-            authors {
-              link
-              name
-            }
-          }
-        }
-      }
-    }
-    recentlyRead: allGoodreadsBook(
-      limit: 5
-      sort: { fields: [review___readAt], order: DESC }
-      filter: { review: { readAt: { ne: null } }, shelfNames: { in: ["read"] } }
-    ) {
-      edges {
-        node {
-          review {
-            readAt
-            rating
-          }
-          book {
-            bookID
-            link
-            title
-            titleWithoutSeries
-            imageUrl: smallImageUrl
-            authors {
-              link
-              name
-            }
-          }
-        }
       }
     }
   }

@@ -24,7 +24,7 @@ So what do you need? This is what I used, this is by no means the only way.
 
 
 1.  Gamepad (I used one of the snes gamepads I bought from a local game store. There are tons of tutorials online on how to convert an old snes controller to a usb one)
-2.  [MicroUSB OTG Adapter](http://www.monoprice.com/products/product.asp?c_id=108&cp_id=10833&cs_id=1083314&p_id=9724&seq=1&format=2) \- As linked
+2.  [MicroUSB OTG Adapter](https://www.monoprice.com/products/product.asp?c_id=108&cp_id=10833&cs_id=1083314&p_id=9724&seq=1&format=2) \- As linked
 3.  Android Device that has OTG support. I know my Galaxy Nexus and Nexus 7 both support them.
 4.  I used [USB/BT Joystick Center](https://play.google.com/store/apps/details?id=com.poke64738.usbjoy) in the end. Its pretty expensive, has some sort of online DRM (but seems to work offline, just can't edit joysticks). I've heard you can do it with root/this app, but this is what I used for my un-rooted tablet. There is a demo version available that lets you test compatibility before spending the money.
 5.  A "game" you want to run. I use [SNESDroid](https://play.google.com/store/apps/details?id=ca.halsafar.snesdroid) for that

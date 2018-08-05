@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-Wow, [Tin Man](http://www.scifi.com/tinman/) is... well it has zooey...
+Wow, [Tin Man](https://www.scifi.com/tinman/) is... well it has zooey...
 Well I have met all the characters, dorthy, tin man, guy without a brain, and I'm sure the heart guy too.
 
 It's really .. out there.

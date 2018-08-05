@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-[mIRC 6.12 has been released!](http://www.mirc.com/)
+[mIRC 6.12 has been released!](https://www.mirc.com/)
 
 mIRC v6.12 has been released to address a remote vulnerability found yesterday, capable of crashing your mIRC. The vulnerability affects versions of mIRC from v6.0 onwards, so it is highly recommended that you upgrade to mIRC v6.12. You can do so by downloading the new mIRC from the download page!
 

@@ -16,7 +16,7 @@ post_type: "post"
 
 With all the new recent games that have come out, across all systems, I keep finding it surprising that I'm playing a browser based (originally) mmo.
 
-I describe the game as a merge of both simcity and any space trading sim. I've sucked in at least 2 coworkers, and a few others have tried this game out. I love the [public wiki based help system](http://community.lacunaexpanse.com/wiki), complete with a [public tech tree](http://community.lacunaexpanse.com/wiki/tech-tree). Its very cool how every ingame building and ship (and a few others) all make sure to have a wiki link which people can expand.
+I describe the game as a merge of both simcity and any space trading sim. I've sucked in at least 2 coworkers, and a few others have tried this game out. I love the [public wiki based help system](https://community.lacunaexpanse.com/wiki), complete with a [public tech tree](https://community.lacunaexpanse.com/wiki/tech-tree). Its very cool how every ingame building and ship (and a few others) all make sure to have a wiki link which people can expand.
 
 The game has a completely open jsonrpc based api. Which allows all kinds of fun tools to be created. I've seen one set of tools being created to generate nice solar system maps, and we've been discussing various other random tools at work.
 

@@ -20,7 +20,7 @@ Part of the reason people probably havn't been noticing any updates that have ha
 
 Yea.
 
-We've moved now. We'll I've moved now. Living with an awesome roommate. You can see us on cam at [/cam/](http://www.halkeye.net/cam/). Well its more the living room cam. It all started as just good fun, now its sorta stuck and we are used to it :D
+We've moved now. We'll I've moved now. Living with an awesome roommate. You can see us on cam at [/cam/](https://www.halkeye.net/cam/). Well its more the living room cam. It all started as just good fun, now its sorta stuck and we are used to it :D
 
 Yep.
 

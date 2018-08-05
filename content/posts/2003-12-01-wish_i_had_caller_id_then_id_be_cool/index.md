@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-Looking at the "[Whatever](http://www.whatever.ca)" site (why do I keep reading that site? probably 'cause of some really cool linux hacks and such, that I promptly forget.), I noticed he mentioned a really [cool program](http://ncid.sourceforge.net/) that outputs [Caller ID information](http://ncid.sourceforge.net/) in various forms.. Which looks really cool, and I could have alot of fun writing different forms of clients for it... except... I don't have caller ID.. :( it would be cool, I know alot of people who do... but for me, its not really worth it.. Wish it would work with the cell though, 'cause I actually do get calls on that.
+Looking at the "[Whatever](https://www.whatever.ca)" site (why do I keep reading that site? probably 'cause of some really cool linux hacks and such, that I promptly forget.), I noticed he mentioned a really [cool program](https://ncid.sourceforge.net/) that outputs [Caller ID information](https://ncid.sourceforge.net/) in various forms.. Which looks really cool, and I could have alot of fun writing different forms of clients for it... except... I don't have caller ID.. :( it would be cool, I know alot of people who do... but for me, its not really worth it.. Wish it would work with the cell though, 'cause I actually do get calls on that.
 
 In Other news, I've been quite addicted to _**K**nights **o**f **t**he **O**ld **R**epublic_. This really sucks 'cause exams are in.. well.. considering its monday morning at this point, exams are just over a week.. by a few hours infact.
 

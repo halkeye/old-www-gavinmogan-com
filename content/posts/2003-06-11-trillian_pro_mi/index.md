@@ -14,17 +14,17 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-![](http://gallery.halkeye.net/albums/screenshots/untitled.thumb.jpg)Got my grubby little hands on a copy of Trillian Pro tonight (Do NOT ask how.. I'm just trying it.. Tis all)
+![](https://gallery.halkeye.net/albums/screenshots/untitled.thumb.jpg)Got my grubby little hands on a copy of Trillian Pro tonight (Do NOT ask how.. I'm just trying it.. Tis all)
 
 Its actually quite awoken.. way improved since the first version of Trillian I used a LONG time ago. The interface is kinda boring, as I didn't plan on keeping it.. Actually I don't plan really, its illegal, I just wanted to try the RSS plugin, which was the point of this post..
 
 Pro is a lot nicer than the Trillian (non pro) 1.0 I tried a long time ago, it doesn't seem to eat the same amount of memory, it has a bit more connection related options, and the best part, is the new plugin API feature.
 
-The only real issue I have with it is that it does weird things with sound on this computer. I've been having major issues with sound anyways, well at least until I found out I should disable ACPI, but Trillian has been the only program that has still had problems.. rest have some issues with my wintv card running at the same time, but whatever, the program had some cool things, it supports a lot more of the protocols than [miranda icq](http://miranda-icq.sourceforge.net) does, which I prefer, but doesn't support very much.
+The only real issue I have with it is that it does weird things with sound on this computer. I've been having major issues with sound anyways, well at least until I found out I should disable ACPI, but Trillian has been the only program that has still had problems.. rest have some issues with my wintv card running at the same time, but whatever, the program had some cool things, it supports a lot more of the protocols than [miranda icq](https://miranda-icq.sourceforge.net) does, which I prefer, but doesn't support very much.
 
 
 
-![](http://gallery.halkeye.net/albums/screenshots/untitled_001.thumb.jpg) [Gaim for windows](http://gaim.sourceforge.net/win32/) is now currently what i'm using, doesn't have the same number of plugins, but its all open source, and pretty easy to write a RSS plugin for that, at least I could do it for windows, pretty sure I could easily enough write a RSS plugin for it, I just don't want to try to get it to work for windows, but I think I could do it...
+![](https://gallery.halkeye.net/albums/screenshots/untitled_001.thumb.jpg) [Gaim for windows](https://gaim.sourceforge.net/win32/) is now currently what i'm using, doesn't have the same number of plugins, but its all open source, and pretty easy to write a RSS plugin for that, at least I could do it for windows, pretty sure I could easily enough write a RSS plugin for it, I just don't want to try to get it to work for windows, but I think I could do it...
 
 (okay, does that make any sense?)
 

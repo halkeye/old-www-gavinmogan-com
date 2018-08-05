@@ -28,5 +28,5 @@ A couple things hit really close to home. Probably more than I'd want to talk ab
 
 But yea, overall well done. Delivered the message that everyone is different. Talking is important. Things won't just be okay because you want them to. Growing up isn't all that scary. Etc. I know I felt sad at times, probably unintentional, but I did realy enjoy it. I'll admit, I even started to crush on at least one character by the end.
 
-Fringe is over, tickets are no longer available, but I do want to link back to the group, so - [How to Adult: The Musical](http://thecultch.com/event/vancouver-fringe-festival-2016-presents-adult-musical/)
+Fringe is over, tickets are no longer available, but I do want to link back to the group, so - [How to Adult: The Musical](https://thecultch.com/event/vancouver-fringe-festival-2016-presents-adult-musical/)
 

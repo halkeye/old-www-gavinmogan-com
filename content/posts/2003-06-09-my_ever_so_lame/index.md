@@ -18,7 +18,7 @@ I've noticed lately how a lot of music is mainly popular, or more noticably not 
 
 Micheal Jackson has some awsome music, but after his skin bleaching event, and then the child pedophile times, most people decided his music sucked. Its quite sad really, he has an awsome voice, and some cool songs, i still have some cds somewhere (mom's hidden them, or dad's taken them).
 
-Lately i've been hearing that my all time favorite group is quite rude to people, and stuff like that. I'm not really sure why its a big deal, I love Smashmouth, specially thier _[astrolounge_](http://www.amazon.com/exec/obidos/tg/detail/-/B00000J7S9/qid=1055174206/sr=8-1/ref=sr_8_1/103-3146172-0071851?v=glance&s=music&n=507846), i've caught myself singing it on the bus many of times. I really could care less how they treat people, i mean i hope they are good people, but in the end, does it really matter?
+Lately i've been hearing that my all time favorite group is quite rude to people, and stuff like that. I'm not really sure why its a big deal, I love Smashmouth, specially thier _[astrolounge_](https://www.amazon.com/exec/obidos/tg/detail/-/B00000J7S9/qid=1055174206/sr=8-1/ref=sr_8_1/103-3146172-0071851?v=glance&s=music&n=507846), i've caught myself singing it on the bus many of times. I really could care less how they treat people, i mean i hope they are good people, but in the end, does it really matter?
 
 I've now seen how Avril Lavigne is hated because she's fake, she doesn't sing her own songs, she's not really a skater, etc... not that it really matters, i love the lyrics and the sound of her skater boy song (or however its lamely spelt), but people can't stand her scandle, so they won't listen to her music, or more importantly, won't admit to listening to it.
 

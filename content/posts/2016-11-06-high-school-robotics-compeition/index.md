@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-So yesterday I ended up at helping judge a [high school robotics competition](https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-15-3684.html) organized by the [local robotics group](http://www.pyrs.ca/), but lets rewind a bit.
+So yesterday I ended up at helping judge a [high school robotics competition](https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-15-3684.html) organized by the [local robotics group](https://www.pyrs.ca/), but lets rewind a bit.
 
 In september, my friend Daruvin contacted me. He in conjunction with [Penguin Robotics](https://penguinrobotics.ca/) was helping to put together workshops to help the high school students learn to program for the robotic systems.
 

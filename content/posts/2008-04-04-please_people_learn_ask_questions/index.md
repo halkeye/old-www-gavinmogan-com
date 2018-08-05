@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-I've been playing around with some new [jquery](http://www.jquery.com)/javascript this week.. All has been going well, i've been learning just how bad [UI](http://ui.jquery.com) is lately.. I wish [interface](http://interface.eyecon.ro/) worked still in the latest versions, [UI](http://ui.jquery.com) is extremely slow, plus the documentation currently does not fully match the code (well actually they might, but we are using an older version of UI due to the fact that the new ones are less functional).
+I've been playing around with some new [jquery](https://www.jquery.com)/javascript this week.. All has been going well, i've been learning just how bad [UI](https://ui.jquery.com) is lately.. I wish [interface](https://interface.eyecon.ro/) worked still in the latest versions, [UI](https://ui.jquery.com) is extremely slow, plus the documentation currently does not fully match the code (well actually they might, but we are using an older version of UI due to the fact that the new ones are less functional).
 
 Anyways, lots of people pop in #jquery and ask questions.. which is good, 'cause i learn about new plugins or ideas, etc. But there are a lot of people who just can't figure out how to ask a question.
 
@@ -29,4 +29,4 @@ or my fav, and i can't find an example from my current logs
 
 Between those and the people who know next to nothing about javascript, css and html, expecting that jquery will be really easy and needing to be hand held through every little step is really frustrating.
 
-I gotta setup some irssi aliases now to point to http://reactor-core.org/irc-help.html (which I just found)..
+I gotta setup some irssi aliases now to point to https://reactor-core.org/irc-help.html (which I just found)..

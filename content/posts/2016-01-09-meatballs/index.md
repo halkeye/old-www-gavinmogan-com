@@ -22,7 +22,7 @@ Last weekend I totally experimented by making my first ever batch of meatballs. 
 
 # Meatballs
 
-**From:** http://www.foodnetwork.com/recipes/anne-burrell/excellent-meatballs-recipe.html
+**From:** https://www.foodnetwork.com/recipes/anne-burrell/excellent-meatballs-recipe.html
 
 **CookTime:** 25 min
 

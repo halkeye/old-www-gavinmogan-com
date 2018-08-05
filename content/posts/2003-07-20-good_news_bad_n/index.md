@@ -22,7 +22,7 @@ On one of the hottest days as of lately, my fan dies, so now my room is complete
 **Awesomely good news**
 I got asked today if i knew any programmers who were wanting to get involved in a project using a commercial engine... So I'm now going to probably be working on a game that uses the bioware engine (I believe the neverwinter nights one), which is cool, i just gotta find some other interested people, i think I'm going to ask Jordan and Richard, the only real issue is that since bioware doesn't want it leaving the office, we have to work there instead.
 
-So i got another game to work on, this one, and the program with [![userinfo](http://stat.livejournal.com/img/userinfo.gif)kanis](http://www.livejournal.com/users/kanis/), so I'll be quite busy for a while.. YAY!
+So i got another game to work on, this one, and the program with [![userinfo](https://stat.livejournal.com/img/userinfo.gif)kanis](https://www.livejournal.com/users/kanis/), so I'll be quite busy for a while.. YAY!
 i like being busy, makes me less depressed, but i still need to become more social.
 
-Side Note: [stupid slashdot people](http://slashdot.org/comments.pl?sid=70749&cid=6417270)
+Side Note: [stupid slashdot people](https://slashdot.org/comments.pl?sid=70749&cid=6417270)

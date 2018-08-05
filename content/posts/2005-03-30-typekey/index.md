@@ -18,7 +18,7 @@ So been spending the last few days trying to upgrade my software to support type
 
 And now finding out that each typekey user has a unique username, and earlier finding out that typekey uses a private / public key system, I've been that much more impressed by it.
 
-I think for KodePost (a clean non hacked version), I'm going to allow Registered Users, Typekey, and Typein/Anonymous users. This makes it much easier for people to comment, and for me to integrate with [KodeKomics](http://www.kodekomics.com) at a later date.
+I think for KodePost (a clean non hacked version), I'm going to allow Registered Users, Typekey, and Typein/Anonymous users. This makes it much easier for people to comment, and for me to integrate with [KodeKomics](https://www.kodekomics.com) at a later date.
 
 In other news, I almost got MTLJPost back up and running again for MT3.0. I just have to fix one more bug and get my tester happy with it. Then I can release a new cleaner version.
 

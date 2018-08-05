@@ -1,7 +1,7 @@
 ---
 title: "Infinicatr"
 image: "./infinicatr.png"
-link: "http://apps.gavinmogan.com/infinicatr/"
+link: "https://apps.gavinmogan.com/infinicatr/"
 links:
   - type: github
     url: "https://github.com/halkeye/infinicatr"

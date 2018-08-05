@@ -18,7 +18,7 @@ Man, I realized how much I just suck at/hate doing GUI design. Well MFC applicat
 
 I should look back into doing apps using GTK2.0 for windows or whatever. GTK is easier (For me) than MFC in the long run. At least I belive it will be, my experience with GTK is quite limited too.
 
-What I've realized is I like doing consoleish programming more. Like php/perl/asp which doesn't involve gui directly. Or like linux applications, like [Dark Wars](http://www.kodekoan.com/project/darkwarriors). Even AI programming on games is good.. I just don't like MFC, I love the message handling and all that other stuff though.
+What I've realized is I like doing consoleish programming more. Like php/perl/asp which doesn't involve gui directly. Or like linux applications, like [Dark Wars](https://www.kodekoan.com/project/darkwarriors). Even AI programming on games is good.. I just don't like MFC, I love the message handling and all that other stuff though.
 
 Its kinda nice to get this revelation now. I am much more prepared this way to start job hunting. Learn some ASP.NET and start applying along that route.. even Java GUI would be more fun than doing GUI appplications.
 

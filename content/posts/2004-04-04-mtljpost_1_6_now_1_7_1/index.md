@@ -36,7 +36,7 @@ Its kinda exciting.
 
 The javascript on the login information page is NIIIICE.
 
-**Update:** added [Instructions](http://www.kodekoan.com/project/MTLJPost) and submitted to [mt-plugins.org](http://www.mt-plugins.org)
+**Update:** added [Instructions](https://www.kodekoan.com/project/MTLJPost) and submitted to [mt-plugins.org](https://www.mt-plugins.org)
 
 <s>**Update:** [Download Version 1.6.5](https://files.halkeye.net/MTLJPost.1.6.5.tgz).</s>
 

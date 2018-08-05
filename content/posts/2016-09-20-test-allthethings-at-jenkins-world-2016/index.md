@@ -37,7 +37,7 @@ Thursday was a much shorter day, only going to 5pm. Less people came by, but we 
 
 ![IMG_20160914_085904.jpg](IMG_20160914_085904.jpg)
 
-Last but not least, Jenkins World had the team (I didn't know it was a team) behind [Commitstrip](http://www.commitstrip.com/en/?) come by from France. They were producing a mural just outside the main rooms. The plan was that the attendiees would be able to color it in, but they'd draw the thing.
+Last but not least, Jenkins World had the team (I didn't know it was a team) behind [Commitstrip](https://www.commitstrip.com/en/?) come by from France. They were producing a mural just outside the main rooms. The plan was that the attendiees would be able to color it in, but they'd draw the thing.
 
 I walked by it a few times. I really wish I had snagged a picture of the colored in one, but it still looks great black and white.
 

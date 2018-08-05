@@ -16,7 +16,7 @@ post_type: "post"
 
 ![](legostarwars.png)
 
-Tried [LEGO Starwars](http://www.3dgamers.com/games/legostarwars/) this morning. Man, it was very cute, everything is done in LEGO, and you can destroy most things with your lightsaber / blaster.
+Tried [LEGO Starwars](https://www.3dgamers.com/games/legostarwars/) this morning. Man, it was very cute, everything is done in LEGO, and you can destroy most things with your lightsaber / blaster.
 
 Okay, overall it was kinda enjoyable once I got into it, but the default controls were atrocious at best, there were at least 4 main keys, one for firing/attacking, one for jumping, one for "special" and one for talking. And they aren't the normal layout one expects for games, they are layed out so one player is on the keypad, one is on the keyboard. Which is really annoying when you are used to having it spread out.
 

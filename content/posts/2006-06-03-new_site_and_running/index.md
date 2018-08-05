@@ -14,9 +14,9 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-Man the first time i tried drupal, i was pretty much in love.. I was looking for software for [Hi Sci Fi](http://www.hiscifi.com)'s podcast, since loudblog has really not paid off well, infact i think it made them have alot less visiters.
+Man the first time i tried drupal, i was pretty much in love.. I was looking for software for [Hi Sci Fi](https://www.hiscifi.com)'s podcast, since loudblog has really not paid off well, infact i think it made them have alot less visiters.
 
-Anyways, after playing with it, I loved it so much more than joomla, which I ended up using for [SFU's ARC Club](http://www.sfuarc.com).
+Anyways, after playing with it, I loved it so much more than joomla, which I ended up using for [SFU's ARC Club](https://www.sfuarc.com).
 
 So I ended up looking into how to convert MT to drupal... Lacking in that department.. people tend to convert once, and not update again.. so the last conversion script was from like 2.x and drupal 4.5. So I ended up having to re-write the conversation script (which is now on thier site).
 

@@ -21,10 +21,10 @@ I didn't know what format I actually had, something I used from the old MT insta
 
     
     
-    http://halkeye.net/rss.cgi
+    https://halkeye.net/rss.cgi
 
 
 
-![\[Valid RSS\]](http://halkeye.net/img/valid-rss.png)
+![\[Valid RSS\]](https://halkeye.net/img/valid-rss.png)
 
-I think all that is left is some validation in the xmlrpc interface, and then I'll start a cleaner version... KodePost or something. It'll go along nicely with my awesome [comic system](http://www.kodekomics.com) ([KodeKomic](http://www.kodekomics.com))
+I think all that is left is some validation in the xmlrpc interface, and then I'll start a cleaner version... KodePost or something. It'll go along nicely with my awesome [comic system](https://www.kodekomics.com) ([KodeKomic](https://www.kodekomics.com))
