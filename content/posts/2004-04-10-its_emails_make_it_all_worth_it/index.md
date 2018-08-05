@@ -24,9 +24,9 @@ Date: Sat, 10 Apr 2004 15:15:10 -0400
 
 Gavin,I have got to hand it to you. I wasn't quite sure how well that thelivejournal stuff would work, but my god.
 
-http://www.lisa-jill.com/archives/2004/04/the-trip-to-dc.php  
+https://www.lisa-jill.com/archives/2004/04/the-trip-to-dc.php  
 
-http://lisajill.livejournal.com/
+https://lisajill.livejournal.com/
 
 Absolutely brilliant. I owe you big time. Thank you *so much*.  
 

@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-Its so easy now to support [jenkins](http://jenkins-ci.org/)+git with [gitolite](https://github.com/sitaramc/gitolite). No more having git polling per project and slamming the git server with ssh requests.
+Its so easy now to support [jenkins](https://jenkins-ci.org/)+git with [gitolite](https://github.com/sitaramc/gitolite). No more having git polling per project and slamming the git server with ssh requests.
 
 To install:
 Edit .gitolite/hooks/common/post-receive file [^1]

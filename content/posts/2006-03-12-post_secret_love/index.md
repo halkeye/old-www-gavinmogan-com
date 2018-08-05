@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-I love [postsecret](http://postsecret.blogspot.com/)
+I love [postsecret](https://postsecret.blogspot.com/)
 
 Entries like the following touch me so :) Keeps making me wish I had something to send them..
 

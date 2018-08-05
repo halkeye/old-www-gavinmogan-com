@@ -22,7 +22,7 @@ Walking to work this morning reminded me of just how close stargate is. Vancouve
 
 After those named shows, I have also seen all kinds of misc movie crews around filming various items for various unnamed shows.
 
-Anyways. back to stargate, I wish I had heard of this ["Get in the gate"](http://www.scifi.com/getinthegate/) contest earlier, I would have entered. I would love to have some way of being involved in a project that everyone enjoys so much, that I can contribute to others enjoyments, and well, its stargate :).
+Anyways. back to stargate, I wish I had heard of this ["Get in the gate"](https://www.scifi.com/getinthegate/) contest earlier, I would have entered. I would love to have some way of being involved in a project that everyone enjoys so much, that I can contribute to others enjoyments, and well, its stargate :).
 
   
 

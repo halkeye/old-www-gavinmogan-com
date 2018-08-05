@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-Went to half priced book with [Alex](http://www.fustiar.org/). Halfpriced Books was doing this sale. Whatever you can fit in this box, you get for $20..  
+Went to half priced book with [Alex](https://www.fustiar.org/). Halfpriced Books was doing this sale. Whatever you can fit in this box, you get for $20..  
 
 Got a good booklist..
 

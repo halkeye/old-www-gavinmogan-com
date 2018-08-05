@@ -26,4 +26,4 @@ post_type: "post"
 # - Adding selecting of which blog you want.
 ```
 
-**Edit:** [Newer Version](http://www.kodekoan.com/project/MTLJPost)
+**Edit:** [Newer Version](https://www.kodekoan.com/project/MTLJPost)

@@ -15,6 +15,6 @@ post_type: "post"
 ---
 
 New buzz browser just came out.  
-[Flock](http://www.flock.com/)  
+[Flock](https://www.flock.com/)  
 Built ontop of firefox/mozilla, but designed to be more a social browser, tagging, blogging, etc.  
 It looks clean and fast, but i like my firefox plugins.

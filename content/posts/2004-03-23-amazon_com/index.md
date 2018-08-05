@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-Whoa, amazon.com now seems to have prority information on thier [wishlist.](http://www.amazon.com/exec/obidos/wishlist/1B5Y9DCHJ489H/107-8946767-3520531)  
+Whoa, amazon.com now seems to have prority information on thier [wishlist.](https://www.amazon.com/exec/obidos/wishlist/1B5Y9DCHJ489H/107-8946767-3520531)  
 
 I'm going to have to go through and clean it up and set priorities sometimes.
 

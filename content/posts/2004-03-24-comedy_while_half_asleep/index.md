@@ -28,4 +28,4 @@ Then finish off the work on the portal system. Cleaning up, adding more document
 
 I can't begin to communicate the absolute respect and admiration I've gained in the past 2-3 days while working with postgresql.
 
-I think my next immediate project would be to clean up this cool [phpdoc](http://www.halkeye.net/~halkeye/pgHalkortal/docs/) program I've found. Unless I can find something better in the mean time. Or maybe actually get around to getting MT-Blacklist working with mod_perl. I donno. I have to say, its been an enjoyable week so far. Tiring, but enjoyable.
+I think my next immediate project would be to clean up this cool [phpdoc](https://www.halkeye.net/~halkeye/pgHalkortal/docs/) program I've found. Unless I can find something better in the mean time. Or maybe actually get around to getting MT-Blacklist working with mod_perl. I donno. I have to say, its been an enjoyable week so far. Tiring, but enjoyable.

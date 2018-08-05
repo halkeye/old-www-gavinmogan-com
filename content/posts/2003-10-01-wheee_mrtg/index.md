@@ -14,13 +14,13 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-after reading about MRTG is [kasia's](http://www.unix-girl.com) [blog](http://www.unix-girl.com/blog/archives/001134.html), I had to start figuring out how to use it more and more..
+after reading about MRTG is [kasia's](https://www.unix-girl.com) [blog](https://www.unix-girl.com/blog/archives/001134.html), I had to start figuring out how to use it more and more..
 
-![](http://www.halkeye.net/mrtg/memory-day.png)
+![](https://www.halkeye.net/mrtg/memory-day.png)
 
 I've been messing with it..--------------  
 
-http://people.ee.ethz.ch/~oetiker/webtools/mrtg/reference.html had all the extra information i needed...
+https://people.ee.ethz.ch/~oetiker/webtools/mrtg/reference.html had all the extra information i needed...
 
 External Monitoring Scripts  
 

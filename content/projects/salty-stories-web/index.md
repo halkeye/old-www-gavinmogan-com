@@ -1,7 +1,7 @@
 ---
 title: "Salty Stories - Web"
 image: "./saltystories.png"
-link: "http://books.saltystories.ca/"
+link: "https://books.saltystories.ca/"
 links:
   - type: github
     url: "https://github.com/halkeye/react-book-reader"

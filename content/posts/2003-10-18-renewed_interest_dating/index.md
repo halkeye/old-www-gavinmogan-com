@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-[Modern Flirting (washingtonpost.com)](http://www.washingtonpost.com/ac2/wp-dyn/A32799-2003Oct15)
+[Modern Flirting (washingtonpost.com)](https://www.washingtonpost.com/ac2/wp-dyn/A32799-2003Oct15)
 
 
 > Gick recently acquired an etiquette book from her parents and shared it with her friends, chuckling over its clear conventions about dating: "Can you imagine a guy coming up and saying, 'How's the weather? And would you like to go to the spring dance?' "
@@ -27,6 +27,6 @@ I'm not entirely sure why, but I really like this article. I guess its the way I
 
 But once I got there, I found relationships and people nothing like TV told me it would be. This article so helped to explain so mucha bout life.
 
-I have to admit, I really like reading ['Just a Gwai Lo'](http://www.justagwailo.com/), not only is he an awsome writer, but I get to find out so many interesting things about life and such.
+I have to admit, I really like reading ['Just a Gwai Lo'](https://www.justagwailo.com/), not only is he an awsome writer, but I get to find out so many interesting things about life and such.
 
 Its defanatly a good article. People should defanatly read it.

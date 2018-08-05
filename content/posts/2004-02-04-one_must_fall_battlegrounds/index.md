@@ -20,7 +20,7 @@ The game is constantly crashing on me. I have no idea if its my machine or the g
 
 I had high hopes for this game, even with people telling me how bad it was.
 
-But I did manage to get one screenshot off using the handly little [Clipper](http://hot.ee/mardu123/clipper/) application.
+But I did manage to get one screenshot off using the handly little [Clipper](https://hot.ee/mardu123/clipper/) application.
 
 Now, when I started the game, I was quite impressed to hear the familiar sound of One Must Fall 2097's music.. Remastered/etc of course, but it still had the familiarness to it.
 

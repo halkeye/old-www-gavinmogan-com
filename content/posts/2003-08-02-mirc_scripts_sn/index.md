@@ -80,7 +80,7 @@ on 1:action:*:?:{ if ($highlight(. $+ $1-) != $null) { .window -g0lwz @highlight
 
 
 
-thanks alot to [Chris](http://www.gushue.net/) for helping me out and giving me some of the tips today.
+thanks alot to [Chris](https://www.gushue.net/) for helping me out and giving me some of the tips today.
 
 ## Comments
 

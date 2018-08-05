@@ -16,7 +16,7 @@ post_type: "post"
 
 ![100.jpg](100.jpg)  
 
-It seems that [Stargate Atlantis](http://www.gateworld.net/atlantis/s1/101.shtml) is almost here. Infact the specs on the pilot episode are up and published.
+It seems that [Stargate Atlantis](https://www.gateworld.net/atlantis/s1/101.shtml) is almost here. Infact the specs on the pilot episode are up and published.
 
 I really can not wait... WHEEEEEE!!!!!
 

@@ -40,19 +40,19 @@ Looking through my lists, there's a bunch I should go back and reread
 
 ## TV Shows
 
-*   [Steven Universe](http://www.imdb.com/title/tt3061046/?ref_=fn_al_tt_4)
-*   [Brooklyn Nine-Nine](http://www.imdb.com/title/tt2467372/?ref_=fn_al_tt_1)
-*   [Psych](http://www.imdb.com/title/tt0491738/?ref_=fn_al_tt_1)
-*   [Futurama](http://www.imdb.com/title/tt0149460/?ref_=fn_al_tt_1)
-*   [Whose Line Is It Anyway?](http://www.imdb.com/title/tt2919910/?ref_=fn_al_tt_2)
-*   [Bent](http://www.imdb.com/title/tt1839417/?ref_=fn_al_tt_2) (guilty pleasure sitcom)
-*   [Scrubs](http://www.imdb.com/title/tt0285403/)
-*   [The Class](http://www.imdb.com/title/tt0484082/)
-*   [Red Dwarf](http://www.imdb.com/title/tt0094535/)
-*   [Stargate](http://www.imdb.com/title/tt0118480/) (any and all of them, but sg-1 is the best)
-*   [Undergrads](http://www.imdb.com/title/tt0292861/)
-*   [Babylon 5](http://www.imdb.com/title/tt0105946/?ref_=fn_al_tt_1)
-*   [Young Justice](http://www.imdb.com/title/tt1641384/?ref_=fn_al_tt_1)
+*   [Steven Universe](https://www.imdb.com/title/tt3061046/?ref_=fn_al_tt_4)
+*   [Brooklyn Nine-Nine](https://www.imdb.com/title/tt2467372/?ref_=fn_al_tt_1)
+*   [Psych](https://www.imdb.com/title/tt0491738/?ref_=fn_al_tt_1)
+*   [Futurama](https://www.imdb.com/title/tt0149460/?ref_=fn_al_tt_1)
+*   [Whose Line Is It Anyway?](https://www.imdb.com/title/tt2919910/?ref_=fn_al_tt_2)
+*   [Bent](https://www.imdb.com/title/tt1839417/?ref_=fn_al_tt_2) (guilty pleasure sitcom)
+*   [Scrubs](https://www.imdb.com/title/tt0285403/)
+*   [The Class](https://www.imdb.com/title/tt0484082/)
+*   [Red Dwarf](https://www.imdb.com/title/tt0094535/)
+*   [Stargate](https://www.imdb.com/title/tt0118480/) (any and all of them, but sg-1 is the best)
+*   [Undergrads](https://www.imdb.com/title/tt0292861/)
+*   [Babylon 5](https://www.imdb.com/title/tt0105946/?ref_=fn_al_tt_1)
+*   [Young Justice](https://www.imdb.com/title/tt1641384/?ref_=fn_al_tt_1)
 
 
 Note: These are not necessarily my favs, just stuff I've watched over and over again.
@@ -63,12 +63,12 @@ Note: These are not necessarily my favs, just stuff I've watched over and over a
 
 This is a lot harder list to mention, I don't replay too many games.
 
-*   [Team Fortress 2](http://store.steampowered.com/app/440/)
-*   [Terraria](http://store.steampowered.com/app/105600/)
-*   [Dungeon Defenders](http://store.steampowered.com/app/65800/)
-*   [XCOM](http://store.steampowered.com/app/200510/) (both main and expansion)
-*   [Gauntlet](http://store.steampowered.com/app/258970)
-*   [TowerFall Ascension](http://store.steampowered.com/app/251470)
+*   [Team Fortress 2](https://store.steampowered.com/app/440/)
+*   [Terraria](https://store.steampowered.com/app/105600/)
+*   [Dungeon Defenders](https://store.steampowered.com/app/65800/)
+*   [XCOM](https://store.steampowered.com/app/200510/) (both main and expansion)
+*   [Gauntlet](https://store.steampowered.com/app/258970)
+*   [TowerFall Ascension](https://store.steampowered.com/app/251470)
 
 
 PS, really need to stop starting posts with so.

@@ -20,7 +20,7 @@ you can set keywords for bookmarks
 then if you put a %s in, you can do  string
 
 ![](bookmarks2.jpg)  
-http://search.cpan.org/search?query=%s&mode;=all  
+https://search.cpan.org/search?query=%s&mode;=all  
 keyword: cpan  
 "cpan Module::name"
 And Voila!!!  
@@ -29,4 +29,4 @@ And Voila!!!
 Nice and simple cpan searching
   
 
-(Tip was originally mention to me by [Jordan](http://j0rd.ath.cx))
+(Tip was originally mention to me by [Jordan](https://j0rd.ath.cx))

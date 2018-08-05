@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-[ New Version of MTLJPost 1.9.2](http://kodekoan.com/projects/mtplugins/MTLJPost/1.9.2/)
+[ New Version of MTLJPost 1.9.2](https://kodekoan.com/projects/mtplugins/MTLJPost/1.9.2/)
 
 Apparently there is confusion all over, so here's an email from the mailing list:
 
@@ -64,5 +64,5 @@ So what am I doing wrong? Are there any other files that I need to install.
 Thanks,
 Elena
 
-**[alex](#5 "2007-06-14 19:56:33"):** Hey there. I know you're not actively supporting MTLJPost anymore, but I was wondering if I could get the documentation anywhere? Documentation links to http://www.kodekoan.com/projects/mtplugins/MTLJPost/ give me a "forbidden" and there's just the one plugin file in the download. Thanks, I appreciate it.
+**[alex](#5 "2007-06-14 19:56:33"):** Hey there. I know you're not actively supporting MTLJPost anymore, but I was wondering if I could get the documentation anywhere? Documentation links to https://www.kodekoan.com/projects/mtplugins/MTLJPost/ give me a "forbidden" and there's just the one plugin file in the download. Thanks, I appreciate it.
 

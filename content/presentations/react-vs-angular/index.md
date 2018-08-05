@@ -6,10 +6,10 @@ tags:
   - Internal
   - Telus
 date: 2015-06-01
-link: http://presentations.gavinmogan.com/react-vs-angular/
+link: https://presentations.gavinmogan.com/react-vs-angular/
 links:
   - type: slides
-    url: http://presentations.gavinmogan.com/react-vs-angular/
+    url: https://presentations.gavinmogan.com/react-vs-angular/
 ---
 
 Team presentation to try and show off to the team some of the features that (In my opinion) react did better than angular.

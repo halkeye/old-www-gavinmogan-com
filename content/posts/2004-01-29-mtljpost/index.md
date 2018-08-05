@@ -16,7 +16,7 @@ post_type: "post"
 
 I have now finished version 1.0 of MTLJPost.
 
-Yea, this was after [Kristian](http://www.departmentk.com) told me how he did it, I figured I could simplified things. And I did.
+Yea, this was after [Kristian](https://www.departmentk.com) told me how he did it, I figured I could simplified things. And I did.
 
 [Download here](https://files.halkeye.net/MTLJPost.tgz)
 

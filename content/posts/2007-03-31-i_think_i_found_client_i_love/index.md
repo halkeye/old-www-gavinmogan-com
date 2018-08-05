@@ -34,4 +34,4 @@ PS, C&C3 is much better than expected. The FMV are so nice, I kinda hope it beco
 
 
 
-PPS, Livejournal has an [April Fools Post](http://news.livejournal.com/97749.html?mode=reply&style=mine) this year, albeit very early :)
+PPS, Livejournal has an [April Fools Post](https://news.livejournal.com/97749.html?mode=reply&style=mine) this year, albeit very early :)

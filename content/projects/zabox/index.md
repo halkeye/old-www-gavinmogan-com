@@ -1,7 +1,7 @@
 ---
 title: "Zabox"
 image: zabox.png
-link: http://zabox.gavinmogan.com/
+link: https://zabox.gavinmogan.com/
 links:
   - type: github
     url: https://github.com/halkeye/zabox

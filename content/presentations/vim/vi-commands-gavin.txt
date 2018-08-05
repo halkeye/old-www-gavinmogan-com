@@ -99,6 +99,6 @@ vimdiff                                 vimdiff
 
 
 
-Vim website:    http://www.vim.org/tips
+Vim website:    https://www.vim.org/tips
                                 
 

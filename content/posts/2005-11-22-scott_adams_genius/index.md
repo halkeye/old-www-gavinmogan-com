@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-[Scott Adams is an absolute genius](http://dilbertblog.typepad.com/the_dilbert_blog/2005/11/results_of_why_.html).
+[Scott Adams is an absolute genius](https://dilbertblog.typepad.com/the_dilbert_blog/2005/11/results_of_why_.html).
 
 I love his debating opt-outs for stupid people. My favorite being:
 

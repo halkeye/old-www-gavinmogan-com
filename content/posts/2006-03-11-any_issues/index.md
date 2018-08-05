@@ -16,7 +16,7 @@ post_type: "post"
 
 Switched my hosting to lighttpd due to the smaller memory footprint and such.
 
-It seems ALOT faster for at least http://www.sfuarc.com than apache. And my server load doesn't get as high.. I'm prettty sure it has todo with BML / Fotobuilder.. Its just not designed for a server like mine.
+It seems ALOT faster for at least https://www.sfuarc.com than apache. And my server load doesn't get as high.. I'm prettty sure it has todo with BML / Fotobuilder.. Its just not designed for a server like mine.
 
 If anyone notices any problems with my site(s) now, if they could let me know that'll be awesome..
 

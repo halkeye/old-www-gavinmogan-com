@@ -14,7 +14,7 @@ cover: "../cover-image.jpg"
 post_type: "post"
 ---
 
-Man, [dovecot](http://www.dovecot.org/) is more my favorite email imap server software.
+Man, [dovecot](https://www.dovecot.org/) is more my favorite email imap server software.
 
 I just installed squirrelmail from scratch, and man, its so fast. with my old server, i was using courier and squirrelmail, both debian packages, and man, it'd time out half the time, break others, etc etc etc.
 
