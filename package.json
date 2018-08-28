@@ -64,7 +64,7 @@
     "rehype-react": "^3.0.2"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.6",
+    "babel-eslint": "^9.0.0",
     "babel-jest": "^23.4.0",
     "babel-preset-env": "^1.7.0",
     "cli-glob": "^0.1.0",
