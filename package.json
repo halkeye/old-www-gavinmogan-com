@@ -80,7 +80,7 @@
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^4.0.0",
     "eslint-plugin-react": "^7.10.0",
-    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-standard": "^4.0.0",
     "gatsby": "^1.9.273",
     "gh-pages": "^1.2.0",
     "husky": "^0.14.3",
