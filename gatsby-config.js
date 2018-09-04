@@ -134,34 +134,31 @@ module.exports = {
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: './src/images/logo.png',
-        injectHTML: true,
-        icons: {
-          android: false,
-          appleIcon: true,
-          appleStartup: true,
-          coast: true,
-          favicons: true,
-          // doesn't do anything yet
-          firefox: true,
-          // doesn't do anything yet, but open graph headers should be managed in a different way i think
-          twitter: false,
-          yandex: true,
-          windows: true
-        }
-      }
-    },
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        name: config.siteTitle,
-        // short name should be no longer than 12 characters
-        short_name: 'Gavin Mogan',
-        description: config.siteDescription,
-        start_url: config.pathPrefix,
-        background_color: '#e0e0e0',
+
+        appName: config.siteTitle,
+        appDescription: config.siteDescription,
+        developerName: 'Gavin Mogan',
+        developerURL: 'https://www.gavinmogan.com',
+        dir: 'rtl',
+        lang: 'en-US',
+        background: '#e0e0e0',
         theme_color: '#c62828',
         display: 'minimal-ui',
-        icon: 'src/images/logo.png'
+        orientation: 'any',
+        start_url: config.pathPrefix,
+        version: '1.0',
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          opengraph: false,
+          twitter: false,
+          yandex: false,
+          windows: false
+        }
       }
     },
     'gatsby-plugin-offline',
