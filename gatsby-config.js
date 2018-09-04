@@ -89,12 +89,6 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: config.siteGATrackingID
-      }
-    },
-    {
       resolve: 'gatsby-plugin-nprogress',
       options: {
         color: '#c62828'
