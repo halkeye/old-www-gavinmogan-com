@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import autobind from 'autobind-decorator';
 
 import {
   Button,
@@ -20,7 +21,8 @@ class About extends Component {
     this.state = { subject: '' };
   }
 
-  onClick = () => {
+  @autobind
+  onClick () {
     window.open(
       `mailto:website@gavinmogan.com?subject=${window.encodeURIComponent(
         this.state.subject
@@ -28,7 +30,8 @@ class About extends Component {
     );
   }
 
-  handleChange = (field) => {
+  @autobind
+  handleChange (field) {
     return value => {
       this.setState({ [field]: value });
     };
