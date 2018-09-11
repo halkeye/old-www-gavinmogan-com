@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardText, Button } from 'react-md/lib';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import range from 'lodash/range';
 import clamp from 'lodash/clamp';

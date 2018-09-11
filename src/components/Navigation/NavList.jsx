@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import fasTasks from '@fortawesome/fontawesome-free-solid/faTasks';
 import fasUser from '@fortawesome/fontawesome-free-solid/faUser';

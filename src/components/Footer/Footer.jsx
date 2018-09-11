@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Button } from 'react-md/lib';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import fasRSS from '@fortawesome/fontawesome-free-solid/faRss';
 import UserLinks from '../UserLinks/UserLinks.jsx';

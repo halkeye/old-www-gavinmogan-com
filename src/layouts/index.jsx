@@ -1,8 +1,7 @@
-import { graphql, StaticQuery } from 'gatsby';
+import { graphql, StaticQuery, Link } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
 import Img from 'gatsby-image';
-import Link from 'gatsby-link';
 import Navigation from '../components/Navigation/Navigation.jsx';
 import config from '../../data/SiteConfig.js';
 import './index.scss';

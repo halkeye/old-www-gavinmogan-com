@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Card, CardTitle, CardText, Button, Avatar } from 'react-md/lib';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import fasCalendar from '@fortawesome/fontawesome-free-solid/faCalendar';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import Media, { MediaOverlay } from 'react-md/lib/Media';
 import PostTags from '../PostTags/PostTags.jsx';
 import PostCover from '../PostCover/PostCover.jsx';

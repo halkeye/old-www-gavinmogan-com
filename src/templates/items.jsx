@@ -1,8 +1,7 @@
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import React from 'react';
 
 import Helmet from 'react-helmet';
-import Link from 'gatsby-link';
 import Layout from '../layouts/index.jsx';
 import { Card, CardText, CardActions } from 'react-md';
 import ItemBlockLinks from '../components/ItemBlockLinks/ItemBlockLinks.jsx';
