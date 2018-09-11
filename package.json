@@ -98,6 +98,9 @@
     "webpack": "^4.17.2",
     "write-good": "^0.13.1"
   },
+  "peerDependencies": {
+    "gatsby": ">=1"
+  },
   "keywords": [
     "gatsby"
   ],
