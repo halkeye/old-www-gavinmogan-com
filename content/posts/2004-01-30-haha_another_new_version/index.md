@@ -10,7 +10,6 @@ status: "publish"
 category: "Coding"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 1.0.2 Released

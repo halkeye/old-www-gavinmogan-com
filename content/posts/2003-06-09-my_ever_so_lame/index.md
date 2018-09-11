@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I've noticed lately how a lot of music is mainly popular, or more noticably not popular due to how an artist acts or looks or whatever.

@@ -10,7 +10,6 @@ status: "publish"
 category: "PC"
 tags: []
 cover: "Screenshot-Terraria-RoomatesHouse-1024x480.png"
-post_type: "post"
 ---
 
 Sometime during the last big steam sale (I think it was the summer sale) my roommate and I both picked up [Terraria](https://store.steampowered.com/app/105600/?snr=1_4_4__13) off of steam. I don't think either of us played it for months. It was always on the to play list, but I was busy with other games, he was busy with Minecraft. So we just put it off.

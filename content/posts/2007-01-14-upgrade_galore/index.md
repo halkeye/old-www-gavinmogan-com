@@ -10,7 +10,6 @@ status: "publish"
 category: "Web"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Yay! Spent the day on the server.

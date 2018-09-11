@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Apparently during the move to [ev1servers](https://ev1servers.net), alot of things broke.

@@ -10,7 +10,6 @@ status: "publish"
 category: "People"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I still am working on my MT Plugins, but i'm in the middle of preparing for a move and switching jobs (yay for getting back to computer jobs). MTLJPost 1.9.2 is almost ready, i'm just trying to figure out the best way of doing the resyncing all entries thing.

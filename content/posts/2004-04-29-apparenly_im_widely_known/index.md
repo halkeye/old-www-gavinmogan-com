@@ -10,7 +10,6 @@ status: "publish"
 category: "Linux"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 19:34 &lt; ShadowRage&gt; lowkey: so could activate.  

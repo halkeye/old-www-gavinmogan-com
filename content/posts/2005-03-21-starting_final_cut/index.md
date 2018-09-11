@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 The starting of Final Cut reminds me ALOT of the book Speaker For the Dead.

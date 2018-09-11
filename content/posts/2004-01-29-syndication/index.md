@@ -10,7 +10,6 @@ status: "publish"
 category: "Coding"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Yes! Since I'm now using my MTLJPost plugin, I figured I'd work on LJ Tag a bit more.

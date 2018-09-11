@@ -10,7 +10,6 @@ status: "publish"
 category: "People"
 tags: ['dating', 'personal', 'single']
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 This will be one of my rare non tech posts on this blog (I think).

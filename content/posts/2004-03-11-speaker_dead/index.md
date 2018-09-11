@@ -10,7 +10,6 @@ status: "publish"
 category: "Books"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Chapter In and Chapter Out, I just keep liking this book more and more..

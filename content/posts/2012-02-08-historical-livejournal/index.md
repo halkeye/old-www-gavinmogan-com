@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: ['livejournal']
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 LJ Was mentioned a few times today, but mostly because one of the accounts I was holding got a delete notification. I started to search for some historical posts:

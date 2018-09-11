@@ -10,7 +10,6 @@ status: "publish"
 category: "Internet"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 ![](bookmarks1.jpg)  

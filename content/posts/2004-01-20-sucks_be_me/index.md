@@ -10,7 +10,6 @@ status: "publish"
 category: "Linux"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I've found out that hotmail and other servers (such as AOL) are now blocking any email hosts that fall into the dynamic ip / Cable / DSL Host range. Unfortuatly, for me, that means I am now unable to email hotmail :(

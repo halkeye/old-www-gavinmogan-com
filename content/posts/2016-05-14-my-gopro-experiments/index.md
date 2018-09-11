@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 My mom got me a GoPro last year for my birthday, and as the weather has gotten a lot nicer, I've been using it for various projects.

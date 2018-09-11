@@ -10,7 +10,6 @@ status: "publish"
 category: "Gaming"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 With all the new recent games that have come out, across all systems, I keep finding it surprising that I'm playing a browser based (originally) mmo.

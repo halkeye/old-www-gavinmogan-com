@@ -10,7 +10,6 @@ status: "publish"
 category: "Gaming"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 -![](clip0005.png)Okay, so I finished Broken Sword 3 a few days ago. I really liked it, the dialog was awesome.

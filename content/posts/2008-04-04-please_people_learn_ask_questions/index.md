@@ -10,7 +10,6 @@ status: "publish"
 category: "Internet"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I've been playing around with some new [jquery](https://www.jquery.com)/javascript this week.. All has been going well, i've been learning just how bad [UI](https://ui.jquery.com) is lately.. I wish [interface](https://interface.eyecon.ro/) worked still in the latest versions, [UI](https://ui.jquery.com) is extremely slow, plus the documentation currently does not fully match the code (well actually they might, but we are using an older version of UI due to the fact that the new ones are less functional).

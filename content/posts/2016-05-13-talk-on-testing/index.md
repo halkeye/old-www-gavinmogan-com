@@ -10,7 +10,6 @@ status: "publish"
 category: "Work"
 tags: ['Code and Coffee', 'Meetup', 'Talks', 'Testing', 'Vancouver']
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 One of my personal goals for this year is to start getting more comfortable sharing knowledge and talking infront of large crowds. As such, I volunteered to give a quick talk on testing, as its always been something I love doing, and ion the new job I thought it would be pretty appropriate.

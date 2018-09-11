@@ -10,7 +10,6 @@ status: "publish"
 category: "People"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Okay, noticed that there was an #okcupid IRC channel on efnet from one of the pages okcupid.com has on thier site.

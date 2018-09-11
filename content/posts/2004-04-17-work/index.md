@@ -10,7 +10,6 @@ status: "publish"
 category: "Work"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Is it sad I miss work?  

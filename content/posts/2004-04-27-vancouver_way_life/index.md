@@ -10,7 +10,6 @@ status: "publish"
 category: "People"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 22:08 &lt; halkeye&gt; give a man a fish, you feed him for a day  

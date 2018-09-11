@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Just recieved a second hand nikon camera this week.  

@@ -10,7 +10,6 @@ status: "publish"
 category: "Geek"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Is it wrong I have an urge to put together an XBOX Server farm?  

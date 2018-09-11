@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Finished my [computers](/computers/) page about 30 minutes ago, been tweaking things, trimming the sidebar a bit.

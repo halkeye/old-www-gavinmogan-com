@@ -10,7 +10,6 @@ status: "publish"
 category: "Coding"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I actually think I might be able to make MT-Blacklist mod_perl compatible.

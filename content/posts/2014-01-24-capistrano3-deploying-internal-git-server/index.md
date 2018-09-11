@@ -10,7 +10,6 @@ status: "publish"
 category: "Internet"
 tags: ['amazon', 'capistrano', 'programming', 'ruby']
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 **Edit:** I updated my ["hack"](/2014/06/06/update-capistrano-hack/) to work with newer versions of capistrano/sshkit

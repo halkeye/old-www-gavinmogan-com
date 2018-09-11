@@ -10,7 +10,6 @@ status: "publish"
 category: "Linux"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I will be the first to admit that I hate cygwin, it works just enough that its nice, but breaks more often than not so its so frustrating.

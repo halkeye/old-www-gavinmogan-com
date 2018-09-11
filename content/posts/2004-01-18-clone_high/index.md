@@ -10,7 +10,6 @@ status: "publish"
 category: "Movies"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 After watching _Clone High_ so many times, I've finally figured out who is the voice actress for Cleopatra.

@@ -10,7 +10,6 @@ status: "publish"
 category: "Anime"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I have to say, initially I was impressed, Its not really my kind of anime, but it was still good. By the time i got to the second DVD, it was extreamly beh.

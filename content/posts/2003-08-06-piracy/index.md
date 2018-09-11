@@ -10,7 +10,6 @@ status: "publish"
 category: "People"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Interesting thing society has turned into, piracy, theif, murder, all becomeing so common, people just don't seem to blink much anymore.

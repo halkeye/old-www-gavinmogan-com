@@ -10,7 +10,6 @@ status: "publish"
 category: "Geek"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 <s>R.I.P [OKRUT](https://www.okrut.com).</s>  

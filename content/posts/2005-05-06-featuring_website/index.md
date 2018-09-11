@@ -10,7 +10,6 @@ status: "publish"
 category: "Coding"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I can never remember what version of website it is, doesn't actually matter, just that I now am using kodepost, which is my new web site software which is only for "blogging". Doesn't have all the other pages like halkpost attempted to, or anything like that, just is straight forward, has templates, comments, and trackbacks.

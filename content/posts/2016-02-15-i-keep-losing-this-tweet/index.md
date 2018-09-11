@@ -10,7 +10,6 @@ status: "publish"
 category: "People"
 tags: ['random thoughts', 'twitter', 'victoria']
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I use the favorites/love feature on twitter to come back to things later.

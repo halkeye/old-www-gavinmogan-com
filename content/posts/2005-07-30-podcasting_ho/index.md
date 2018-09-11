@@ -10,7 +10,6 @@ status: "publish"
 category: "Coding"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I'm still trying to work out a new MT plugin to do podcasts cleanly for [HiSciFi](https://www.hiscifi.com/archives/2005/07/shows_are_up_1.html) (and smile like a donut).  

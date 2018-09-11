@@ -10,7 +10,6 @@ status: "publish"
 category: "Web"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Man, been working on trying to setup my webserver cleaner, more importantly get php setup better..

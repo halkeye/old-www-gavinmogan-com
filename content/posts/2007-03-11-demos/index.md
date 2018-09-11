@@ -10,7 +10,6 @@ status: "publish"
 category: "Gaming"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 So far this weekend I got to try two really cool demos, and one really pathetic demo.

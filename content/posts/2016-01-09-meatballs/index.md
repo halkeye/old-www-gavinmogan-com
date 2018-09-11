@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 So this year my mom decided I should have a KitchenAid Mix Master for christmas. So far I'm loving it.

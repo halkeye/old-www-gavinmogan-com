@@ -10,7 +10,6 @@ status: "publish"
 category: "Linux"
 tags: ['bash', 'linux', 'prompt']
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 So I've been fighting with trying to make a custom color prompt for a while now.

@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: ['Year In Review']
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Everyone else has started to do this. I’ve been working on it for a week now for my own reasons. I apologize in advance. Overall I’d say 2013/30 has been an amazing year. (Posting it to the rarely used blog so I don't have to copy and paste all the text cross social networks.

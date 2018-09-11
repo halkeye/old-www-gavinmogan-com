@@ -10,7 +10,6 @@ status: "publish"
 category: "Geek"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I mean what self respecting geek doesn't have thoughts about building a real lightsaber one day? But man, why in the middle of the night? Okay I figured out some stuff a while back, I think at work, and just getting around to posting now.

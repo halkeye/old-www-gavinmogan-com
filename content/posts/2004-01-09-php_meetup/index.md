@@ -10,7 +10,6 @@ status: "publish"
 category: "People"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Last night, [Jordan](https://j0rd.ath.cx) and I went to the [PHP Meetup](https://php.meetup.com). I have to say, it was pretty, non php-ness. Jordan and I spent most of the reminising about our crappy times at BCIT, and how screwed up Computer Resources was, etc...

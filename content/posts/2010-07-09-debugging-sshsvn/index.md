@@ -10,7 +10,6 @@ status: "publish"
 category: "Linux"
 tags: ['debug', 'ssh', 'ssh+svn', 'svn']
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Posting here in case anyone else needs to know.

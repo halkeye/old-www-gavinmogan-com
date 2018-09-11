@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "./PANO_20160914_072416.jpg"
-post_type: "post"
 ---
 ![CsXFwi9UMAA-2vI](CsXFwi9UMAA-2vI.jpg)
 

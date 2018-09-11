@@ -10,7 +10,6 @@ status: "publish"
 category: "Anime"
 tags: ['hiscifi', 'cjsf']
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Finally got my script that downloads hiscifi (and jevon's future show if he ever gets a new one)

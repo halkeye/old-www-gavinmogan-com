@@ -10,7 +10,6 @@ status: "publish"
 category: "Books"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 This has to be one of the saddest days in long time for news

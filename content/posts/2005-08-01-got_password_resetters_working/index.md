@@ -10,7 +10,6 @@ status: "publish"
 category: "Hosting"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Its actually been a very productive long weekend for me, one of the few i guess.  

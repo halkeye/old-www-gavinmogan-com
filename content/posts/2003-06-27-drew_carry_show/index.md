@@ -10,7 +10,6 @@ status: "publish"
 category: "Movies"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Watched some of the new episodes about half a week ago. What the hell happened? He's in some dot com company job. Mimi looks worse than ever, and about 60 years old.. and Kate is gone..

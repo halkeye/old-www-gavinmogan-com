@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I can't belive I had to install spam protection, so many spammers talking about hurricane katrina, or google.

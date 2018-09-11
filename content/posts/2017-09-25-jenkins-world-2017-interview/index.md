@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 So back in august I spend a couple weeks in San Francisco to visit the Sauce Labs HQ and a bunch of the teammates I hadn't seen in a while. We figured we could squeeze in another week by offering to hang out at the booth at Jenkins World.

@@ -10,7 +10,6 @@ status: "publish"
 category: "Music"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 ![](iriver.jpg)

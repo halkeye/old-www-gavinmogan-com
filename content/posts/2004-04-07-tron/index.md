@@ -10,7 +10,6 @@ status: "publish"
 category: "Movies"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 HAHA!

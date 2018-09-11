@@ -10,7 +10,6 @@ status: "publish"
 category: "Movies"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 [Rockpoint P.D](https://us.imdb.com/Title?0310516) has to be one of the BEST canadian comedies, and one of the better cop shows on tv. I know people keep making fun of the mounties, like [Due South](https://us.imdb.com/Title?0108756).

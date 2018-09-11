@@ -10,7 +10,6 @@ status: "publish"
 category: "Work"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 ![](https://static.flickr.com/105/287204397_fe2098cbea_m.jpg)

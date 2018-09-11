@@ -10,7 +10,6 @@ status: "publish"
 category: "Linux"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Man, [dovecot](https://www.dovecot.org/) is more my favorite email imap server software.

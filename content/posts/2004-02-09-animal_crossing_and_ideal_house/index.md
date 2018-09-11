@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 After Steve told me about Animal <s>Party</s>Crossing, about how it was best for roommate situations, I started to think more about what I want in an ideal living arangement.

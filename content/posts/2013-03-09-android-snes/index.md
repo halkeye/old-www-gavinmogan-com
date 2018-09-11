@@ -10,7 +10,6 @@ status: "publish"
 category: "Gaming"
 tags: ['android', 'gamepad', 'nexus 7', 'snes']
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 So a while ago (Dec 2012, so only a couple months :D) I posted a little picture of a setup I got working with my nexus 7.

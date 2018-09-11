@@ -10,7 +10,6 @@ status: "publish"
 category: "Coding"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 [ New Version of MTLJPost 1.9.2](https://kodekoan.com/projects/mtplugins/MTLJPost/1.9.2/)

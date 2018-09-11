@@ -10,7 +10,6 @@ status: "publish"
 category: "Movies"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Its my new favorite show.. its hard to find a drama, specially a fox drama that i'll watch once, let alone multiple times but i've watch drive eps I have many times now.. MANY!!!  

@@ -10,7 +10,6 @@ status: "publish"
 category: "Movies"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I can't believe I got a email about [This Post](/2003/06/16/rockport_pd/) about Rockpoint P.D.

@@ -10,7 +10,6 @@ status: "publish"
 category: "Linux"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 after reading about MRTG is [kasia's](https://www.unix-girl.com) [blog](https://www.unix-girl.com/blog/archives/001134.html), I had to start figuring out how to use it more and more..

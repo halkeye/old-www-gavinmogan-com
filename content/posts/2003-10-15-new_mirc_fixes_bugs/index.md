@@ -10,7 +10,6 @@ status: "publish"
 category: "Applications"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 [mIRC 6.12 has been released!](https://www.mirc.com/)

@@ -10,7 +10,6 @@ status: "publish"
 category: "Linux"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I think, After exams are over (yes, I have ***another*** dose of midterms this week.. well one..), I might have to do a site update. The font sizes and other such items help to make my writing look very... unprofessional (so does the ... I use all the time).

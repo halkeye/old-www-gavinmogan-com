@@ -10,7 +10,6 @@ status: "publish"
 category: "Music"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 ...what happened to brittany spears producing music?

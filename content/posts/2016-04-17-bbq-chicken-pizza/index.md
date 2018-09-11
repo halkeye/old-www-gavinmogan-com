@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I've been really enjoying the pizza experiements I've been doing lately. Last night's pizza was left over bbq sauce, pulled chicken, mushrooms and onions. Also tried out throwing in garlic and italian herbs into the crust.

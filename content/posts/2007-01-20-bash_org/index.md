@@ -10,7 +10,6 @@ status: "publish"
 category: "Web"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 If the word 'rofl' appears in a bash.org quote, be concerned.

@@ -10,7 +10,6 @@ status: "publish"
 category: "Internet"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I really need to remember to post here more often. What have I been up lately? A bunch of traveling for work.

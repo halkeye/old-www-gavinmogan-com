@@ -10,7 +10,6 @@ status: "publish"
 category: "Work"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Okay, my Last 2-3 posts here looked like they had something to do with work.

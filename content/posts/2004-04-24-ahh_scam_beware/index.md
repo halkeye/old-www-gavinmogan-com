@@ -10,7 +10,6 @@ status: "publish"
 category: "People"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Anyways, Lionel and I met a guy a few days ago at the bank. He said he worked in the IT field, and would like to go out for coffee some time... I donno how to explain it, but i felt something was wrong.. I showed no interest in him, yet he still wanted me along? probably not, but still.

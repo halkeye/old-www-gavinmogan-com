@@ -10,7 +10,6 @@ status: "publish"
 category: "Linux"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I can't imagine me ever needing this again, but it does highlight bash's ability to strip extensions.

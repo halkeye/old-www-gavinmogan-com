@@ -10,7 +10,6 @@ status: "publish"
 category: "Linux"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 note to self, if you are having trouble with nuvexport / mythtv, rememember to use the [latest svn copy](https://svn.forevermore.net/nuvexport/wiki). Its fixed so much more than the 0.3 tarball.

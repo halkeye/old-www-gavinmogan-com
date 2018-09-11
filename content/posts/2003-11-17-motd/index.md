@@ -10,7 +10,6 @@ status: "publish"
 category: "Humor"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Duude, irc.desync.com has the absolute best motd I've seen in a long time.

@@ -10,7 +10,6 @@ status: "publish"
 category: "Books"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Its always so much fun to re-read enders game.

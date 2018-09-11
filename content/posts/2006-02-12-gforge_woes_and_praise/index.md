@@ -10,7 +10,6 @@ status: "publish"
 category: "Linux"
 tags: ["gforge", "linux"]
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Apparently setting up a gforge setup with true chroot shells and such is alot harder than it looks.

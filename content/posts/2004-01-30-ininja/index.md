@@ -10,7 +10,6 @@ status: "publish"
 category: "Gaming"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 ![](./Composite_Jan_30_005.jpg)

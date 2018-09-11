@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Been actually running linux at home now that I finally have a tv and no longer need the incoming tv signal (aka TV Tuner) that the ATI Radieon 9600 AIW provided me to play xbox. (Yes, I was actually playing xbox on the computer that way)

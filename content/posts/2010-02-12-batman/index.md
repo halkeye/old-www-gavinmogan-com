@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 ![](https://farm5.static.flickr.com/4046/4353110560_5f06134f08.jpg)

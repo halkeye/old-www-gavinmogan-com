@@ -10,7 +10,6 @@ status: "publish"
 category: "Applications"
 tags: ["blog client", "ecto", "mythtv", "kodekoan"]
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I was about to complain about it being a trial version... but man, it looks cool.. 

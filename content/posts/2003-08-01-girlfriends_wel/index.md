@@ -10,7 +10,6 @@ status: "publish"
 category: "People"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Yea, its about time that I finally got to this rant, its been bugging me for a Long time now.

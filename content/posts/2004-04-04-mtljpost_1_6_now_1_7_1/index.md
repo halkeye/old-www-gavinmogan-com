@@ -10,7 +10,6 @@ status: "publish"
 category: "Coding"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Yea Yea, if this works, then MTLJPost 1.6 Is ready to go.  

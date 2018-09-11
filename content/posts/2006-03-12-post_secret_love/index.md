@@ -10,7 +10,6 @@ status: "publish"
 category: "Web"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I love [postsecret](https://postsecret.blogspot.com/)

@@ -10,7 +10,6 @@ status: "publish"
 category: "Coding"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Man, I realized how much I just suck at/hate doing GUI design. Well MFC applications in particular... As much as I love doing work like that.. I've finally realized just how annoying MFC actually is.

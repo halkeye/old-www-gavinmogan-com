@@ -10,7 +10,6 @@ status: "publish"
 category: "Gaming"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Yea, a while ago [Alex](https://www.fustiar.org/) asked me to setup my own copy of [Legend of the Green Dragon](https://www.halkeye.net/logd/), after I showed him a global copy.

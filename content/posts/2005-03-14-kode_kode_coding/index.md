@@ -10,7 +10,6 @@ status: "publish"
 category: "Geek"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 HAHA, this site is now RSS validated again.  

@@ -10,7 +10,6 @@ status: "publish"
 category: "Music"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Remember old games.. Like Mechwarrior 2? How they used to come with the game on track one, then music on the rest of the tracks?

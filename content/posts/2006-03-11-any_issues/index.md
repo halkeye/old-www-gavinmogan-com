@@ -10,7 +10,6 @@ status: "publish"
 category: "Hosting"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Switched my hosting to lighttpd due to the smaller memory footprint and such.

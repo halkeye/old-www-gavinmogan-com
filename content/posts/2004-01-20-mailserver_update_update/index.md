@@ -10,7 +10,6 @@ status: "publish"
 category: "Linux"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 [14:13] @galimon&gt; Jan 20 14:09:53 oinkpig postfix/smtp[24044]: D99ED2AD623: to=&lt;gaveye@hotmail.com&gt;, relay=shawmail.cg.shawcable.net[24.71.223.43], delay=1, status=sent (250 2.5.0 Ok.)  

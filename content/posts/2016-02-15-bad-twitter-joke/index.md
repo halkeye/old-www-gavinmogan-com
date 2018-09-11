@@ -10,7 +10,6 @@ status: "publish"
 category: "People"
 tags: ['jokes', 'justin', 'telegram', 'twitter']
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Oh man. I used to post some really horrible jokes I found around the internet.

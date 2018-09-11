@@ -10,7 +10,6 @@ status: "publish"
 category: "Web"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I've been searching around alot with google video. Its amazing all the videos out there.

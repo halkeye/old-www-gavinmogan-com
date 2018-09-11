@@ -10,7 +10,6 @@ status: "publish"
 category: "Linux"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I just doubled my respect for [gentoo](https://www.gentoo.org) tonight.

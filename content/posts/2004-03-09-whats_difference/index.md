@@ -10,7 +10,6 @@ status: "publish"
 category: "Humor"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 It seems that a little girl and a little boy are arguing about differences between the sexes, he arguing that boys are inherently better and she that girls are. The subject, of course, spills over into the personal realm, so that the real issue is which of the two children is superior. Finally, the boy drops his pants and says, _"Here's something I have that you'll never have!"_

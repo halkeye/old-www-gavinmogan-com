@@ -10,7 +10,6 @@ status: "publish"
 category: "Movies"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 So yea, Havn't watched any TV since I reinstalled linux on this machine, except for yesterday morning while I was eating breakfast, and this morning.

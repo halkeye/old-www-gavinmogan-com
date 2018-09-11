@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 I really like this new program called TeamSpeak, which is alot like roger wilco, but it seems to be cleaner and such. Unfortuatly thier site barely works, so you can [Download the Client](https://files.halkeye.net/ts2_client_rc2_2032.exe) from my website.

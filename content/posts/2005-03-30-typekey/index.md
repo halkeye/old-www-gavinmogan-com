@@ -10,7 +10,6 @@ status: "publish"
 category: "Geek"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 So been spending the last few days trying to upgrade my software to support typekey. Today it dawned on me I had no idea how it ACTUALLY worked, just sorta trusted that It did. Well that and trying to figure out how to uniquely identify a user.

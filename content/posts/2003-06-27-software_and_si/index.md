@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 It seems there is a new version of [Moveable Type](https://www.movabletype.org/news/2003_05.shtml#000842) out. And I know there was a new version of [gallery](https://gallery.sourceforge.net/) out, so i really have to start updating my software over the next few days.

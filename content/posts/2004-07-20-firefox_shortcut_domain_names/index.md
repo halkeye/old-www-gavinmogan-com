@@ -10,7 +10,6 @@ status: "publish"
 category: "Internet"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 If you are like me, and just like going to common sites quickly.

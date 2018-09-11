@@ -10,7 +10,6 @@ status: "publish"
 category: "Web"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 ![](https://farm3.static.flickr.com/2033/2174698014_d91ee27a1f_m.jpg)

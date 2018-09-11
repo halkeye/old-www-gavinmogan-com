@@ -10,7 +10,6 @@ status: "publish"
 category: "Coding"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Tonight I was trying to convert the old custom quote system I used for #arc to qdb just for fun. I was trying to find out the code used by qdb.us/bash.org but came across this peice of code called OSQDB.

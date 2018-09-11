@@ -10,7 +10,6 @@ status: "publish"
 category: "People"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 [23:26] GreenMarshinz&gt; is c source code the same code structure in linux? header files and include etc.  

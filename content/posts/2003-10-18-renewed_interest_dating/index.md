@@ -10,7 +10,6 @@ status: "publish"
 category: "People"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 [Modern Flirting (washingtonpost.com)](https://www.washingtonpost.com/ac2/wp-dyn/A32799-2003Oct15)

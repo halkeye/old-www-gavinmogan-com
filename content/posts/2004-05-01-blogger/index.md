@@ -10,7 +10,6 @@ status: "publish"
 category: "People"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 While I was walking around at lunch yesterday I saw someone with a blogger t-shirt.

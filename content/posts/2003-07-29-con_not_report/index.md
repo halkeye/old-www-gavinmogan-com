@@ -10,7 +10,6 @@ status: "publish"
 category: "Anime"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 (Yes Yes, transcribed directly from my lj, so its not really that good, but its been 2 days now, and i havn't felt like writing something better yet)

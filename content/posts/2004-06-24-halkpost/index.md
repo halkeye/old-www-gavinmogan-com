@@ -10,7 +10,6 @@ status: "publish"
 category: "Coding"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Starting to work on this code again. Slowly working on migrating my entire site over to the new codebase.

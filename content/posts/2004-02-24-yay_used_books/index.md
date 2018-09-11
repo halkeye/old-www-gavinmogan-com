@@ -10,7 +10,6 @@ status: "publish"
 category: "Books"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Went to the used book store with mom today..

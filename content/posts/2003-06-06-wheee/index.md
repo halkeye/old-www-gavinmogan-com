@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 My design is almost completly done. I'm going to be enabling the sidebar links as i finish (re)doing them. I still have a spot at the top of the page i'd like to put an image or something in. but i really can't think of what i want there. My designs always look SOOO square. I defanatly need some help from some more experienced people to learn to change that...

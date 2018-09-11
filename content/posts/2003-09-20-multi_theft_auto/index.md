@@ -10,7 +10,6 @@ status: "publish"
 category: "Gaming"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Review of [Multi Theft Auto](https://web.archive.org/web/20180307003844/https://mtavc.com/)

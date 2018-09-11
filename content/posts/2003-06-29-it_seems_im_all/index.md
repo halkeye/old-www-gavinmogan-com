@@ -10,7 +10,6 @@ status: "publish"
 category: "General"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 It seems I'm All up to date software wise, I guess that wasn't nearly as hard as I thought it would be.

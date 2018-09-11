@@ -10,7 +10,6 @@ status: "publish"
 category: "People"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 ![](https://farm3.static.flickr.com/2184/2462993639_ff05c2548e_m.jpg)

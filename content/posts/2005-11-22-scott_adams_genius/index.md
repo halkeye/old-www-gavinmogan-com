@@ -10,7 +10,6 @@ status: "publish"
 category: "Humor"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 [Scott Adams is an absolute genius](https://dilbertblog.typepad.com/the_dilbert_blog/2005/11/results_of_why_.html).

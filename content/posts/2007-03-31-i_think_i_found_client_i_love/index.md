@@ -10,7 +10,6 @@ status: "publish"
 category: "Anime"
 tags: []
 cover: "../cover-image.jpg"
-post_type: "post"
 ---
 
 Playing with ecto and blogjet today.
