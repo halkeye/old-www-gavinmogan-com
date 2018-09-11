@@ -1,7 +1,6 @@
 ---
 title: "Utter crap"
 author: "halkeye"
-description: ""
 post_id: "154"
 date: "2006/02/18 21:02:35"
 post_name: "utter_crap"

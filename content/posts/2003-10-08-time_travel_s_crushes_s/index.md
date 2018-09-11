@@ -1,7 +1,6 @@
 ---
 title: "Time Travel & Crushes"
 author: "halkeye"
-description: ""
 post_id: "127"
 date: "2003/10/08 10:47:53"
 post_name: "time_travel_s_crushes_s"

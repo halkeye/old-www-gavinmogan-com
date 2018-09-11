@@ -1,7 +1,6 @@
 ---
 title: "iNinja"
 author: "halkeye"
-description: ""
 post_id: "101"
 date: "2004/01/30 23:01:34"
 post_name: "ininja"

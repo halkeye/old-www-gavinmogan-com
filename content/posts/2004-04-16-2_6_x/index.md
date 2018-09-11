@@ -1,7 +1,6 @@
 ---
 title: "2.6.x"
 author: "halkeye"
-description: ""
 post_id: "49"
 date: "2004/04/16 21:31:20"
 post_name: "2_6_x"

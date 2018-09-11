@@ -1,7 +1,6 @@
 ---
 title: "Still Around"
 author: "halkeye"
-description: ""
 post_id: "396"
 date: "2005/05/28 16:17:49"
 post_name: "still_around"

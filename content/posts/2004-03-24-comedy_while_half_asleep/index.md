@@ -1,7 +1,6 @@
 ---
 title: "Comedy while half asleep"
 author: "halkeye"
-description: ""
 post_id: "67"
 date: "2004/03/24 02:40:58"
 post_name: "comedy_while_half_asleep"

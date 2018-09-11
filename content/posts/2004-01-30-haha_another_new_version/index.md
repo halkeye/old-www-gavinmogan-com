@@ -1,7 +1,6 @@
 ---
 title: "HAHA, another new version"
 author: "halkeye"
-description: ""
 post_id: "103"
 date: "2004/01/30 18:08:56"
 post_name: "haha_another_new_version"

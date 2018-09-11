@@ -1,7 +1,6 @@
 ---
 title: "New Design And New Software"
 author: "halkeye"
-description: ""
 post_id: "132"
 date: "2005/07/29 18:28:55"
 post_name: "new_design_and_new_software"

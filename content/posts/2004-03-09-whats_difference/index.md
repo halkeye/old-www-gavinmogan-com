@@ -1,7 +1,6 @@
 ---
 title: "What's The Difference?"
 author: "halkeye"
-description: ""
 post_id: "71"
 date: "2004/03/09 23:01:06"
 post_name: "whats_difference"

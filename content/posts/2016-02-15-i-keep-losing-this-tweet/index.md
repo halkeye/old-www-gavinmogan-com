@@ -1,7 +1,6 @@
 ---
 title: "I keep losing this tweet"
 author: "halkeye"
-description: ""
 post_id: "718"
 date: "2016/02/15 10:06:33"
 post_name: "i-keep-losing-this-tweet"

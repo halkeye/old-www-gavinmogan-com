@@ -1,7 +1,6 @@
 ---
 title: "Does music have a soul?"
 author: "halkeye"
-description: ""
 post_id: "398"
 date: "2005/06/10 17:59:10"
 post_name: "does_music_have_soul"

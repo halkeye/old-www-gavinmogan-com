@@ -1,7 +1,6 @@
 ---
 title: "Tin Man"
 author: "halkeye"
-description: ""
 post_id: "327"
 date: "2007/12/03 21:13:44"
 post_name: "tin_man"

@@ -1,7 +1,6 @@
 ---
 title: "New Book - All my friends are superheroes"
 author: "halkeye"
-description: ""
 post_id: "316"
 date: "2007/03/06 09:38:08"
 post_name: "new_book_all_my_friends_are_superheroes"

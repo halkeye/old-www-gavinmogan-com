@@ -1,7 +1,6 @@
 ---
 title: "First Post"
 author: "halkeye"
-description: ""
 post_id: "363"
 date: "2003/04/17 22:04:39"
 post_name: "first_post"

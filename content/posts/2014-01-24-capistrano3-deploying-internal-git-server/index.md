@@ -1,7 +1,6 @@
 ---
 title: "Capistrano3 - Deploying with internal git server"
 author: "halkeye"
-description: ""
 post_id: "516"
 date: "2014/01/24 16:09:33"
 post_name: "capistrano3-deploying-internal-git-server"

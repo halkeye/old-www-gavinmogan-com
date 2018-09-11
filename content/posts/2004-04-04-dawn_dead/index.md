@@ -1,7 +1,6 @@
 ---
 title: "Dawn of the dead"
 author: "halkeye"
-description: ""
 post_id: "63"
 date: "2004/04/04 01:51:44"
 post_name: "dawn_dead"

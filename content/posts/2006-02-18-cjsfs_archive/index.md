@@ -1,7 +1,6 @@
 ---
 title: "CJSF's archive"
 author: "halkeye"
-description: ""
 post_id: "153"
 date: "2006/02/18 12:07:25"
 post_name: "cjsfs_archive"

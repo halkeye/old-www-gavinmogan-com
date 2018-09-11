@@ -1,7 +1,6 @@
 ---
 title: "BCIT's Ad"
 author: "halkeye"
-description: ""
 post_id: "79"
 date: "2004/02/18 23:18:03"
 post_name: "bcits_ad"

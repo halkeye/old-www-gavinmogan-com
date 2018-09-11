@@ -1,7 +1,6 @@
 ---
 title: "Busy Week here"
 author: "halkeye"
-description: ""
 post_id: "453"
 date: "2012/04/06 16:46:08"
 post_name: "busy-week"

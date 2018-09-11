@@ -1,7 +1,6 @@
 ---
 title: "Stats Tracking"
 author: "halkeye"
-description: ""
 post_id: "324"
 date: "2007/09/06 08:35:46"
 post_name: "stats_tracking"

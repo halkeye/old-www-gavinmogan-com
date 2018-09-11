@@ -1,7 +1,6 @@
 ---
 title: "YAY FOR USED BOOKS"
 author: "halkeye"
-description: ""
 post_id: "75"
 date: "2004/02/24 19:58:07"
 post_name: "yay_used_books"

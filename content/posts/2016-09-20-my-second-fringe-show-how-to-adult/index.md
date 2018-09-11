@@ -1,7 +1,6 @@
 ---
 title: "My Second Fringe Show: How to Adult"
 author: "halkeye"
-description: ""
 post_id: "842"
 date: "2016/09/20 09:41:33"
 post_name: "my-second-fringe-show-how-to-adult"

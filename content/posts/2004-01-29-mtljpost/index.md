@@ -1,7 +1,6 @@
 ---
 title: "MTLJPost"
 author: "halkeye"
-description: ""
 post_id: "106"
 date: "2004/01/29 23:00:27"
 post_name: "mtljpost"

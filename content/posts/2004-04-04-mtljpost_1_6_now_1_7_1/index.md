@@ -1,7 +1,6 @@
 ---
 title: "MTLJPost 1.6 (now 1.7.1)"
 author: "halkeye"
-description: ""
 post_id: "61"
 date: "2004/04/04 20:55:19"
 post_name: "mtljpost_1_6_now_1_7_1"

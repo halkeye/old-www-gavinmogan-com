@@ -1,7 +1,6 @@
 ---
 title: "BBQ Chicken Pizza"
 author: "halkeye"
-description: ""
 post_id: "743"
 date: "2016/04/17 10:02:00"
 post_name: "bbq-chicken-pizza"

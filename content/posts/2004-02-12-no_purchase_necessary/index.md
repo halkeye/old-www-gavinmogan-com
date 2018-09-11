@@ -1,7 +1,6 @@
 ---
 title: "No Purchase Necessary"
 author: "halkeye"
-description: ""
 post_id: "88"
 date: "2004/02/12 15:38:38"
 post_name: "no_purchase_necessary"

@@ -1,7 +1,6 @@
 ---
 title: "My GoPro experiments"
 author: "halkeye"
-description: ""
 post_id: "771"
 date: "2016/05/14 07:22:19"
 post_name: "my-gopro-experiments"

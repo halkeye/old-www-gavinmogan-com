@@ -1,7 +1,6 @@
 ---
 title: "Please people...learn to ask questions."
 author: "halkeye"
-description: ""
 post_id: "332"
 date: "2008/04/04 00:06:53"
 post_name: "please_people_learn_ask_questions"

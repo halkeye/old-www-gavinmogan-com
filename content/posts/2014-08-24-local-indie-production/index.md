@@ -1,7 +1,6 @@
 ---
 title: "Local Indie Production"
 author: "halkeye"
-description: ""
 post_id: "564"
 date: "2014/08/24 15:33:12"
 post_name: "local-indie-production"

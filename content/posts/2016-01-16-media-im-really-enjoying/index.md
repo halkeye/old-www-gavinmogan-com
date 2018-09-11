@@ -1,7 +1,6 @@
 ---
 title: "Media I'm really enjoying"
 author: "halkeye"
-description: ""
 post_id: "640"
 date: "2016/01/16 12:43:11"
 post_name: "media-im-really-enjoying"

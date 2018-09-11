@@ -1,7 +1,6 @@
 ---
 title: "KLINGON!"
 author: "halkeye"
-description: ""
 post_id: "124"
 date: "2003/10/11 11:46:34"
 post_name: "klingon"

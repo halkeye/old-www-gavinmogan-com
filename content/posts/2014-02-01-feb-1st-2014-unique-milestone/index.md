@@ -1,7 +1,6 @@
 ---
 title: "Feb 1st, 2014 - An unique milestone"
 author: "halkeye"
-description: ""
 post_id: "522"
 date: "2014/02/01 00:35:49"
 post_name: "feb-1st-2014-unique-milestone"

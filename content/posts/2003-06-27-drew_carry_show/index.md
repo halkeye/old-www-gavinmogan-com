@@ -1,7 +1,6 @@
 ---
 title: "Drew Carry Show & KY"
 author: "halkeye"
-description: ""
 post_id: "353"
 date: "2003/06/27 00:25:22"
 post_name: "drew_carry_show"

@@ -1,7 +1,6 @@
 ---
 title: "Gavin Got Game"
 author: "halkeye"
-description: ""
 post_id: "339"
 date: "2003/09/07 22:32:09"
 post_name: "gavin_got_game"

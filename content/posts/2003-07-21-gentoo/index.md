@@ -1,7 +1,6 @@
 ---
 title: "Gentoo++"
 author: "halkeye"
-description: ""
 post_id: "346"
 date: "2003/07/21 01:30:52"
 post_name: "gentoo"

@@ -1,7 +1,6 @@
 ---
 title: "XARGS FUN!"
 author: "halkeye"
-description: ""
 post_id: "120"
 date: "2003/10/29 22:00:45"
 post_name: "xargs_fun"

@@ -1,7 +1,6 @@
 ---
 title: "The Story of the code monkey"
 author: "halkeye"
-description: ""
 post_id: "340"
 date: "2003/08/13 10:32:54"
 post_name: "the_story_of_th"

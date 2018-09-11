@@ -1,7 +1,6 @@
 ---
 title: "Syndication"
 author: "halkeye"
-description: ""
 post_id: "105"
 date: "2004/01/29 23:36:45"
 post_name: "syndication"

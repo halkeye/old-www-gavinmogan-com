@@ -1,7 +1,6 @@
 ---
 title: "Con... not Report"
 author: "halkeye"
-description: ""
 post_id: "345"
 date: "2003/07/29 16:44:00"
 post_name: "con_not_report"

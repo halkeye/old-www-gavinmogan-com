@@ -1,7 +1,6 @@
 ---
 title: "Finished Naruto: Rise of a Ninja"
 author: "halkeye"
-description: ""
 post_id: "334"
 date: "2008/05/04 23:16:24"
 post_name: "finished_naruto_rise_ninja"

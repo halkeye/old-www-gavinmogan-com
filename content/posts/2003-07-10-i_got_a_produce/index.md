@@ -1,7 +1,6 @@
 ---
 title: "I got a Producer to respond to my blog :P"
 author: "halkeye"
-description: ""
 post_id: "351"
 date: "2003/07/10 19:12:22"
 post_name: "i_got_a_produce"

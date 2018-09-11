@@ -1,7 +1,6 @@
 ---
 title: "Apache DSO"
 author: "halkeye"
-description: ""
 post_id: "148"
 date: "2005/12/11 23:17:34"
 post_name: "apache_dso"

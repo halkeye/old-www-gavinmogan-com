@@ -1,7 +1,6 @@
 ---
 title: "mod_perl"
 author: "halkeye"
-description: ""
 post_id: "65"
 date: "2004/03/28 01:17:07"
 post_name: "mod_perl"

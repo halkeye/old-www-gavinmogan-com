@@ -1,7 +1,6 @@
 ---
 title: "BOOOKS!"
 author: "halkeye"
-description: ""
 post_id: "72"
 date: "2004/03/03 22:47:59"
 post_name: "boooks"

@@ -1,7 +1,6 @@
 ---
 title: "Multi Theft Auto"
 author: "halkeye"
-description: ""
 post_id: "130"
 date: "2003/09/20 19:38:00"
 post_name: "multi_theft_auto"

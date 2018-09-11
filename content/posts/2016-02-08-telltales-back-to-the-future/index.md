@@ -1,7 +1,6 @@
 ---
 title: "Telltale's Back to the Future"
 author: "halkeye"
-description: ""
 post_id: "692"
 date: "2016/02/08 10:18:44"
 post_name: "telltales-back-to-the-future"

@@ -1,7 +1,6 @@
 ---
 title: "Nginx + Cloudflare SSL"
 author: "halkeye"
-description: ""
 post_id: "582"
 date: "2015/03/31 10:44:32"
 post_name: "nginx-cloudflare-ssl"

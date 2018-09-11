@@ -1,7 +1,6 @@
 ---
 title: "CJSF changed thier schema again."
 author: "halkeye"
-description: ""
 post_id: "319"
 date: "2007/03/31 20:45:46"
 post_name: "cjsf_changed_thier_schema_again"

@@ -1,7 +1,6 @@
 ---
 title: "Dovecot and Squirrelmail"
 author: "halkeye"
-description: ""
 post_id: "23"
 date: "2005/02/09 12:07:25"
 post_name: "dovecot_and_squirrelmail"

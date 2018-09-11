@@ -1,7 +1,6 @@
 ---
 title: "Knights of the Temple: Infernal Crusade"
 author: "halkeye"
-description: ""
 post_id: "9"
 date: "2005/04/02 22:44:21"
 post_name: "knights_temple_infernal_crusade"

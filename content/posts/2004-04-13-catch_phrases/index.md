@@ -1,7 +1,6 @@
 ---
 title: "Catch Phrases"
 author: "halkeye"
-description: ""
 post_id: "52"
 date: "2004/04/13 22:45:58"
 post_name: "catch_phrases"

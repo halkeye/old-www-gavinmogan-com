@@ -1,7 +1,6 @@
 ---
 title: "test.allTheThings() at Jenkins World 2016"
 author: "halkeye"
-description: ""
 post_id: "869"
 date: "2016/09/20 21:37:36"
 post_name: "test-allthethings-at-jenkins-world-2016"

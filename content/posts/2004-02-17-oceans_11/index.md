@@ -1,7 +1,6 @@
 ---
 title: "Oceans 11"
 author: "halkeye"
-description: ""
 post_id: "82"
 date: "2004/02/17 19:57:55"
 post_name: "oceans_11"

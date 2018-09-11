@@ -1,7 +1,6 @@
 ---
 title: "I get my own ugly code"
 author: "halkeye"
-description: ""
 post_id: "336"
 date: "2009/10/07 23:47:34"
 post_name: "1007i_get_my_own_ugly_code"

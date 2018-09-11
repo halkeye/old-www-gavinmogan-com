@@ -1,7 +1,6 @@
 ---
 title: "Trillian Pro, Miranda ICQ, Gaim"
 author: "halkeye"
-description: ""
 post_id: "359"
 date: "2003/06/11 20:46:30"
 post_name: "trillian_pro_mi"

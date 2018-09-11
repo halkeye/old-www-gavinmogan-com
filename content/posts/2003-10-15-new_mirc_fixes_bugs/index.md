@@ -1,7 +1,6 @@
 ---
 title: "New Mirc. Fixes Bugs"
 author: "halkeye"
-description: ""
 post_id: "123"
 date: "2003/10/15 19:35:29"
 post_name: "new_mirc_fixes_bugs"

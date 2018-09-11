@@ -1,7 +1,6 @@
 ---
 title: "yay!"
 author: "halkeye"
-description: ""
 post_id: "149"
 date: "2006/01/17 22:26:16"
 post_name: "yay"

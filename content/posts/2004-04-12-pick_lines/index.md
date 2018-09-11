@@ -1,7 +1,6 @@
 ---
 title: "Pick up lines?"
 author: "halkeye"
-description: ""
 post_id: "54"
 date: "2004/04/12 12:40:09"
 post_name: "pick_lines"

@@ -1,7 +1,6 @@
 ---
 title: "Piracy"
 author: "halkeye"
-description: ""
 post_id: "342"
 date: "2003/08/06 00:23:53"
 post_name: "piracy"

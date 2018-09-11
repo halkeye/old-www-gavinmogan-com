@@ -1,7 +1,6 @@
 ---
 title: "Been trying out Day"
 author: "halkeye"
-description: ""
 post_id: "361"
 date: "2003/06/07 22:46:36"
 post_name: "been_trying_out"

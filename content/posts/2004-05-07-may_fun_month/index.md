@@ -1,7 +1,6 @@
 ---
 title: "May is a fun month"
 author: "halkeye"
-description: ""
 post_id: "36"
 date: "2004/05/07 09:29:29"
 post_name: "may_fun_month"

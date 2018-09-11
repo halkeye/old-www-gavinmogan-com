@@ -1,7 +1,6 @@
 ---
 title: "Gavin mental health"
 author: "halkeye"
-description: ""
 post_id: "917"
 date: "2016/10/06 20:01:09"
 post_name: "gavin-mental-health"

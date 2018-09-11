@@ -1,7 +1,6 @@
 ---
 title: "Clone High"
 author: "halkeye"
-description: ""
 post_id: "112"
 date: "2004/01/18 16:26:07"
 post_name: "clone_high"

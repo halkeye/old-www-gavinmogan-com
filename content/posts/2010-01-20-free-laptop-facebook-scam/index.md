@@ -1,7 +1,6 @@
 ---
 title: "\"free laptop\" facebook scam"
 author: "halkeye"
-description: ""
 post_id: "374"
 date: "2010/01/20 00:11:52"
 post_name: "free-laptop-facebook-scam"

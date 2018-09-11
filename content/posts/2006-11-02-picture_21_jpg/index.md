@@ -1,7 +1,6 @@
 ---
 title: "picture(21).jpg"
 author: "halkeye"
-description: ""
 post_id: "302"
 date: "2006/11/02 15:35:42"
 post_name: "picture_21_jpg"

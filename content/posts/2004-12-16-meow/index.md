@@ -1,7 +1,6 @@
 ---
 title: "meow"
 author: "halkeye"
-description: ""
 post_id: "27"
 date: "2004/12/16 01:35:01"
 post_name: "meow"

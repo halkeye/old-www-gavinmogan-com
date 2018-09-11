@@ -1,7 +1,6 @@
 ---
 title: "IRiver HP-120"
 author: "halkeye"
-description: ""
 post_id: "47"
 date: "2004/04/18 20:07:09"
 post_name: "iriver_hp_120"

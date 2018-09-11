@@ -1,7 +1,6 @@
 ---
 title: "Any Issues?"
 author: "halkeye"
-description: ""
 post_id: "156"
 date: "2006/03/11 20:48:46"
 post_name: "any_issues"

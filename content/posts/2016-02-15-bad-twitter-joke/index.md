@@ -1,7 +1,6 @@
 ---
 title: "Bad twitter joke"
 author: "halkeye"
-description: ""
 post_id: "727"
 date: "2016/02/15 10:13:30"
 post_name: "bad-twitter-joke"

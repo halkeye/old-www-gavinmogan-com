@@ -1,7 +1,6 @@
 ---
 title: "Post Secret Love"
 author: "halkeye"
-description: ""
 post_id: "157"
 date: "2006/03/12 15:21:41"
 post_name: "post_secret_love"

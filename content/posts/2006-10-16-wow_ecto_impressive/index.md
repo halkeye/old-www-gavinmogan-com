@@ -1,7 +1,6 @@
 ---
 title: "Wow.. ecto is impressive"
 author: "halkeye"
-description: ""
 post_id: "299"
 date: "2006/10/16 23:27:36"
 post_name: "wow_ecto_impressive"

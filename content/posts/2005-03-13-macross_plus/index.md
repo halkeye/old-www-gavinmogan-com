@@ -1,7 +1,6 @@
 ---
 title: "Macross Plus"
 author: "halkeye"
-description: ""
 post_id: "18"
 date: "2005/03/13 13:22:14"
 post_name: "macross_plus"

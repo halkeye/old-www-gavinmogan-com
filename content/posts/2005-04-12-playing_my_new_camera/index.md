@@ -1,7 +1,6 @@
 ---
 title: "Playing with my new camera"
 author: "halkeye"
-description: ""
 post_id: "8"
 date: "2005/04/12 03:53:44"
 post_name: "playing_my_new_camera"

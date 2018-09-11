@@ -1,7 +1,6 @@
 ---
 title: "This is why perl people rule."
 author: "halkeye"
-description: ""
 post_id: "51"
 date: "2004/04/14 09:04:03"
 post_name: "why_perl_people_rule"

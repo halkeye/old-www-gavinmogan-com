@@ -1,7 +1,6 @@
 ---
 title: "Wish I Had caller ID, then I'd be cool."
 author: "halkeye"
-description: ""
 post_id: "116"
 date: "2003/12/01 01:11:10"
 post_name: "wish_i_had_caller_id_then_id_be_cool"

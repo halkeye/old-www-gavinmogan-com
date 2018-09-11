@@ -1,7 +1,6 @@
 ---
 title: "Open ID Travels and rewards."
 author: "halkeye"
-description: ""
 post_id: "386"
 date: "2010/06/18 00:54:45"
 post_name: "open-id-travels-rewards"

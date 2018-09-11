@@ -1,7 +1,6 @@
 ---
 title: "Terraria"
 author: "halkeye"
-description: ""
 post_id: "415"
 date: "2011/09/13 12:39:33"
 post_name: "terraria"

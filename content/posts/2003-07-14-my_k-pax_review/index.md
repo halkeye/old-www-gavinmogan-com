@@ -1,7 +1,6 @@
 ---
 title: "My K-PAX review"
 author: "halkeye"
-description: ""
 post_id: "350"
 date: "2003/07/14 16:59:45"
 post_name: "my_k-pax_review"

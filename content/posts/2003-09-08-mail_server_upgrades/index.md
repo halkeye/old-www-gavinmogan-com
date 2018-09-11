@@ -1,7 +1,6 @@
 ---
 title: "Mail Server Upgrades"
 author: "halkeye"
-description: ""
 post_id: "131"
 date: "2003/09/08 23:52:24"
 post_name: "mail_server_upgrades"

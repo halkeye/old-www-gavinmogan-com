@@ -1,7 +1,6 @@
 ---
 title: "Speaker for the dead (More)"
 author: "halkeye"
-description: ""
 post_id: "69"
 date: "2004/03/12 20:10:44"
 post_name: "speaker_dead_more"

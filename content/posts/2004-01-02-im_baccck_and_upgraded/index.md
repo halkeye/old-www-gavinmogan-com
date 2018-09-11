@@ -1,7 +1,6 @@
 ---
 title: "I'm BACCCK! AND UPGRADED!"
 author: "halkeye"
-description: ""
 post_id: "115"
 date: "2004/01/02 00:01:13"
 post_name: "im_baccck_and_upgraded"

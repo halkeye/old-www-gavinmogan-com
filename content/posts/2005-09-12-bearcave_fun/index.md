@@ -1,7 +1,6 @@
 ---
 title: "#bearcave fun"
 author: "halkeye"
-description: ""
 post_id: "138"
 date: "2005/09/12 00:18:56"
 post_name: "bearcave_fun"

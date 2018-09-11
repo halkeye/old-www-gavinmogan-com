@@ -1,7 +1,6 @@
 ---
 title: "Pick Pocketing"
 author: "halkeye"
-description: ""
 post_id: "50"
 date: "2004/04/15 15:44:56"
 post_name: "pick_pocketing"

@@ -1,7 +1,6 @@
 ---
 title: "Blogger"
 author: "halkeye"
-description: ""
 post_id: "40"
 date: "2004/05/01 12:21:46"
 post_name: "blogger"

@@ -1,7 +1,6 @@
 ---
 title: "Jenkins docker Image + prefix"
 author: "halkeye"
-description: ""
 post_id: "750"
 date: "2016/04/18 12:06:44"
 post_name: "jenkins-docker-image-prefix"

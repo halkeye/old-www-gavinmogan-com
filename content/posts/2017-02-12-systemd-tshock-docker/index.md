@@ -1,7 +1,6 @@
 ---
 title: "Systemd + Tshock + Docker"
 author: "halkeye"
-description: ""
 post_id: "1042"
 date: "2017/02/12 10:17:09"
 post_name: "systemd-tshock-docker"

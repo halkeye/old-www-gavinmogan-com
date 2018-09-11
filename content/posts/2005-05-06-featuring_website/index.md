@@ -1,7 +1,6 @@
 ---
 title: "Featuring website"
 author: "halkeye"
-description: ""
 post_id: "6"
 date: "2005/05/06 16:06:58"
 post_name: "featuring_website"

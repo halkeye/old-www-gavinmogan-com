@@ -1,7 +1,6 @@
 ---
 title: "BATMAN"
 author: "halkeye"
-description: ""
 post_id: "376"
 date: "2010/02/12 21:52:44"
 post_name: "batman"

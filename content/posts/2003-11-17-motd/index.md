@@ -1,7 +1,6 @@
 ---
 title: "MOTD"
 author: "halkeye"
-description: ""
 post_id: "117"
 date: "2003/11/17 19:59:34"
 post_name: "motd"

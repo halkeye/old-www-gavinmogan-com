@@ -1,7 +1,6 @@
 ---
 title: "Eternity's End"
 author: "halkeye"
-description: ""
 post_id: "151"
 date: "2006/02/13 23:01:04"
 post_name: "eternitys_end"

@@ -1,7 +1,6 @@
 ---
 title: "Spam Protection"
 author: "halkeye"
-description: ""
 post_id: "137"
 date: "2005/09/02 15:09:23"
 post_name: "spam_protection"

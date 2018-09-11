@@ -1,7 +1,6 @@
 ---
 title: "Testing posting from flock"
 author: "halkeye"
-description: ""
 post_id: "145"
 date: "2005/10/21 14:33:35"
 post_name: "testing_posting_flock"

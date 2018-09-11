@@ -1,7 +1,6 @@
 ---
 title: "More Stargate WOWs"
 author: "halkeye"
-description: ""
 post_id: "21"
 date: "2005/02/15 12:17:19"
 post_name: "more_stargate_wows"

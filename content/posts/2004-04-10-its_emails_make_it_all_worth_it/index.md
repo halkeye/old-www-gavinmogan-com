@@ -1,7 +1,6 @@
 ---
 title: "Its emails like this that make it all worth it."
 author: "halkeye"
-description: ""
 post_id: "57"
 date: "2004/04/10 15:25:34"
 post_name: "its_emails_make_it_all_worth_it"

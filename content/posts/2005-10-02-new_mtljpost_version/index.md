@@ -1,7 +1,6 @@
 ---
 title: "New MTLJPost Version"
 author: "halkeye"
-description: ""
 post_id: "143"
 date: "2005/10/02 23:42:47"
 post_name: "new_mtljpost_version"

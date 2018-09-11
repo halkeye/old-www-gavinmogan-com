@@ -1,7 +1,6 @@
 ---
 title: "Server Upgrade"
 author: "halkeye"
-description: ""
 post_id: "113"
 date: "2004/01/18 03:05:08"
 post_name: "server_upgrade"

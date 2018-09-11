@@ -1,7 +1,6 @@
 ---
 title: "Renewed Interest in Dating"
 author: "halkeye"
-description: ""
 post_id: "122"
 date: "2003/10/18 11:43:42"
 post_name: "renewed_interest_dating"

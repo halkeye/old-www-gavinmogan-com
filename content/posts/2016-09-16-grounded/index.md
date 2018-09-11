@@ -1,7 +1,6 @@
 ---
 title: "Grounded"
 author: "halkeye"
-description: ""
 post_id: "833"
 date: "2016/09/16 10:26:50"
 post_name: "grounded"

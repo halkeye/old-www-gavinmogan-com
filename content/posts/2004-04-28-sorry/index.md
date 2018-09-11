@@ -1,7 +1,6 @@
 ---
 title: "Sorry"
 author: "halkeye"
-description: ""
 post_id: "43"
 date: "2004/04/28 20:01:52"
 post_name: "sorry"

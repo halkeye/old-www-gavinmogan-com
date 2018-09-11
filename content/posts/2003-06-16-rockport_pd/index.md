@@ -1,7 +1,6 @@
 ---
 title: "Rockport P.D"
 author: "halkeye"
-description: ""
 post_id: "357"
 date: "2003/06/16 21:41:29"
 post_name: "rockport_pd"

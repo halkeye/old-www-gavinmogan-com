@@ -1,7 +1,6 @@
 ---
 title: "Oblivion Video"
 author: "halkeye"
-description: ""
 post_id: "142"
 date: "2005/10/02 00:55:16"
 post_name: "oblivion_video"

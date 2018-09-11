@@ -1,7 +1,6 @@
 ---
 title: "XBOX Server Farm"
 author: "halkeye"
-description: ""
 post_id: "55"
 date: "2004/04/12 12:37:57"
 post_name: "xbox_server_farm"

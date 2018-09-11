@@ -1,7 +1,6 @@
 ---
 title: "Trying to post more things :)"
 author: "halkeye"
-description: ""
 post_id: "129"
 date: "2003/10/01 10:43:19"
 post_name: "trying_post_more_things"

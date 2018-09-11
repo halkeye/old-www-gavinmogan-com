@@ -1,7 +1,6 @@
 ---
 title: "Demos"
 author: "halkeye"
-description: ""
 post_id: "317"
 date: "2007/03/11 23:50:20"
 post_name: "demos"

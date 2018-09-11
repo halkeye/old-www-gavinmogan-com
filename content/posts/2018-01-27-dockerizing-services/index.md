@@ -1,7 +1,6 @@
 ---
 title: "Dockerizing Services"
 author: "halkeye"
-description: ""
 post_id: "1163"
 date: "2018/01/27 14:53:07"
 post_name: "dockerizing-services"

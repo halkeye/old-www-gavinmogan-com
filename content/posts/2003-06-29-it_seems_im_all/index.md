@@ -1,7 +1,6 @@
 ---
 title: "It seems I'm All up"
 author: "halkeye"
-description: ""
 post_id: "352"
 date: "2003/06/29 23:29:14"
 post_name: "it_seems_im_all"

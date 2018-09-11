@@ -1,7 +1,6 @@
 ---
 title: "Software and Site Updates"
 author: "halkeye"
-description: ""
 post_id: "354"
 date: "2003/06/27 00:11:21"
 post_name: "software_and_si"

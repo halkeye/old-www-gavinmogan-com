@@ -1,7 +1,6 @@
 ---
 title: "Email Love"
 author: "halkeye"
-description: ""
 post_id: "348"
 date: "2003/07/19 23:42:36"
 post_name: "email_love"

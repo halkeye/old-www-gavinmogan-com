@@ -1,7 +1,6 @@
 ---
 title: "Animal Crossing and the Ideal House,"
 author: "halkeye"
-description: ""
 post_id: "93"
 date: "2004/02/09 22:11:07"
 post_name: "animal_crossing_and_ideal_house"

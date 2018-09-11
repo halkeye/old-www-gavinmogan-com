@@ -1,7 +1,6 @@
 ---
 title: "Apparenly i'm widely known?"
 author: "halkeye"
-description: ""
 post_id: "42"
 date: "2004/04/29 19:45:24"
 post_name: "apparenly_im_widely_known"

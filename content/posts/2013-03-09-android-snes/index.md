@@ -1,7 +1,6 @@
 ---
 title: "Android and SNES? Oh my!"
 author: "halkeye"
-description: ""
 post_id: "479"
 date: "2013/03/09 21:49:29"
 post_name: "android-snes"

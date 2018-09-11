@@ -1,7 +1,6 @@
 ---
 title: "Man its been a while."
 author: "halkeye"
-description: ""
 post_id: "25"
 date: "2005/02/09 00:40:45"
 post_name: "man_its_been_while"

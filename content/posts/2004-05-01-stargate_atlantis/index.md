@@ -1,7 +1,6 @@
 ---
 title: "Stargate Atlantis"
 author: "halkeye"
-description: ""
 post_id: "38"
 date: "2004/05/01 18:07:49"
 post_name: "stargate_atlantis"

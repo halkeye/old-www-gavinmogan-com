@@ -1,7 +1,6 @@
 ---
 title: "Halkeye.net"
 author: "halkeye"
-description: ""
 post_id: "321"
 date: "2007/04/01 07:21:07"
 post_name: "halkeye_net"

@@ -1,7 +1,6 @@
 ---
 title: "TeamSpeak"
 author: "halkeye"
-description: ""
 post_id: "84"
 date: "2004/02/16 15:58:06"
 post_name: "teamspeak"

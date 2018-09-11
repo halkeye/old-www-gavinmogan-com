@@ -1,7 +1,6 @@
 ---
 title: "New Site up and running"
 author: "halkeye"
-description: ""
 post_id: "262"
 date: "2006/06/03 21:30:47"
 post_name: "new_site_and_running"

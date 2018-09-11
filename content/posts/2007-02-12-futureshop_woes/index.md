@@ -1,7 +1,6 @@
 ---
 title: "Futureshop Woes"
 author: "halkeye"
-description: ""
 post_id: "312"
 date: "2007/02/12 20:51:15"
 post_name: "futureshop_woes"

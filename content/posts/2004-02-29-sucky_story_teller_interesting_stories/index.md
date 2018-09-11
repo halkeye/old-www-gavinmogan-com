@@ -1,7 +1,6 @@
 ---
 title: "Sucky story teller, interesting stories"
 author: "halkeye"
-description: ""
 post_id: "74"
 date: "2004/02/29 01:59:34"
 post_name: "sucky_story_teller_interesting_stories"

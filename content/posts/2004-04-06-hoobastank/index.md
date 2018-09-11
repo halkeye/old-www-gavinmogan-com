@@ -1,7 +1,6 @@
 ---
 title: "Hoobastank"
 author: "halkeye"
-description: ""
 post_id: "60"
 date: "2004/04/06 21:24:12"
 post_name: "hoobastank"

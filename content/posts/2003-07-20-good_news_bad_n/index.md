@@ -1,7 +1,6 @@
 ---
 title: "Good News / Bad New"
 author: "halkeye"
-description: ""
 post_id: "347"
 date: "2003/07/20 21:42:38"
 post_name: "good_news_bad_n"

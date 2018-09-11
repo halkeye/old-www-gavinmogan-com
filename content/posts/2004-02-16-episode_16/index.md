@@ -1,7 +1,6 @@
 ---
 title: "Episode 16"
 author: "halkeye"
-description: ""
 post_id: "83"
 date: "2004/02/16 21:40:30"
 post_name: "episode_16"

@@ -1,7 +1,6 @@
 ---
 title: "xbox live cards"
 author: "halkeye"
-description: ""
 post_id: "329"
 date: "2008/01/06 22:43:12"
 post_name: "xbox_live_cards"

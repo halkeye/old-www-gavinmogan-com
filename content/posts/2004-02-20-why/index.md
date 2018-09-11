@@ -1,7 +1,6 @@
 ---
 title: "Why...."
 author: "halkeye"
-description: ""
 post_id: "78"
 date: "2004/02/20 21:35:24"
 post_name: "why"

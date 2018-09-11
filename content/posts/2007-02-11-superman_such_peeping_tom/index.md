@@ -1,7 +1,6 @@
 ---
 title: "Superman is such the peeping tom"
 author: "halkeye"
-description: ""
 post_id: "311"
 date: "2007/02/11 13:46:29"
 post_name: "superman_such_peeping_tom"

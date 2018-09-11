@@ -1,7 +1,6 @@
 ---
 title: "Y.A.O.I.R.P.G"
 author: "halkeye"
-description: ""
 post_id: "300"
 date: "2006/10/17 22:42:02"
 post_name: "y_o_i_r_p_g"

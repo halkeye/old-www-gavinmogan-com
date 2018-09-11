@@ -1,7 +1,6 @@
 ---
 title: "Got password resetters working"
 author: "halkeye"
-description: ""
 post_id: "135"
 date: "2005/08/01 21:48:02"
 post_name: "got_password_resetters_working"

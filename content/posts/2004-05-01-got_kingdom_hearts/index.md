@@ -1,7 +1,6 @@
 ---
 title: "Got Kingdom Hearts"
 author: "halkeye"
-description: ""
 post_id: "39"
 date: "2004/05/01 15:51:38"
 post_name: "got_kingdom_hearts"

@@ -1,7 +1,6 @@
 ---
 title: "Cat plays with new Cat Toy Box"
 author: "halkeye"
-description: ""
 post_id: "1004"
 date: "2016/11/03 00:03:48"
 post_name: "cat-plays-with-new-cat-toy-box"

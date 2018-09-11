@@ -1,7 +1,6 @@
 ---
 title: "Robin Williams"
 author: "halkeye"
-description: ""
 post_id: "15"
 date: "2005/03/14 00:34:23"
 post_name: "robin_williams"

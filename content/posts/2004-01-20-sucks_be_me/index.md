@@ -1,7 +1,6 @@
 ---
 title: "Sucks to be me"
 author: "halkeye"
-description: ""
 post_id: "110"
 date: "2004/01/20 00:36:40"
 post_name: "sucks_be_me"

@@ -1,7 +1,6 @@
 ---
 title: "PHP Meetup"
 author: "halkeye"
-description: ""
 post_id: "114"
 date: "2004/01/09 12:02:35"
 post_name: "php_meetup"

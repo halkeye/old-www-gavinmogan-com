@@ -1,7 +1,6 @@
 ---
 title: "Crushes ( :) does not belong in posts)"
 author: "halkeye"
-description: ""
 post_id: "126"
 date: "2003/10/08 11:08:27"
 post_name: "crushes_does_not_belong_posts"

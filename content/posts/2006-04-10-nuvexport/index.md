@@ -1,7 +1,6 @@
 ---
 title: "Nuvexport"
 author: "halkeye"
-description: ""
 post_id: "158"
 date: "2006/04/10 00:18:50"
 post_name: "nuvexport"

@@ -1,7 +1,6 @@
 ---
 title: "osqdb has to be one of the worst peices of code I have seen in a while."
 author: "halkeye"
-description: ""
 post_id: "335"
 date: "2008/05/19 23:18:00"
 post_name: "osqdb_has_be_one_worst_peices_code_i_have_seen_while"

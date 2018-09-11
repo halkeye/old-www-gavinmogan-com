@@ -1,7 +1,6 @@
 ---
 title: "Mp3 CD Player Rant"
 author: "halkeye"
-description: ""
 post_id: "94"
 date: "2004/02/08 13:36:59"
 post_name: "mp3_cd_player_rant"

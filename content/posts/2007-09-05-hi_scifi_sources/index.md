@@ -1,7 +1,6 @@
 ---
 title: "Hi SciFi Sources"
 author: "halkeye"
-description: ""
 post_id: "323"
 date: "2007/09/05 10:32:53"
 post_name: "hi_scifi_sources"

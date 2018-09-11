@@ -1,7 +1,6 @@
 ---
 title: "Bash prompt linewrap with colors issues"
 author: "halkeye"
-description: ""
 post_id: "530"
 date: "2014/03/19 13:35:51"
 post_name: "bash-prompt-linewrap-colors-issues"

@@ -1,7 +1,6 @@
 ---
 title: "Talk on Testing - Code and Coffee YVR"
 author: "halkeye"
-description: ""
 post_id: "754"
 date: "2016/05/13 08:09:15"
 post_name: "talk-on-testing"

@@ -1,7 +1,6 @@
 ---
 title: "Debugging ssh+svn"
 author: "halkeye"
-description: ""
 post_id: "388"
 date: "2010/07/09 08:31:46"
 post_name: "debugging-sshsvn"

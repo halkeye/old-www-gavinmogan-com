@@ -1,7 +1,6 @@
 ---
 title: "Historical Livejournal"
 author: "halkeye"
-description: ""
 post_id: "433"
 date: "2012/02/08 14:54:20"
 post_name: "historical-livejournal"

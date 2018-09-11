@@ -1,7 +1,6 @@
 ---
 title: "Sauce Labs Hipchat Service (and Open Source)"
 author: "halkeye"
-description: ""
 post_id: "989"
 date: "2016/10/26 13:17:32"
 post_name: "sauce-labs-hipchat-service-and-open-source"

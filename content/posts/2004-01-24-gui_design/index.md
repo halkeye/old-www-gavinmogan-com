@@ -1,7 +1,6 @@
 ---
 title: "GUI Design"
 author: "halkeye"
-description: ""
 post_id: "107"
 date: "2004/01/24 12:55:49"
 post_name: "gui_design"

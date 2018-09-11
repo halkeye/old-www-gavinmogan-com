@@ -1,7 +1,6 @@
 ---
 title: "Good Golly Miss Molly"
 author: "halkeye"
-description: ""
 post_id: "90"
 date: "2004/02/11 23:33:37"
 post_name: "good_golly_miss_molly"

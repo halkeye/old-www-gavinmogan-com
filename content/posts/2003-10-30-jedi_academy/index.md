@@ -1,7 +1,6 @@
 ---
 title: "Jedi Academy"
 author: "halkeye"
-description: ""
 post_id: "119"
 date: "2003/10/30 12:55:58"
 post_name: "jedi_academy"

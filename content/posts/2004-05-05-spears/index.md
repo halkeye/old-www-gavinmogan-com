@@ -1,7 +1,6 @@
 ---
 title: "Spears"
 author: "halkeye"
-description: ""
 post_id: "37"
 date: "2004/05/05 23:02:08"
 post_name: "spears"

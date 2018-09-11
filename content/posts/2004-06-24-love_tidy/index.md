@@ -1,7 +1,6 @@
 ---
 title: "Love of the tidy!"
 author: "halkeye"
-description: ""
 post_id: "32"
 date: "2004/06/24 22:30:08"
 post_name: "love_tidy"

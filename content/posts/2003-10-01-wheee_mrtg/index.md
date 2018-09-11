@@ -1,7 +1,6 @@
 ---
 title: "WHEEE! MRTG"
 author: "halkeye"
-description: ""
 post_id: "128"
 date: "2003/10/01 10:45:35"
 post_name: "wheee_mrtg"

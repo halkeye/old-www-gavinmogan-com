@@ -1,7 +1,6 @@
 ---
 title: "Lazy Morning"
 author: "halkeye"
-description: ""
 post_id: "56"
 date: "2004/04/12 09:30:16"
 post_name: "lazy_morning"

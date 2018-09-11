@@ -1,7 +1,6 @@
 ---
 title: "Meatballs"
 author: "halkeye"
-description: ""
 post_id: "626"
 date: "2016/01/09 23:45:21"
 post_name: "meatballs"

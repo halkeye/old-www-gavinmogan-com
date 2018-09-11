@@ -1,7 +1,6 @@
 ---
 title: "Stating the Obvious"
 author: "halkeye"
-description: ""
 post_id: "85"
 date: "2004/02/15 19:27:47"
 post_name: "stating_obvious"

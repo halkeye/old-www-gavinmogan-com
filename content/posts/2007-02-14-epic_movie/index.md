@@ -1,7 +1,6 @@
 ---
 title: "Epic movie"
 author: "halkeye"
-description: ""
 post_id: "313"
 date: "2007/02/14 23:33:35"
 post_name: "epic_movie"

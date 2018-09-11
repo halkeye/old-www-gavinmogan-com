@@ -1,7 +1,6 @@
 ---
 title: "“The Secret Loves of Geek Girls”"
 author: "halkeye"
-description: ""
 post_id: "592"
 date: "2016/01/02 23:29:23"
 post_name: "secret-loves-geek-girls"

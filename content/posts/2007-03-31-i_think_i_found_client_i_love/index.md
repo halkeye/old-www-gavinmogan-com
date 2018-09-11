@@ -1,7 +1,6 @@
 ---
 title: "I think I found a client I love."
 author: "halkeye"
-description: ""
 post_id: "320"
 date: "2007/03/31 22:30:48"
 post_name: "i_think_i_found_client_i_love"

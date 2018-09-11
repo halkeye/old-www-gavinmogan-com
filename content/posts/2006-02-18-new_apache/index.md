@@ -1,7 +1,6 @@
 ---
 title: "New Apache"
 author: "halkeye"
-description: ""
 post_id: "152"
 date: "2006/02/18 11:58:27"
 post_name: "new_apache"

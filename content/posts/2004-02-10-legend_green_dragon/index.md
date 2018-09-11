@@ -1,7 +1,6 @@
 ---
 title: "Legend Of the Green Dragon"
 author: "halkeye"
-description: ""
 post_id: "91"
 date: "2004/02/10 01:34:20"
 post_name: "legend_green_dragon"

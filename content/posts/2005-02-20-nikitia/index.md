@@ -1,7 +1,6 @@
 ---
 title: "Nikitia"
 author: "halkeye"
-description: ""
 post_id: "20"
 date: "2005/02/20 00:56:22"
 post_name: "nikitia"

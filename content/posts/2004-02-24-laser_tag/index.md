@@ -1,7 +1,6 @@
 ---
 title: "Laser Tag"
 author: "halkeye"
-description: ""
 post_id: "76"
 date: "2004/02/24 00:37:17"
 post_name: "laser_tag"

@@ -1,7 +1,6 @@
 ---
 title: "Upgrade Galore"
 author: "halkeye"
-description: ""
 post_id: "307"
 date: "2007/01/14 13:17:55"
 post_name: "upgrade_galore"

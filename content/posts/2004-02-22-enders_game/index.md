@@ -1,7 +1,6 @@
 ---
 title: "Enders Game"
 author: "halkeye"
-description: ""
 post_id: "77"
 date: "2004/02/22 16:11:24"
 post_name: "enders_game"

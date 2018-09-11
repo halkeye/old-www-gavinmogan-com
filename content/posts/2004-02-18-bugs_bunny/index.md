@@ -1,7 +1,6 @@
 ---
 title: "Bugs Bunny"
 author: "halkeye"
-description: ""
 post_id: "81"
 date: "2004/02/18 00:17:13"
 post_name: "bugs_bunny"

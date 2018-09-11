@@ -1,7 +1,6 @@
 ---
 title: "HalkPost"
 author: "halkeye"
-description: ""
 post_id: "31"
 date: "2004/06/24 22:52:31"
 post_name: "halkpost"

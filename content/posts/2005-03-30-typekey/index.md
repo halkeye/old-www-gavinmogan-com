@@ -1,7 +1,6 @@
 ---
 title: "TypeKey"
 author: "halkeye"
-description: ""
 post_id: "10"
 date: "2005/03/30 18:04:04"
 post_name: "typekey"

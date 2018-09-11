@@ -1,7 +1,6 @@
 ---
 title: "The starting of Final Cut"
 author: "halkeye"
-description: ""
 post_id: "12"
 date: "2005/03/21 16:36:04"
 post_name: "starting_final_cut"

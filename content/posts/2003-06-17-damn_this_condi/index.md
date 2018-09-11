@@ -1,7 +1,6 @@
 ---
 title: "Damn this condition"
 author: "halkeye"
-description: ""
 post_id: "356"
 date: "2003/06/17 22:10:27"
 post_name: "damn_this_condi"

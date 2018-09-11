@@ -1,7 +1,6 @@
 ---
 title: "gforge woes and praise"
 author: "halkeye"
-description: ""
 post_id: "150"
 date: "2006/02/12 23:06:10"
 post_name: "gforge_woes_and_praise"

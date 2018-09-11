@@ -1,7 +1,6 @@
 ---
 title: "Tron"
 author: "halkeye"
-description: ""
 post_id: "59"
 date: "2004/04/07 13:09:48"
 post_name: "tron"

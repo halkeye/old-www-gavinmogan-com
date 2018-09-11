@@ -1,7 +1,6 @@
 ---
 title: "Amazon.com"
 author: "halkeye"
-description: ""
 post_id: "68"
 date: "2004/03/23 22:19:05"
 post_name: "amazon_com"

@@ -1,7 +1,6 @@
 ---
 title: "Knights of the Old Republic"
 author: "halkeye"
-description: ""
 post_id: "349"
 date: "2003/07/17 15:12:20"
 post_name: "knights_of_the_1"

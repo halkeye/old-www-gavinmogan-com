@@ -1,7 +1,6 @@
 ---
 title: "Scott Adams is a genius"
 author: "halkeye"
-description: ""
 post_id: "147"
 date: "2005/11/22 08:41:53"
 post_name: "scott_adams_genius"

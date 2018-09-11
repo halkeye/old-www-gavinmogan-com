@@ -1,7 +1,6 @@
 ---
 title: "Projects"
 author: "halkeye"
-description: ""
 post_id: "788"
 date: "2016/09/05 16:15:29"
 post_name: "projects"

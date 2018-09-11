@@ -1,7 +1,6 @@
 ---
 title: "Look I have a cat!"
 author: "halkeye"
-description: ""
 post_id: "619"
 date: "2016/01/06 23:21:43"
 post_name: "cat-2"

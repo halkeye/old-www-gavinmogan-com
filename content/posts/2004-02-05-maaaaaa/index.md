@@ -1,7 +1,6 @@
 ---
 title: "But Maaaaaa!!!"
 author: "halkeye"
-description: ""
 post_id: "96"
 date: "2004/02/05 04:40:14"
 post_name: "maaaaaa"

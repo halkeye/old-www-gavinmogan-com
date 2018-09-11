@@ -1,7 +1,6 @@
 ---
 title: "Preview of MTLJPost 1.0.5"
 author: "halkeye"
-description: ""
 post_id: "97"
 date: "2004/02/05 01:01:57"
 post_name: "preview_mtljpost_1_0_5"

@@ -1,7 +1,6 @@
 ---
 title: "Lightsaber thoughts"
 author: "halkeye"
-description: ""
 post_id: "136"
 date: "2005/08/06 03:55:24"
 post_name: "lightsaber_thoughts"

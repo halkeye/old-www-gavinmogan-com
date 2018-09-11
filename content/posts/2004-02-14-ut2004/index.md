@@ -1,7 +1,6 @@
 ---
 title: "UT2004"
 author: "halkeye"
-description: ""
 post_id: "86"
 date: "2004/02/14 20:10:07"
 post_name: "ut2004"

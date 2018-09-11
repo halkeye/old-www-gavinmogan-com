@@ -1,7 +1,6 @@
 ---
 title: "My ever so lame music rant"
 author: "halkeye"
-description: ""
 post_id: "360"
 date: "2003/06/09 09:23:19"
 post_name: "my_ever_so_lame"

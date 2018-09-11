@@ -1,7 +1,6 @@
 ---
 title: "GMing again"
 author: "halkeye"
-description: ""
 post_id: "575"
 date: "2015/01/26 21:03:05"
 post_name: "gming"

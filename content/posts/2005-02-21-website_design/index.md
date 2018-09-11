@@ -1,7 +1,6 @@
 ---
 title: "Website Design"
 author: "halkeye"
-description: ""
 post_id: "19"
 date: "2005/02/21 19:06:17"
 post_name: "website_design"

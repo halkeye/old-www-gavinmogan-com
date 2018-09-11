@@ -1,7 +1,6 @@
 ---
 title: "Update to the capistrano hack"
 author: "halkeye"
-description: ""
 post_id: "548"
 date: "2014/06/06 22:07:36"
 post_name: "update-capistrano-hack"

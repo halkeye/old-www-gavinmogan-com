@@ -1,7 +1,6 @@
 ---
 title: "New Position. Open source and more!"
 author: "halkeye"
-description: ""
 post_id: "1068"
 date: "2017/07/29 20:16:19"
 post_name: "new-position-open-source-and-more"

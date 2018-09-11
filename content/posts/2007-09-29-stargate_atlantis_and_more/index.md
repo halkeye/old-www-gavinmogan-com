@@ -1,7 +1,6 @@
 ---
 title: "Stargate Atlantis and more!"
 author: "halkeye"
-description: ""
 post_id: "325"
 date: "2007/09/29 10:27:00"
 post_name: "stargate_atlantis_and_more"

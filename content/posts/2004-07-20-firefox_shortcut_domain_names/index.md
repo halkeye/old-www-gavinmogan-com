@@ -1,7 +1,6 @@
 ---
 title: "Firefox Shortcut - domain names"
 author: "halkeye"
-description: ""
 post_id: "29"
 date: "2004/07/20 13:24:55"
 post_name: "firefox_shortcut_domain_names"

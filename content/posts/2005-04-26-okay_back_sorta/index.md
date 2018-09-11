@@ -1,7 +1,6 @@
 ---
 title: "Okay back sorta."
 author: "halkeye"
-description: ""
 post_id: "7"
 date: "2005/04/26 15:41:01"
 post_name: "okay_back_sorta"

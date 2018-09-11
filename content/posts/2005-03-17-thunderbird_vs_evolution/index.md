@@ -1,7 +1,6 @@
 ---
 title: "Thunderbird Vs Evolution"
 author: "halkeye"
-description: ""
 post_id: "13"
 date: "2005/03/17 18:37:50"
 post_name: "thunderbird_vs_evolution"

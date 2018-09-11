@@ -1,7 +1,6 @@
 ---
 title: "I still live."
 author: "halkeye"
-description: ""
 post_id: "28"
 date: "2004/09/03 11:23:50"
 post_name: "i_still_live"

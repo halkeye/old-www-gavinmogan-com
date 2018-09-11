@@ -1,7 +1,6 @@
 ---
 title: "Dating"
 author: "halkeye"
-description: ""
 post_id: "41"
 date: "2004/04/30 13:58:15"
 post_name: "dating"

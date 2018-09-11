@@ -1,7 +1,6 @@
 ---
 title: "experience with #okcupid on efnet"
 author: "halkeye"
-description: ""
 post_id: "11"
 date: "2005/03/29 21:22:34"
 post_name: "experience_okcupid_efnet"

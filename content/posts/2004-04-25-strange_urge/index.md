@@ -1,7 +1,6 @@
 ---
 title: "Strange urge"
 author: "halkeye"
-description: ""
 post_id: "45"
 date: "2004/04/25 22:17:59"
 post_name: "strange_urge"

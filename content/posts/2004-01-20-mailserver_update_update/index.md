@@ -1,7 +1,6 @@
 ---
 title: "Mailserver Update Update"
 author: "halkeye"
-description: ""
 post_id: "109"
 date: "2004/01/20 14:22:21"
 post_name: "mailserver_update_update"

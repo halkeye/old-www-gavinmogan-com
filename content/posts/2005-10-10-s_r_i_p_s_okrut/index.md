@@ -1,7 +1,6 @@
 ---
 title: "R.I.P. Okrut"
 author: "halkeye"
-description: ""
 post_id: "144"
 date: "2005/10/10 10:58:43"
 post_name: "s_r_i_p_s_okrut"

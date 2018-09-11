@@ -1,7 +1,6 @@
 ---
 title: "Harry Potter Nuttness"
 author: "halkeye"
-description: ""
 post_id: "355"
 date: "2003/06/20 22:16:28"
 post_name: "harry_potter_nu"

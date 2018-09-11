@@ -1,7 +1,6 @@
 ---
 title: "Git+push notification with Gitolite and Jenkins"
 author: "halkeye"
-description: ""
 post_id: "437"
 date: "2012/02/17 18:24:06"
 post_name: "gitpush-notification-gitolite-andjenkins"

@@ -1,7 +1,6 @@
 ---
 title: "MT-Blacklist."
 author: "halkeye"
-description: ""
 post_id: "99"
 date: "2004/02/02 01:11:50"
 post_name: "mt_blacklist"

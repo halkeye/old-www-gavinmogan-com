@@ -1,7 +1,6 @@
 ---
 title: "Ewww, perl semantics"
 author: "halkeye"
-description: ""
 post_id: "108"
 date: "2004/01/22 13:47:02"
 post_name: "ewww_perl_semantics"

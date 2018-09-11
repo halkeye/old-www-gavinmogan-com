@@ -1,7 +1,6 @@
 ---
 title: "Stargate SG-1"
 author: "halkeye"
-description: ""
 post_id: "22"
 date: "2005/02/11 12:17:34"
 post_name: "stargate_sg_1"

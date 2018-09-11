@@ -1,7 +1,6 @@
 ---
 title: "Outside Free Comic Book Day @ Elfsar"
 author: "halkeye"
-description: ""
 post_id: "333"
 date: "2008/05/04 12:52:39"
 post_name: "outside_free_comic_book_day_elfsar"

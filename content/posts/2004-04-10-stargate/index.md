@@ -1,7 +1,6 @@
 ---
 title: "Stargate"
 author: "halkeye"
-description: ""
 post_id: "58"
 date: "2004/04/10 13:51:24"
 post_name: "stargate"

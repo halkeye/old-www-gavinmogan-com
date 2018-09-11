@@ -1,7 +1,6 @@
 ---
 title: "YAOIRPG"
 author: "halkeye"
-description: ""
 post_id: "506"
 date: "2013/12/31 16:51:59"
 post_name: "yaoirpg"

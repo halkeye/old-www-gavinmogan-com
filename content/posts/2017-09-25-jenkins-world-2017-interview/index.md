@@ -1,7 +1,6 @@
 ---
 title: "Jenkins World 2017 Interview"
 author: "halkeye"
-description: ""
 post_id: "1101"
 date: "2017/09/25 20:16:35"
 post_name: "jenkins-world-2017-interview"

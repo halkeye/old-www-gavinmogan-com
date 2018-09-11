@@ -1,7 +1,6 @@
 ---
 title: "Nostalgic"
 author: "halkeye"
-description: ""
 post_id: "261"
 date: "2006/06/03 21:19:21"
 post_name: "nostalgic"

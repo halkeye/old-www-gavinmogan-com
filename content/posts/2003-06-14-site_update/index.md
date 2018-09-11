@@ -1,7 +1,6 @@
 ---
 title: "Site Update"
 author: "halkeye"
-description: ""
 post_id: "358"
 date: "2003/06/14 22:46:14"
 post_name: "site_update"

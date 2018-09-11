@@ -1,7 +1,6 @@
 ---
 title: "US IS GOING CANADIAN!"
 author: "halkeye"
-description: ""
 post_id: "125"
 date: "2003/10/09 22:33:54"
 post_name: "us_going_canadian"

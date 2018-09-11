@@ -1,7 +1,6 @@
 ---
 title: "Dragon Quest IX Completion Stats"
 author: "halkeye"
-description: ""
 post_id: "389"
 date: "2010/08/22 22:42:09"
 post_name: "dragon-quest-ix-completion-stats"

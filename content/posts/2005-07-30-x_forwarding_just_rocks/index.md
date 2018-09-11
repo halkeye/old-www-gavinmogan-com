@@ -1,7 +1,6 @@
 ---
 title: "X-Forwarding Just Rocks"
 author: "halkeye"
-description: ""
 post_id: "134"
 date: "2005/07/30 23:24:25"
 post_name: "x_forwarding_just_rocks"

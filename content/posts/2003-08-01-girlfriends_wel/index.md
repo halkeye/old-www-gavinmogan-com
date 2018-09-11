@@ -1,7 +1,6 @@
 ---
 title: "Girlfriends, Well Boyfriends too"
 author: "halkeye"
-description: ""
 post_id: "344"
 date: "2003/08/01 09:59:47"
 post_name: "girlfriends_wel"

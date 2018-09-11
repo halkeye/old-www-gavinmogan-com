@@ -1,7 +1,6 @@
 ---
 title: "Movie Prices"
 author: "halkeye"
-description: ""
 post_id: "62"
 date: "2004/04/04 11:05:22"
 post_name: "movie_prices"

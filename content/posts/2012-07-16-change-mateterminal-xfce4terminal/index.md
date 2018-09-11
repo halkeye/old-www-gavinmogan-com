@@ -1,7 +1,6 @@
 ---
 title: "How to change from mate-terminal to xfce4-terminal"
 author: "halkeye"
-description: ""
 post_id: "466"
 date: "2012/07/16 12:17:55"
 post_name: "change-mateterminal-xfce4terminal"

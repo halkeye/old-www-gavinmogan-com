@@ -1,7 +1,6 @@
 ---
 title: "Slightly new color scheme"
 author: "halkeye"
-description: ""
 post_id: "100"
 date: "2004/02/01 02:23:37"
 post_name: "slightly_new_color_scheme"

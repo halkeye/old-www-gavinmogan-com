@@ -1,7 +1,6 @@
 ---
 title: "Updating Wordpress Plugins Helper"
 author: "halkeye"
-description: ""
 post_id: "485"
 date: "2013/08/20 16:13:36"
 post_name: "updating-wordpress-plugins-helper"

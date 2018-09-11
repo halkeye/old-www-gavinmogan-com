@@ -1,7 +1,6 @@
 ---
 title: "Vancouver"
 author: "halkeye"
-description: ""
 post_id: "89"
 date: "2004/02/12 00:51:23"
 post_name: "vancouver"

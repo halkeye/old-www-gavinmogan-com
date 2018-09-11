@@ -1,7 +1,6 @@
 ---
 title: "Snow at the skytrain"
 author: "halkeye"
-description: ""
 post_id: "331"
 date: "2008/03/29 00:46:07"
 post_name: "snow_skytrain"

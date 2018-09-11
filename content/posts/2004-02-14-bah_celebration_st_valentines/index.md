@@ -1,7 +1,6 @@
 ---
 title: "Bah to the celebration of St. Valentines."
 author: "halkeye"
-description: ""
 post_id: "87"
 date: "2004/02/14 01:01:01"
 post_name: "bah_celebration_st_valentines"

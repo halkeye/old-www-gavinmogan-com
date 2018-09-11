@@ -1,7 +1,6 @@
 ---
 title: "bash.org"
 author: "halkeye"
-description: ""
 post_id: "310"
 date: "2007/01/20 10:59:45"
 post_name: "bash_org"

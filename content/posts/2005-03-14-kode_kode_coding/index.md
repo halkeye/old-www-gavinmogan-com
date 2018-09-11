@@ -1,7 +1,6 @@
 ---
 title: "Kode Kode Coding"
 author: "halkeye"
-description: ""
 post_id: "14"
 date: "2005/03/14 16:11:14"
 post_name: "kode_kode_coding"

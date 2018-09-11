@@ -1,7 +1,6 @@
 ---
 title: "Merry Christmas"
 author: "halkeye"
-description: ""
 post_id: "26"
 date: "2005/01/02 15:52:06"
 post_name: "merry_christmas"

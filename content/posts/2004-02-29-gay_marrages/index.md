@@ -1,7 +1,6 @@
 ---
 title: "Gay Marrages"
 author: "halkeye"
-description: ""
 post_id: "73"
 date: "2004/02/29 17:19:33"
 post_name: "gay_marrages"

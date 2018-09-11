@@ -1,7 +1,6 @@
 ---
 title: "Apache Modifications"
 author: "halkeye"
-description: ""
 post_id: "53"
 date: "2004/04/13 21:47:01"
 post_name: "apache_modifications"

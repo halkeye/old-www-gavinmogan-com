@@ -1,7 +1,6 @@
 ---
 title: "Life Updates"
 author: "halkeye"
-description: ""
 post_id: "141"
 date: "2005/09/27 12:50:00"
 post_name: "life_updates"

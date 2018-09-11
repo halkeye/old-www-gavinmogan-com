@@ -1,7 +1,6 @@
 ---
 title: "Hookers R Us"
 author: "halkeye"
-description: ""
 post_id: "139"
 date: "2005/09/15 03:00:10"
 post_name: "hookers_r_us"

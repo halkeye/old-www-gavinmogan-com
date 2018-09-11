@@ -1,7 +1,6 @@
 ---
 title: "Drive gets canceled."
 author: "halkeye"
-description: ""
 post_id: "322"
 date: "2007/04/28 05:14:43"
 post_name: "drive_gets_canceled"

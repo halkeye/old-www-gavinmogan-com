@@ -1,7 +1,6 @@
 ---
 title: "PODCASTING HO!"
 author: "halkeye"
-description: ""
 post_id: "133"
 date: "2005/07/30 01:30:30"
 post_name: "podcasting_ho"

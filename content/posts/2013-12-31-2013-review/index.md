@@ -1,7 +1,6 @@
 ---
 title: "2013 In Review."
 author: "halkeye"
-description: ""
 post_id: "504"
 date: "2013/12/31 16:46:28"
 post_name: "2013-review"

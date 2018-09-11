@@ -1,7 +1,6 @@
 ---
 title: "One Must Fall Battlegrounds"
 author: "halkeye"
-description: ""
 post_id: "98"
 date: "2004/02/04 03:34:12"
 post_name: "one_must_fall_battlegrounds"

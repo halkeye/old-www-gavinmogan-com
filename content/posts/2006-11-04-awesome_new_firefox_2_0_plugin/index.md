@@ -1,7 +1,6 @@
 ---
 title: "Awesome new firefox 2.0 plugin"
 author: "halkeye"
-description: ""
 post_id: "303"
 date: "2006/11/04 13:34:55"
 post_name: "awesome_new_firefox_2_0_plugin"

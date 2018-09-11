@@ -1,7 +1,6 @@
 ---
 title: "Lacuna Expanse"
 author: "halkeye"
-description: ""
 post_id: "391"
 date: "2010/10/20 13:08:55"
 post_name: "lacuna-expanse"

@@ -1,7 +1,6 @@
 ---
 title: "Quake 4 has zombies!"
 author: "halkeye"
-description: ""
 post_id: "294"
 date: "2006/06/17 11:15:41"
 post_name: "quake_4_has_zombies"

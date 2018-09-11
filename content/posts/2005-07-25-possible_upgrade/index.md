@@ -1,7 +1,6 @@
 ---
 title: "Possible Upgrade"
 author: "halkeye"
-description: ""
 post_id: "397"
 date: "2005/07/25 02:37:32"
 post_name: "possible_upgrade"

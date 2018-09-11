@@ -1,7 +1,6 @@
 ---
 title: "More jabber ideas"
 author: "halkeye"
-description: ""
 post_id: "146"
 date: "2005/10/23 22:13:34"
 post_name: "more_jabber_ideas"

@@ -1,7 +1,6 @@
 ---
 title: "High school robotics Compeition"
 author: "halkeye"
-description: ""
 post_id: "1029"
 date: "2016/11/06 16:37:08"
 post_name: "high-school-robotics-compeition"

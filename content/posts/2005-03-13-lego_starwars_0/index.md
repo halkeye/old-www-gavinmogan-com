@@ -1,7 +1,6 @@
 ---
 title: "Lego Starwars"
 author: "halkeye"
-description: ""
 post_id: "17"
 date: "2005/03/13 17:20:41"
 post_name: "lego_starwars_0"

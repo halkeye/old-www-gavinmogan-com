@@ -1,7 +1,6 @@
 ---
 title: "work"
 author: "halkeye"
-description: ""
 post_id: "48"
 date: "2004/04/17 17:57:16"
 post_name: "work"

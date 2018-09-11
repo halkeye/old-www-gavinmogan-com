@@ -1,7 +1,6 @@
 ---
 title: "An interesting idea..."
 author: "halkeye"
-description: ""
 post_id: "66"
 date: "2004/03/25 18:12:18"
 post_name: "interesting_idea"

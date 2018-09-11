@@ -1,7 +1,6 @@
 ---
 title: "Broken Sword 3"
 author: "halkeye"
-description: ""
 post_id: "95"
 date: "2004/02/05 13:19:06"
 post_name: "broken_sword_3"

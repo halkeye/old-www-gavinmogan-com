@@ -1,7 +1,6 @@
 ---
 title: "Deep Space Nine"
 author: "halkeye"
-description: ""
 post_id: "80"
 date: "2004/02/18 03:02:44"
 post_name: "deep_space_nine"
