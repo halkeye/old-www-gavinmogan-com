@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import CardTitle from 'react-md/lib/Cards/CardTitle';
-import Avatar from 'react-md/lib/Avatars';
+import { CardTitle, Avatar } from 'react-md/lib';
 import Link from 'gatsby-link';
 import _ from 'lodash';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

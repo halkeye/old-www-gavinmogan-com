@@ -1,7 +1,9 @@
+import { graphql } from 'gatsby';
 import React from 'react';
 
 import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
+import Layout from '../layouts/index.jsx';
 import { Card, CardText, CardActions } from 'react-md';
 import ItemBlockLinks from '../components/ItemBlockLinks/ItemBlockLinks.jsx';
 import PostTags from '../components/PostTags/PostTags.jsx';
@@ -48,52 +50,54 @@ export default class PostTemplate extends React.Component {
       html
     } = this.props.data.markdownRemark;
     return (
-      <div className="post-page md-grid md-grid--no-spacing">
-        <Helmet>
-          <title>{`${title} | ${config.siteTitle}`}</title>
-        </Helmet>
-        <SEO
-          postPath={slug}
-          postNode={postNode}
-          postSEO
-          type="article"
-          tags={tags}
-          category={category}
-        />
-        <PostCover image={image} />
-        <div
-          className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
-        >
-          <Card className="md-grid md-cell md-cell--12 post">
-            <Link to={`/${sourceName}s`}>&lt; Back</Link>
-            <CardText className="post-body">
-              <a href={link}>
-                <h1 className="md-display-2 post-header">{title}</h1>
-              </a>
-              <div dangerouslySetInnerHTML={{ __html: html }} />
-            </CardText>
-            <div className="post-meta">
-              <PostTags tags={tags} />
-              <SocialLinks
-                postPath={slug}
-                postNode={postNode}
-                mobile={mobile}
-              />
-            </div>
-            {links && (
-              <CardActions className="md-divider-border md-divider-border--top">
-                {links.map(l => (
-                  <ItemBlockLinks
-                    key={`link_${l.type}`}
-                    {...l}
-                    attachments={attachments}
-                  />
-                ))}
-              </CardActions>
-            )}
-          </Card>
+      <Layout>
+        <div className="post-page md-grid md-grid--no-spacing">
+          <Helmet>
+            <title>{`${title} | ${config.siteTitle}`}</title>
+          </Helmet>
+          <SEO
+            postPath={slug}
+            postNode={postNode}
+            postSEO
+            type="article"
+            tags={tags}
+            category={category}
+          />
+          <PostCover image={image} />
+          <div
+            className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
+          >
+            <Card className="md-grid md-cell md-cell--12 post">
+              <Link to={`/${sourceName}s`}>&lt; Back</Link>
+              <CardText className="post-body">
+                <a href={link}>
+                  <h1 className="md-display-2 post-header">{title}</h1>
+                </a>
+                <div dangerouslySetInnerHTML={{ __html: html }} />
+              </CardText>
+              <div className="post-meta">
+                <PostTags tags={tags} />
+                <SocialLinks
+                  postPath={slug}
+                  postNode={postNode}
+                  mobile={mobile}
+                />
+              </div>
+              {links && (
+                <CardActions className="md-divider-border md-divider-border--top">
+                  {links.map(l => (
+                    <ItemBlockLinks
+                      key={`link_${l.type}`}
+                      {...l}
+                      attachments={attachments}
+                    />
+                  ))}
+                </CardActions>
+              )}
+            </Card>
+          </div>
         </div>
-      </div>
+      </Layout>
     );
   }
 }
@@ -107,8 +111,8 @@ export const pageQuery = graphql`
         title
         image {
           childImageSharp {
-            sizes(maxWidth: 800, maxHeight: 320, cropFocus: ENTROPY) {
-              ...GatsbyImageSharpSizes_withWebp_tracedSVG
+            fluid(maxWidth: 800, maxHeight: 320, cropFocus: ENTROPY) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
         }

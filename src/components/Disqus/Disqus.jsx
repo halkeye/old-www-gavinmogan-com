@@ -3,11 +3,9 @@ import ReactDisqusComments from 'react-disqus-comments';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import fasComment from '@fortawesome/fontawesome-free-solid/faComment';
 import trimStart from 'lodash/trimStart';
-import Card from 'react-md/lib/Cards/Card';
-import CardTitle from 'react-md/lib/Cards/CardTitle';
-import CardText from 'react-md/lib/Cards/CardText';
-import Avatar from 'react-md/lib/Avatars';
-import Snackbar from 'react-md/lib/Snackbars';
+import {
+  Card, CardTitle, CardText, Avatar, Snackbar
+} from 'react-md/lib';
 import config from '../../../data/SiteConfig';
 
 class Disqus extends Component {

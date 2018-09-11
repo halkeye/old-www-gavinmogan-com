@@ -1,7 +1,9 @@
+import { graphql } from 'gatsby';
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import ItemBlock from '../components/ItemBlock/ItemBlock.jsx';
 import SubHeader from '../components/SubHeader/SubHeader.jsx';
+import Layout from '../layouts/index.jsx';
 import config from '../../data/SiteConfig.js';
 
 const ProjectList = ({ edges, onlyCategory }) => (
@@ -32,22 +34,24 @@ export default class ProjectsPage extends Component {
         .reduce((cur, category) => ({ ...cur, [category]: 1 }), {})
     ).filter(category => category);
     return (
-      <div className="projects-container">
-        <Helmet>
-          <title>{`Projects | ${config.siteTitle}`}</title>
-        </Helmet>
-        <SubHeader title="Projects" />
+      <Layout>
+        <div className="projects-container">
+          <Helmet>
+            <title>{`Projects | ${config.siteTitle}`}</title>
+          </Helmet>
+          <SubHeader title="Projects" />
 
-        <div>
-          <ProjectList edges={edges} />
-          {allCategory.map(category => (
-            <div key={category}>
-              <SubHeader title={category} />
-              <ProjectList edges={edges} onlyCategory={category} />
-            </div>
-          ))}
+          <div>
+            <ProjectList edges={edges} />
+            {allCategory.map(category => (
+              <div key={category}>
+                <SubHeader title={category} />
+                <ProjectList edges={edges} onlyCategory={category} />
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      </Layout>
     );
   }
 }
@@ -71,8 +75,8 @@ export const pageQuery = graphql`
             title
             image {
               childImageSharp {
-                sizes(maxWidth: 320) {
-                  ...GatsbyImageSharpSizes_withWebp_tracedSVG
+                fluid(maxWidth: 320) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
             }

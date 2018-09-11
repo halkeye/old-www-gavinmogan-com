@@ -1,3 +1,4 @@
+import { graphql, StaticQuery } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
 import Img from 'gatsby-image';
@@ -9,6 +10,9 @@ import './global.scss';
 
 export default class MainLayout extends React.Component {
   getLocalTitle () {
+    return '';
+    /*
+
     function capitalize (string) {
       return string.charAt(0).toUpperCase() + string.slice(1);
     }
@@ -49,13 +53,11 @@ export default class MainLayout extends React.Component {
       }
     }
     return title;
+    */
   }
   render () {
     const {
-      children,
-      data: {
-        profileImage
-      }
+      children
     } = this.props;
     return (
       <Navigation config={config} LocalTitle={this.getLocalTitle()}>
@@ -64,12 +66,27 @@ export default class MainLayout extends React.Component {
             <meta name="description" content={config.siteDescription} />
           </Helmet>
           <div id="page">
-            <section id="body">{children()}</section>
+            <section id="body">{children}</section>
             <section id="profile">
-              <Img
-                {...profileImage}
-                alt="Gavin December 1989"
-                className="profile-img"
+              <StaticQuery
+                query={graphql`
+                {
+                  file(relativePath: { eq: "Gavin-December-1989.png" }) {
+                    childImageSharp {
+                        fixed(width: 150, height: 150) {
+                          ...GatsbyImageSharpFixed
+                        }
+                    }
+                  }
+                }
+                `}
+                render={data => {
+                  return <Img
+                    {...data.file.childImageSharp}
+                    alt="Gavin December 1989"
+                    className="profile-img"
+                  />;
+                }}
               />
               <h1>Gavin Mogan</h1>
               <h2>
@@ -93,23 +110,3 @@ export default class MainLayout extends React.Component {
     );
   }
 }
-
-MainLayout.defaultProps = {
-  data: {
-    profileImage: null,
-    currentlyReading: { edges: null },
-    recentlyRead: { edges: null }
-  }
-};
-/* eslint no-undef: "off" */
-export const pageQuery = graphql`
-  query IndexLayout {
-    profileImage: imageSharp(
-      id: { regex: "/src/images/Gavin-December-1989.png/" }
-    ) {
-      resolutions(height: 150, width: 150) {
-        ...GatsbyImageSharpResolutions_withWebp_tracedSVG
-      }
-    }
-  }
-`;

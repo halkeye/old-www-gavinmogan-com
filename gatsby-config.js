@@ -1,5 +1,5 @@
 const config = require('./data/SiteConfig');
-const path = require('path');
+const url = require('url');
 
 const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
 
@@ -79,9 +79,9 @@ module.exports = {
             }
           },
 
+          'gatsby-remark-autolink-headers',
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
-          'gatsby-remark-autolink-headers',
           'gatsby-remark-emoji'
         ]
       }
@@ -167,9 +167,9 @@ module.exports = {
       options: {
         setup (ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
-          ret.image_url = path.join(
+          ret.image_url = url.resolve(
             config.siteUrl,
-            ref.query.profileImage.resolutions.src
+            'img/Gavin-December-1989-a2ce6e58e297f8bdabe2dcbf01e49e3d-0e94d.png'
           );
           ret.allMarkdownRemark = ref.query.allMarkdownRemark;
           ret.generator = 'GatsbyJS Material Starter';
@@ -177,11 +177,6 @@ module.exports = {
         },
         query: `
         {
-          profileImage: imageSharp(id: { regex: "/src/images/logo.png/" }) {
-            resolutions(height: 512, width: 512) {
-              src
-            }
-          }
           site {
             siteMetadata {
               rssMetadata {

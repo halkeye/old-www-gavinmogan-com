@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Button } from 'react-md/lib';
 
-import Button from 'react-md/lib/Buttons';
 import './UserLinks.scss';
 
 class UserLinks extends Component {

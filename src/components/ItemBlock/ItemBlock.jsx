@@ -10,7 +10,7 @@ import {
   Media,
   MediaOverlay,
   Chip
-} from 'react-md';
+} from 'react-md/lib';
 import ItemBlockLinks from '../ItemBlockLinks/ItemBlockLinks.jsx';
 
 import './itemblock.scss';

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import autobind from 'autobind';
 
 import {
   Button,
@@ -8,7 +7,7 @@ import {
   CardTitle,
   CardActions,
   TextField
-} from 'react-md';
+} from 'react-md/lib';
 import UserLinks from '../UserLinks/UserLinks.jsx';
 import config from '../../../data/SiteConfig';
 import avatar from './Gavin-December-1989.png';
@@ -21,8 +20,7 @@ class About extends Component {
     this.state = { subject: '' };
   }
 
-  @autobind
-  onClick () {
+  onClick = () => {
     window.open(
       `mailto:website@gavinmogan.com?subject=${window.encodeURIComponent(
         this.state.subject
@@ -30,8 +28,7 @@ class About extends Component {
     );
   }
 
-  @autobind
-  handleChange (field) {
+  handleChange = (field) => {
     return value => {
       this.setState({ [field]: value });
     };

@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import Card from 'react-md/lib/Cards/Card';
-import CardTitle from 'react-md/lib/Cards/CardTitle';
-import Button from 'react-md/lib/Buttons';
-import Avatar from 'react-md/lib/Avatars';
-import CardText from 'react-md/lib/Cards/CardText';
+import { Card, CardTitle, CardText, Button, Avatar } from 'react-md/lib';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import fasCalendar from '@fortawesome/fontawesome-free-solid/faCalendar';
 import Link from 'gatsby-link';

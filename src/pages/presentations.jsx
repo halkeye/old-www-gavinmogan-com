@@ -1,7 +1,9 @@
+import { graphql } from 'gatsby';
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import ItemBlock from '../components/ItemBlock/ItemBlock.jsx';
 import SubHeader from '../components/SubHeader/SubHeader.jsx';
+import Layout from '../layouts/index.jsx';
 import config from '../../data/SiteConfig.js';
 import './presentations.scss';
 
@@ -17,14 +19,16 @@ export default class PresentationsPage extends Component {
   render () {
     const { edges } = this.props.data.allMarkdownRemark;
     return (
-      <div className="presentations-container">
-        <Helmet>
-          <title>{`Presentations | ${config.siteTitle}`}</title>
-        </Helmet>
-        <SubHeader title="Presentations" />
+      <Layout>
+        <div className="presentations-container">
+          <Helmet>
+            <title>{`Presentations | ${config.siteTitle}`}</title>
+          </Helmet>
+          <SubHeader title="Presentations" />
 
-        <PresentationList edges={edges} />
-      </div>
+          <PresentationList edges={edges} />
+        </div>
+      </Layout>
     );
   }
 }
@@ -51,8 +55,8 @@ export const pageQuery = graphql`
             title
             image {
               childImageSharp {
-                sizes(maxWidth: 320) {
-                  ...GatsbyImageSharpSizes_withWebp_tracedSVG
+                fluid(maxWidth: 320) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
             }

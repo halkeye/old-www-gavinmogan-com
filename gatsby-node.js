@@ -1,6 +1,6 @@
 const path = require('path');
 const _ = require('lodash');
-const webpackLodashPlugin = require('lodash-webpack-plugin');
+const WebpackLodashPlugin = require('lodash-webpack-plugin');
 
 const postNodes = [];
 
@@ -78,8 +78,8 @@ function getSlugFromNode (node, fileNode) {
   return `/${parsedFilePath.dir}/`;
 }
 
-exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
-  const { createNodeField } = boundActionCreators;
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions;
 
   if (node.internal.type === 'MarkdownRemark') {
     const fileNode = getNode(node.parent);
@@ -110,9 +110,9 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   }
 };
 
-exports.setFieldsOnGraphQLNodeType = ({ type, boundActionCreators }) => {
+exports.setFieldsOnGraphQLNodeType = ({ type, actions }) => {
   const { name } = type;
-  const { createNodeField } = boundActionCreators;
+  const { createNodeField } = actions;
   if (name === 'MarkdownRemark') {
     addSiblingNodes(createNodeField);
   }
@@ -128,8 +128,8 @@ const redirects = {
   '/project/drupal modules': '/projects'
 };
 
-exports.createPages = async ({ graphql, boundActionCreators }) => {
-  const { createPage, createRedirect } = boundActionCreators;
+exports.createPages = async ({ graphql, actions }) => {
+  const { createPage, createRedirect } = actions;
 
   Object.entries(redirects).forEach(([fromPath, toPath]) =>
     createRedirect({ fromPath, toPath, isPermanent: true })
@@ -303,8 +303,10 @@ exports.createPages = async ({ graphql, boundActionCreators }) => {
   });
 };
 
-exports.modifyWebpackConfig = ({ config, stage }) => {
+exports.onCreateWebpackConfig = ({ stage, actions }) => {
   if (stage === 'build-javascript') {
-    config.plugin('Lodash', webpackLodashPlugin, null);
+    actions.setWebpackConfig({
+      plugins: [new WebpackLodashPlugin()]
+    });
   }
 };

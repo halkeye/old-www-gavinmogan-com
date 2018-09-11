@@ -1,6 +1,8 @@
+import { graphql } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
 import PostListing from '../components/PostListing/PostListing.jsx';
+import Layout from '../layouts/index.jsx';
 import config from '../../data/SiteConfig.js';
 
 export default class CategoryTemplate extends React.Component {
@@ -8,14 +10,16 @@ export default class CategoryTemplate extends React.Component {
     const { category } = this.props.pathContext;
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
-      <div className="category-container">
-        <Helmet>
-          <title>
-            {`Posts in category "${category}" | ${config.siteTitle}`}
-          </title>
-        </Helmet>
-        <PostListing postEdges={postEdges} />
-      </div>
+      <Layout>
+        <div className="category-container">
+          <Helmet>
+            <title>
+              {`Posts in category "${category}" | ${config.siteTitle}`}
+            </title>
+          </Helmet>
+          <PostListing postEdges={postEdges} />
+        </div>
+      </Layout>
     );
   }
 }
@@ -42,8 +46,8 @@ export const pageQuery = graphql`
             tags
             cover {
               childImageSharp {
-                sizes(maxWidth: 800, cropFocus: ENTROPY) {
-                  ...GatsbyImageSharpSizes_withWebp_tracedSVG
+                fluid(maxWidth: 800, cropFocus: ENTROPY) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
             }

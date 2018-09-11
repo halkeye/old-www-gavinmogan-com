@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
 import Link from 'gatsby-link';
-import Chip from 'react-md/lib/Chips';
+import { Chip } from 'react-md/lib';
 import './PostTags.scss';
 
 class PostTags extends Component {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-md';
+import { Button } from 'react-md/lib';
 
 export default function ItemBlockLinks ({ url, type, attachments }) {
   if (url[0] === '.' && attachments && attachments.length) {

@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import Card from 'react-md/lib/Cards/Card';
-import CardTitle from 'react-md/lib/Cards/CardTitle';
-import CardText from 'react-md/lib/Cards/CardText';
-import Avatar from 'react-md/lib/Avatars';
+import { Card, CardTitle, CardText, Avatar } from 'react-md/lib';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import fasMapMarker from '@fortawesome/fontawesome-free-solid/faMapMarker';
 import IconSeparator from 'react-md/lib/Helpers/IconSeparator';

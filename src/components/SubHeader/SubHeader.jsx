@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardTitle } from 'react-md';
+import { Card, CardTitle } from 'react-md/lib';
 
 import './subheader.scss';
 

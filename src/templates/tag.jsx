@@ -1,6 +1,8 @@
+import { graphql } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
 import PostListing from '../components/PostListing/PostListing.jsx';
+import Layout from '../layouts/index.jsx';
 import config from '../../data/SiteConfig.js';
 
 export default class TagTemplate extends React.Component {
@@ -8,12 +10,14 @@ export default class TagTemplate extends React.Component {
     const { tag } = this.props.pathContext;
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
-      <div className="tag-container">
-        <Helmet>
-          <title>{`Posts tagged as "${tag}" | ${config.siteTitle}`}</title>
-        </Helmet>
-        <PostListing postEdges={postEdges} />
-      </div>
+      <Layout>
+        <div className="tag-container">
+          <Helmet>
+            <title>{`Posts tagged as "${tag}" | ${config.siteTitle}`}</title>
+          </Helmet>
+          <PostListing postEdges={postEdges} />
+        </div>
+      </Layout>
     );
   }
 }
@@ -40,8 +44,8 @@ export const pageQuery = graphql`
             date
             cover {
               childImageSharp {
-                sizes(maxWidth: 800, cropFocus: ENTROPY) {
-                  ...GatsbyImageSharpSizes_withWebp_tracedSVG
+                fluid(maxWidth: 800, cropFocus: ENTROPY) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
             }
