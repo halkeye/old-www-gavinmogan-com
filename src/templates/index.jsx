@@ -10,7 +10,7 @@ import config from '../../data/SiteConfig.js';
 export default class IndexPage extends React.Component {
   render () {
     const postEdges = this.props.data.allMarkdownRemark.edges;
-    const { index, paginatedPagesCount } = this.props.pathContext;
+    const { index, paginatedPagesCount } = this.props.pageContext;
     return (
       <Layout>
         <div className="index-container">
