@@ -60,10 +60,10 @@ export default class PostTemplate extends React.Component {
       post.category_id = config.postDefaultCategoryID;
     }
     return (
-      <Layout>
+      <Layout location={this.props.location} title={post.title}>
         <div className="post-page md-grid md-grid--no-spacing">
           <Helmet>
-            <title>{`${post.title} | ${config.siteTitle}`}</title>
+            <title>{post.title}</title>
           </Helmet>
           <SEO
             postPath={slug}

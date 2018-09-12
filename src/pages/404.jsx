@@ -1,14 +1,15 @@
 import React from 'react';
 import Layout from '../layouts/index.jsx';
 
-const NotFoundPage = () => {
+const NotFoundPage = ({ location }) => {
   if (typeof window !== `undefined`) {
     if (window.Raven) {
       window.Raven.captureMessage('got404');
     }
   }
   return (
-    <Layout>
+    <Layout location={location} title="Not Found">
+      <title>Not Found</title>
       <h1>NOT FOUND</h1>
       <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
     </Layout>

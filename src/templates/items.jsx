@@ -1,7 +1,6 @@
 import { graphql, Link } from 'gatsby';
 import React from 'react';
 
-import Helmet from 'react-helmet';
 import Layout from '../layouts/index.jsx';
 import { Card, CardText, CardActions } from 'react-md';
 import ItemBlockLinks from '../components/ItemBlockLinks/ItemBlockLinks.jsx';
@@ -9,7 +8,6 @@ import PostTags from '../components/PostTags/PostTags.jsx';
 import PostCover from '../components/PostCover/PostCover.jsx';
 import SocialLinks from '../components/SocialLinks/SocialLinks.jsx';
 import SEO from '../components/SEO/SEO.jsx';
-import config from '../../data/SiteConfig.js';
 import './b16-tomorrow-dark.css';
 import './post.scss';
 
@@ -49,11 +47,8 @@ export default class PostTemplate extends React.Component {
       html
     } = this.props.data.markdownRemark;
     return (
-      <Layout>
+      <Layout location={this.props.location} title={title}>
         <div className="post-page md-grid md-grid--no-spacing">
-          <Helmet>
-            <title>{`${title} | ${config.siteTitle}`}</title>
-          </Helmet>
           <SEO
             postPath={slug}
             postNode={postNode}

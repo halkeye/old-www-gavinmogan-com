@@ -4,7 +4,6 @@ import Helmet from 'react-helmet';
 import ItemBlock from '../components/ItemBlock/ItemBlock.jsx';
 import SubHeader from '../components/SubHeader/SubHeader.jsx';
 import Layout from '../layouts/index.jsx';
-import config from '../../data/SiteConfig.js';
 
 const ProjectList = ({ edges, onlyCategory }) => (
   <div className="md-grid">
@@ -34,10 +33,10 @@ export default class ProjectsPage extends Component {
         .reduce((cur, category) => ({ ...cur, [category]: 1 }), {})
     ).filter(category => category);
     return (
-      <Layout>
+      <Layout location={this.props.location} title="Projects">
         <div className="projects-container">
           <Helmet>
-            <title>{`Projects | ${config.siteTitle}`}</title>
+            <title>Projects</title>
           </Helmet>
           <SubHeader title="Projects" />
 

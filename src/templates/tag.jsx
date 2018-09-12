@@ -3,17 +3,16 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import PostListing from '../components/PostListing/PostListing.jsx';
 import Layout from '../layouts/index.jsx';
-import config from '../../data/SiteConfig.js';
 
 export default class TagTemplate extends React.Component {
   render () {
     const { tag } = this.props.pageContext;
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
-      <Layout>
+      <Layout location={this.props.location} title={`Posts tagged as "${tag}"`}>
         <div className="tag-container">
           <Helmet>
-            <title>{`Posts tagged as "${tag}" | ${config.siteTitle}`}</title>
+            <title>{`Posts tagged as "${tag}"`}</title>
           </Helmet>
           <PostListing postEdges={postEdges} />
         </div>

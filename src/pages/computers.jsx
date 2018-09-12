@@ -10,15 +10,14 @@ import {
   Grid, Cell
 } from 'react-md/lib';
 import Layout from '../layouts/index.jsx';
-import config from '../../data/SiteConfig';
 
 class ComputersPage extends Component {
   render () {
     return (
-      <Layout>
+      <Layout location={this.props.location} title="Computers">
         <div className="computer-container">
           <Helmet>
-            <title>{`Computers | ${config.siteTitle}`}</title>
+            <title>Computers</title>
           </Helmet>
           <h1>Computers</h1>
 

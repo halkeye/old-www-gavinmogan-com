@@ -8,6 +8,7 @@ const regexExcludeRobots = /^(?!\/(dev-404-page|404|offline-plugin-app-shell-fal
 module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
+    title: config.siteTitle,
     siteUrl: config.siteUrl + pathPrefix,
     siteDescription: config.siteDescription,
     rssMetadata: {

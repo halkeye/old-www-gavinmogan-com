@@ -4,7 +4,6 @@ import Helmet from 'react-helmet';
 import ItemBlock from '../components/ItemBlock/ItemBlock.jsx';
 import SubHeader from '../components/SubHeader/SubHeader.jsx';
 import Layout from '../layouts/index.jsx';
-import config from '../../data/SiteConfig.js';
 import './presentations.scss';
 
 const PresentationList = ({ edges }) => (
@@ -19,10 +18,10 @@ export default class PresentationsPage extends Component {
   render () {
     const { edges } = this.props.data.allMarkdownRemark;
     return (
-      <Layout>
+      <Layout location={this.props.location} title="Presentations">
         <div className="presentations-container">
           <Helmet>
-            <title>{`Presentations | ${config.siteTitle}`}</title>
+            <title>Presentations</title>
           </Helmet>
           <SubHeader title="Presentations" />
 

@@ -2,15 +2,14 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import About from '../components/About/About.jsx';
 import Layout from '../layouts/index.jsx';
-import config from '../../data/SiteConfig.js';
 
 class AboutPage extends Component {
   render () {
     return (
-      <Layout>
+      <Layout location={this.props.location} title="About">
         <div className="about-container">
           <Helmet>
-            <title>{`About | ${config.siteTitle}`}</title>
+            <title>About</title>
           </Helmet>
           <About />
         </div>
