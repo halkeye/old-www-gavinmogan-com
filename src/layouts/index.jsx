@@ -1,30 +1,11 @@
-import { graphql, StaticQuery, Link } from 'gatsby';
+import { Link } from 'gatsby';
 import React from 'react';
-import Helmet from 'react-helmet';
+import Headers from './Headers.jsx';
 import Navigation from '../components/Navigation/Navigation.jsx';
 import ProfileImage from '../components/ProfileImage/ProfileImage.jsx';
 import config from '../../data/SiteConfig.js';
 import './index.scss';
 import './global.scss';
-
-const Headers = () => {
-  return <StaticQuery
-    query={graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
-    render={data => (
-      <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`} defaultTitle={data.site.siteMetadata.title}>
-        <meta name="description" content={config.siteDescription} />
-      </Helmet>
-    )}
-  />;
-};
 
 export default class MainLayout extends React.Component {
   render () {
