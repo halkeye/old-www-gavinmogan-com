@@ -20,7 +20,7 @@ class Footer extends Component {
               <Button
                 flat
                 secondary
-                iconEl={<FontAwesomeIcon icon={fasRSS} size="2x" />}
+                iconChildren={<FontAwesomeIcon icon={fasRSS} />}
               >
                 Subscribe
               </Button>

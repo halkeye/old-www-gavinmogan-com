@@ -16,7 +16,7 @@ class UserLinks extends Component {
         secondary
         key={link.label}
         href={link.url}
-        iconEl={<FontAwesomeIcon size="2x" icon={link.icon} />}
+        iconChildren={<FontAwesomeIcon icon={link.icon} />}
       >
         {labeled ? link.label : ''}
       </Button>
