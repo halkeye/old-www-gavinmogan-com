@@ -7,7 +7,7 @@ jest.mock('../../../src/layouts/Headers.jsx', () => () => <div />);
 // eslint-disable-next-line react/display-name
 jest.mock('../../../src/components/ProfileImage/ProfileImage.jsx', () => () => <div />);
 
-describe('layout', () => {
+describe('computers', () => {
   test('Renders', () => {
     const wrapper = render(<Computers />);
     expect(wrapper).toBeTruthy();
