@@ -169,14 +169,15 @@
     },
     "transformIgnorePatterns": [],
     "transform": {
-      "^.+\\.jsx?$": "<rootDir>/test/transformer.js"
+      "^.+\\.jsx?$": "<rootDir>/tests/__setup__/transformer.js"
     },
     "moduleNameMapper": {
-      "^.+\\.(css|scss|png)$": "identity-obj-proxy"
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|css)$": "<rootDir>/tests/__mocks__/fileMock.js",
+      "^.+\\.(css|scss)$": "identity-obj-proxy"
     },
-    "setupTestFrameworkScriptFile": "./jestFrameworkSetup.js",
+    "setupTestFrameworkScriptFile": "<rootDir>/tests/__setup__/frameworkSetup.js",
     "setupFiles": [
-      "./jestSetup.js"
+      "<rootDir>/tests/__setup__/setup.js"
     ],
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
