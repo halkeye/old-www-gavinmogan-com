@@ -14,7 +14,6 @@
   "homepage": "https://www.gavinmogan.com",
   "dependencies": {
     "@babel/core": "^7.0.1",
-    "@babel/node": "^7.0.0",
     "@babel/plugin-proposal-decorators": "^7.0.0",
     "@babel/plugin-proposal-optional-chaining": "^7.0.0",
     "@babel/polyfill": "^7.0.0",
@@ -84,7 +83,6 @@
     "lodash-webpack-plugin": "^0.11.5",
     "markdownlint": "^0.11.0",
     "markdownlint-cli": "^0.13.0",
-    "mocha": "^5.2.0",
     "node-sass": "^4.9.3",
     "prettier": "^1.14.2",
     "prettier-eslint-cli": "^4.7.1",
