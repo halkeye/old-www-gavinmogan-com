@@ -172,7 +172,7 @@
       "^.+\\.jsx?$": "<rootDir>/test/transformer.js"
     },
     "moduleNameMapper": {
-      "^.+\\.(css|scss)$": "identity-obj-proxy"
+      "^.+\\.(css|scss|png)$": "identity-obj-proxy"
     },
     "setupTestFrameworkScriptFile": "./jestFrameworkSetup.js",
     "setupFiles": [
