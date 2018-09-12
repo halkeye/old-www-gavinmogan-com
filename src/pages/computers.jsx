@@ -33,7 +33,7 @@ class ComputersPage extends Component {
               </Media>
               <Grid>
                 <Cell size={6}>
-                  <List unordered>
+                  <List ordered={false}>
                     <ListItem primaryText="Name" secondaryText="oinkpig" />
                     <ListItem primaryText="Description" secondaryText="server" />
                     <ListItem primaryText="Primary Use(s)" secondaryText="gateway / nat / mail / web / etc" />
@@ -41,13 +41,13 @@ class ComputersPage extends Component {
                   </List>
                 </Cell>
                 <Cell size={6}>
-                  <List unordered>
-                    <ListItem>Pentium II 400MHz processor</ListItem>
-                    <ListItem>313.84 MB (i really have no idea how that number comes to be)</ListItem>
-                    <ListItem>2x 30 GB Hard drives (IBM-DTLA-307030 &amp; WDC WD307AA-00BAA0)</ListItem>
-                    <ListItem>32X CD-Rom drive (I think disconnected though)</ListItem>
-                    <ListItem>ATI Technologies Inc 3D Rage Pro AGP 1X/2X</ListItem>
-                    <ListItem>2x Linksys Network Everywhere Fast Ethernet 10/100 model NC100</ListItem>
+                  <List ordered={false}>
+                    <ListItem primaryText="Pentium II 400MHz processor" />
+                    <ListItem primaryText="313.84 MB (i really have no idea how that number comes to be)" />
+                    <ListItem primaryText="2x 30 GB Hard drives (IBM-DTLA-307030 &amp; WDC WD307AA-00BAA0)" />
+                    <ListItem primaryText="32X CD-Rom drive (I think disconnected though)" />
+                    <ListItem primaryText="ATI Technologies Inc 3D Rage Pro AGP 1X/2X" />
+                    <ListItem primaryText="2x Linksys Network Everywhere Fast Ethernet 10/100 model NC100" />
                   </List>
                 </Cell>
               </Grid>
@@ -67,7 +67,7 @@ class ComputersPage extends Component {
               </Media>
               <Grid>
                 <Cell size={6}>
-                  <List unordered>
+                  <List ordered={false}>
                     <ListItem primaryText="Name" secondaryText="barkdog" />
                     <ListItem primaryText="Description" secondaryText="Gaming / Windows Machine" />
                     <ListItem primaryText="Primary Use(s)" secondaryText="gaming / chatting / mudding / etc" />
@@ -75,16 +75,16 @@ class ComputersPage extends Component {
                   </List>
                 </Cell>
                 <Cell size={6}>
-                  <List unordered>
-                    <ListItem>Pentium IV 1.3GHz processor</ListItem>
-                    <ListItem>256 MB Memory (2x 128 MB Memory)</ListItem>
-                    <ListItem>20,80 GB Hard drive</ListItem>
-                    <ListItem>48X NEC DVD Drive</ListItem>
-                    <ListItem>52x48x52 LG CDRW Drive</ListItem>
-                    <ListItem>Nvidia Geforce 3</ListItem>
-                    <ListItem>3Com 3C920 Integrated Fast Ethernet Controller (3C905C-TX Compatible)</ListItem>
-                    <ListItem>Creative SBLive! Platinum</ListItem>
-                    <ListItem>Intel PC Camera Pro (USB)</ListItem>
+                  <List ordered={false}>
+                    <ListItem primaryText="Pentium IV 1.3GHz processor" />
+                    <ListItem primaryText="256 MB Memory (2x 128 MB Memory)" />
+                    <ListItem primaryText="20,80 GB Hard drive" />
+                    <ListItem primaryText="48X NEC DVD Drive" />
+                    <ListItem primaryText="52x48x52 LG CDRW Drive" />
+                    <ListItem primaryText="Nvidia Geforce 3" />
+                    <ListItem primaryText="3Com 3C920 Integrated Fast Ethernet Controller (3C905C-TX Compatible)" />
+                    <ListItem primaryText="Creative SBLive! Platinum" />
+                    <ListItem primaryText="Intel PC Camera Pro (USB)" />
                   </List>
                 </Cell>
               </Grid>
@@ -101,7 +101,7 @@ class ComputersPage extends Component {
               </Media>
               <Grid>
                 <Cell size={6}>
-                  <List unordered>
+                  <List ordered={false}>
                     <ListItem primaryText="Name" secondaryText="moocow" />
                     <ListItem primaryText="Description" secondaryText="IBM Laptop" />
                     <ListItem primaryText="Primary Use(s)" secondaryText="Coding/chatting/linux testing" />
@@ -109,25 +109,25 @@ class ComputersPage extends Component {
                   </List>
                 </Cell>
                 <Cell size={6}>
-                  <List unordered>
-                    <ListItem>Pentium III 900MHz processor</ListItem>
-                    <ListItem>256 MB Memory</ListItem>
-                    <ListItem>20 GB Hard drive</ListItem>
-                    <ListItem>1.44 MB Floppy Drive</ListItem>
-                    <ListItem>8X DVD Rom drive</ListItem>
-                    <ListItem>1 USB port</ListItem>
-                    <ListItem>1 serial port</ListItem>
-                    <ListItem>1 parellel port</ListItem>
-                    <ListItem>1 PS/2 mouse/keyboard port</ListItem>
-                    <ListItem>15.0&quot; SXGA TFT Active Matrix Display</ListItem>
-                    <ListItem>ATI Rage Mobility M3 AGP 2X 8MB SGRAM</ListItem>
-                    <ListItem>1400x1050 internal resolution</ListItem>
-                    <ListItem>2 type II or 1 type III PC card slot(s)</ListItem>
-                    <ListItem>56K v.90 MiniPCI Modem card</ListItem>
-                    <ListItem>16-bit Cristal Sound Fusion with internal speakers</ListItem>
-                    <ListItem>Intel Pro/100 SP miniPCI Ethernet Card, PXE enabled</ListItem>
-                    <ListItem>4 Mbps Infa-red port</ListItem>
-                    <ListItem>S-Video Out</ListItem>
+                  <List ordered={false}>
+                    <ListItem primaryText="Pentium III 900MHz processor" />
+                    <ListItem primaryText="256 MB Memory" />
+                    <ListItem primaryText="20 GB Hard drive" />
+                    <ListItem primaryText="1.44 MB Floppy Drive" />
+                    <ListItem primaryText="8X DVD Rom drive" />
+                    <ListItem primaryText="1 USB port" />
+                    <ListItem primaryText="1 serial port" />
+                    <ListItem primaryText="1 parellel port" />
+                    <ListItem primaryText="1 PS/2 mouse/keyboard port" />
+                    <ListItem primaryText="15.0&quot; SXGA TFT Active Matrix Display" />
+                    <ListItem primaryText="ATI Rage Mobility M3 AGP 2X 8MB SGRAM" />
+                    <ListItem primaryText="1400x1050 internal resolution" />
+                    <ListItem primaryText="2 type II or 1 type III PC card slot(s)" />
+                    <ListItem primaryText="56K v.90 MiniPCI Modem card" />
+                    <ListItem primaryText="16-bit Cristal Sound Fusion with internal speakers" />
+                    <ListItem primaryText="Intel Pro/100 SP miniPCI Ethernet Card, PXE enabled" />
+                    <ListItem primaryText="4 Mbps Infa-red port" />
+                    <ListItem primaryText="S-Video Out" />
                   </List>
                 </Cell>
               </Grid>
