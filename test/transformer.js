@@ -1,23 +1,9 @@
 // test/transformer.js
 module.exports = require('babel-jest').createTransformer({
-  presets: [
-    // built-in
-    ['env', {
-      modules: 'commonjs',
-      targets: {
-        node: 'current'
-      },
-      exclude: ['transform-regenerator', 'transform-es2015-typeof-symbol']
-    }],
-    'stage-0',
-    'react'
-    // custom...
-  ],
+  presets: ['@babel/react', '@babel/env'],
   plugins: [
-    // built-in
-    'gatsby/dist/utils/babel-plugin-extract-graphql',
-    'add-module-exports',
-    'transform-object-assign'
-    // custom...
+    '@babel/plugin-proposal-optional-chaining',
+    '@babel/plugin-proposal-class-properties',
+    'remove-graphql-queries'
   ]
 });

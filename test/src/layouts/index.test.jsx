@@ -4,27 +4,11 @@ import { shallow } from 'enzyme';
 import MainLayout from '../../../src/layouts/index.jsx';
 
 describe('layout', () => {
-  describe('pathnames to titles', () => {
-    const pathNames = {
-      '/': 'Home',
-      '/computers': 'Computers',
-      '/projects': 'Projects',
-      '/projects/Unknown Region': 'Project - Unknown Region',
-      '/presentations': 'Presentations',
-      '/presentations/vim': 'Presentation - Vim',
-      '/tags': 'Tags',
-      '/tags/docker': 'Tagged in Docker',
-      '/categories': 'Categories',
-      '/categories/docker': 'Category - Docker'
-    };
-    Object.entries(pathNames).forEach(([url, title]) => {
-      test(url, () => {
-        const wrapper = shallow(
-          <MainLayout location={{ pathname: url }}>{jest.fn()}</MainLayout>
-        );
-        expect(wrapper).toBeTruthy();
-        expect(wrapper.find('Navigation').props().LocalTitle).toEqual(title);
-      });
-    });
+  test('Renders', () => {
+    const title = 'Hi there';
+    const wrapper = shallow(
+      <MainLayout title={title}><div /></MainLayout>
+    ).dive();
+    expect(wrapper).toBeTruthy();
   });
 });
