@@ -51,7 +51,6 @@
     "gatsby-remark-embed-youtube": "0.0.7",
     "gatsby-remark-emoji": "0.0.2",
     "gatsby-remark-source-name": "^1.0.0",
-    "gh-pages": "^1.2.0",
     "history": "^4.7.2",
     "husky": "^0.14.3",
     "identity-obj-proxy": "^3.0.0",
