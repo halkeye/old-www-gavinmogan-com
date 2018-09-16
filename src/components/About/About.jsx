@@ -2,19 +2,54 @@ import React, { Component } from 'react';
 import autobind from 'autobind-decorator';
 
 import {
+  withStyles,
   Button,
   Card,
-  CardText,
-  CardTitle,
+  CardContent,
+  CardHeader,
   CardActions,
+  Grid,
   TextField
-} from 'react-md/lib';
+} from '@material-ui/core';
 import UserLinks from '../UserLinks/UserLinks.jsx';
 import config from '../../../data/SiteConfig';
 import avatar from './Gavin-December-1989.png';
 
 import './About.scss';
 
+const styles = theme => ({
+  section: {
+    padding: `${theme.spacing.unit * 1}px`,
+    marginTop: `${theme.spacing.unit * 6}px`
+  }
+});
+
+const whereAmI = [
+  {
+    key: 'nodeschool-yvr',
+    name: 'NodeSchool Vancouver',
+    logo: 'https://cdn.rawgit.com/kennethormandy/nodeschool-vancouver/ko-logo/logo.svg',
+    description: 'Help out where I can. Usually finding a group that wants to do a certain excersize at our events and help mentor them.',
+    links: [
+      {
+        url: 'https://community.vancouvertech.com/groups/nodeschool',
+        title: 'forum'
+      },
+      {
+        url: 'https://github.com/nodeschool/vancouver',
+        title: 'github'
+      },
+      {
+        url: 'https://meetup.com/nodeschool-vancouver',
+        title: 'meetup'
+      },
+      {
+        url: 'https://twitter.com/nodeschoolyvr',
+        title: 'twitter'
+      }
+    ]
+  }
+];
 class About extends Component {
   constructor (props) {
     super(props);
@@ -65,81 +100,60 @@ class About extends Component {
   }
 
   render () {
+    const { classes } = this.props;
     return (
-      <div className="about-container md-grid mobile-fix">
-        <Card className="md-cell md-cell--8">
-          <div className="about-wrapper">
+      <div className="mobile-fix">
+        <Card className={classes.section}>
+          <CardContent className="about-wrapper">
             <img src={avatar} className="about-img" alt={config.userName} />
-            <CardText>
-              <p className="about-text md-body-1">{config.userDescription}</p>
-            </CardText>
+            <CardContent>
+              <p className="about-text">{config.userDescription}</p>
+            </CardContent>
             <UserLinks labeled config={config} />
-          </div>
+          </CardContent>
         </Card>
 
-        <Card className="md-cell md-cell--8">
-          <CardText>
-            <CardTitle title="Where can you find me?" />
-            <div className="md-grid">
-              <Card className="md-cell md-cell--8">
-                <CardTitle title="NodeSchool Vancouver" />
-                <CardText>
-                  <img
-                    alt="nodeschool logo"
-                    src="https://cdn.rawgit.com/kennethormandy/nodeschool-vancouver/ko-logo/logo.svg"
-                    value="nodeschool"
-                  />
-                  Help out where I can. Usually finding a group that wants to do
-                  a certain excersize at our events and help mentor them.
-                </CardText>
-                <CardActions>
-                  <Button
-                    href="https://community.vancouvertech.com/groups/nodeschool"
-                    flat
-                    secondary
-                  >
-                    forum
-                  </Button>
-                  <Button
-                    href="https://github.com/nodeschool/vancouver"
-                    flat
-                    secondary
-                  >
-                    github
-                  </Button>
-                  <Button
-                    href="https://meetup.com/nodeschool-vancouver"
-                    flat
-                    secondary
-                  >
-                    meetup
-                  </Button>
-                  <Button
-                    href="https://twitter.com/nodeschoolyvr"
-                    flat
-                    secondary
-                  >
-                    twitter
-                  </Button>
-                </CardActions>
-              </Card>
-            </div>
-          </CardText>
+        <Card className={classes.section}>
+          <CardHeader title="Where can you find me?" />
+          <CardContent>
+            <Grid container spacing={40} alignItems="flex-end">
+              <Grid item key="nodeschoolyvr" xs={12} sm={6} md={8}>
+                { whereAmI.map(elm => (
+                  <Card key={elm.key}>
+                    <CardHeader title={elm.name} />
+                    <CardContent>
+                      <img alt={`${elm.name} logo`} src={elm.logo} />
+                      {elm.description}
+                    </CardContent>
+                    <CardActions>
+                      {
+                        elm.links.map(link => (
+                          <Button href={link.url} key={link.title} color="secondary">
+                            {link.title}
+                          </Button>
+                        ))
+                      }
+                    </CardActions>
+                  </Card>
+                ))}
+              </Grid>
+            </Grid>
+          </CardContent>
         </Card>
 
-        <Card className="md-cell md-cell--8">
-          <CardText>
-            <CardTitle title="Contact" />
+        <Card className={classes.section}>
+          <CardHeader title="Contact" />
+          <CardContent>
             {this.renderInput('subject', 'Subject')}
             {this.renderText('body', 'Body')}
-            <Button onClick={this.onClick} raised primary>
+            <Button onClick={this.onClick} variant="contained" color="primary">
               Send Email
             </Button>
-          </CardText>
+          </CardContent>
         </Card>
       </div>
     );
   }
 }
 
-export default About;
+export default withStyles(styles)(About);
