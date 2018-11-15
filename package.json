@@ -97,7 +97,7 @@
     "gatsby-plugin-sharp": "^2.0.12",
     "gatsby-plugin-sitemap": "^2.0.2",
     "gatsby-plugin-twitter": "^2.0.7",
-    "gatsby-remark-autolink-headers": "^2.0.0-rc.2",
+    "gatsby-remark-autolink-headers": "^2.0.11",
     "gatsby-remark-copy-linked-files": "^2.0.0-rc.5",
     "gatsby-remark-images": "^2.0.1-rc.5",
     "gatsby-remark-prismjs": "^3.0.0-rc.2",
