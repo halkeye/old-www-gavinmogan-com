@@ -46,7 +46,7 @@
     "eslint-plugin-standard": "^4.0.0",
     "gatsby-plugin-favicon": "^3.1.4",
     "gatsby-plugin-robots-txt": "^1.1.0",
-    "gatsby-plugin-sentry": "0.1.0",
+    "gatsby-plugin-sentry": "1.0.0",
     "gatsby-remark-embed-youtube": "0.0.7",
     "gatsby-remark-emoji": "0.0.2",
     "gatsby-remark-source-name": "^1.0.0",
