@@ -13,6 +13,6 @@ describe('layout', () => {
       <MainLayout title="hi there"><div /></MainLayout>
     );
     expect(wrapper).toBeTruthy();
-    expect(wrapper.find('Navigation').props()).toMatchObject({ LocalTitle: 'hi there' });
+    expect(wrapper.dive().find('[variant="title"]').dive().dive().text()).toEqual('hi there');
   });
 });

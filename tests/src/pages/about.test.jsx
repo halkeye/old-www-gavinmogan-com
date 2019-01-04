@@ -5,7 +5,8 @@ import About from '../../../src/pages/about.jsx';
 // eslint-disable-next-line react/display-name
 jest.mock('../../../src/layouts/Headers.jsx', () => () => <div />);
 // eslint-disable-next-line react/display-name
-jest.mock('../../../src/components/ProfileImage/ProfileImage.jsx', () => () => <div />);
+jest.mock('../../../src/components/ProfileImage/ProfileImage.jsx', () => function ProfileImage () { return <div />; });
+jest.mock('../../../src/components/ProfileImage/ProfileImageLarge.jsx', () => function ProfileImageLarge () { return <div />; });
 
 describe('about', () => {
   test('Renders', () => {
