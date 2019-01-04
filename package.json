@@ -85,6 +85,7 @@
     "write-good": "^0.13.1"
   },
   "devDependencies": {
+    "babel-preset-gatsby": "^0.1.6",
     "gatsby": "^2.0.83",
     "gatsby-image": "^2.0.25",
     "gatsby-plugin-canonical-urls": "^2.0.8",
@@ -118,7 +119,6 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "precommit": "lint-staged",
     "develop": "gatsby develop -p 3000",
     "dev": "npm run develop",
     "serve": "gatsby serve",
@@ -185,5 +185,10 @@
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
