@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import autobind from 'autobind-decorator';
 
 import {
@@ -12,15 +12,36 @@ import {
   TextField
 } from '@material-ui/core';
 import UserLinks from '../UserLinks/UserLinks.jsx';
+import ProfileImageLarge from '../ProfileImage/ProfileImageLarge.jsx';
 import config from '../../../data/SiteConfig';
-import avatar from './Gavin-December-1989.png';
-
-import './About.scss';
 
 const styles = theme => ({
   section: {
     padding: `${theme.spacing.unit * 1}px`,
     marginTop: `${theme.spacing.unit * 6}px`
+  },
+  aboutContainer: {
+    marginLeft: 'auto',
+    marginRight: 'auto'
+  },
+  aboutWrapper: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center'
+  },
+
+  aboutImage: {
+    borderRadius: '50%',
+    width: '300px',
+    height: '300px',
+    margin: '10px 0'
+    // @media (max-width: 360px - 1px) { padding: 20px; }
+  },
+
+  aboutText: {
+    maxWidth: '640px',
+    margin: '20px 0 !important'
+    // @media (max-width: 360px - 1px) { margin: 5px 0 !important; }
   }
 });
 
@@ -102,12 +123,12 @@ class About extends Component {
   render () {
     const { classes } = this.props;
     return (
-      <div className="mobile-fix">
+      <Fragment>
         <Card className={classes.section}>
-          <CardContent className="about-wrapper">
-            <img src={avatar} className="about-img" alt={config.userName} />
+          <CardContent className={classes.aboutWrapper}>
+            <ProfileImageLarge className={classes.aboutImage} alt={config.userName} />
             <CardContent>
-              <p className="about-text">{config.userDescription}</p>
+              <p className={classes.aboutText}>{config.userDescription}</p>
             </CardContent>
             <UserLinks labeled config={config} />
           </CardContent>
@@ -151,7 +172,7 @@ class About extends Component {
             </Button>
           </CardContent>
         </Card>
-      </div>
+      </Fragment>
     );
   }
 }

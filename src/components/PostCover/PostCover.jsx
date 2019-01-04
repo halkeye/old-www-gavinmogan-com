@@ -2,20 +2,19 @@ import React from 'react';
 import Img from 'gatsby-image';
 import './PostCover.scss';
 
-export default function PostCover ({ image }) {
-  if (!image) {
-    return (
-      <div
-        style={{ backgroundImage: `url(/cover-image.jpg)`, height: `350px` }}
-        className="md-grid md-cell--12 post-cover"
-      />
-    );
+export default function PostCover ({ cover, className }) {
+  if (!cover) {
+    return (<Img
+      outerWrapperClassName={className}
+      className="post-cover-image-wrapper"
+      src="/cover-image.jpg"
+    />);
   }
   return (
     <Img
-      outerWrapperClassName="md-grid md-cell--12 post-cover"
+      outerWrapperClassName={className}
       className="post-cover-image-wrapper"
-      {...image.childImageSharp}
+      {...cover.childImageSharp}
     />
   );
 }

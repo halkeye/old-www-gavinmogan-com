@@ -1,21 +1,28 @@
 import React from 'react';
 import PostPreview from '../PostPreview/PostPreview.jsx';
+import {
+  withStyles,
+  Grid
+} from '@material-ui/core';
 import { toPostInfo } from '../../postUtils';
-import './style.scss';
 
-class PostListing extends React.Component {
-  render () {
-    const postList = this.props.postEdges.map(toPostInfo);
-    return (
-      <div className="post-listing">
-        <div className="md-grid md-cell--12 mobile-fix">
-          {postList.map(post => (
-            <PostPreview key={post.path} postInfo={post} />
-          ))}
-        </div>
-      </div>
-    );
+const styles = theme => ({
+  postListing: {
+    maxWidth: '1024px'
   }
-}
+});
 
-export default PostListing;
+const PostListing = ({ classes, postEdges }) => {
+  const postList = postEdges.map(toPostInfo);
+  return (
+    <Grid>
+      <div className={classes.postListing}>
+        {postList.map(post => (
+          <PostPreview key={post.path} postInfo={post} />
+        ))}
+      </div>
+    </Grid>
+  );
+};
+
+export default withStyles(styles)(PostListing);

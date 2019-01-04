@@ -7,6 +7,12 @@ import fasDesktop from '@fortawesome/fontawesome-free-solid/faDesktop';
 import fasHome from '@fortawesome/fontawesome-free-solid/faHome';
 import fasFilePowerpoint from '@fortawesome/fontawesome-free-solid/faFilePowerpoint';
 
+const FakeLink = (props) => {
+  const { to, children, ...rest } = props;
+  console.log('FakeLink', props);
+  return <Link to={to} {...rest}>{children}</Link>;
+};
+
 function GetNavList (config) {
   const NavList = [
     {
@@ -14,7 +20,7 @@ function GetNavList (config) {
       leftIcon: (
         <FontAwesomeIcon icon={fasHome} className="md-icon" fixedWidth />
       ),
-      component: Link,
+      component: FakeLink,
       to: '/'
     },
     {
@@ -41,7 +47,7 @@ function GetNavList (config) {
     leftIcon: (
       <FontAwesomeIcon icon={fasTasks} className="md-icon" fixedWidth />
     ),
-    component: Link,
+    component: FakeLink,
     to: '/projects/'
   });
   NavList.push({
@@ -53,13 +59,13 @@ function GetNavList (config) {
         fixedWidth
       />
     ),
-    component: Link,
+    component: FakeLink,
     to: '/presentations/'
   });
   NavList.push({
     primaryText: 'About',
     leftIcon: <FontAwesomeIcon icon={fasUser} className="md-icon" fixedWidth />,
-    component: Link,
+    component: FakeLink,
     to: '/about/'
   });
   NavList.push({
@@ -67,7 +73,7 @@ function GetNavList (config) {
     leftIcon: (
       <FontAwesomeIcon icon={fasDesktop} className="md-icon" fixedWidth />
     ),
-    component: Link,
+    component: FakeLink,
     to: '/computers/'
   });
   return NavList;

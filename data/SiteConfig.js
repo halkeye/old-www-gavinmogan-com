@@ -5,14 +5,14 @@ const fabLinkedin = require('@fortawesome/fontawesome-free-brands/faLinkedin');
 const fabSteam = require('@fortawesome/fontawesome-free-brands/faSteam');
 const fasBook = require('@fortawesome/fontawesome-free-solid/faBook');
 const fasEnvelope = require('@fortawesome/fontawesome-free-solid/faEnvelope');
+const fasRSS = require('@fortawesome/fontawesome-free-solid/faRss');
 
 module.exports = {
   siteTitle: 'The Nameless Site', // Site title.
   siteTitleAlt: 'The Nameless Site', // Alternative site title for SEO.
   siteLogo: '/logos/logo-1024.png', // Logo used for SEO and manifest.
   siteUrl: 'https://www.gavinmogan.com', // Domain of your website without pathPrefix.
-  pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
-  fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
+  pathPrefix: '/halkeye/www-gavinmogan-com', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   siteDescription: 'Meow Meow Meow Meow Neow?', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml', // Path to the RSS file.
   siteFBAppID: null, // FB Application ID for using app insights
@@ -65,6 +65,11 @@ module.exports = {
       label: 'Email',
       url: 'mailto:website@gavinmogan.com',
       icon: fasEnvelope
+    },
+    {
+      label: 'Subscribe',
+      url: '/rss.xml',
+      icon: fasRSS
     }
   ],
   copyright: 'Copyright © 2003. Gavin Mogan' // Copyright string for the footer of the website and RSS feed.

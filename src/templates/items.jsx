@@ -1,8 +1,16 @@
 import { graphql, Link } from 'gatsby';
 import React from 'react';
 
+import {
+  Card,
+  CardContent,
+  CardActions,
+  Divider,
+  Typography,
+  withStyles
+} from '@material-ui/core';
+
 import Layout from '../layouts/index.jsx';
-import { Card, CardText, CardActions } from 'react-md';
 import ItemBlockLinks from '../components/ItemBlockLinks/ItemBlockLinks.jsx';
 import PostTags from '../components/PostTags/PostTags.jsx';
 import PostCover from '../components/PostCover/PostCover.jsx';
@@ -11,7 +19,17 @@ import SEO from '../components/SEO/SEO.jsx';
 import './b16-tomorrow-dark.css';
 import './post.scss';
 
-export default class PostTemplate extends React.Component {
+const styles = theme => ({
+  p: {
+    margin: '15px 0'
+  },
+  root: {
+    width: '100%',
+    marginBottom: '2em'
+  }
+});
+
+class PostTemplate extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
@@ -38,6 +56,7 @@ export default class PostTemplate extends React.Component {
 
   render () {
     const { mobile } = this.state;
+    const { classes } = this.props;
     const { slug } = this.props.pageContext;
     const postOverlapClass = mobile ? 'post-overlap-mobile' : 'post-overlap';
     const postNode = this.props.data.markdownRemark;
@@ -53,7 +72,7 @@ export default class PostTemplate extends React.Component {
             postPath={slug}
             postNode={postNode}
             postSEO
-            type="article"
+            type="website"
             tags={tags}
             category={category}
           />
@@ -63,30 +82,33 @@ export default class PostTemplate extends React.Component {
           >
             <Card className="md-grid md-cell md-cell--12 post">
               <Link to={`/${sourceName}s`}>&lt; Back</Link>
-              <CardText className="post-body">
-                <a href={link}>
-                  <h1 className="md-display-2 post-header">{title}</h1>
-                </a>
+              <CardContent className="post-body">
+                <Link to={link}>
+                  <Typography className={classes.title} color="textSecondary" variant="h2">{title}</Typography>
+                </Link>
                 <div dangerouslySetInnerHTML={{ __html: html }} />
-              </CardText>
-              <div className="post-meta">
+              </CardContent>
+              <CardActions>
                 <PostTags tags={tags} />
                 <SocialLinks
                   postPath={slug}
                   postNode={postNode}
                   mobile={mobile}
                 />
-              </div>
+              </CardActions>
               {links && (
-                <CardActions className="md-divider-border md-divider-border--top">
-                  {links.map(l => (
-                    <ItemBlockLinks
-                      key={`link_${l.type}`}
-                      {...l}
-                      attachments={attachments}
-                    />
-                  ))}
-                </CardActions>
+                <React.Fragment>
+                  <Divider />
+                  <CardActions className="md-divider-border md-divider-border--top">
+                    {links.map(l => (
+                      <ItemBlockLinks
+                        key={`link_${l.type}`}
+                        {...l}
+                        attachments={attachments}
+                      />
+                    ))}
+                  </CardActions>
+                </React.Fragment>
               )}
             </Card>
           </div>
@@ -129,3 +151,5 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export default withStyles(styles)(PostTemplate);

@@ -3,10 +3,22 @@ import ReactDisqusComments from 'react-disqus-comments';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import fasComment from '@fortawesome/fontawesome-free-solid/faComment';
 import trimStart from 'lodash/trimStart';
+import autobind from 'autobind-decorator';
 import {
-  Card, CardTitle, CardText, Avatar, Snackbar
-} from 'react-md/lib';
+  Avatar,
+  Card,
+  CardContent,
+  CardHeader,
+  Snackbar,
+  withStyles
+} from '@material-ui/core';
 import config from '../../../data/SiteConfig';
+
+const styles = theme => ({
+  root: {
+    width: '100%'
+  }
+});
 
 class Disqus extends Component {
   constructor (props) {
@@ -14,21 +26,23 @@ class Disqus extends Component {
     this.state = {
       toasts: []
     };
-    this.notifyAboutComment = this.notifyAboutComment.bind(this);
-    this.onSnackbarDismiss = this.onSnackbarDismiss.bind(this);
   }
 
+  @autobind
   onSnackbarDismiss () {
     const [, ...toasts] = this.state.toasts;
     this.setState({ toasts });
   }
+
+  @autobind
   notifyAboutComment () {
     const toasts = this.state.toasts.slice();
     toasts.push({ text: 'New comment available!' });
     this.setState({ toasts });
   }
+
   render () {
-    const { postNode, expanded } = this.props;
+    const { classes, postNode } = this.props;
     if (!config.disqusShortname) {
       return null;
     }
@@ -38,13 +52,12 @@ class Disqus extends Component {
       config.pathPrefix +
       trimStart(postNode.fields.slug, '/');
     return (
-      <Card className="md-grid md-cell md-cell--12">
-        <CardTitle
+      <><Card className={classes.root}>
+        <CardHeader
           title="Comments"
-          avatar={<Avatar icon={<FontAwesomeIcon icon={fasComment} />} />}
-          expander={!expanded}
+          avatar={<Avatar><FontAwesomeIcon icon={fasComment} /></Avatar>}
         />
-        <CardText expandable={!expanded}>
+        <CardContent>
           <ReactDisqusComments
             shortname={config.disqusShortname}
             identifier={post.title}
@@ -53,14 +66,20 @@ class Disqus extends Component {
             category_id={post.category_id}
             onNewComment={this.notifyAboutComment}
           />
-        </CardText>
-        <Snackbar
-          toasts={this.state.toasts}
-          onDismiss={this.onSnackbarDismiss}
-        />
-      </Card>
+        </CardContent>
+      </Card>'       '<Snackbar
+        anchorOrigin={{
+          vertical: 'bottom',
+          horizontal: 'left'
+        }}
+        autoHideDuration={6000}
+        onClose={this.onSnackbarDismiss}
+        open={this.state.toasts.length > 0}
+        ContentProps={{ 'aria-describedby': 'message-id' }}
+        message={this.state.toasts.map(m => (<span key={m.text} id="message-id">{m.text}</span>))}
+      /></>
     );
   }
 }
 
-export default Disqus;
+export default withStyles(styles)(Disqus);

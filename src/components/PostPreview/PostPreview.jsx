@@ -1,73 +1,71 @@
-import React, { Component } from 'react';
-import { Card, CardTitle, CardText, Button, Avatar } from 'react-md/lib';
+import React from 'react';
+import PropTypes from 'prop-types';
+import {
+  withStyles,
+  Grid,
+  CardMedia,
+  Card,
+  CardActionArea,
+  CardContent,
+  CardHeader,
+  Typography,
+  Avatar
+} from '@material-ui/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import fasCalendar from '@fortawesome/fontawesome-free-solid/faCalendar';
 import { Link } from 'gatsby';
-import Media, { MediaOverlay } from 'react-md/lib/Media';
 import PostTags from '../PostTags/PostTags.jsx';
 import PostCover from '../PostCover/PostCover.jsx';
 import './PostPreview.scss';
 
-class PostPreview extends Component {
-  constructor (props) {
-    super(props);
-    this.state = {
-      mobile: true
-    };
-    this.handleResize = this.handleResize.bind(this);
+const styles = theme => ({
+  postPreview: {
+    marginBottom: '20px'
+  },
+  postPreviewCover: {
+  },
+  postCover: {
+    marginLeft: 0,
+    marginRight: 0,
+    width: '100%'
+  },
+  media: {
+    objectFit: 'cover'
+  },
+  linkStyle: {
+    textDecoration: 'none'
   }
-  componentDidMount () {
-    this.handleResize();
-    window.addEventListener('resize', this.handleResize);
-  }
+});
 
-  componentWillUnmount () {
-    window.removeEventListener('resize', this.handleResize);
-  }
+const PostPreview = ({ postInfo, classes }) => (
+  <Card key={postInfo.path} raised className={classes.postPreview}>
+    <CardActionArea component={Link} className={classes.linkStyle} to={postInfo.path}>
+      <CardMedia component={PostCover} cover={postInfo.cover} className={classes.postPreviewCover} alt={postInfo.title} />
+      <CardContent>
+        <Grid>
+          <Typography gutterBottom variant="h5" component="h2">
+            {postInfo.title}
+          </Typography>
+        </Grid>
+      </CardContent>
+    </CardActionArea>
+    <CardContent>
+      <Typography component="p">
+        {postInfo.excerpt}
+      </Typography>
+      <PostTags tags={postInfo.tags} />
+      <CardHeader
+        avatar={<Avatar><FontAwesomeIcon icon={fasCalendar} /></Avatar>}
+        title={`Published on ${postInfo.date}`}
+        subtitle={`${postInfo.timeToRead} min read`}
+      />
+    </CardContent>
+  </Card>
+);
 
-  handleResize () {
-    if (window.innerWidth >= 640) {
-      this.setState({ mobile: false });
-    } else {
-      this.setState({ mobile: true });
-    }
-  }
-  render () {
-    const { postInfo } = this.props;
-    const { mobile } = this.state;
-    const expand = mobile;
-    return (
-      <Card key={postInfo.path} raise className="md-grid md-cell md-cell--12">
-        <Link style={{ textDecoration: 'none' }} to={postInfo.path}>
-          <Media className="post-preview-cover" style={{ height: '185px' }}>
-            <PostCover image={postInfo.cover} />
-            <MediaOverlay>
-              <CardTitle title={postInfo.title}>
-                <Button raised secondary className="md-cell--right">
-                  Read
-                </Button>
-              </CardTitle>
-            </MediaOverlay>
-          </Media>
-        </Link>
-        <CardTitle
-          expander={expand}
-          avatar={
-            <Avatar
-              icon={<FontAwesomeIcon icon={fasCalendar} className="md-icon" />}
-            />
-          }
-          title={`Published on ${postInfo.date}`}
-          subtitle={`${postInfo.timeToRead} min read`}
-        />
+PostPreview.propTypes = {
+  classes: PropTypes.object.isRequired,
+  postInfo: PropTypes.object.isRequired
+};
 
-        <CardText expandable={expand}>
-          {postInfo.excerpt}
-          <PostTags tags={postInfo.tags} />
-        </CardText>
-      </Card>
-    );
-  }
-}
-
-export default PostPreview;
+export default withStyles(styles)(PostPreview);

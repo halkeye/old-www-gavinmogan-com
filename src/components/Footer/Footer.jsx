@@ -1,35 +1,19 @@
-import React, { Component } from 'react';
-import { Button } from 'react-md/lib';
-import { Link } from 'gatsby';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import fasRSS from '@fortawesome/fontawesome-free-solid/faRss';
+import React from 'react';
+import { withStyles } from '@material-ui/core';
+
 import UserLinks from '../UserLinks/UserLinks.jsx';
-import config from '../../../data/SiteConfig';
-import './Footer.scss';
 
-class Footer extends Component {
-  render () {
-    const { userLinks } = this.props;
-    const { siteRss, fixedFooter } = config;
-    return (
-      <footer className={fixedFooter ? 'footer footer-fixed' : 'footer'}>
-        {userLinks ? <UserLinks config={config} labeled /> : null}
-        <div className="notice-container">
-          <div className="rss">
-            <Link to={siteRss}>
-              <Button
-                flat
-                secondary
-                iconChildren={<FontAwesomeIcon icon={fasRSS} />}
-              >
-                Subscribe
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </footer>
-    );
+const styles = theme => ({
+  root: {
+    padding: '10px 5px 5px',
+    backgroundColor: '#bdbdbd'
   }
-}
+});
 
-export default Footer;
+const Footer = ({ skipLinks, classes }) => (
+  <footer className={classes.root}>
+    {!skipLinks ? <UserLinks labeled /> : null}
+  </footer>
+);
+
+export default withStyles(styles)(Footer);
