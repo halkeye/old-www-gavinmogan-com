@@ -76,7 +76,7 @@ class PostTemplate extends React.Component {
             tags={tags}
             category={category}
           />
-          <PostCover image={image} />
+          <PostCover cover={image} />
           <div
             className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
           >
@@ -139,6 +139,7 @@ export const pageQuery = graphql`
           absolutePath
           publicURL
         }
+        link
         links {
           type
           url
