@@ -1,5 +1,4 @@
 const config = require('./data/SiteConfig');
-const { URL } = require('url');
 
 const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
 
@@ -168,10 +167,10 @@ module.exports = {
       options: {
         setup (ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
-          ret.image_url = new URL(
+          ret.image_url = [
             config.siteUrl,
             'img/Gavin-December-1989-a2ce6e58e297f8bdabe2dcbf01e49e3d-0e94d.png'
-          );
+          ].join('/');
           ret.allMarkdownRemark = ref.query.allMarkdownRemark;
           ret.generator = 'GatsbyJS Material Starter';
           return ret;
