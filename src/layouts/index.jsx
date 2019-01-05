@@ -105,6 +105,7 @@ class MainLayout extends React.Component {
               code, game, hang out, all the cool non robot things to do.
               #notarobot
             </h2>
+            <p><strong>Warning:</strong> Slowly migrating to material-ui, so errors are happening.</p>
             <p>Friends Sites</p>
             <ul>
               <li>
