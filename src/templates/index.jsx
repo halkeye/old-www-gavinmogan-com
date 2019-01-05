@@ -4,8 +4,9 @@ import Layout from '../layouts/index.jsx';
 import PostListing from '../components/PostListing/PostListing.jsx';
 import Pagination from '../components/Pagination/Pagination.jsx';
 import SEO from '../components/SEO/SEO.jsx';
+import withRoot from '../withRoot';
 
-export default class IndexPage extends React.Component {
+class IndexPage extends React.Component {
   render () {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     const { index, paginatedPagesCount } = this.props.pageContext;
@@ -20,6 +21,8 @@ export default class IndexPage extends React.Component {
     );
   }
 }
+
+export default withRoot(IndexPage);
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`

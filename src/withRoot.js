@@ -21,14 +21,15 @@ function withRoot (Component) {
 
     render () {
       return (
-        <JssProvider generateClassName={this.muiPageContext.generateClassName}>
-          {/* MuiThemeProvider makes the theme available down the React
-              tree thanks to React context. */}
+        <JssProvider
+          generateClassName={this.muiPageContext.generateClassName}
+        >
+          {/* Make the theme available down the React tree. */}
           <MuiThemeProvider
             theme={this.muiPageContext.theme}
             sheetsManager={this.muiPageContext.sheetsManager}
           >
-            {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+            {/* Kickstart a simple baseline to build upon. */}
             <CssBaseline />
             <Component {...this.props} />
           </MuiThemeProvider>

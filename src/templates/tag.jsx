@@ -3,8 +3,9 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import PostListing from '../components/PostListing/PostListing.jsx';
 import Layout from '../layouts/index.jsx';
+import withRoot from '../withRoot';
 
-export default class TagTemplate extends React.Component {
+class TagTemplate extends React.Component {
   render () {
     const { tag } = this.props.pageContext;
     const postEdges = this.props.data.allMarkdownRemark.edges;
@@ -20,6 +21,8 @@ export default class TagTemplate extends React.Component {
     );
   }
 }
+
+export default withRoot(TagTemplate);
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`

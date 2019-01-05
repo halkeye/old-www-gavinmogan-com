@@ -21,6 +21,7 @@ import PostSuggestions from '../components/PostSuggestions/PostSuggestions.jsx';
 import SEO from '../components/SEO/SEO.jsx';
 import config from '../../data/SiteConfig.js';
 import { toPostInfo } from '../postUtils.js';
+import withRoot from '../withRoot';
 import './b16-tomorrow-dark.css';
 import './post.scss';
 
@@ -152,4 +153,4 @@ export const pageQuery = graphql`
     }
   }
 `;
-export default withStyles(styles)(PostTemplate);
+export default withRoot(withStyles(styles)(PostTemplate));

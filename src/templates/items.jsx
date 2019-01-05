@@ -16,6 +16,7 @@ import PostTags from '../components/PostTags/PostTags.jsx';
 import PostCover from '../components/PostCover/PostCover.jsx';
 import SocialLinks from '../components/SocialLinks/SocialLinks.jsx';
 import SEO from '../components/SEO/SEO.jsx';
+import withRoot from '../withRoot';
 import './b16-tomorrow-dark.css';
 import './post.scss';
 
@@ -29,7 +30,7 @@ const styles = theme => ({
   }
 });
 
-class PostTemplate extends React.Component {
+class ItemsTemplate extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
@@ -153,4 +154,4 @@ export const pageQuery = graphql`
   }
 `;
 
-export default withStyles(styles)(PostTemplate);
+export default withRoot(withStyles(styles)(ItemsTemplate));
