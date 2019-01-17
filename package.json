@@ -82,7 +82,7 @@
     "stylelint": "^9.10.0",
     "stylelint-config-standard": "^18.2.0",
     "webpack": "^4.28.3",
-    "write-good": "^0.13.1"
+    "write-good": "^1.0.0"
   },
   "devDependencies": {
     "babel-preset-gatsby": "^0.1.6",
