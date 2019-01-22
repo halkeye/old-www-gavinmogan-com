@@ -14,10 +14,10 @@
   "homepage": "https://www.gavinmogan.com",
   "dependencies": {
     "@babel/core": "^7.2.2",
-    "@babel/plugin-proposal-decorators": "^7.2.3",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
     "@babel/plugin-proposal-optional-chaining": "^7.2.0",
     "@babel/polyfill": "^7.2.5",
-    "@babel/runtime": "^7.2.0",
+    "@babel/runtime": "^7.3.1",
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
