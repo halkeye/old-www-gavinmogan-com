@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'gatsby';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { withStyles, Button } from '@material-ui/core';
@@ -20,14 +19,14 @@ class UserLinks extends Component {
   getLinkElements () {
     const { labeled } = this.props;
     return userLinks.map(link => (
-      <Link to={link.url} key={link.label}>
+      <a href={link.url} key={link.label}>
         <Button variant="text" color="secondary" size="large">
           <FontAwesomeIcon icon={link.icon} size="2x" />
           &nbsp;
           &nbsp;
           {labeled ? link.label : ''}
         </Button>
-      </Link>
+      </a>
     ));
   }
   render () {
