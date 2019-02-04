@@ -59,7 +59,7 @@
     "lint-staged": "^8.1.0",
     "lodash": "^4.17.11",
     "lodash-webpack-plugin": "^0.11.5",
-    "markdownlint": "^0.11.0",
+    "markdownlint": "^0.12.0",
     "markdownlint-cli": "^0.13.0",
     "node-sass": "^4.11.0",
     "prettier": "^1.15.3",
