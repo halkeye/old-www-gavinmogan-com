@@ -46,11 +46,10 @@ class Disqus extends Component {
     if (!config.disqusShortname) {
       return null;
     }
-    const post = postNode.frontmatter;
     const url =
       (config.disqusUrl || config.siteUrl) +
       config.pathPrefix +
-      trimStart(postNode.fields.slug, '/');
+      trimStart(postNode.path, '/');
     return (
       <>
         <Card className={classes.root}>
@@ -61,10 +60,10 @@ class Disqus extends Component {
           <CardContent>
             <ReactDisqusComments
               shortname={config.disqusShortname}
-              identifier={post.title}
-              title={post.title}
+              identifier={postNode.title}
+              title={postNode.title}
               url={url}
-              category_id={post.category_id}
+              category_id={postNode.categories[0].slug}
               onNewComment={this.notifyAboutComment}
             />
           </CardContent>

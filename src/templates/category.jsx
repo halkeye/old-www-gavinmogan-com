@@ -3,12 +3,11 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import PostListing from '../components/PostListing/PostListing.jsx';
 import Layout from '../layouts/index.jsx';
-import withRoot from '../withRoot';
 
 class CategoryTemplate extends React.Component {
   render () {
     const { category } = this.props.pageContext;
-    const postEdges = this.props.data.allMarkdownRemark.edges;
+    const postEdges = this.props.data.allContentfulBlogPosts.edges;
     return (
       <Layout location={this.props.location} title={`Posts in category "${category}"`}>
         <div className="category-container">
@@ -22,37 +21,44 @@ class CategoryTemplate extends React.Component {
   }
 }
 
-export default withRoot(CategoryTemplate);
+export default CategoryTemplate;
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query CategoryPage($category: String) {
-    allMarkdownRemark(
+    allContentfulBlogPosts(
+      sort: {fields: date, order: DESC}
       limit: 1000
-      filter: { fields: { sourceName: { eq: "blog" }, category: { eq: $category } } }
-      sort: { fields: [fields___date], order: DESC }
+      filter: {category: {elemMatch: {slug: {eq: $category}}}}
     ) {
       totalCount
       edges {
         node {
-          excerpt
-          timeToRead
-          fields {
-            slug
-            category
-          }
-          frontmatter {
-            title
-            tags
-            cover {
-              childImageSharp {
-                fluid(maxWidth: 800, cropFocus: ENTROPY) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
+          content {
+            childMarkdownRemark {
+              html
+              excerpt
+              timeToRead
             }
-            date
           }
+          slug
+          tags
+          title
+          date
+          cover {
+            fluid {
+              ...GatsbyContentfulFluid_withWebp
+            }
+          }
+          category {
+            slug
+            title
+          }
+          author {
+            slug
+            name
+          }
+          contentful_id
         }
       }
     }

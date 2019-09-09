@@ -1,5 +1,5 @@
 import { graphql } from 'gatsby';
-import React, { Component } from 'react';
+import React from 'react';
 import Helmet from 'react-helmet';
 import ItemBlock from '../components/ItemBlock/ItemBlock.jsx';
 import SubHeader from '../components/SubHeader/SubHeader.jsx';
@@ -8,86 +8,85 @@ import Layout from '../layouts/index.jsx';
 const ProjectList = ({ edges, onlyCategory }) => (
   <div className="md-grid">
     {edges.map(edge => {
-      const {
-        node: {
-          fields: { category }
-        }
-      } = edge;
-      if (onlyCategory && onlyCategory !== category) {
+      const category = edge.node.category || [];
+      if (onlyCategory && !category.map(c => c.slug).includes(onlyCategory)) {
         return null;
       }
-      if (!onlyCategory && category) {
+      if (!onlyCategory && category.length) {
         return null;
       }
-      return <ItemBlock key={edge.node.id} edge={edge} urlPrefix="/projects" />;
+      return <ItemBlock
+        key={edge.node.id}
+        {...edge.node}
+        html={edge.node.content.childMarkdownRemark.html}
+        urlPrefix="/projects/"
+      />;
     })}
   </div>
 );
 
-export default class ProjectsPage extends Component {
-  render () {
-    const { edges } = this.props.data.allMarkdownRemark;
-    const allCategory = Object.keys(
-      edges
-        .map(data => data.node.fields.category)
-        .reduce((cur, category) => ({ ...cur, [category]: 1 }), {})
-    ).filter(category => category);
-    return (
-      <Layout location={this.props.location} title="Projects">
-        <div className="projects-container">
-          <Helmet>
-            <title>Projects</title>
-          </Helmet>
-          <SubHeader title="Projects" />
+const ProjectsPage = ({ data, location }) => {
+  const { edges } = data.allContentfulProjects;
+  const categories = new Set();
+  edges.forEach(edge => (edge.node.category || []).forEach(cat => categories.add(cat.slug)));
 
-          <div>
-            <ProjectList edges={edges} />
-            {allCategory.map(category => (
-              <div key={category}>
-                <SubHeader title={category} />
-                <ProjectList edges={edges} onlyCategory={category} />
-              </div>
-            ))}
-          </div>
+  return (
+    <Layout location={location} title="Projects">
+      <div className="projects-container">
+        <Helmet>
+          <title>Projects</title>
+        </Helmet>
+        <SubHeader title="Projects" />
+
+        <div>
+          <ProjectList edges={edges} />
+          {Array.from(categories).map(category => (
+            <div key={category}>
+              <SubHeader title={category} />
+              <ProjectList edges={edges} onlyCategory={category} />
+            </div>
+          ))}
         </div>
-      </Layout>
-    );
-  }
-}
+      </div>
+    </Layout>
+  );
+};
+
+export default ProjectsPage;
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query ProjectsPage {
-    allMarkdownRemark(filter: { fields: { sourceName: { eq: "project" } } }) {
+    allContentfulProjects(sort: {fields: title, order: ASC}) {
       totalCount
       edges {
         node {
-          fields {
-            slug
-            date
-            tags
-            category
-          }
           id
-          html
-          frontmatter {
+          link
+          links {
+            type
+            url
+          }
+          slug
+          tags
+          title
+          image {
+            fluid(maxWidth: 750, maxHeight: 320, cropFocus: CENTER) {
+              ...GatsbyContentfulFluid_withWebp
+            }
+          }
+          content {
+            childMarkdownRemark {
+              html
+            }
+          }
+          links {
+            type
+            url
+          }
+          category {
+            slug
             title
-            image {
-              childImageSharp {
-                fluid(maxWidth: 320) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
-            }
-            link
-            links {
-              type
-              url
-            }
-            attachments {
-              absolutePath
-              publicURL
-            }
           }
         }
       }

@@ -1,6 +1,7 @@
 ---
 cover: "./00100dPORTRAIT_00100_BURST20180414170943592_COVER.jpg"
 title: "Node School and Node Bots"
+author: "halkeye"
 post_name: "NodeSchool-NodeBots"
 date: "2018/05/16 23:54:00"
 category: "General"
@@ -9,7 +10,7 @@ tags:
   - Sauce Labs
   - Node School
   - Node Bots
-  - Elgin-Skye
+  - Elgin
 ---
 
 HI EVERYBODY!
@@ -21,16 +22,16 @@ I'm setting the scene here. It was a dark and stormy night. No wait, it was almo
 So after joining up with a others we've managed to get a nice little core group of organizers going again. At the end of last year we ended up having a really awesome event where we ended up splitting into 3 groups.
 
 1) An intro group, run by [Manil](https://twitter.com/keywordnew)
-2) A nodebots group, run by [Elgin-Skye](https://twitter.com/elginskye)
+2) A nodebots group, run by [Elgin](https://twitter.com/elginskye)
 3) A slightly more advanced group run by myself.
 
 This ended up working out super well. We've kinda been trying to reproduce it ever since, but its apparently been super hard to actually get decent space for free, and we've kinda let it slack a bit.
 
-Fast forward to just about 2 months ago now, [Conf and Coffee](https://www.meetup.com/codecoffeeyvr/events/249207842/https://www.meetup.com/codecoffeeyvr/events/249207842/) was coming up and we managed to secure a workshop slot at the event. After a bit of debate Elgin-Skye ended up volunteering to run a Node Bots workshop.
+Fast forward to just about 2 months ago now, [Conf and Coffee](https://www.meetup.com/codecoffeeyvr/events/249207842/https://www.meetup.com/codecoffeeyvr/events/249207842/) was coming up and we managed to secure a workshop slot at the event. After a bit of debate Elgin ended up volunteering to run a Node Bots workshop.
 
-About a week before the event, I found out Elgin-Skye was going to be running everything out of pocket. She was borrowing from friends and using her own equipment. This is why we ended up with a tiny workshop with a max of 10 people.
+About a week before the event, I found out Elgin was going to be running everything out of pocket. She was borrowing from friends and using her own equipment. This is why we ended up with a tiny workshop with a max of 10 people.
 
-After a bunch of poking and prodding at work, I got Sauce Labs to sponsor the event. We were hoping to just get a couple more units to attach to Node School for this and future events, but work went above and beyond and sponsored us to have 20 brand new units to give to everyone that attended. Elgin-Skye and I managed to keep it a secret up until the actual event. It was so awesome to watch that moment when everyone realized it was theirs.  I think this tweet sums it up the best.
+After a bunch of poking and prodding at work, I got Sauce Labs to sponsor the event. We were hoping to just get a couple more units to attach to Node School for this and future events, but work went above and beyond and sponsored us to have 20 brand new units to give to everyone that attended. Elgin and I managed to keep it a secret up until the actual event. It was so awesome to watch that moment when everyone realized it was theirs.  I think this tweet sums it up the best.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">This happened this morning at <a href="https://twitter.com/codecoffeeyvr?ref_src=twsrc%5Etfw">@codecoffeeyvr</a> / <a href="https://twitter.com/hashtag/confcoffee?src=hash&amp;ref_src=twsrc%5Etfw">#confcoffee</a>! - Except with tiny robots instead of bees. Thank you for so generously financing the Arduino kits <a href="https://twitter.com/saucelabs?ref_src=twsrc%5Etfw">@saucelabs</a> and to <a href="https://twitter.com/elginskye?ref_src=twsrc%5Etfw">@elginskye</a> for running such an inspiring workshop! 🙌💥🤖 <a href="https://t.co/dQI0OuJC4F">pic.twitter.com/dQI0OuJC4F</a></p>&mdash; Adam Vernon (@hanenbro) <a href="https://twitter.com/hanenbro/status/985614810581618688?ref_src=twsrc%5Etfw">April 15, 2018</a></blockquote>
 

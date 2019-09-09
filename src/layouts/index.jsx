@@ -61,7 +61,7 @@ class MainLayout extends React.Component {
             <IconButton className={classes.menuButton} color="inherit" aria-label="Menu" onClick={this.toggleDrawer}>
               <MenuIcon />
             </IconButton>
-            <Typography variant="title" color="inherit" className={classes.grow}>
+            <Typography variant="h4" color="inherit" className={classes.grow}>
               {title || 'Home'}
             </Typography>
           </Toolbar>

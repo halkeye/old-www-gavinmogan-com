@@ -37,6 +37,9 @@ pipeline {
       }
       environment {
         NETLIFY = credentials('netlify-gavinmogan')
+        SENTRY_DSN = 'https://92e7f916ad8c46feb3a2618f215c3ba6@sentry.io/1209802'
+        CONTENTFUL_SPACE_ID = ''
+        CONTENTFUL_ACCESS_TOKEN = ''
       }
       steps {
         sh """

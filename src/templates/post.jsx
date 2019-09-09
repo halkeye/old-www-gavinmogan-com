@@ -21,7 +21,6 @@ import PostSuggestions from '../components/PostSuggestions/PostSuggestions.jsx';
 import SEO from '../components/SEO/SEO.jsx';
 import config from '../../data/SiteConfig.js';
 import { toPostInfo } from '../postUtils.js';
-import withRoot from '../withRoot';
 import './b16-tomorrow-dark.css';
 import './post.scss';
 
@@ -48,6 +47,7 @@ class PostTemplate extends React.Component {
     };
     this.handleResize = this.handleResize.bind(this);
   }
+
   componentDidMount () {
     this.handleResize();
     window.addEventListener('resize', this.handleResize);
@@ -70,11 +70,11 @@ class PostTemplate extends React.Component {
     const { pageContext: { slug } } = this.props;
     const expanded = !mobile;
     const postOverlapClass = mobile ? 'post-overlap-mobile' : 'post-overlap';
-    const postNode = this.props.data.markdownRemark;
-    const post = postNode.frontmatter;
-    if (!post.category_id) {
-      post.category_id = config.postDefaultCategoryID;
-    }
+    const post = toPostInfo({ node: this.props.data.contentfulBlogPosts });
+    console.log({
+      contentfulBlogPosts: this.props.data.contentfulBlogPosts,
+      toPostInfo: post
+    });
     return (
       <Layout location={this.props.location} title={post.title}>
         <div className="post-page md-grid md-grid--no-spacing">
@@ -83,27 +83,25 @@ class PostTemplate extends React.Component {
           </Helmet>
           <SEO
             postPath={slug}
-            postNode={postNode}
+            postNode={post}
             postSEO
             type="article"
-            tags={postNode.frontmatter.tags}
-            category={postNode.frontmatter.category}
+            tags={post.tags}
+            categories={post.categories}
           />
-          <PostCover cover={toPostInfo({ node: postNode }).cover} />
-          <div
-            className={`md-grid md-cell--12 post-page-contents mobile-fix ${postOverlapClass}`}
-          >
+          <PostCover cover={post.cover} />
+          <div className={`md-grid md-cell--12 post-page-contents mobile-fix ${postOverlapClass}`}>
             <Card className="md-grid md-cell md-cell--12 post">
               <CardContent className="post-body">
                 <h1 className="md-display-2 post-header">{post.title}</h1>
-                <PostInfo postNode={postNode} />
-                {renderAst(postNode.htmlAst)}
+                <PostInfo postNode={post} />
+                {renderAst(post.htmlAst)}
               </CardContent>
               <div className="post-meta">
                 <PostTags tags={post.tags} />
                 <SocialLinks
                   postPath={slug}
-                  postNode={postNode}
+                  postNode={post}
                   mobile={mobile}
                 />
               </div>
@@ -113,10 +111,10 @@ class PostTemplate extends React.Component {
               config={config}
               expanded={expanded}
             />
-            <Disqus postNode={postNode} expanded={expanded} />
+            <Disqus postNode={post} expanded={expanded} />
           </div>
 
-          <PostSuggestions postNode={postNode} />
+          <PostSuggestions postNode={post} />
         </div>
       </Layout>
     );
@@ -126,31 +124,40 @@ class PostTemplate extends React.Component {
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      htmlAst
-      timeToRead
-      excerpt
-      frontmatter {
-        title
-        cover {
-          childImageSharp {
-            fluid(maxWidth: 800, maxHeight: 300, cropFocus: ENTROPY) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
-          }
-        }
-        date
-        category
-        tags
-      }
-      fields {
-        nextTitle
-        nextSlug
-        prevTitle
-        prevSlug
+    contentfulBlogPosts(slug: {eq: $slug}) {
+      author {
+        name
         slug
       }
+      category {
+        title
+        slug
+      }
+      content {
+        childMarkdownRemark {
+          excerpt
+          htmlAst
+          timeToRead
+        }
+      }
+      cover {
+        fluid(maxHeight: 300, maxWidth: 800, cropFocus: CENTER) {
+          ...GatsbyContentfulFluid_withWebp
+        }
+      }
+      date
+      fields {
+        url
+      }
+      tags
+      title
+      #fields {
+      #  nextTitle
+      #  nextSlug
+      #  prevTitle
+      #  prevSlug
+      #}
     }
   }
 `;
-export default withRoot(withStyles(styles)(PostTemplate));
+export default withStyles(styles)(PostTemplate);

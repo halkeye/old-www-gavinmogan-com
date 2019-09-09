@@ -1,5 +1,5 @@
 import React from 'react';
-import Img from 'gatsby-image';
+import Image from 'gatsby-image';
 import { Link } from 'gatsby';
 import {
   Button,
@@ -15,20 +15,12 @@ import ItemBlockLinks from '../ItemBlockLinks/ItemBlockLinks.jsx';
 
 import './itemblock.scss';
 
-export default function ItemBlock ({ edge, urlPrefix }) {
-  const {
-    node: {
-      fields: { slug, tags },
-      frontmatter: { image, link, links, title, attachments },
-      html,
-      excerpt
-    }
-  } = edge;
+export default function ItemBlock ({ slug, tags, image, link, links, title, attachments, html, excerpt, urlPrefix }) {
   return (
     <Card key={slug} className="itemblock">
       <Link to={`${urlPrefix}${slug}`}>
         <Media>
-          {image && <Img {...image.childImageSharp} />}
+          {image && <Image {...image} />}
           <MediaOverlay>
             <CardTitle title={title}>
               <Button

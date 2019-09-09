@@ -40,7 +40,7 @@ const styles = theme => ({
 const PostPreview = ({ postInfo, classes }) => (
   <Card key={postInfo.path} raised className={classes.postPreview}>
     <CardActionArea component={Link} className={classes.linkStyle} to={postInfo.path}>
-      <CardMedia component={PostCover} cover={postInfo.cover} className={classes.postPreviewCover} alt={postInfo.title} />
+      <CardMedia component={PostCover} cover={postInfo.cover} src={postInfo.cover?.fluid?.src || postInfo.cover?.fixed?.src} className={classes.postPreviewCover} alt={postInfo.title} />
       <CardContent>
         <Grid>
           <Typography gutterBottom variant="h5" component="h2">

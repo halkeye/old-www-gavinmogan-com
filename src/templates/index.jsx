@@ -4,11 +4,10 @@ import Layout from '../layouts/index.jsx';
 import PostListing from '../components/PostListing/PostListing.jsx';
 import Pagination from '../components/Pagination/Pagination.jsx';
 import SEO from '../components/SEO/SEO.jsx';
-import withRoot from '../withRoot';
 
 class IndexPage extends React.Component {
   render () {
-    const postEdges = this.props.data.allMarkdownRemark.edges;
+    const postEdges = this.props.data.allContentfulBlogPosts.edges;
     const { index, paginatedPagesCount } = this.props.pageContext;
     return (
       <Layout location={this.props.location}>
@@ -22,37 +21,51 @@ class IndexPage extends React.Component {
   }
 }
 
-export default withRoot(IndexPage);
+export default IndexPage;
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query IndexQuery($skip: Int!, $limit: Int!) {
-    allMarkdownRemark(
+    allContentfulBlogPosts(
       limit: $limit
       skip: $skip
-      filter: { fields: { sourceName: { eq: "blog" } } }
-      sort: { fields: [fields___date], order: DESC }
+      sort: {fields: date, order: DESC}
     ) {
+      totalCount
       edges {
         node {
-          timeToRead
-          excerpt
-          frontmatter {
-            title
-            cover {
-              childImageSharp {
-                fluid(maxHeight: 185, maxWidth: 800, cropFocus: ENTROPY) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
-            }
-          }
-          fields {
-            tags
-            category
-            date
+          author {
+            name
             slug
           }
+          fields {
+            url
+          }
+          content {
+            childMarkdownRemark {
+              html
+              excerpt
+              timeToRead
+            }
+          }
+          slug
+          tags
+          title
+          date
+          cover {
+            fluid {
+              ...GatsbyContentfulFluid_withWebp
+            }
+          }
+          category {
+            slug
+            title
+          }
+          author {
+            slug
+            name
+          }
+          contentful_id
         }
       }
     }

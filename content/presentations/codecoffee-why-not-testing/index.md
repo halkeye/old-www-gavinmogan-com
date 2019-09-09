@@ -1,6 +1,6 @@
 ---
 title: "Why not Testing? (April 2016)"
-date: "2016-04"
+date: "2016-04-14"
 link: https://slides.com/halkeye/why-not-testing
 image: title.png
 tags:
@@ -10,8 +10,6 @@ links:
     url: https://slides.com/halkeye/why-not-testing
   - type: youtube
     url: https://www.youtube.com/watch?v=iPGSJVASCkc
-  - type: pdf
-    url: ./why-not-testing.pdf
 attachments:
   - ./why-not-testing.pdf
 ---

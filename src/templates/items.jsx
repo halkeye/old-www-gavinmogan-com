@@ -16,7 +16,6 @@ import PostTags from '../components/PostTags/PostTags.jsx';
 import PostCover from '../components/PostCover/PostCover.jsx';
 import SocialLinks from '../components/SocialLinks/SocialLinks.jsx';
 import SEO from '../components/SEO/SEO.jsx';
-import withRoot from '../withRoot';
 import './b16-tomorrow-dark.css';
 import './post.scss';
 
@@ -38,6 +37,7 @@ class ItemsTemplate extends React.Component {
     };
     this.handleResize = this.handleResize.bind(this);
   }
+
   componentDidMount () {
     this.handleResize();
     window.addEventListener('resize', this.handleResize);
@@ -58,14 +58,20 @@ class ItemsTemplate extends React.Component {
   render () {
     const { mobile } = this.state;
     const { classes } = this.props;
-    const { slug } = this.props.pageContext;
+    const { slug, urlPrefix } = this.props.pageContext;
+    const type = `allContentful${this.props.pageContext.type}`;
     const postOverlapClass = mobile ? 'post-overlap-mobile' : 'post-overlap';
-    const postNode = this.props.data.markdownRemark;
+    const postNode = this.props.data[type];
     const {
-      fields: { tags, category, sourceName },
-      frontmatter: { image, link, links, title, attachments },
+      tags,
+      category,
+      image,
+      link,
+      links,
+      title,
+      attachments,
       html
-    } = this.props.data.markdownRemark;
+    } = this.props.data[type];
     return (
       <Layout location={this.props.location} title={title}>
         <div className="post-page md-grid md-grid--no-spacing">
@@ -82,7 +88,7 @@ class ItemsTemplate extends React.Component {
             className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
           >
             <Card className="md-grid md-cell md-cell--12 post">
-              <Link to={`/${sourceName}s`}>&lt; Back</Link>
+              <Link to={urlPrefix}>&lt; Back</Link>
               <CardContent className="post-body">
                 <Link to={link}>
                   <Typography className={classes.title} color="textSecondary" variant="h2">{title}</Typography>
@@ -121,37 +127,65 @@ class ItemsTemplate extends React.Component {
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
-  query PresentationPostBySlug($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
-      frontmatter {
-        title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 800, maxHeight: 320, cropFocus: ENTROPY) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+  query ItemBySlug($slug: String!) {
+    allContentfulProjects(filter: { slug: { eq: $slug } }) {
+      edges {
+        node {
+          id
+          link
+          links {
+            type
+            url
+          }
+          slug
+          tags
+          title
+          image {
+            fluid(maxWidth: 800, maxHeight: 320, cropFocus: CENTER) {
+              ...GatsbyContentfulFluid_withWebp
+            }
+          }
+          content {
+            childMarkdownRemark {
+              html
             }
           }
         }
-        date
-        category
-        tags
-        attachments {
-          absolutePath
-          publicURL
-        }
-        link
-        links {
-          type
-          url
-        }
       }
-      fields {
-        sourceName
-        slug
+    }
+    allContentfulPresentations(filter: { slug: { eq: $slug } }) {
+      edges {
+        node {
+          id
+          date
+          link
+          links {
+            type
+            url
+          }
+          slug
+          tags
+          title
+          image {
+            fluid(maxWidth: 800, maxHeight: 320, cropFocus: CENTER) {
+              ...GatsbyContentfulFluid_withWebp
+            }
+          }
+          content {
+            childMarkdownRemark {
+              html
+            }
+          }
+          attachments {
+            file {
+              url
+              fileName
+            }
+          }
+        }
       }
     }
   }
 `;
 
-export default withRoot(withStyles(styles)(ItemsTemplate));
+export default withStyles(styles)(ItemsTemplate);

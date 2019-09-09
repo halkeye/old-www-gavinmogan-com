@@ -5,6 +5,8 @@ import './PostSuggestions.scss';
 
 export default class PostSuggestions extends Component {
   render () {
+    return <div>FIXME - PostSuggestions</div>;
+
     const { postNode } = this.props;
     const postFields = postNode.fields;
     return (

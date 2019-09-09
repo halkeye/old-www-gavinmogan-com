@@ -12,7 +12,7 @@ import './style.scss';
 function PaginationButton ({ page, index }) {
   const url = page === 1 ? '' : page.toString();
   return (
-    <Link to={url}>
+    <Link to={'./' + url}>
       <Button
         title={`Go to page${page}`}
         floating
@@ -43,6 +43,7 @@ const angleDoubleRight = (
 
 class Pagination extends Component {
   render () {
+    return <div />; // FIXME
     const { index, pageCount } = this.props;
     const pages = range(
       clamp(index - 5, 1, pageCount),
@@ -65,7 +66,7 @@ class Pagination extends Component {
             <PaginationButton key={page} page={page} index={index} />
           ))}
           {!pages.includes(pageCount - 1) && (
-            <Link to={(pageCount - 1).toString()}>
+            <Link to={'./' + (pageCount - 1).toString()}>
               <Button
                 title="Go to last page"
                 floating

@@ -18,24 +18,25 @@ const styles = theme => ({
 });
 
 function PostInfo ({ postNode, classes }) {
-  const post = postNode.frontmatter;
   return (
     <Grid container justify="space-between" direction="row">
       <Grid item>
         <CardHeader
           avatar={<Avatar><FontAwesomeIcon icon={fasCalendar} className="md-icon" /></Avatar>}
-          title={`Published on ${post.date}`}
+          title={`Published on ${postNode.date}`}
           subheader={`${postNode.timeToRead} min read`}
         />
       </Grid>
       <Grid item className={classes.CategoryLink}>
-        <Link to={`/categories/${_.kebabCase(post.category)}`}>
-          <CardHeader
-            avatar={<Avatar><FontAwesomeIcon icon={fasFolderOpen} className="md-icon" /></Avatar>}
-            title="In category"
-            subheader={post.category}
-          />
-        </Link>
+        {postNode.categories.map(category => (
+          <Link key={category.slug} to={`/categories/${_.kebabCase(category.slug)}`}>
+            <CardHeader
+              avatar={<Avatar><FontAwesomeIcon icon={fasFolderOpen} className="md-icon" /></Avatar>}
+              title="In category"
+              subheader={category.title}
+            />
+          </Link>
+        ))}
       </Grid>
     </Grid>
   );

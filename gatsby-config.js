@@ -21,34 +21,20 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-canonical-urls`,
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-canonical-urls',
       options: {
         siteUrl: config.siteUrl + pathPrefix
       }
     },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'blog',
-        path: `${__dirname}/content/posts`
-      }
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'project',
-        path: `${__dirname}/content/projects`
-      }
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'presentation',
-        path: `${__dirname}/content/presentations`
-      }
-    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -131,7 +117,7 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-favicon`,
+      resolve: 'gatsby-plugin-favicon',
       options: {
         logo: './src/images/logo.png',
 
@@ -172,7 +158,7 @@ module.exports = {
             config.siteUrl,
             'img/Gavin-December-1989-a2ce6e58e297f8bdabe2dcbf01e49e3d-0e94d.png'
           ].join('/');
-          ret.allMarkdownRemark = ref.query.allMarkdownRemark;
+          ret.allContentfulBlogPosts = ref.query.allContentfulBlogPosts;
           ret.generator = 'GatsbyJS Material Starter';
           return ret;
         },
@@ -194,37 +180,42 @@ module.exports = {
       `,
         feeds: [
           {
+            title: config.siteTitle,
             serialize (ctx) {
               const { rssMetadata } = ctx.query.site.siteMetadata;
-              return ctx.query.allMarkdownRemark.edges.map(edge => ({
-                categories: edge.node.frontmatter.tags,
-                date: edge.node.frontmatter.date,
-                title: edge.node.frontmatter.title,
-                description: edge.node.excerpt,
+              return ctx.query.allContentfulBlogPosts.edges.map(edge => ({
+                categories: edge.node.category.map(c => c.slug),
+                date: edge.node.date,
+                title: edge.node.title,
+                description: edge.node.content.childMarkdownRemark.excerpt,
                 author: rssMetadata.author,
-                url: rssMetadata.site_url + edge.node.fields.slug,
-                guid: rssMetadata.site_url + edge.node.fields.slug,
-                custom_elements: [{ 'content:encoded': edge.node.html }]
+                url: rssMetadata.site_url + edge.node.slug,
+                guid: rssMetadata.site_url + edge.node.slug,
+                custom_elements: [{ 'content:encoded': edge.node.content.childMarkdownRemark.html }]
               }));
             },
             query: `
             {
-              allMarkdownRemark(
+              allContentfulBlogPosts(
+                sort: {fields: date, order: DESC}
                 limit: 1000,
-                filter: {fields: {sourceName: {eq: "blog"}}},
-                sort: { order: DESC, fields: [fields___date] },
               ) {
                 edges {
                   node {
-                    excerpt
-                    html
-                    fields { slug }
-                    frontmatter {
-                      title
-                      date
-                      category
-                      tags
+                    content {
+                      childMarkdownRemark {
+                        html
+                        excerpt
+                      }
                     }
+                    slug
+                    title
+                    date
+                    category {
+                      slug
+                      title
+                    }
+                    tags
                   }
                 }
               }
@@ -239,9 +230,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-sentry',
       options: {
-        dsn: 'https://92e7f916ad8c46feb3a2618f215c3ba6@sentry.io/1209802',
-        // Raven.js version, this is optional.
-        version: '3.19.1'
+        dsn: process.env.SENTRY_DSN
       }
     }
   ]

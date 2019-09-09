@@ -1,32 +1,28 @@
-import { graphql, StaticQuery } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
-import Img from 'gatsby-image';
+import Image from 'gatsby-image';
 import './PostCover.scss';
 
 export default function PostCover ({ cover, className }) {
   if (!cover) {
-    return (
-      <StaticQuery
-        query={graphql`
-        query {
-          file(relativePath: { eq: "cover-image.jpg" }) {
-            childImageSharp {
-              fluid(maxWidth: 750) {
-                ...GatsbyImageSharpFluid
-              }
+    const data = useStaticQuery(graphql`
+      query {
+        file(relativePath: { eq: "cover-image.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 750) {
+              ...GatsbyImageSharpFluid
             }
           }
         }
-      `}
-        render={data => <PostCover cover={data.file} className={className} />}
-      />
-    );
+      }
+    `);
+    cover = data?.file;
   }
   return (
-    <Img
+    <Image
       outerWrapperClassName={className}
       className="post-cover-image-wrapper"
-      {...cover.childImageSharp}
+      {...cover}
     />
   );
 }

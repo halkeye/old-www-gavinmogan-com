@@ -1,13 +1,18 @@
 export function toPostInfo (postEdge) {
-  return {
-    path: postEdge.node.fields.slug,
-    tags: postEdge.node.fields.tags,
-    cover: postEdge.node.frontmatter.cover,
-    title: postEdge.node.frontmatter.title,
-    date: postEdge.node.fields.date || postEdge.node.frontmatter.date,
-    excerpt: postEdge.node.excerpt,
-    timeToRead: postEdge.node.timeToRead
+  const ret = {
+    author: postEdge?.node?.author,
+    cover: postEdge?.node?.cover,
+    categories: postEdge?.node?.category,
+    date: new Date(postEdge?.node?.date),
+    excerpt: postEdge?.node?.content?.childMarkdownRemark?.excerpt,
+    html: postEdge?.node?.content?.childMarkdownRemark?.html,
+    htmlAst: postEdge?.node?.content?.childMarkdownRemark?.htmlAst,
+    path: postEdge?.node?.fields?.url,
+    tags: postEdge?.node?.tags,
+    timeToRead: postEdge?.node?.content?.childMarkdownRemark?.timeToRead,
+    title: postEdge?.node?.title
   };
+  return ret;
 }
 
 export default {};
