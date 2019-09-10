@@ -109,8 +109,8 @@ function SEO ({ postNode, postPath, postSEO, type, tags, categories }) {
           content={new Date(date).toISOString()}
         />
       )}
-      {tags.map(tag => <meta name="article:tag" content={tag} key={tag} />)}
-      {categories.map(category => <meta name="article:section" content={category} key={category} />)}
+      {tags && tags.map(tag => <meta name="article:tag" content={tag} key={tag} />)}
+      {categories && categories.map(category => <meta name="article:section" content={category} key={category} />)}
       <meta
         name="article:author"
         content="https://www.gavinmogan.com/about/"
