@@ -23,7 +23,7 @@ function PostInfo ({ postNode, classes }) {
       <Grid item>
         <CardHeader
           avatar={<Avatar><FontAwesomeIcon icon={fasCalendar} className="md-icon" /></Avatar>}
-          title={`Published on ${postNode.date}`}
+          title={`Published on ${postNode.date.toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric', hour: 'numeric', minute: 'numeric' })}`}
           subheader={`${postNode.timeToRead} min read`}
         />
       </Grid>
