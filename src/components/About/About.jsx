@@ -17,8 +17,8 @@ import config from '../../../data/SiteConfig';
 
 const styles = theme => ({
   section: {
-    padding: `${theme.spacing.unit * 1}px`,
-    marginTop: `${theme.spacing.unit * 6}px`
+    padding: `${theme.spacing(1)}px`,
+    marginTop: `${theme.spacing(6)}px`
   },
   aboutContainer: {
     marginLeft: 'auto',
