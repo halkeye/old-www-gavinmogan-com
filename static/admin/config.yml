@@ -1,0 +1,74 @@
+backend:
+  name: github
+  repo: halkeye/www-gavinmogan-com
+  branch: netlifycms
+  use_graphql: true
+  site_domain: gavinmogan.com
+
+display_url: https://www.gavinmogan.com
+# publish_mode: editorial_workflow
+media_folder: static/assets
+public_folder: assets
+
+#media_library:
+#  name: uploadcare
+#  config:
+#    publicKey: demopublickey
+
+collections:
+  - name: authors
+    label: Authors
+    folder: content/authors
+    create: true
+    fields:
+      - {name: author, label: nickname}
+      - {name: twitterHandle, label: Twitter}
+      - {name: 'name.first', label: 'First Name'}
+      - {name: 'name.last', label: 'Last Name'}
+      - {name: body, label: About, widget: markdown}
+  - name: posts
+    label: Blog
+    folder: content/posts
+    create: true
+    slug: "{{year}}/{{month}}/{{day}}/{{fields.slug}}"
+    fields:
+      - {name: title, label: Title}
+      - {name: date, label: Date, widget: date}
+      - {name: cover, label: "Cover Image", widget: image}
+      - {name: tags, label: "Tags", widget: list, default: []}
+      - {name: slug, label: Slug}
+      - {name: postName, label: 'Post Name'}
+      #- {name: author, label: Author, widget: string, default: 'Gavin Mogan'}
+      - label: "Post Author"
+        name: "author"
+        widget: "relation"
+        collection: "authors"
+        searchFields: ["name.first", "twitterHandle"]
+        valueField: "name.first"
+        displayFields: ["twitterHandle", "followerCount"]
+      - name: category
+        label: Category
+        widget: select
+        options:
+          - Anime
+          - Applications
+          - Books
+          - Coding
+          - Gaming
+          - Geek
+          - General
+          - Hosting
+          - Humor
+          - Internet
+          - Linux
+          - Movies
+          - Music
+          - PC
+          - People
+          - RPGs
+          - Sauce Labs
+          - TV
+          - Web
+          - Work
+          - xbox360
+      - {name: body, label: Body, widget: markdown}
