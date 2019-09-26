@@ -1,6 +1,6 @@
 ---
 title: React Vs Angular (June 2015)
-image: title.png
+image: presentations-react-vs-angular.png
 tags:
   - Work
   - Internal

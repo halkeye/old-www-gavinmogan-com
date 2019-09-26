@@ -5,7 +5,7 @@ tags:
   - Internal
   - Telus
 date: 2015-05-01
-image: title.png
+image: presentations-stats.png
 link: https://presentations.gavinmogan.com/stats/
 links:
   - type: slides

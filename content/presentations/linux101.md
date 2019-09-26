@@ -1,6 +1,6 @@
 ---
 title: Linux 101 (March 2015)
-image: title.png
+image: presentations-linux101.png
 tags:
   - Work
   - Internal

@@ -22,9 +22,9 @@ collections:
     create: true
     fields:
       - {name: author, label: nickname}
+      - {name: photo, label: Photo, widget: image}
       - {name: twitterHandle, label: Twitter}
-      - {name: 'name.first', label: 'First Name'}
-      - {name: 'name.last', label: 'Last Name'}
+      - {name: 'name', label: 'Name'}
       - {name: body, label: About, widget: markdown}
   - name: posts
     label: Blog
@@ -36,15 +36,14 @@ collections:
       - {name: date, label: Date, widget: date}
       - {name: cover, label: "Cover Image", widget: image}
       - {name: tags, label: "Tags", widget: list, default: []}
-      - {name: slug, label: Slug}
-      - {name: postName, label: 'Post Name'}
+      - {name: post_name, label: 'Post Name'}
       #- {name: author, label: Author, widget: string, default: 'Gavin Mogan'}
       - label: "Post Author"
         name: "author"
         widget: "relation"
         collection: "authors"
-        searchFields: ["name.first", "twitterHandle"]
-        valueField: "name.first"
+        searchFields: ["name", "twitterHandle"]
+        valueField: "author"
         displayFields: ["twitterHandle", "followerCount"]
       - name: category
         label: Category
@@ -72,3 +71,31 @@ collections:
           - Work
           - xbox360
       - {name: body, label: Body, widget: markdown}
+  - name: presentations
+    label: Presentations
+    folder: content/presentations
+    create: true
+    fields:
+      - {name: title, label: Title}
+      - {name: tags, label: "Tags", widget: list, default: []}
+      - {name: date, label: Date, widget: date}
+      - {name: image, label: Image, widget: image}
+      - {name: link, label: Link}
+      - {name: links, label: Links}
+      - {name: attachments, label: Attachments}
+      - {name: slug, label: Slug}
+      - {name: content, label: Content, widget: markdown}
+  - name: projects
+    label: Projects
+    folder: content/projects
+    create: true
+    fields:
+      - {name: title, label: Title}
+      - {name: tags, label: "Tags", widget: list, default: []}
+      - {name: date, label: Date, widget: date}
+      - {name: image, label: Image, widget: image}
+      - {name: link, label: Link}
+      - {name: links, label: Links}
+      - {name: attachments, label: Attachments}
+      - {name: slug, label: Slug}
+      - {name: content, label: Content, widget: markdown}
