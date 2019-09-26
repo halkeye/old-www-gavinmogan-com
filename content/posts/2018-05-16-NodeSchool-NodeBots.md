@@ -1,5 +1,5 @@
 ---
-cover: "./00100dPORTRAIT_00100_BURST20180414170943592_COVER.jpg"
+cover: "00100dPORTRAIT_00100_BURST20180414170943592_COVER.jpg"
 title: "Node School and Node Bots"
 author: "halkeye"
 post_name: "NodeSchool-NodeBots"
