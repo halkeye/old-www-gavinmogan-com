@@ -7,7 +7,7 @@ post_name: "hookers_r_us"
 status: "publish"
 category: "People"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 Such a lovely neighbourhood I live in.  

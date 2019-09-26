@@ -7,7 +7,7 @@ post_name: "bearcave_fun"
 status: "publish"
 category: "People"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 I had alot of fun, but apparently i was tricked into this channel on efnet called #bearcave. I randomly chatted for a bit, and then got booted out by paranoid bots. Got a message from someone a few minutes later.

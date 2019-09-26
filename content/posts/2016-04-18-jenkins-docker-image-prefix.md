@@ -7,7 +7,7 @@ post_name: "jenkins-docker-image-prefix"
 status: "publish"
 category: "General"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 I'm probably going to need this again sometime.

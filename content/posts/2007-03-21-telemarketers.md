@@ -7,7 +7,7 @@ post_name: "telemarketers"
 status: "publish"
 category: "People"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 Nothing is better to me than screwing up telemarketers.

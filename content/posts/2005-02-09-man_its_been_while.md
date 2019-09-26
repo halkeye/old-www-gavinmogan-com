@@ -7,7 +7,7 @@ post_name: "man_its_been_while"
 status: "publish"
 category: "Work"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 Okay, my Last 2-3 posts here looked like they had something to do with work.

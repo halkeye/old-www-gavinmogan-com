@@ -7,7 +7,7 @@ post_name: "harry_potter_nu"
 status: "publish"
 category: "Books"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 This has to be one of the saddest days in long time for news

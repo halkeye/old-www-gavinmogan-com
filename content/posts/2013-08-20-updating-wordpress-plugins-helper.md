@@ -7,7 +7,7 @@ post_name: "updating-wordpress-plugins-helper"
 status: "publish"
 category: "Web"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 Note, I've recently found [WP Cli](https://wp-cli.org/) which makes all of this moot because i can now just do "wp plugin upgrade --all" or "wp plugin install blah"

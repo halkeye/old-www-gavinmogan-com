@@ -7,7 +7,7 @@ post_name: "knights_of_the_1"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 After being out of playing games for so long, I've been dying to play Knights of the Old Republic after I've seen some of the commercials. Unfortunately i just learned that it won't be coming out for the PC until October, what a rip off.

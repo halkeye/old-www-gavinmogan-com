@@ -7,7 +7,7 @@ post_name: "local-indie-production"
 status: "publish"
 category: "General"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 Hey peoples out there in the grand land of the internet,

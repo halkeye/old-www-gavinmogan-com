@@ -7,7 +7,7 @@ post_name: "drew_carry_show"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 Watched some of the new episodes about half a week ago. What the hell happened? He's in some dot com company job. Mimi looks worse than ever, and about 60 years old.. and Kate is gone..

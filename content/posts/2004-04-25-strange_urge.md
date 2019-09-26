@@ -7,7 +7,7 @@ post_name: "strange_urge"
 status: "publish"
 category: "People"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 I have an urge to whip condoms at all the <s>cute</s> couples downtown--------------  

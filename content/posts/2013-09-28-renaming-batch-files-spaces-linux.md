@@ -7,7 +7,7 @@ post_name: "renaming-batch-files-spaces-linux"
 status: "publish"
 category: "Linux"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 I rename a lot of files. Often by hand as it's just easier. I've tried various combinations of find -print0 | xargs -0, and find -exec, without much luck.

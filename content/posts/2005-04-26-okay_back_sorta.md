@@ -7,7 +7,7 @@ post_name: "okay_back_sorta"
 status: "publish"
 category: "Applications"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 Been sorta, AWOL since the last batch of job hunting. Its kinda hard to get really into job hunting when you hear nothing back, and I was having fun learning C# and doing some contract work for fnk.ca (which i still have to get him). But thats over with now, and the fun projects have been put back on hold to create a new resume and start applying again.

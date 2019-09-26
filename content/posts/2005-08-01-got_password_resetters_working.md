@@ -7,7 +7,7 @@ post_name: "got_password_resetters_working"
 status: "publish"
 category: "Hosting"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 Its actually been a very productive long weekend for me, one of the few i guess.  

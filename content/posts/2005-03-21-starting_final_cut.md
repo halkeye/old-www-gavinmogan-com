@@ -7,7 +7,7 @@ post_name: "starting_final_cut"
 status: "publish"
 category: "General"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 The starting of Final Cut reminds me ALOT of the book Speaker For the Dead.

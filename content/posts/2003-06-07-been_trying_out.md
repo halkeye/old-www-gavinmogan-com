@@ -7,7 +7,7 @@ post_name: "been_trying_out"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 ![](dott_surf_animate.thumb.gif) Been trying out Day of the Tentacle again. Its kinda weird 'cause I am able to speed play the game. Like being able to grab the items without really ever having to look for them, or ask for hints from the different characters, I pretty just can finish it.. I think i'm still 2 or 3 hours in that game, but I guarantee it could be sped up to 1 hour.. less that that would be really hard.

@@ -7,7 +7,7 @@ post_name: "kode_kode_coding"
 status: "publish"
 category: "Geek"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 HAHA, this site is now RSS validated again.  

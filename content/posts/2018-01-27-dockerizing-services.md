@@ -7,7 +7,7 @@ post_name: "dockerizing-services"
 status: "publish"
 category: "General"
 tags: ["docker", "kubernetes"]
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 After seeing Jess Fraz's posts about [home labs](https://blog.jessfraz.com/post/home-lab-is-the-dopest-lab/), I got more excited about finishing cleaning up my server and getting it a bit more modernized. When I first installed it I choose centos as a recommendation of a friend, and while its fine, I just know ubuntu/debian based systems a lot better and makes some of the random day to day tasks a lot easier.

@@ -7,7 +7,7 @@ post_name: "xbox_live_cards"
 status: "publish"
 category: "Web"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 ![](https://farm3.static.flickr.com/2033/2174698014_d91ee27a1f_m.jpg)

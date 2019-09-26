@@ -7,7 +7,7 @@ post_name: "post_secret_love"
 status: "publish"
 category: "Web"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 I love [postsecret](https://postsecret.blogspot.com/)

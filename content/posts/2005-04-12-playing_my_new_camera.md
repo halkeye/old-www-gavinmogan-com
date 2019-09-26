@@ -7,7 +7,7 @@ post_name: "playing_my_new_camera"
 status: "publish"
 category: "General"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 Just recieved a second hand nikon camera this week.  

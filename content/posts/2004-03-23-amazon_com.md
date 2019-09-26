@@ -7,7 +7,7 @@ post_name: "amazon_com"
 status: "publish"
 category: "General"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 Whoa, amazon.com now seems to have prority information on thier [wishlist.](https://www.amazon.com/exec/obidos/wishlist/1B5Y9DCHJ489H/107-8946767-3520531)  

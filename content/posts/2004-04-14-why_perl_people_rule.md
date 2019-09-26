@@ -7,7 +7,7 @@ post_name: "why_perl_people_rule"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 On Tue, Apr 13, 2004 at 09:20:06PM -0700, Gavin Mogan wrote:  

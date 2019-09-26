@@ -7,7 +7,7 @@ post_name: "change-mateterminal-xfce4terminal"
 status: "publish"
 category: "Linux"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 Mostly for my own purposes

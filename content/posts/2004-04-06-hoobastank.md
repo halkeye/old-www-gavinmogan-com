@@ -7,7 +7,7 @@ post_name: "hoobastank"
 status: "publish"
 category: "Music"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 I found the absolute perfect themesong for Ender. At least in the _Xenocide_ book.

@@ -7,7 +7,7 @@ post_name: "thunderbird_vs_evolution"
 status: "publish"
 category: "General"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 Been actually running linux at home now that I finally have a tv and no longer need the incoming tv signal (aka TV Tuner) that the ATI Radieon 9600 AIW provided me to play xbox. (Yes, I was actually playing xbox on the computer that way)

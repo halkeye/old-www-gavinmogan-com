@@ -7,7 +7,7 @@ post_name: "wish_i_had_caller_id_then_id_be_cool"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 Looking at the "[Whatever](https://www.whatever.ca)" site (why do I keep reading that site? probably 'cause of some really cool linux hacks and such, that I promptly forget.), I noticed he mentioned a really [cool program](https://ncid.sourceforge.net/) that outputs [Caller ID information](https://ncid.sourceforge.net/) in various forms.. Which looks really cool, and I could have alot of fun writing different forms of clients for it... except... I don't have caller ID.. :( it would be cool, I know alot of people who do... but for me, its not really worth it.. Wish it would work with the cell though, 'cause I actually do get calls on that.

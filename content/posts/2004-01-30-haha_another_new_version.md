@@ -7,7 +7,7 @@ post_name: "haha_another_new_version"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 1.0.2 Released

@@ -7,7 +7,7 @@ post_name: "gitpush-notification-gitolite-andjenkins"
 status: "publish"
 category: "General"
 tags: ['git', 'gitolite', 'jenkins']
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 Its so easy now to support [jenkins](https://jenkins-ci.org/)+git with [gitolite](https://github.com/sitaramc/gitolite). No more having git polling per project and slamming the git server with ssh requests.

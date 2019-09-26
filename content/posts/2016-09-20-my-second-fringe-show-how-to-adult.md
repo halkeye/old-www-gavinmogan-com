@@ -7,7 +7,7 @@ post_name: "my-second-fringe-show-how-to-adult"
 status: "publish"
 category: "General"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 I'm not sure what to say about this one.

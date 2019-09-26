@@ -7,7 +7,7 @@ post_name: "finished_naruto_rise_ninja"
 status: "publish"
 category: "xbox360"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 I have to say, I'm totally surprised at this game. I was told before hand it was a pretty decent game, and it did keep me entertained for the week I rented it.

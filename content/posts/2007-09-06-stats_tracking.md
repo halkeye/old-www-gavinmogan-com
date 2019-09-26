@@ -7,7 +7,7 @@ post_name: "stats_tracking"
 status: "publish"
 category: "Hosting"
 tags: []
-cover: "../cover-image.jpg"
+cover: "cover-image.jpg"
 ---
 
 I've recently been preparing sites to move to [drupal 5](https://www.drupal.org) for the new awesome server I got. I mean I could set the thing up using php4 and make all the old sites work and such.
