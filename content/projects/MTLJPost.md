@@ -1,7 +1,7 @@
 ---
 title: "MTLJPost"
 link: https://github.com/halkeye/MTLJPost
-image: /assets/"../kodekoan.jpg"
+image: /assets/kodekoan.jpg
 category: Legacy / KodeKoan Projects
 links:
   - type: github

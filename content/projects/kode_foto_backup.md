@@ -1,7 +1,7 @@
 ---
 title: "Kode Foto Backup"
 link: https://github.com/halkeye/kode_foto_backup/releases/tag/1.0.0
-image: /assets/"../kodekoan.jpg"
+image: /assets/kodekoan.jpg
 category: Legacy / KodeKoan Projects
 links:
   - type: github

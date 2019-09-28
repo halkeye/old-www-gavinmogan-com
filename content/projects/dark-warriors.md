@@ -1,7 +1,7 @@
 ---
 title: "Dark Warriors"
 link: https://github.com/halkeye/darkwarriors/releases/tag/dw-0.0.1361
-image: /assets/"../kodekoan.jpg"
+image: /assets/kodekoan.jpg
 category: Muds
 links:
   - type: github
