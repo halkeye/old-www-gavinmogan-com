@@ -7,7 +7,7 @@ post_name: "pick_lines"
 status: "publish"
 category: "People"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Ever had one of those days where someone said something, and like a week later you had a perfect response for it?

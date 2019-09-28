@@ -7,7 +7,7 @@ post_name: "speaker_dead_more"
 status: "publish"
 category: "Books"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 After reading as much of speaker for the dead as I have. I want Andrew Wiggin to be a speaker at my death  

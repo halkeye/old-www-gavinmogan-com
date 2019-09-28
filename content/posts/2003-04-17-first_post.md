@@ -7,7 +7,7 @@ post_name: "first_post"
 status: "publish"
 category: "General"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Trying to see how this works as a journal..

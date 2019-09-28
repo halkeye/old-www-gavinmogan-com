@@ -7,7 +7,7 @@ post_name: "apache_dso"
 status: "publish"
 category: "Web"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Man, been working on trying to setup my webserver cleaner, more importantly get php setup better..

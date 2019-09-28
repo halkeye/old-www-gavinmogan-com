@@ -7,7 +7,7 @@ post_name: "cjsfs_archive"
 status: "publish"
 category: "Anime"
 tags: ['hiscifi', 'cjsf']
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Finally got my script that downloads hiscifi (and jevon's future show if he ever gets a new one)

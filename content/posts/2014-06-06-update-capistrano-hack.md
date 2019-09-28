@@ -7,7 +7,7 @@ post_name: "update-capistrano-hack"
 status: "publish"
 category: "Linux"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 So a while ago I had posted [a hack](/2014/01/24/capistrano3-deploying-internal-git-server/) that lets capistrano deploy code from a git server from behind a firewall.

@@ -7,7 +7,7 @@ post_name: "server_upgrade"
 status: "publish"
 category: "Linux"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Way to tired to really post about this... Server has been upgraded.. I had that machine to spare, but the graphics card is dead-ish, so i couldn't use it for anything else. So now the webserver/devserver/etc is now:

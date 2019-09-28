@@ -1,6 +1,6 @@
 ---
 title: "Infinicatr"
-image: "./infinicatr.png"
+image: /assets/"./infinicatr.png"
 link: "https://apps.gavinmogan.com/infinicatr/"
 links:
   - type: github

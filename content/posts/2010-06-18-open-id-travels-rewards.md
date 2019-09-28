@@ -7,7 +7,7 @@ post_name: "open-id-travels-rewards"
 status: "publish"
 category: "Coding"
 tags: ['Coding', 'Net::OpenID::Consumer', 'openid', 'perl', 'php']
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 So the last couple of weeks I've been playing with openid again trying to get the google federated logins working. I thought it would be a sweet setup for some of my little tools that I have to have logins for, but am too lazy to deal with user management.

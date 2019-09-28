@@ -7,7 +7,7 @@ post_name: "merry_christmas"
 status: "publish"
 category: "General"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 ```

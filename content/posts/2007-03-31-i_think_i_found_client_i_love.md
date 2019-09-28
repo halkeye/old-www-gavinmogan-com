@@ -7,7 +7,7 @@ post_name: "i_think_i_found_client_i_love"
 status: "publish"
 category: "Anime"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Playing with ecto and blogjet today.

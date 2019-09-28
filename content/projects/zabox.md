@@ -1,6 +1,6 @@
 ---
 title: "Zabox"
-image: zabox.png
+image: /assets/zabox.png
 link: https://zabox.gavinmogan.com/
 links:
   - type: github

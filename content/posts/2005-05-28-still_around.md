@@ -7,7 +7,7 @@ post_name: "still_around"
 status: "publish"
 category: "Work"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 I have to appologize for abandoning the site. The job hunt ended up taking too long, so I had to take a position at dads place. It drains alot out of me, I'm so not used to having to get up 4:30. Does mean I have a 3 day weekend now. Never the less, I'm starting to get this sorta sorted out, and back to the general job hunting.

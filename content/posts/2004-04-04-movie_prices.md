@@ -7,7 +7,7 @@ post_name: "movie_prices"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 I can't belive what we heard last night.

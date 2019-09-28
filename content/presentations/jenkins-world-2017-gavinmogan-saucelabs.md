@@ -5,7 +5,7 @@ tags:
   - Sauce Labs
   - Work
   - Interview
-image: devops.png
+image: /assets/devops.png
 link: https://www.youtube.com/watch?v=hshD-a2YHCs
 links:
   - type: youtube

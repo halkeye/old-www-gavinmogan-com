@@ -7,7 +7,7 @@ post_name: "comedy_while_half_asleep"
 status: "publish"
 category: "People"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 This weeks who's line is it anyways is so awesome.

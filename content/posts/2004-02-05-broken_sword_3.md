@@ -7,7 +7,7 @@ post_name: "broken_sword_3"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 -![](clip0005.png)Okay, so I finished Broken Sword 3 a few days ago. I really liked it, the dialog was awesome.

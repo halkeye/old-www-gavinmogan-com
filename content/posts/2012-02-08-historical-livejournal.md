@@ -7,7 +7,7 @@ post_name: "historical-livejournal"
 status: "publish"
 category: "General"
 tags: ['livejournal']
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 LJ Was mentioned a few times today, but mostly because one of the accounts I was holding got a delete notification. I started to search for some historical posts:

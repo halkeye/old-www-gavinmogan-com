@@ -7,7 +7,7 @@ post_name: "stating_obvious"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 The John Henson Project is just the Man show, but lamer.

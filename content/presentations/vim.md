@@ -1,7 +1,7 @@
 ---
 title: "Rough Vim Q & A"
 date: 2012-10-01
-image: mqdefault.jpg
+image: /assets/mqdefault.jpg
 tags:
   - Work
   - Internal
@@ -11,7 +11,7 @@ links:
   - type: youtube
     url: https://www.youtube.com/watch?v=__SJWsWSD9M
 attachments:
-  - ./vi-commands-gavin.txt
+  - /assets/vi-commands-gavin.txt
 ---
 I did a quick tutorial session for my last workplace. Covers a lot of the vim basics.
 

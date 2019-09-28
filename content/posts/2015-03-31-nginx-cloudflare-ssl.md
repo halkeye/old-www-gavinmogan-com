@@ -7,7 +7,7 @@ post_name: "nginx-cloudflare-ssl"
 status: "publish"
 category: "Linux"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Now that cloudflare will support ssl on every domain you host with them, I wanted to get some of my domains setup to use it.

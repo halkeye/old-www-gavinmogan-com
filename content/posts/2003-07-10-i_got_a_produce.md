@@ -7,7 +7,7 @@ post_name: "i_got_a_produce"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 I can't believe I got a email about [This Post](/2003/06/16/rockport_pd/) about Rockpoint P.D.

@@ -7,7 +7,7 @@ post_name: "bash-prompt-linewrap-colors-issues"
 status: "publish"
 category: "Linux"
 tags: ['bash', 'linux', 'prompt']
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 So I've been fighting with trying to make a custom color prompt for a while now.

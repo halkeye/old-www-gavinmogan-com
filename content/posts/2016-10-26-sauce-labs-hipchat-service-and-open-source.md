@@ -7,7 +7,7 @@ post_name: "sauce-labs-hipchat-service-and-open-source"
 status: "publish"
 category: "Work"
 tags: ['atlassian', 'hipchat', 'open source', 'sauce labs']
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 I am absolutely ecstatic to announce the new Sauce Labs and HipChat integration being not only released to the public, but open source as well. Its been officially out for a month now, but we just went ahead and open sourced it.

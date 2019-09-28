@@ -7,7 +7,7 @@ post_name: "quake_4_has_zombies"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 ![](screenshot.png)

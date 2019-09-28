@@ -7,7 +7,7 @@ post_name: "mtljpost_new_version"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 1.0.1 Released

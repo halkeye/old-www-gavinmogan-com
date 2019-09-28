@@ -7,7 +7,7 @@ post_name: "devilman_lady_r"
 status: "publish"
 category: "Anime"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 I have to say, initially I was impressed, Its not really my kind of anime, but it was still good. By the time i got to the second DVD, it was extreamly beh.

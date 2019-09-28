@@ -7,7 +7,7 @@ post_name: "nostalgic"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Sin Episode 1 was so awesome. I'm pretty sure i'm one of the very few people who's played the original.

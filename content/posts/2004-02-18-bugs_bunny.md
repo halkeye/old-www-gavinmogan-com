@@ -7,7 +7,7 @@ post_name: "bugs_bunny"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 I <3 bugs bunny.

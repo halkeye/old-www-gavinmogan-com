@@ -7,7 +7,7 @@ post_name: "utter_crap"
 status: "publish"
 category: "People"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Went to futureshop (yea, i know, first mistake) to grab a new mouse ('cause mine suddenly started to die today) and Children of Dune to complete our dune night next week.

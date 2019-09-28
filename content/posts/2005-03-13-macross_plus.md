@@ -7,7 +7,7 @@ post_name: "macross_plus"
 status: "publish"
 category: "Anime"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Macross Plus has to be one of the few animes that I like better dubbed than subbed. Sonic X would be another, but it was pretty crappy to start with.

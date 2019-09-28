@@ -7,7 +7,7 @@ post_name: "sucky_story_teller_interesting_stories"
 status: "publish"
 category: "People"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Oh yea... interesting bus stories (short 'cause i'm tired)

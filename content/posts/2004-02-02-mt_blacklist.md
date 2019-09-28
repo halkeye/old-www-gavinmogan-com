@@ -7,7 +7,7 @@ post_name: "mt_blacklist"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 I actually think I might be able to make MT-Blacklist mod_perl compatible.

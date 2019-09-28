@@ -7,7 +7,7 @@ post_name: "does_music_have_soul"
 status: "publish"
 category: "Music"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Watching some anime with the [group](https://www.sfuarc.com/), and just now watching a movie or two, I realize, even if the scene doesn't have sad stuff (or happy, narutos awesome about that), you can still very much feel really sad just by the music or sound effects at the time.

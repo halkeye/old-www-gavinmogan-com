@@ -7,7 +7,7 @@ post_name: "new_apache"
 status: "publish"
 category: "Anime"
 tags: ["apache", "server"]
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Okay, Yesterday I finally got php and apache to play nice again and upgraded both installations.

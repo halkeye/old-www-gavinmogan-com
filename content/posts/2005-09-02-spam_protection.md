@@ -7,7 +7,7 @@ post_name: "spam_protection"
 status: "publish"
 category: "General"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 I can't belive I had to install spam protection, so many spammers talking about hurricane katrina, or google.

@@ -7,7 +7,7 @@ post_name: "my_k-pax_review"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 I've had the chance to see [K-Pax](https://us.imdb.com/Title?0272152) about a week ago. I really do not know what the problem everyone else seems to have with that movie. I really enjoyed it. The entire movie left me guessing to the fact of whether or not the **Prot** was really from K-Pax.

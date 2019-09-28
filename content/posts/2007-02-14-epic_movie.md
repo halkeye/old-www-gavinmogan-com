@@ -7,7 +7,7 @@ post_name: "epic_movie"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 "It was legen-wait for it-dairy." - Barney

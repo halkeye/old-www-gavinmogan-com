@@ -7,7 +7,7 @@ post_name: "mtljpost_1_0_5_released"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 This update is a pretty update. I love the new web interface.

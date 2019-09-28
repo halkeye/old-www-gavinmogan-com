@@ -7,7 +7,7 @@ post_name: "scott_adams_genius"
 status: "publish"
 category: "Humor"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 [Scott Adams is an absolute genius](https://dilbertblog.typepad.com/the_dilbert_blog/2005/11/results_of_why_.html).

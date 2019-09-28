@@ -7,7 +7,7 @@ post_name: "any_issues"
 status: "publish"
 category: "Hosting"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Switched my hosting to lighttpd due to the smaller memory footprint and such.

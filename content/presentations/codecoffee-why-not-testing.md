@@ -2,7 +2,7 @@
 title: "Why not Testing? (April 2016)"
 date: "2016-04-14"
 link: https://slides.com/halkeye/why-not-testing
-image: title.png
+image: /assets/title.png
 tags:
   - meetup
 links:
@@ -11,7 +11,7 @@ links:
   - type: youtube
     url: https://www.youtube.com/watch?v=iPGSJVASCkc
 attachments:
-  - ./why-not-testing.pdf
+  - /assets/why-not-testing.pdf
 ---
 Testing presentation for [Code Coffee Vancouver](https://www.meetup.com/Code-Coffee-Vancouver/events/230135012/).
 

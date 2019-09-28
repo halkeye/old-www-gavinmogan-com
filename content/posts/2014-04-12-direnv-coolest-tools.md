@@ -7,7 +7,7 @@ post_name: "direnv-coolest-tools"
 status: "publish"
 category: "Linux"
 tags: ['Coding', 'direnv', 'linux', 'Tools I Use']
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 I've always loved the idea of self contained environments but coming from doing perl and c/c++ a long time ago, I've never been able to really pull it off. It wasn't until I encountered virtualenv for python that I finally got this working properly. I had encountered rvm's gemsets before that, but they always seemed finicky at best.

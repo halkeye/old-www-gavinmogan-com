@@ -7,7 +7,7 @@ post_name: "output-pretty-json-puppet"
 status: "publish"
 category: "Linux"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 It kept seeming like it should be straight forward. Various attempts by myself (mostly because I don't know ruby) seemed to fail. I'm just leaving it here now that I figured out how to get it working so I can find it again (and hopefully help others).

@@ -1,6 +1,6 @@
 ---
 title: Devops (Jan 2015)
-image: presentations-devops.png
+image: /assets/presentations-devops.png
 tags:
   - Work
   - Internal

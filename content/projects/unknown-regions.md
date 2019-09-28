@@ -1,7 +1,7 @@
 ---
 title: "Unknown Regions"
 link: https://github.com/halkeye/unknown_regions/releases/tag/ur-1.0.12
-image: "../kodekoan.jpg"
+image: /assets/"../kodekoan.jpg"
 category: Muds
 links:
   - type: github

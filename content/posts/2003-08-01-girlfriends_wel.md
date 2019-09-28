@@ -7,7 +7,7 @@ post_name: "girlfriends_wel"
 status: "publish"
 category: "People"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Yea, its about time that I finally got to this rant, its been bugging me for a Long time now.

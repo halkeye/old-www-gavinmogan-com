@@ -7,7 +7,7 @@ post_name: "free-laptop-facebook-scam"
 status: "publish"
 category: "Internet"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Ah, the things that people believe on the internet. I'd like to believe its not work that is making me paranoid, but it mostly is. Plus I get paid to help try to find the flaws in things before the time is spent developing them.

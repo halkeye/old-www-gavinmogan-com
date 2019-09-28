@@ -7,7 +7,7 @@ post_name: "bad-twitter-joke"
 status: "publish"
 category: "People"
 tags: ['jokes', 'justin', 'telegram', 'twitter']
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Oh man. I used to post some really horrible jokes I found around the internet.

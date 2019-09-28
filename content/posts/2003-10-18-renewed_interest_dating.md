@@ -7,7 +7,7 @@ post_name: "renewed_interest_dating"
 status: "publish"
 category: "People"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 [Modern Flirting (washingtonpost.com)](https://www.washingtonpost.com/ac2/wp-dyn/A32799-2003Oct15)

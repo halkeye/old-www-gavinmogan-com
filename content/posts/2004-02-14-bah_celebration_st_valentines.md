@@ -7,7 +7,7 @@ post_name: "bah_celebration_st_valentines"
 status: "publish"
 category: "People"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Not that I'm really bitter about being alone again for this Valentines day (Alone being alone, not without girlfriend, thats not that big of deal), but the big deal that everyone else makes of it.

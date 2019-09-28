@@ -7,7 +7,7 @@ post_name: "enders_game"
 status: "publish"
 category: "Books"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Its always so much fun to re-read enders game.

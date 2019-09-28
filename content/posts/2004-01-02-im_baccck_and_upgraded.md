@@ -7,7 +7,7 @@ post_name: "im_baccck_and_upgraded"
 status: "publish"
 category: "Applications"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Yea. Its been a long time since I've actually updated this site. I just havn't been exactly in the writing mood. But I'm back, with some cool information.

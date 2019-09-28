@@ -7,7 +7,7 @@ post_name: "syndication"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "cover-image.jpg"
+cover: "/assets/cover-image.jpg"
 ---
 
 Yes! Since I'm now using my MTLJPost plugin, I figured I'd work on LJ Tag a bit more.
