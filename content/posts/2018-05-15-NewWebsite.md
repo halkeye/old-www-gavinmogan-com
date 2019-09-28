@@ -6,7 +6,7 @@ category: "General"
 tags:
   - Gatsby
   - React
-cover: branko-stancevic-417172-unsplash.jpg
+cover: "branko-stancevic-417172-unsplash.jpg"
 date: "2018/05/15 20:00:00"
 ---
 
