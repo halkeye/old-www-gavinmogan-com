@@ -7,7 +7,7 @@ import SEO from '../components/SEO/SEO.jsx';
 
 class IndexPage extends React.Component {
   render () {
-    const postEdges = this.props.data.allContentfulBlogPosts.edges;
+    const postEdges = this.props.data.allMarkdownRemark.edges;
     const { index, paginatedPagesCount } = this.props.pageContext;
     return (
       <Layout location={this.props.location}>
@@ -26,46 +26,33 @@ export default IndexPage;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query IndexQuery($skip: Int!, $limit: Int!) {
-    allContentfulBlogPosts(
+    allMarkdownRemark(
       limit: $limit
       skip: $skip
-      sort: {fields: date, order: DESC}
+      filter: { fields: { sourceName: { eq: "blog" } } }
+      sort: { fields: [fields___date], order: DESC }
     ) {
       totalCount
       edges {
         node {
-          author {
-            name
-            slug
-          }
+          excerpt
+          timeToRead
           fields {
-            url
-          }
-          content {
-            childMarkdownRemark {
-              html
-              excerpt
-              timeToRead
-            }
-          }
-          slug
-          tags
-          title
-          date
-          cover {
-            fluid {
-              ...GatsbyContentfulFluid_withWebp
-            }
-          }
-          category {
             slug
+            category
+          }
+          frontmatter {
             title
+            tags
+            cover {
+              childImageSharp {
+                fluid(maxWidth: 800, maxHeight: 300, cropFocus: ENTROPY) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
+              }
+            }
+            date
           }
-          author {
-            slug
-            name
-          }
-          contentful_id
         }
       }
     }

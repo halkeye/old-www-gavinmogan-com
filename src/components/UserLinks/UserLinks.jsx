@@ -29,6 +29,7 @@ class UserLinks extends Component {
       </a>
     ));
   }
+
   render () {
     const { classes } = this.props;
     if (!userLinks) {

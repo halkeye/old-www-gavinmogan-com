@@ -1,18 +1,19 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
+import { toPostInfo } from '../postUtils.js';
 import ItemBlock from '../components/ItemBlock/ItemBlock.jsx';
 import SubHeader from '../components/SubHeader/SubHeader.jsx';
 import Layout from '../layouts/index.jsx';
 import './presentations.scss';
 
-const PresentationList = ({ edges }) => (
+const PresentationList = ({ nodes }) => (
   <div className="md-grid">
-    {edges.map(edge => (
+    {nodes.map(edge => (
       <ItemBlock
-        key={edge.node.id}
-        {...edge.node}
-        html={edge.node.content.childMarkdownRemark.html}
+        key={edge.id}
+        {...edge}
+        html={edge.html}
         urlPrefix="/presentations/"
       />
     ))}
@@ -20,7 +21,7 @@ const PresentationList = ({ edges }) => (
 );
 
 const PresentationsPage = ({ data, location }) => {
-  const { edges } = data.allContentfulPresentations;
+  const nodes = data.allMarkdownRemark.edges.map(toPostInfo);
   return (
     <Layout location={location} title="Presentations">
       <div className="presentations-container">
@@ -29,7 +30,7 @@ const PresentationsPage = ({ data, location }) => {
         </Helmet>
         <SubHeader title="Presentations" />
 
-        <PresentationList edges={edges} />
+        <PresentationList nodes={nodes} />
       </div>
     </Layout>
   );
@@ -40,33 +41,37 @@ export default PresentationsPage;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query PresentationsPage {
-    allContentfulPresentations(sort: {order: DESC, fields: date}) {
+    allMarkdownRemark(
+      sort: { fields: [fields___date], order: DESC }
+      filter: { fields: { sourceName: { eq: "presentation" } } }
+    ) {
       edges {
         node {
+          fields {
+            slug
+            date
+            tags
+            category
+          }
           id
-          date
-          link
-          links {
-            type
-            url
-          }
-          slug
-          tags
-          title
-          image {
-            fluid(maxWidth: 800, maxHeight: 320, cropFocus: CENTER) {
-              ...GatsbyContentfulFluid_withWebp
+          html
+          frontmatter {
+            title
+            image {
+              childImageSharp {
+                fluid(maxWidth: 320, cropFocus: ENTROPY) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
+              }
             }
-          }
-          content {
-            childMarkdownRemark {
-              html
-            }
-          }
-          attachments {
-            file {
+            link
+            links {
+              type
               url
-              fileName
+            }
+            attachments {
+              absolutePath
+              publicURL
             }
           }
         }

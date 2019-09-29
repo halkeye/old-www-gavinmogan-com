@@ -9,7 +9,7 @@ const ProfileImage = () => {
         query {
           file(relativePath: { eq: "Gavin-December-1989.png" }) {
             childImageSharp {
-              fixed(width: 150, height: 150) {
+              fixed(width: 150, height: 150, cropFocus: ENTROPY) {
                 ...GatsbyImageSharpFixed
               }
             }

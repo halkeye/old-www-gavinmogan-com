@@ -9,7 +9,7 @@ const ProfileImageLarge = () => {
         query {
           file(relativePath: { eq: "Gavin-December-1989.png" }) {
             childImageSharp {
-              fluid(maxWidth: 750) {
+              fluid(maxWidth: 750, cropFocus: ENTROPY) {
                 ...GatsbyImageSharpFluid
               }
             }

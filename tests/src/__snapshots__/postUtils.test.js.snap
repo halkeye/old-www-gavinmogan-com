@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Utils empty doesnt crash 1`] = `
+Object {
+  "attachments": undefined,
+  "author": undefined,
+  "categories": Array [],
+  "date": Date { NaN },
+  "excerpt": undefined,
+  "html": undefined,
+  "htmlAst": undefined,
+  "link": undefined,
+  "links": undefined,
+  "slug": undefined,
+  "tags": undefined,
+  "timeToRead": undefined,
+  "title": undefined,
+}
+`;
+
+exports[`Utils real doesnt crash 1`] = `
+Object {
+  "attachments": undefined,
+  "author": "halkeye",
+  "categories": Array [
+    Object {
+      "slug": "General",
+      "title": "General",
+    },
+  ],
+  "cover": Object {
+    "fluid": Object {
+      "base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMCBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAUNzrOzCAF//xAAcEAACAgIDAAAAAAAAAAAAAAABAgADERITISL/2gAIAQEAAQUCqYbWIxdqczPfJ5NzCf/EABURAQEAAAAAAAAAAAAAAAAAAAAh/9oACAEDAQE/AUf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAIf/aAAgBAgEBPwFX/8QAGhAAAgIDAAAAAAAAAAAAAAAAABEBIDFBUf/aAAgBAQAGPwKOmFqiP//EABwQAAMAAwADAAAAAAAAAAAAAAABETFBUSFhcf/aAAgBAQABPyGuxsu/BVnBqlFWIKFY3bJJ+fdGESI//9oADAMBAAIAAwAAABATD//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAwEBPxAwbJ//xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QdZ//xAAbEAEBAAIDAQAAAAAAAAAAAAABEQAhMUFhUf/aAAgBAQABPxBL0JicGTbp8wghapQVW3wxTcYRLv3HV3EcPYZFeL5gTRANZ//Z",
+    },
+  },
+  "date": 2018-08-16T04:09:24.000Z,
+  "excerpt": "Got a tiny little pull request on a old hubot module I created a while ago, and it reminded me I was going to talk about open source. How…",
+  "html": "<p>Test HTML</p>",
+  "htmlAst": undefined,
+  "link": undefined,
+  "links": undefined,
+  "slug": "/open-source-and-me",
+  "tags": Array [
+    "Open Source",
+  ],
+  "timeToRead": 5,
+  "title": "Open source and me",
+}
+`;

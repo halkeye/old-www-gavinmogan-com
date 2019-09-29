@@ -1,4 +1,5 @@
 const config = require('./data/SiteConfig');
+const { toPostInfo } = require('./src/postUtils.js');
 
 const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
 
@@ -21,10 +22,10 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-source-contentful',
+      resolve: 'gatsby-plugin-netlify-cms',
       options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+        enableIdentityWidget: true,
+        modulePath: `${__dirname}/src/cms/cms.js`
       }
     },
     {
@@ -43,11 +44,47 @@ module.exports = {
       }
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'assets',
+        path: `${__dirname}/static/assets`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'project',
+        path: `${__dirname}/content/projects`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'presentation',
+        path: `${__dirname}/content/presentations`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'blog',
+        path: `${__dirname}/content/posts`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: `${__dirname}/src/images`
+      }
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         excerpt_separator: '<!-- excerpt -->',
         plugins: [
           'gatsby-remark-source-name',
+          'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -158,7 +195,7 @@ module.exports = {
             config.siteUrl,
             'img/Gavin-December-1989-a2ce6e58e297f8bdabe2dcbf01e49e3d-0e94d.png'
           ].join('/');
-          ret.allContentfulBlogPosts = ref.query.allContentfulBlogPosts;
+          ret.allMarkdownRemark = ref.query.allMarkdownRemark;
           ret.generator = 'GatsbyJS Material Starter';
           return ret;
         },
@@ -183,39 +220,40 @@ module.exports = {
             title: config.siteTitle,
             serialize (ctx) {
               const { rssMetadata } = ctx.query.site.siteMetadata;
-              return ctx.query.allContentfulBlogPosts.edges.map(edge => ({
-                categories: edge.node.category.map(c => c.slug),
-                date: edge.node.date,
-                title: edge.node.title,
-                description: edge.node.content.childMarkdownRemark.excerpt,
-                author: rssMetadata.author,
-                url: rssMetadata.site_url + edge.node.slug,
-                guid: rssMetadata.site_url + edge.node.slug,
-                custom_elements: [{ 'content:encoded': edge.node.content.childMarkdownRemark.html }]
-              }));
+              return ctx.query.allMarkdownRemark.edges.map(edge => {
+                const postInfo = toPostInfo(edge.node);
+                return {
+                  categories: postInfo.categories.map(c => c.slug),
+                  date: postInfo.date,
+                  title: postInfo.title,
+                  description: postInfo.excerpt,
+                  author: rssMetadata.author,
+                  url: rssMetadata.site_url + postInfo.slug,
+                  guid: rssMetadata.site_url + postInfo.slug,
+                  custom_elements: [{ 'content:encoded': postInfo.html }]
+                };
+              });
             },
             query: `
             {
-              allContentfulBlogPosts(
-                sort: {fields: date, order: DESC}
+              allMarkdownRemark(
                 limit: 1000,
+                filter: {fields: {sourceName: {eq: "blog"}}},
+                sort: { order: DESC, fields: [fields___date] },
               ) {
                 edges {
                   node {
-                    content {
-                      childMarkdownRemark {
-                        html
-                        excerpt
-                      }
-                    }
-                    slug
-                    title
-                    date
-                    category {
+                    html
+                    excerpt
+                    fields {
                       slug
-                      title
+                      date
                     }
-                    tags
+                    frontmatter {
+                      title
+                      category
+                      tags
+                    }
                   }
                 }
               }

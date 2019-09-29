@@ -7,7 +7,7 @@ import Layout from '../layouts/index.jsx';
 class TagTemplate extends React.Component {
   render () {
     const { tag } = this.props.pageContext;
-    const postEdges = this.props.data.allContentfulBlogPosts.edges;
+    const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <Layout location={this.props.location} title={`Posts tagged as "${tag}"`}>
         <div className="tag-container">
@@ -26,43 +26,31 @@ export default TagTemplate;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query TagPage($tag: String) {
-    allContentfulBlogPosts(
-      sort: {fields: date, order: DESC}
+    allMarkdownRemark(
       limit: 1000
-      filter: { tags: { in: [$tag] } }
+      filter: { fields: { sourceName: { eq: "blog" }, tags: { in: [$tag] } } }
+      sort: { fields: [fields___date], order: DESC }
     ) {
       totalCount
       edges {
         node {
-          content {
-            childMarkdownRemark {
-              html
-              excerpt
-              timeToRead
-            }
-          }
-          slug
-          tags
-          title
-          date
-          cover {
-            fluid {
-              # ...GatsbyImageSharpFluid_withWebp_tracedSVG
-              base64
-              src
-              srcSet
-              aspectRatio
-            }
-          }
-          category {
+          fields {
             slug
+            tags
+          }
+          excerpt
+          timeToRead
+          frontmatter {
             title
+            date
+            cover {
+              childImageSharp {
+                fluid(maxWidth: 800, cropFocus: ENTROPY) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
+              }
+            }
           }
-          author {
-            slug
-            name
-          }
-          contentful_id
         }
       }
     }

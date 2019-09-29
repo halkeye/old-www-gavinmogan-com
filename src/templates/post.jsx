@@ -17,7 +17,6 @@ import PostTags from '../components/PostTags/PostTags.jsx';
 import PostCover from '../components/PostCover/PostCover.jsx';
 import PostInfo from '../components/PostInfo/PostInfo.jsx';
 import SocialLinks from '../components/SocialLinks/SocialLinks.jsx';
-import PostSuggestions from '../components/PostSuggestions/PostSuggestions.jsx';
 import SEO from '../components/SEO/SEO.jsx';
 import config from '../../data/SiteConfig.js';
 import { toPostInfo } from '../postUtils.js';
@@ -70,11 +69,7 @@ class PostTemplate extends React.Component {
     const { pageContext: { slug } } = this.props;
     const expanded = !mobile;
     const postOverlapClass = mobile ? 'post-overlap-mobile' : 'post-overlap';
-    const post = toPostInfo({ node: this.props.data.contentfulBlogPosts });
-    console.log({
-      contentfulBlogPosts: this.props.data.contentfulBlogPosts,
-      toPostInfo: post
-    });
+    const post = toPostInfo({ node: this.props.data.markdownRemark });
     return (
       <Layout location={this.props.location} title={post.title}>
         <div className="post-page md-grid md-grid--no-spacing">
@@ -114,7 +109,6 @@ class PostTemplate extends React.Component {
             <Disqus postNode={post} expanded={expanded} />
           </div>
 
-          <PostSuggestions postNode={post} />
         </div>
       </Layout>
     );
@@ -124,33 +118,26 @@ class PostTemplate extends React.Component {
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
-    contentfulBlogPosts(slug: {eq: $slug}) {
-      author {
-        name
-        slug
-      }
-      category {
-        title
-        slug
-      }
-      content {
-        childMarkdownRemark {
-          excerpt
-          htmlAst
-          timeToRead
-        }
-      }
-      cover {
-        fluid(maxHeight: 300, maxWidth: 800, cropFocus: CENTER) {
-          ...GatsbyContentfulFluid_withWebp
-        }
-      }
-      date
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      htmlAst
+      timeToRead
+      excerpt
       fields {
-        url
+        category
       }
-      tags
-      title
+      frontmatter {
+        title
+        cover {
+          childImageSharp {
+            fluid(maxWidth: 800, maxHeight: 300, cropFocus: ENTROPY) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+        date
+        tags
+      }
+
       #fields {
       #  nextTitle
       #  nextSlug

@@ -43,7 +43,6 @@ const angleDoubleRight = (
 
 class Pagination extends Component {
   render () {
-    return <div />; // FIXME
     const { index, pageCount } = this.props;
     const pages = range(
       clamp(index - 5, 1, pageCount),

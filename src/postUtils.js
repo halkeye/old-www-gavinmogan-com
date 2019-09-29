@@ -1,18 +1,61 @@
-export function toPostInfo (postEdge) {
+function toPostInfo (postEdge) {
+  if (!postEdge) {
+    postEdge = {};
+  }
+  if (!postEdge.node) {
+    postEdge.node = {};
+  }
+  if (!postEdge.node.frontmatter) {
+    postEdge.node.frontmatter = {};
+  }
+  if (!postEdge.node.fields) {
+    postEdge.node.fields = {};
+  }
   const ret = {
-    author: postEdge?.node?.author,
-    cover: postEdge?.node?.cover,
-    categories: postEdge?.node?.category,
-    date: new Date(postEdge?.node?.date),
-    excerpt: postEdge?.node?.content?.childMarkdownRemark?.excerpt,
-    html: postEdge?.node?.content?.childMarkdownRemark?.html,
-    htmlAst: postEdge?.node?.content?.childMarkdownRemark?.htmlAst,
-    path: postEdge?.node?.fields?.url,
-    tags: postEdge?.node?.tags,
-    timeToRead: postEdge?.node?.content?.childMarkdownRemark?.timeToRead,
-    title: postEdge?.node?.title
+    author: postEdge.node.frontmatter.author,
+    categories: [postEdge.node.fields.category].filter(Boolean).map(cat => {
+      return {
+        slug: cat,
+        title: cat
+      };
+    }),
+    date: new Date(postEdge.node.frontmatter.date),
+    excerpt: postEdge.node.excerpt,
+    html: postEdge.node.html,
+    htmlAst: postEdge.node.htmlAst,
+    slug: postEdge.node.fields.slug,
+    tags: postEdge.node.frontmatter.tags,
+    timeToRead: postEdge.node.timeToRead,
+    title: postEdge.node.frontmatter.title,
+    links: postEdge.node.frontmatter.links,
+    link: postEdge.node.frontmatter.link,
+    attachments: postEdge.node.frontmatter.attachments
   };
+  if (postEdge.node.frontmatter.cover) {
+    ret.cover = postEdge.node.frontmatter.cover.childImageSharp;
+  }
+  if (postEdge.node.frontmatter.image) {
+    ret.cover = postEdge.node.frontmatter.image.childImageSharp;
+  }
   return ret;
 }
 
-export default {};
+function urlDatePrefix (node) {
+  if (node.frontmatter.date) {
+    const date = new Date(node.frontmatter.date);
+    return `/${[date.getFullYear(), date.getMonth() + 1, date.getDate()]
+      .map(v => String(v).padStart(2, '0'))
+      .join('/')}`;
+  }
+  return '';
+}
+
+function getDateFromNode (node /* , fileNode */) {
+  return (node.frontmatter || {}).date || '';
+}
+
+module.exports = {
+  getDateFromNode,
+  urlDatePrefix,
+  toPostInfo
+};

@@ -39,7 +39,7 @@ class UserInfo extends Component {
     if (!userAvatar && !userName && !userLocation && !userDescription) {
       if (userLinks) {
         return (
-          <Card classNAme={classes.root}>
+          <Card className={classes.root}>
             {userLinksElement}
           </Card>
         );

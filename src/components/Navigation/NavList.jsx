@@ -9,7 +9,6 @@ import fasFilePowerpoint from '@fortawesome/fontawesome-free-solid/faFilePowerpo
 
 const FakeLink = (props) => {
   const { to, children, ...rest } = props;
-  console.log('FakeLink', props);
   return <Link to={to} {...rest}>{children}</Link>;
 };
 

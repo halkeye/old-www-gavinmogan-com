@@ -15,12 +15,12 @@ import ItemBlockLinks from '../ItemBlockLinks/ItemBlockLinks.jsx';
 
 import './itemblock.scss';
 
-export default function ItemBlock ({ slug, tags, image, link, links, title, attachments, html, excerpt, urlPrefix }) {
+export default function ItemBlock ({ slug, tags, cover, link, links, title, attachments, html, excerpt, urlPrefix }) {
   return (
     <Card key={slug} className="itemblock">
       <Link to={`${urlPrefix}${slug}`}>
         <Media>
-          {image && <Image {...image} />}
+          {cover && <Image {...cover} />}
           <MediaOverlay>
             <CardTitle title={title}>
               <Button

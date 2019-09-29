@@ -10,6 +10,8 @@ links:
     url: https://slides.com/halkeye/why-not-testing
   - type: youtube
     url: https://www.youtube.com/watch?v=iPGSJVASCkc
+  - type: pdf
+    url: ./why-not-testing.pdf
 attachments:
   - /assets/why-not-testing.pdf
 ---

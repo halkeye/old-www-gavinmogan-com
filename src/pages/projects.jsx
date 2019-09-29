@@ -4,11 +4,12 @@ import Helmet from 'react-helmet';
 import ItemBlock from '../components/ItemBlock/ItemBlock.jsx';
 import SubHeader from '../components/SubHeader/SubHeader.jsx';
 import Layout from '../layouts/index.jsx';
+import { toPostInfo } from '../postUtils.js';
 
-const ProjectList = ({ edges, onlyCategory }) => (
+const ProjectList = ({ nodes, onlyCategory }) => (
   <div className="md-grid">
-    {edges.map(edge => {
-      const category = edge.node.category || [];
+    {nodes.map(edge => {
+      const category = edge.categories || [];
       if (onlyCategory && !category.map(c => c.slug).includes(onlyCategory)) {
         return null;
       }
@@ -16,9 +17,9 @@ const ProjectList = ({ edges, onlyCategory }) => (
         return null;
       }
       return <ItemBlock
-        key={edge.node.id}
-        {...edge.node}
-        html={edge.node.content.childMarkdownRemark.html}
+        key={edge.id}
+        {...edge}
+        html={edge.html}
         urlPrefix="/projects/"
       />;
     })}
@@ -26,9 +27,9 @@ const ProjectList = ({ edges, onlyCategory }) => (
 );
 
 const ProjectsPage = ({ data, location }) => {
-  const { edges } = data.allContentfulProjects;
+  const nodes = data.allMarkdownRemark.edges.map(toPostInfo);
   const categories = new Set();
-  edges.forEach(edge => (edge.node.category || []).forEach(cat => categories.add(cat.slug)));
+  nodes.forEach(node => node.categories.forEach(cat => categories.add(cat.slug)));
 
   return (
     <Layout location={location} title="Projects">
@@ -39,11 +40,11 @@ const ProjectsPage = ({ data, location }) => {
         <SubHeader title="Projects" />
 
         <div>
-          <ProjectList edges={edges} />
+          <ProjectList nodes={nodes} />
           {Array.from(categories).map(category => (
             <div key={category}>
               <SubHeader title={category} />
-              <ProjectList edges={edges} onlyCategory={category} />
+              <ProjectList nodes={nodes} onlyCategory={category} />
             </div>
           ))}
         </div>
@@ -57,36 +58,35 @@ export default ProjectsPage;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query ProjectsPage {
-    allContentfulProjects(sort: {fields: title, order: ASC}) {
+    allMarkdownRemark(
+      sort: { fields: [fields___date], order: DESC }
+      filter: { fields: { sourceName: { eq: "project" } } }
+    ) {
       totalCount
       edges {
         node {
-          id
-          link
-          links {
-            type
-            url
-          }
-          slug
-          tags
-          title
-          image {
-            fluid(maxWidth: 750, maxHeight: 320, cropFocus: CENTER) {
-              ...GatsbyContentfulFluid_withWebp
-            }
-          }
-          content {
-            childMarkdownRemark {
-              html
-            }
-          }
-          links {
-            type
-            url
-          }
-          category {
+          fields {
             slug
+            date
+            tags
+            category
+          }
+          id
+          html
+          frontmatter {
             title
+            image {
+              childImageSharp {
+                fluid(maxWidth: 320, cropFocus: ENTROPY) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
+              }
+            }
+            link
+            links {
+              type
+              url
+            }
           }
         }
       }

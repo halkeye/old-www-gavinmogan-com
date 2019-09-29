@@ -51,6 +51,7 @@
     "gatsby-plugin-sentry": "1.0.1",
     "gatsby-remark-embed-youtube": "0.0.7",
     "gatsby-remark-emoji": "0.0.3",
+    "gatsby-remark-relative-images": "^0.2.3",
     "gatsby-remark-source-name": "^1.0.0",
     "history": "^4.9.0",
     "husky": "^3.0.4",
@@ -96,6 +97,7 @@
     "gatsby-plugin-google-analytics": "^2.1.11",
     "gatsby-plugin-manifest": "^2.2.9",
     "gatsby-plugin-netlify": "^2.1.10",
+    "gatsby-plugin-netlify-cms": "^4.1.17",
     "gatsby-plugin-nprogress": "^2.1.4",
     "gatsby-plugin-react-helmet": "^3.1.5",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
@@ -108,10 +110,10 @@
     "gatsby-remark-images": "^3.1.19",
     "gatsby-remark-prismjs": "^3.3.9",
     "gatsby-remark-responsive-iframe": "^2.2.10",
-    "gatsby-source-contentful": "^2.1.29",
     "gatsby-source-filesystem": "^2.1.18",
     "gatsby-transformer-remark": "^2.6.19",
-    "gatsby-transformer-sharp": "^2.2.12"
+    "gatsby-transformer-sharp": "^2.2.12",
+    "netlify-cms-app": "^2.9.7"
   },
   "peerDependencies": {
     "gatsby": ">=2"
@@ -122,7 +124,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "develop": "gatsby develop -p 3000",
+    "develop": "gatsby develop -p 3000 -H 0.0.0.0",
     "dev": "npm run develop",
     "serve": "gatsby serve",
     "build": "TZ=UTC gatsby build",
@@ -181,7 +183,9 @@
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|css)$": "<rootDir>/tests/__mocks__/fileMock.js",
       "^.+\\.(css|scss)$": "identity-obj-proxy"
     },
-    "setupTestFrameworkScriptFile": "<rootDir>/tests/__setup__/frameworkSetup.js",
+    "setupFilesAfterEnv": [
+      "<rootDir>/tests/__setup__/frameworkSetup.js"
+    ],
     "setupFiles": [
       "<rootDir>/tests/__setup__/setup.js"
     ],

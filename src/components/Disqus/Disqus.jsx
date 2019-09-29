@@ -49,7 +49,7 @@ class Disqus extends Component {
     const url =
       (config.disqusUrl || config.siteUrl) +
       config.pathPrefix +
-      trimStart(postNode.path, '/');
+      trimStart(postNode.slug, '/');
     return (
       <>
         <Card className={classes.root}>

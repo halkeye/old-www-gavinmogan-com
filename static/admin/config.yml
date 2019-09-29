@@ -81,10 +81,22 @@ collections:
       - {name: date, label: Date, widget: date}
       - {name: image, label: Image, widget: image}
       - {name: link, label: Link}
-      - {name: links, label: Links}
-      - {name: attachments, label: Attachments}
-      - {name: slug, label: Slug}
-      - {name: content, label: Content, widget: markdown}
+      - name: links
+        label: Links
+        widget: list
+        allow_add: true
+        fields:
+          - label: Type
+            name: type
+            widget: string
+          - label: url
+            name: url
+            widget: string
+      - name: attachments
+        label: Attachments
+        allow_multiple: true
+        widget: file
+      - {name: body, label: Body, widget: markdown}
   - name: projects
     label: Projects
     folder: content/projects
@@ -95,7 +107,23 @@ collections:
       - {name: date, label: Date, widget: date}
       - {name: image, label: Image, widget: image}
       - {name: link, label: Link}
-      - {name: links, label: Links}
-      - {name: attachments, label: Attachments}
-      - {name: slug, label: Slug}
-      - {name: content, label: Content, widget: markdown}
+      - name: links
+        label: Links
+        widget: list
+        allow_add: true
+        default: []
+        fields:
+          - label: Link
+            name: link
+            widget: object
+            fields:
+              - label: Type
+                name: type
+                widget: string
+              - label: url
+                name: url
+                widget: string
+      - name: attachments
+        label: Attachments
+        allow_multiple: true
+      - {name: body, label: Body, widget: markdown}

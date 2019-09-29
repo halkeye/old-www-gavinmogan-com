@@ -10,6 +10,8 @@ link: https://www.youtube.com/watch?v=__SJWsWSD9M
 links:
   - type: youtube
     url: https://www.youtube.com/watch?v=__SJWsWSD9M
+  - type: commands
+    url: ./vi-commands-gavin.txt
 attachments:
   - /assets/vi-commands-gavin.txt
 ---

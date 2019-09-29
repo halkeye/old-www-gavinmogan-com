@@ -1,5 +1,6 @@
 import { graphql, Link } from 'gatsby';
 import React from 'react';
+import { toPostInfo } from '../postUtils.js';
 
 import {
   Card,
@@ -59,44 +60,31 @@ class ItemsTemplate extends React.Component {
     const { mobile } = this.state;
     const { classes } = this.props;
     const { slug, urlPrefix } = this.props.pageContext;
-    const type = `allContentful${this.props.pageContext.type}`;
     const postOverlapClass = mobile ? 'post-overlap-mobile' : 'post-overlap';
-    const postNode = this.props.data[type];
-    const {
-      tags,
-      category,
-      image,
-      link,
-      links,
-      title,
-      attachments,
-      html
-    } = this.props.data[type];
+    const postNode = toPostInfo(this.props.markdownRemark);
     return (
-      <Layout location={this.props.location} title={title}>
+      <Layout location={this.props.location} title={postNode.title}>
         <div className="post-page md-grid md-grid--no-spacing">
           <SEO
-            postPath={slug}
+            postPath={postNode.slug}
             postNode={postNode}
             postSEO
             type="website"
-            tags={tags}
-            category={category}
+            tags={postNode.tags}
+            categories={postNode.categories}
           />
-          <PostCover cover={image} />
-          <div
-            className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
-          >
+          <PostCover cover={postNode.cover} />
+          <div className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}>
             <Card className="md-grid md-cell md-cell--12 post">
               <Link to={urlPrefix}>&lt; Back</Link>
               <CardContent className="post-body">
-                <Link to={link}>
-                  <Typography className={classes.title} color="textSecondary" variant="h2">{title}</Typography>
+                <Link to={postNode.link}>
+                  <Typography className={classes.title} color="textSecondary" variant="h2">{postNode.title}</Typography>
                 </Link>
-                <div dangerouslySetInnerHTML={{ __html: html }} />
+                <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
               </CardContent>
               <CardActions>
-                <PostTags tags={tags} />
+                <PostTags tags={postNode.tags} />
                 <SocialLinks
                   postPath={slug}
                   postNode={postNode}
@@ -128,61 +116,33 @@ class ItemsTemplate extends React.Component {
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query ItemBySlug($slug: String!) {
-    allContentfulProjects(filter: { slug: { eq: $slug } }) {
-      edges {
-        node {
-          id
-          link
-          links {
-            type
-            url
-          }
-          slug
-          tags
-          title
-          image {
-            fluid(maxWidth: 800, maxHeight: 320, cropFocus: CENTER) {
-              ...GatsbyContentfulFluid_withWebp
+     markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
+      frontmatter {
+        title
+        image {
+          childImageSharp {
+            fluid(maxWidth: 800, maxHeight: 320, cropFocus: ENTROPY) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
-          content {
-            childMarkdownRemark {
-              html
-            }
-          }
+        }
+        date
+        category
+        tags
+        attachments {
+          absolutePath
+          publicURL
+        }
+        link
+        links {
+          type
+          url
         }
       }
-    }
-    allContentfulPresentations(filter: { slug: { eq: $slug } }) {
-      edges {
-        node {
-          id
-          date
-          link
-          links {
-            type
-            url
-          }
-          slug
-          tags
-          title
-          image {
-            fluid(maxWidth: 800, maxHeight: 320, cropFocus: CENTER) {
-              ...GatsbyContentfulFluid_withWebp
-            }
-          }
-          content {
-            childMarkdownRemark {
-              html
-            }
-          }
-          attachments {
-            file {
-              url
-              fileName
-            }
-          }
-        }
+      fields {
+        sourceName
+        slug
       }
     }
   }

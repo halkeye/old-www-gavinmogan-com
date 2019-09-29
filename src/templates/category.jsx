@@ -7,7 +7,7 @@ import Layout from '../layouts/index.jsx';
 class CategoryTemplate extends React.Component {
   render () {
     const { category } = this.props.pageContext;
-    const postEdges = this.props.data.allContentfulBlogPosts.edges;
+    const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <Layout location={this.props.location} title={`Posts in category "${category}"`}>
         <div className="category-container">
@@ -26,39 +26,32 @@ export default CategoryTemplate;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query CategoryPage($category: String) {
-    allContentfulBlogPosts(
-      sort: {fields: date, order: DESC}
+    allMarkdownRemark(
       limit: 1000
-      filter: {category: {elemMatch: {slug: {eq: $category}}}}
+      filter: { fields: { sourceName: { eq: "blog" }, category: { eq: $category } } }
+      sort: { fields: [fields___date], order: DESC }
     ) {
       totalCount
       edges {
         node {
-          content {
-            childMarkdownRemark {
-              html
-              excerpt
-              timeToRead
-            }
-          }
-          slug
-          tags
-          title
-          date
-          cover {
-            fluid {
-              ...GatsbyContentfulFluid_withWebp
-            }
-          }
-          category {
+          excerpt
+          timeToRead
+          fields {
             slug
+            category
+          }
+          frontmatter {
             title
+            tags
+            cover {
+              childImageSharp {
+                fluid(maxWidth: 800, cropFocus: ENTROPY) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
+              }
+            }
+            date
           }
-          author {
-            slug
-            name
-          }
-          contentful_id
         }
       }
     }

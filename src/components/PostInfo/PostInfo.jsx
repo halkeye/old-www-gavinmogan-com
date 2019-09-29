@@ -5,8 +5,8 @@ import {
   Grid,
   withStyles
 } from '@material-ui/core';
+import kebabCase from 'lodash.kebabcase';
 import { Link } from 'gatsby';
-import _ from 'lodash';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import fasCalendar from '@fortawesome/fontawesome-free-solid/faCalendar';
 import fasFolderOpen from '@fortawesome/fontawesome-free-solid/faFolderOpen';
@@ -29,7 +29,7 @@ function PostInfo ({ postNode, classes }) {
       </Grid>
       <Grid item className={classes.CategoryLink}>
         {postNode.categories.map(category => (
-          <Link key={category.slug} to={`/categories/${_.kebabCase(category.slug)}`}>
+          <Link key={category.slug} to={`/categories/${kebabCase(category.slug)}`}>
             <CardHeader
               avatar={<Avatar><FontAwesomeIcon icon={fasFolderOpen} className="md-icon" /></Avatar>}
               title="In category"

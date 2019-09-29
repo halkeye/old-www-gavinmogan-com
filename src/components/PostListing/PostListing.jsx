@@ -18,7 +18,7 @@ const PostListing = ({ classes, postEdges }) => {
     <Grid>
       <div className={classes.postListing}>
         {postList.map(post => (
-          <PostPreview key={post.path} postInfo={post} />
+          <PostPreview key={post.slug} postInfo={post} />
         ))}
       </div>
     </Grid>
