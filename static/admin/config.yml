@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: halkeye/www-gavinmogan-com
-  branch: netlifycms
+  branch: master
   use_graphql: true
   site_domain: gavinmogan.com
 
