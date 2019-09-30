@@ -1,5 +1,7 @@
-import React, { Component } from 'react';
-import { Card, CardText, Button } from 'react-md/lib';
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Fab from '@material-ui/core/Fab';
+import { Card, CardText } from 'react-md/lib';
 import { Link } from 'gatsby';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import range from 'lodash/range';
@@ -9,18 +11,28 @@ import faAngleDoubleRight from '@fortawesome/fontawesome-free-solid/faAngleDoubl
 
 import './style.scss';
 
+const useStyles = makeStyles(theme => ({
+  fab: {
+    margin: theme.spacing(1)
+  },
+  extendedIcon: {
+    marginRight: theme.spacing(1)
+  }
+}));
+
 function PaginationButton ({ page, index }) {
+  const classes = useStyles();
   const url = page === 1 ? '' : page.toString();
   return (
-    <Link to={'./' + url}>
-      <Button
+    <Link to={'/' + url}>
+      <Fab
         title={`Go to page${page}`}
-        floating
-        secondary={index === page}
-        iconEl={<div>{page}</div>}
+        aria-label={`Go to page${page}`}
+        className={classes.fab}
+        color={index === page ? 'secondary' : 'primary'}
       >
         {page}
-      </Button>
+      </Fab>
     </Link>
   );
 }
@@ -41,42 +53,46 @@ const angleDoubleRight = (
   />
 );
 
-class Pagination extends Component {
-  render () {
-    const { index, pageCount } = this.props;
-    const pages = range(
-      clamp(index - 5, 1, pageCount),
-      clamp(index + 10, pageCount)
-    ).slice(0, 10);
-    // flex and center align it
-    return (
-      <Card raise className="md-grid md-cell md-cell--12 card-pagination">
-        <CardText style={{ textAlign: 'center' }}>
-          {!pages.includes(1) && (
-            <Link to={''.toString()}>
-              <Button
-                title="Go to first page"
-                floating
-                iconEl={angleDoubleLeft}
-              />
-            </Link>
-          )}
-          {pages.map(page => (
-            <PaginationButton key={page} page={page} index={index} />
-          ))}
-          {!pages.includes(pageCount - 1) && (
-            <Link to={'./' + (pageCount - 1).toString()}>
-              <Button
-                title="Go to last page"
-                floating
-                iconEl={angleDoubleRight}
-              />
-            </Link>
-          )}
-        </CardText>
-      </Card>
-    );
-  }
+function Pagination ({ index, pageCount }) {
+  const classes = useStyles();
+  const pages = range(
+    clamp(index - 5, 1, pageCount),
+    clamp(index + 9, pageCount)
+  ).slice(0, 10);
+  // flex and center align it
+  return (
+    <Card raise className="md-grid md-cell md-cell--12 card-pagination">
+      <CardText style={{ textAlign: 'center' }}>
+        {!pages.includes(1) && (
+          <Link to={''.toString()}>
+            <Fab
+              title="Go to first page"
+              aria-label="Go to first page"
+              color="primary"
+              className={classes.fab}
+            >
+              {angleDoubleLeft}
+            </Fab>
+          </Link>
+        )}
+        {pages.map(page => (
+          <PaginationButton key={page} page={page} index={index} />
+        ))}
+        {!pages.includes(pageCount - 1) && (
+          <Link to={'/' + (pageCount - 1).toString()}>
+            <Fab
+              title="Go to last page"
+              aria-label="Go to last page"
+              color="primary"
+              className={classes.fab}
+            >
+              {angleDoubleRight}
+            </Fab>
+          </Link>
+        )}
+      </CardText>
+    </Card>
+  );
 }
 
 export default Pagination;
