@@ -126,7 +126,10 @@ class About extends Component {
       <Fragment>
         <Card className={classes.section}>
           <CardContent className={classes.aboutWrapper}>
-            <ProfileImageLarge className={classes.aboutImage} alt={config.userName} />
+            <ProfileImageLarge
+              className={classes.aboutImage}
+              alt={config.userName}
+            />
             <CardContent>
               <p className={classes.aboutText}>{config.userDescription}</p>
             </CardContent>
@@ -137,9 +140,9 @@ class About extends Component {
         <Card className={classes.section}>
           <CardHeader title="Where can you find me?" />
           <CardContent>
-            <Grid container spacing={40} alignItems="flex-end">
+            <Grid container spacing={1} alignItems="flex-end">
               <Grid item key="nodeschoolyvr" xs={12} sm={6} md={8}>
-                { whereAmI.map(elm => (
+                {whereAmI.map(elm => (
                   <Card key={elm.key}>
                     <CardHeader title={elm.name} />
                     <CardContent>
@@ -147,13 +150,15 @@ class About extends Component {
                       {elm.description}
                     </CardContent>
                     <CardActions>
-                      {
-                        elm.links.map(link => (
-                          <Button href={link.url} key={link.title} color="secondary">
-                            {link.title}
-                          </Button>
-                        ))
-                      }
+                      {elm.links.map(link => (
+                        <Button
+                          href={link.url}
+                          key={link.title}
+                          color="secondary"
+                        >
+                          {link.title}
+                        </Button>
+                      ))}
                     </CardActions>
                   </Card>
                 ))}
