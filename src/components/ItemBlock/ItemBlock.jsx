@@ -1,48 +1,81 @@
 import React from 'react';
-import Image from 'gatsby-image';
-import { Link } from 'gatsby';
-import {
-  Button,
-  Card,
-  CardTitle,
-  CardText,
-  CardActions,
-  Media,
-  MediaOverlay,
-  Chip
-} from 'react-md/lib';
-import ItemBlockLinks from '../ItemBlockLinks/ItemBlockLinks.jsx';
+import { Link, graphql, useStaticQuery } from 'gatsby';
+import { makeStyles } from '@material-ui/core/styles';
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Typography from '@material-ui/core/Typography';
+import Chip from '@material-ui/core/Chip';
 
-import './itemblock.scss';
+import ItemBlockLinks from '../ItemBlockLinks/ItemBlockLinks.jsx';
+import PostCover from '../PostCover/PostCover.jsx';
+
+const useStyles = makeStyles({
+  card: {
+    width: '100%',
+    margin: 8,
+    maxWidth: 500
+  },
+  media: {
+    height: 405
+  }
+});
 
 export default function ItemBlock ({ slug, tags, cover, link, links, title, attachments, html, excerpt, urlPrefix }) {
+  const classes = useStyles();
+  if (!cover) {
+    const data = useStaticQuery(graphql`
+      query {
+        file(relativePath: { eq: "joshua-aragon-FkjaN-7gWC0-unsplash.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 320, cropFocus: ENTROPY) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    `);
+    cover = data?.file?.childImageSharp;
+  }
+
   return (
-    <Card key={slug} className="itemblock">
-      <Link to={`${urlPrefix}${slug}`}>
-        <Media>
-          {cover && <Image {...cover} />}
-          <MediaOverlay>
-            <CardTitle title={title}>
-              <Button
-                className="md-cell--right presentation-go-button"
-                target="blank"
-                type="button"
-                raised
-                secondary
-                href={link}
-              >
-                GO
-              </Button>
-            </CardTitle>
-          </MediaOverlay>
-        </Media>
-      </Link>
-      <CardText>
-        {tags && <div>{tags.map(tag => <Chip key={tag} label={tag} />)}</div>}
-        <span dangerouslySetInnerHTML={{ __html: excerpt || html }} />
-      </CardText>
+    <Card className={classes.card}>
+      <CardActionArea>
+        <a href={link}>
+          {cover && (
+            <CardMedia
+              className={classes.media}
+              component={PostCover}
+              cover={cover}
+              alt={title}
+              // height="140"
+              image={cover?.fluid?.src || cover?.fixed?.src}
+              title={title}
+            />
+          )}
+        </a>
+        <CardContent>
+          <Link to={`${urlPrefix}${slug}`}>
+            <Typography gutterBottom variant="h5" component="h2">
+              {title}
+            </Typography>
+          </Link>
+          {tags && (
+            <div>
+              {tags.map(tag => (
+                <Chip key={tag} label={tag} />
+              ))}
+            </div>
+          )}
+          <Typography variant="body2" color="textSecondary" component="p">
+            <span dangerouslySetInnerHTML={{ __html: excerpt || html }} />
+          </Typography>
+        </CardContent>
+      </CardActionArea>
       {links && (
-        <CardActions className="md-divider-border md-divider-border--top">
+        <CardActions>
           {links.map(l => (
             <ItemBlockLinks
               key={`link_${l.type}`}
@@ -55,3 +88,4 @@ export default function ItemBlock ({ slug, tags, cover, link, links, title, atta
     </Card>
   );
 }
+ItemBlock.defaultProps = {};

@@ -12,6 +12,7 @@ function toPostInfo (postEdge) {
     postEdge.node.fields = {};
   }
   const ret = {
+    id: postEdge.node.id,
     author: postEdge.node.frontmatter.author,
     categories: [postEdge.node.fields.category].filter(Boolean).map(cat => {
       return {
@@ -24,7 +25,7 @@ function toPostInfo (postEdge) {
     html: postEdge.node.html,
     htmlAst: postEdge.node.htmlAst,
     slug: postEdge.node.fields.slug,
-    tags: postEdge.node.frontmatter.tags,
+    tags: postEdge.node.frontmatter.tags || postEdge.node.fields.tags,
     timeToRead: postEdge.node.timeToRead,
     title: postEdge.node.frontmatter.title,
     links: postEdge.node.frontmatter.links,

@@ -16,12 +16,14 @@ const ProjectList = ({ nodes, onlyCategory }) => (
       if (!onlyCategory && category.length) {
         return null;
       }
-      return <ItemBlock
-        key={edge.id}
-        {...edge}
-        html={edge.html}
-        urlPrefix="/projects/"
-      />;
+      return (
+        <ItemBlock
+          key={edge.id}
+          {...edge}
+          html={edge.html}
+          urlPrefix="/projects/"
+        />
+      );
     })}
   </div>
 );
@@ -29,7 +31,9 @@ const ProjectList = ({ nodes, onlyCategory }) => (
 const ProjectsPage = ({ data, location }) => {
   const nodes = data.allMarkdownRemark.edges.map(toPostInfo);
   const categories = new Set();
-  nodes.forEach(node => node.categories.forEach(cat => categories.add(cat.slug)));
+  nodes.forEach(node =>
+    node.categories.forEach(cat => categories.add(cat.slug))
+  );
 
   return (
     <Layout location={location} title="Projects">
@@ -77,7 +81,7 @@ export const pageQuery = graphql`
             title
             image {
               childImageSharp {
-                fluid(maxWidth: 320, cropFocus: ENTROPY) {
+                fluid(maxHeight: 405, cropFocus: ENTROPY) {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
