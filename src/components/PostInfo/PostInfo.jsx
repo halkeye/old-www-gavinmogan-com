@@ -13,7 +13,7 @@ import fasFolderOpen from '@fortawesome/fontawesome-free-solid/faFolderOpen';
 
 const styles = theme => ({
   CategoryLink: {
-    marginRight: `${theme.spacing.unit * 3}px`
+    marginRight: `${theme.spacing(3)}px`
   }
 });
 
