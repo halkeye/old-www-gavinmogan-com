@@ -16,12 +16,11 @@ export default function PostCover ({ cover, className }) {
         }
       }
     `);
-    cover = data?.file;
+    cover = data?.file.childImageSharp;
   }
   return (
     <Image
-      outerWrapperClassName={className}
-      className="post-cover-image-wrapper"
+      className={`post-cover-image-wrapper ${className}`}
       {...cover}
     />
   );
