@@ -9,8 +9,13 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
+    titleTemplate: '%s | The Nameless Site',
     siteUrl: config.siteUrl + pathPrefix,
     siteDescription: config.siteDescription,
+    pathPrefix: config.pathPrefix,
+    siteLogo: config.siteLogo,
+    siteTitleAlt: config.siteTitleAlt,
+    userTwitter: config.userTwitter,
     rssMetadata: {
       site_url: config.siteUrl + pathPrefix,
       feed_url: config.siteUrl + pathPrefix + config.siteRss,
