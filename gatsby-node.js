@@ -14,7 +14,7 @@ function getSlugFromNode (node, fileNode) {
       return `/${kebabCase(node.frontmatter.slug)}`;
     }
     if (Object.prototype.hasOwnProperty.call(node.frontmatter, 'post_name')) {
-      return `${urlDatePrefix(node, fileNode)}/${node.frontmatter.post_name}`;
+      return `/${urlDatePrefix(node, fileNode)}/${node.frontmatter.post_name}`;
     }
   }
   const parsedFilePath = path.parse(fileNode.relativePath);
@@ -122,6 +122,7 @@ exports.createPages = async ({ graphql, actions }) => {
             edges {
               node {
                 fields {
+                  sourceName
                   slug
                 }
               }
@@ -135,11 +136,11 @@ exports.createPages = async ({ graphql, actions }) => {
       }
       result.data.allMarkdownRemark.edges.forEach(edge => {
         createPage({
-          path: `/${sourceName}s/${edge.node.fields.slug}`,
+          path: `/${edge.node.fields.sourceName}s${edge.node.fields.slug}`,
           component: itemPage,
           context: {
-            urlPrefix: `/${sourceName}s/`,
-            type: `${ucFirst(sourceName)}s`,
+            urlPrefix: `/${edge.node.fields.sourceName}s/`,
+            type: `${ucFirst(edge.node.fields.sourceName)}s`,
             slug: edge.node.fields.slug
           }
         });
