@@ -79,7 +79,6 @@ class PostTemplate extends React.Component {
           <SEO
             postPath={slug}
             postNode={post}
-            postSEO
             type="article"
             tags={post.tags}
             categories={post.categories}
@@ -119,6 +118,7 @@ class PostTemplate extends React.Component {
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
+      id
       htmlAst
       timeToRead
       excerpt

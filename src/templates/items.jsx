@@ -61,14 +61,13 @@ class ItemsTemplate extends React.Component {
     const { classes } = this.props;
     const { slug, urlPrefix } = this.props.pageContext;
     const postOverlapClass = mobile ? 'post-overlap-mobile' : 'post-overlap';
-    const postNode = toPostInfo(this.props.markdownRemark);
+    const postNode = toPostInfo({ node: this.props.data.markdownRemark });
     return (
       <Layout location={this.props.location} title={postNode.title}>
         <div className="post-page md-grid md-grid--no-spacing">
           <SEO
             postPath={postNode.slug}
             postNode={postNode}
-            postSEO
             type="website"
             tags={postNode.tags}
             categories={postNode.categories}
@@ -78,9 +77,9 @@ class ItemsTemplate extends React.Component {
             <Card className="md-grid md-cell md-cell--12 post">
               <Link to={urlPrefix}>&lt; Back</Link>
               <CardContent className="post-body">
-                <Link to={postNode.link}>
+                <a href={postNode.link}>
                   <Typography className={classes.title} color="textSecondary" variant="h2">{postNode.title}</Typography>
-                </Link>
+                </a>
                 <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
               </CardContent>
               <CardActions>
@@ -91,15 +90,15 @@ class ItemsTemplate extends React.Component {
                   mobile={mobile}
                 />
               </CardActions>
-              {links && (
+              {postNode.links && (
                 <React.Fragment>
                   <Divider />
                   <CardActions className="md-divider-border md-divider-border--top">
-                    {links.map(l => (
+                    {postNode.links.map(l => (
                       <ItemBlockLinks
                         key={`link_${l.type}`}
                         {...l}
-                        attachments={attachments}
+                        attachments={postNode.attachments}
                       />
                     ))}
                   </CardActions>
@@ -118,6 +117,7 @@ export const pageQuery = graphql`
   query ItemBySlug($slug: String!) {
      markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      id
       frontmatter {
         title
         image {

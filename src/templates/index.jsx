@@ -12,7 +12,7 @@ class IndexPage extends React.Component {
     return (
       <Layout location={this.props.location}>
         <div className="index-container">
-          <SEO postEdges={postEdges} />
+          <SEO />
           <PostListing postEdges={postEdges} />
           <Pagination index={index + 1} pageCount={paginatedPagesCount} />
         </div>
@@ -35,6 +35,7 @@ export const pageQuery = graphql`
       totalCount
       edges {
         node {
+          id
           excerpt
           timeToRead
           fields {

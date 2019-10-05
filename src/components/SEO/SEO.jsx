@@ -1,33 +1,53 @@
 import React from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
 import Helmet from 'react-helmet';
 import trimStart from 'lodash/trimStart';
-import config from '../../../data/SiteConfig';
 
 function SEO ({ postNode, postPath, postSEO, type, tags, categories }) {
-  let title = config.siteTitle;
-  let description = config.siteDescription;
-  let image = config.siteLogo;
-  const date = postNode.date;
+  const defaultData = useStaticQuery(graphql`
+    query SEO {
+      site {
+        siteMetadata {
+          title
+          titleTemplate
+          siteUrl
+          siteDescription
+          pathPrefix
+          siteLogo
+          siteTitleAlt
+          userTwitter
+        }
+      }
+    }
+  `).site.siteMetadata;
+
+  let title = defaultData.title;
+  let description = defaultData.siteDescription;
+  let image = defaultData.siteLogo;
+  let date;
   let postURL;
-  if (postSEO) {
+  if (postNode) {
     title = postNode.title;
     description = postNode.description || postNode.excerpt;
-    image = postNode.cover.fluid.src;
+    date = postNode.date;
+    if (postNode.cover) {
+      image = postNode.cover.fluid.src;
+    }
     // FIXME - image = get(postNode, 'frontmatter.cover.childImageSharp.sizes.src');
-    postURL = config.siteUrl + config.pathPrefix + trimStart(postPath || postNode.slug, '/');
+    postURL = defaultData.siteUrl + defaultData.pathPrefix + trimStart(postPath || postNode.slug, '/');
   }
-  image = config.siteUrl + config.pathPrefix + trimStart(image, '/');
-  const blogURL = config.siteUrl + config.pathPrefix;
+  image = defaultData.siteUrl + defaultData.pathPrefix + trimStart(image, '/');
+  const blogURL = defaultData.siteUrl + defaultData.pathPrefix;
   const schemaOrgJSONLD = [
     {
       '@context': 'http://schema.org',
       '@type': 'WebSite',
       url: blogURL,
       name: title,
-      alternateName: config.siteTitleAlt ? config.siteTitleAlt : ''
+      alternateName: defaultData.siteTitleAlt ? defaultData.siteTitleAlt : ''
     }
   ];
-  if (postSEO) {
+  if (postURL) {
     schemaOrgJSONLD.push([
       {
         '@context': 'http://schema.org',
@@ -49,7 +69,7 @@ function SEO ({ postNode, postPath, postSEO, type, tags, categories }) {
         '@type': 'BlogPosting',
         url: blogURL,
         name: title,
-        alternateName: config.siteTitleAlt ? config.siteTitleAlt : '',
+        alternateName: defaultData.siteTitleAlt ? defaultData.siteTitleAlt : '',
         headline: title,
         image: {
           '@type': 'ImageObject',
@@ -73,9 +93,9 @@ function SEO ({ postNode, postPath, postSEO, type, tags, categories }) {
       </script>
 
       {/* OpenGraph tags */}
-      <meta property="og:site_name" content={config.siteTitle} />
+      <meta property="og:site_name" content={defaultData.siteTitle} />
       <meta property="og:locale" content="en_US" />
-      <meta property="og:url" content={postSEO ? postURL : blogURL} />
+      <meta property="og:url" content={postURL || blogURL} />
       <meta property="og:type" content={type} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
@@ -85,19 +105,13 @@ function SEO ({ postNode, postPath, postSEO, type, tags, categories }) {
       )}
       <meta
         property="fb:app_id"
-        content={config.siteFBAppID ? config.siteFBAppID : ''}
+        content={defaultData.siteFBAppID ? defaultData.siteFBAppID : ''}
       />
 
       {/* Twitter Card tags */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta
-        name="twitter:creator"
-        content={config.userTwitter ? config.userTwitter : ''}
-      />
-      <meta
-        name="twitter:site"
-        content={config.userTwitter ? config.userTwitter : ''}
-      />
+      {defaultData.userTwitter && <meta name="twitter:creator" content={defaultData.userTwitter} />}
+      {defaultData.userTwitter && <meta name="twitter:site" content={defaultData.userTwitter} />}
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
@@ -110,7 +124,7 @@ function SEO ({ postNode, postPath, postSEO, type, tags, categories }) {
         />
       )}
       {tags && tags.map(tag => <meta name="article:tag" content={tag} key={tag} />)}
-      {categories && categories.map(category => <meta name="article:section" content={category} key={category} />)}
+      {categories && categories.map(category => <meta name="article:section" content={category.title} key={category.slug} />)}
       <meta
         name="article:author"
         content="https://www.gavinmogan.com/about/"
@@ -120,7 +134,7 @@ function SEO ({ postNode, postPath, postSEO, type, tags, categories }) {
 }
 
 SEO.defaultProps = {
-  postNode: {},
+  postNode: null,
   type: 'website',
   tags: [],
   categories: []

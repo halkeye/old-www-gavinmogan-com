@@ -11,6 +11,11 @@ function toPostInfo (postEdge) {
   if (!postEdge.node.fields) {
     postEdge.node.fields = {};
   }
+
+  if (!postEdge.node.id) {
+    throw new Error(`No id provided - ${JSON.stringify(postEdge.node)}`);
+  }
+
   const ret = {
     id: postEdge.node.id,
     author: postEdge.node.frontmatter.author,
@@ -20,7 +25,6 @@ function toPostInfo (postEdge) {
         title: cat
       };
     }),
-    date: new Date(postEdge.node.frontmatter.date),
     excerpt: postEdge.node.excerpt,
     html: postEdge.node.html,
     htmlAst: postEdge.node.htmlAst,
@@ -32,6 +36,10 @@ function toPostInfo (postEdge) {
     link: postEdge.node.frontmatter.link,
     attachments: postEdge.node.frontmatter.attachments
   };
+
+  if (postEdge.node.frontmatter.date) {
+    ret.date = new Date(postEdge.node.frontmatter.date);
+  }
   if (postEdge.node.frontmatter.cover) {
     ret.cover = postEdge.node.frontmatter.cover.childImageSharp;
   }

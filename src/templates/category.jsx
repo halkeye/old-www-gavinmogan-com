@@ -34,6 +34,7 @@ export const pageQuery = graphql`
       totalCount
       edges {
         node {
+          id
           excerpt
           timeToRead
           fields {
