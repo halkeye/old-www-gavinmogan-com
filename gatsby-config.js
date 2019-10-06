@@ -210,6 +210,7 @@ module.exports = {
             siteMetadata {
               rssMetadata {
                 site_url
+                siteUrl: site_url
                 feed_url
                 title
                 description
@@ -226,7 +227,7 @@ module.exports = {
             serialize (ctx) {
               const { rssMetadata } = ctx.query.site.siteMetadata;
               return ctx.query.allMarkdownRemark.edges.map(edge => {
-                const postInfo = toPostInfo(edge.node);
+                const postInfo = toPostInfo(edge);
                 return {
                   categories: postInfo.categories.map(c => c.slug),
                   date: postInfo.date,
@@ -248,6 +249,7 @@ module.exports = {
               ) {
                 edges {
                   node {
+                    id
                     html
                     excerpt
                     fields {

@@ -52,7 +52,7 @@ function toPostInfo (postEdge) {
 function urlDatePrefix (node) {
   if (node.frontmatter.date) {
     const date = new Date(node.frontmatter.date);
-    return `/${[date.getFullYear(), date.getMonth() + 1, date.getDate()]
+    return `${[date.getFullYear(), date.getMonth() + 1, date.getDate()]
       .map(v => String(v).padStart(2, '0'))
       .join('/')}`;
   }
