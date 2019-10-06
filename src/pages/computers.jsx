@@ -129,8 +129,8 @@ export default function ComputersPage ({ location }) {
         <h2>2003 Version</h2>
 
         {computers2003.map((computer, idx) => (
-          <>
-            <Card className={classes.card} key={computer.name}>
+          <React.Fragment key={computer.name}>
+            <Card className={classes.card}>
               <CardActionArea>
                 {computer.images.map(image => (
                   <a href={image.link} key={image.link} title={computer.name}>
@@ -175,7 +175,7 @@ export default function ComputersPage ({ location }) {
                 </CardContent>
               </CardActionArea>
             </Card>
-          </>
+          </React.Fragment>
         ))}
       </div>
     </Layout>
