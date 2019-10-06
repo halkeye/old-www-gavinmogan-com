@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'node:9'
+      image 'node:12'
     }
   }
 
@@ -13,7 +13,7 @@ pipeline {
   stages {
     stage('Install') {
       steps {
-        sh 'npm install'
+        sh 'npm ci'
       }
     }
 
