@@ -17,17 +17,18 @@ pipeline {
       }
     }
 
-    stage('Test') {
-      steps {
-        sh 'npm run lint:js'
-        sh 'npm run test'
-      }
-    }
     stage('Build') {
       steps {
         sh 'npm run clean'
         sh 'npm run build'
         sh 'test -e public/index.html || exit 1'
+      }
+    }
+
+    stage('Test') {
+      steps {
+        sh 'npm run lint:js'
+        sh 'npm run test'
       }
     }
 
