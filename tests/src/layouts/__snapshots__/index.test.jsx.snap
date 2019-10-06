@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`layout Renders 1`] = `
+<MainLayout
+  classes={
+    Object {
+      "grow": "MainLayout-grow-2",
+      "list": "MainLayout-list-4",
+      "menuButton": "MainLayout-menuButton-3",
+      "root": "MainLayout-root-1",
+    }
+  }
+  title="hi there"
+>
+  <div />
+</MainLayout>
+`;

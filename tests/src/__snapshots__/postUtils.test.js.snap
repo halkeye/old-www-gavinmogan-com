@@ -1,23 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Utils empty doesnt crash 1`] = `
-Object {
-  "attachments": undefined,
-  "author": undefined,
-  "categories": Array [],
-  "date": Date { NaN },
-  "excerpt": undefined,
-  "html": undefined,
-  "htmlAst": undefined,
-  "link": undefined,
-  "links": undefined,
-  "slug": undefined,
-  "tags": undefined,
-  "timeToRead": undefined,
-  "title": undefined,
-}
-`;
-
 exports[`Utils real doesnt crash 1`] = `
 Object {
   "attachments": undefined,
@@ -37,6 +19,7 @@ Object {
   "excerpt": "Got a tiny little pull request on a old hubot module I created a while ago, and it reminded me I was going to talk about open source. How…",
   "html": "<p>Test HTML</p>",
   "htmlAst": undefined,
+  "id": "something",
   "link": undefined,
   "links": undefined,
   "slug": "/open-source-and-me",
