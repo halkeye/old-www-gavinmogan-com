@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../layouts/index.jsx';
 
 const NotFoundPage = ({ location }) => {
-  if (typeof window !== `undefined`) {
+  if (typeof window !== 'undefined') {
     if (window.Raven) {
       window.Raven.captureMessage('got404');
     }

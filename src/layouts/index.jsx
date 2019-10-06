@@ -45,7 +45,7 @@ class MainLayout extends React.Component {
 
   handleClickAway = () => {
     this.setState({ drawerOpen: false });
-  }
+  };
 
   toggleDrawer = () => {
     this.setState({ drawerOpen: !this.state.drawerOpen });
