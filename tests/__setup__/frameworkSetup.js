@@ -8,6 +8,9 @@ beforeEach(() => {
   });
   const originalWarn = global.console.warn;
   jest.spyOn(global.console, 'warn').mockImplementation((...args) => {
+    if (args.join('').includes('Please update the following components: SideEffect(NullComponent)')) {
+      return;
+    }
     isConsoleWarningOrError = true;
     originalWarn(...args);
   });

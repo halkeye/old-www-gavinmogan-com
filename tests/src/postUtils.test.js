@@ -2,12 +2,10 @@
 const { toPostInfo } = require('../../src/postUtils.js');
 
 describe('Utils', () => {
-  it('empty doesnt crash', () => {
-    expect(toPostInfo()).toMatchSnapshot();
-  });
   it('real doesnt crash', () => {
     expect(toPostInfo({
       node: {
+        id: 'something',
         html: '<p>Test HTML</p>',
         timeToRead: 5,
         excerpt: 'Got a tiny little pull request on a old hubot module I created a while ago, and it reminded me I was going to talk about open source. How…',
