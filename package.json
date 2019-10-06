@@ -170,12 +170,13 @@
     "testEnvironment": "node",
     "testPathIgnorePatterns": [
       "/node_modules/",
-      "<rootDir>/.cache/"
+      "<rootDir>/.cache/",
+      "<rootDir>/public/"
     ],
     "globals": {
       "__PATH_PREFIX__": ""
     },
-    "transformIgnorePatterns": [],
+    "transformIgnorePatterns": ["node_modules/(?!(gatsby)/)"],
     "transform": {
       "^.+\\.jsx?$": "<rootDir>/tests/__setup__/transformer.js"
     },
