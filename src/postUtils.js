@@ -60,7 +60,11 @@ function urlDatePrefix (node) {
 }
 
 function getDateFromNode (node /* , fileNode */) {
-  return (node.frontmatter || {}).date || '';
+  const date = (node.frontmatter || {}).date || '';
+  if (date) {
+    return new Date(date).toISOString();
+  }
+  return date;
 }
 
 module.exports = {

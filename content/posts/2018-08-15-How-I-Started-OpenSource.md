@@ -2,7 +2,7 @@
 cover: "/assets/john-schnobrich-520023-unsplash.jpg"
 title: "Open source and me"
 post_name: "open-source-and-me"
-date: "Wed, 15 Aug 2018 21:09:24 -0700"
+date: 2018-08-15T21:09:24.790-0700
 author: "halkeye"
 category: "General"
 tags:
