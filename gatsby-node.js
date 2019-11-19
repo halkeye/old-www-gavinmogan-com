@@ -48,7 +48,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     if (node.frontmatter.cover) {
       node.frontmatter.cover = fileNode[node.frontmatter.cover] || node.frontmatter.cover;
     }
-    if (node.frontmatter.attachments) {
+    if (node.frontmatter.attachments && Array.isArray(node.frontmatter.attachments)) {
       node.frontmatter.attachments = node.frontmatter.attachments.map(a => {
         return fileNode[basename(a)] || a;
       });
