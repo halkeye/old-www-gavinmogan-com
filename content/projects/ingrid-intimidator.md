@@ -2,6 +2,7 @@
 title: Ingrid Intimidator
 link: https://apps.gavinmogan.com/ingrid/
 image: /assets/ingrid-intimidator.png
+category: critical hit show
 tags:
   - silly
   - critical hit show

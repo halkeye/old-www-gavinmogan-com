@@ -5,6 +5,7 @@ tags:
   - critical hit show
 date: 2019-11-19T00:12:06.799Z
 image: /assets/radiant-joanna.png
+category: critical hit show
 link: 'https://radiant-joanna.g4v.dev/'
 links: []
 ---
