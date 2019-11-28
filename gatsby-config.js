@@ -33,6 +33,7 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`
       }
     },
+    'gatsby-plugin-material-ui',
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
