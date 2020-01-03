@@ -6,7 +6,7 @@ backend:
   site_domain: gavinmogan.com
 
 display_url: https://www.gavinmogan.com
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 media_folder: static/assets
 public_folder: assets
 
