@@ -6,7 +6,7 @@ tags:
   - 3d printer
   - christmas
   - mom
-post_name: Christmas Present for mom
+post_name: winter-diorama-christmas-present
 author: halkeye
 category: General
 ---
