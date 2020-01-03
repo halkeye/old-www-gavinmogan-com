@@ -2,10 +2,23 @@
 import React from 'react';
 import { render } from 'enzyme';
 import Computers from '../../../src/pages/computers.jsx';
-// eslint-disable-next-line react/display-name
-jest.mock('../../../src/layouts/Headers.jsx', () => () => <div />);
-// eslint-disable-next-line react/display-name
-jest.mock('../../../src/components/ProfileImage/ProfileImage.jsx', () => () => <div />);
+import { useStaticQuery } from 'gatsby';
+
+beforeEach(() => {
+  useStaticQuery.mockImplementationOnce(() => {
+    return {
+      site: {
+        siteMetadata: {
+          userDescription: 'foo'
+        }
+      }
+    };
+  });
+});
+
+jest.mock('../../../src/layouts/Headers.jsx', () => function Headers () { return <div />; });
+jest.mock('../../../src/components/ProfileImage/ProfileImage.jsx', () => function ProfileImage () { return <div />; });
+jest.mock('../../../src/components/UserDescription/index.jsx', () => function UserDescription () { return <div />; });
 
 describe('computers', () => {
   test('Renders', () => {

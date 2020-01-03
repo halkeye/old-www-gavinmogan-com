@@ -1,4 +1,4 @@
-import { Link, graphql, StaticQuery } from 'gatsby';
+import { Link } from 'gatsby';
 import React from 'react';
 import {
   AppBar,
@@ -55,87 +55,74 @@ class MainLayout extends React.Component {
   render () {
     const { classes, children, title } = this.props;
     return (
-      <StaticQuery
-        query={graphql`
-          query HeadingQuery {
-            site {
-              siteMetadata {
-                userDescription
-              }
-            }
-          }
-        `}
-        render={data => (
-          <div className={classes.root}>
-            <Headers />
-            <AppBar position="static">
-              <Toolbar>
-                <IconButton className={classes.menuButton} color="inherit" aria-label="Menu" onClick={this.toggleDrawer}>
-                  <MenuIcon />
-                </IconButton>
-                <Typography variant="h4" color="inherit" className={classes.grow}>
-                  {title || 'Home'}
-                </Typography>
-              </Toolbar>
-            </AppBar>
-            <Drawer open={this.state.drawerOpen}>
-              <div className={classes.list}>
-                <ClickAwayListener onClickAway={this.handleClickAway}>
-                  <List>
-                    {
-                      GetNavList(config).map((userLink, idx) => {
-                        if (userLink.divider) {
-                          return <Divider key={idx} />;
-                        }
-                        if (userLink.href) {
-                          return (
-                            <ListItem key={idx}>
-                              <a tabIndex={idx} role="button" href={userLink.href}>{userLink.leftIcon} {userLink.primaryText}</a>
-                            </ListItem>
-                          );
-                        }
-                        return (
-                          <ListItem key={idx}>
-                            <Link tabIndex={idx} role="button" to={userLink.to}>{userLink.leftIcon} {userLink.primaryText}</Link>
-                          </ListItem>
-                        );
-                      })
+      <div className={classes.root}>
+        <Headers />
+        <AppBar position="static">
+          <Toolbar>
+            <IconButton className={classes.menuButton} color="inherit" aria-label="Menu" onClick={this.toggleDrawer}>
+              <MenuIcon />
+            </IconButton>
+            <Typography variant="h4" color="inherit" className={classes.grow}>
+              {title || 'Home'}
+            </Typography>
+          </Toolbar>
+        </AppBar>
+        <Drawer open={this.state.drawerOpen}>
+          <div className={classes.list}>
+            <ClickAwayListener onClickAway={this.handleClickAway}>
+              <List>
+                {
+                  GetNavList(config).map((userLink, idx) => {
+                    if (userLink.divider) {
+                      return <Divider key={idx} />;
                     }
-                  </List>
-                </ClickAwayListener>
-              </div>
-            </Drawer>
-            <section id="page">
-              <main id="body" className={classes.content}>
-                {children}
-              </main>
-              <aside id="profile">
-                <ProfileImage />
-                <h1>Gavin Mogan</h1>
-                <UserDescription />
-                <h2>Friends Sites</h2>
-                <ul>
-                  <li>
-                    <a rel="friend" href="https://forgreatjustice.ca/">
-                      For Great Justice
-                    </a>{' '}
-                    (<Link to="/tags/nigel">Nigel</Link>)
-                  </li>
-                </ul>
-                <p>Badges</p>
-                <a title="I Use Firefox" rel="nofollow" href="https://www.mozilla.org/firefox/this-browser-comes-highly-recommended/?utm_source=devs-for.firefox.com&utm_medium=referral&utm_campaign=devs-for-firefox&utm_content=I-Use-Firefox">
-                  <img style={{ border: '0 none' }}
-                    alt="I Use Firefox"
-                    srcSet="//code.cdn.mozilla.net/for-firefox/badges/assets/I-Use-Firefox.png,
-                    //code.cdn.mozilla.net/for-firefox/badges/assets/I-Use-Firefox-2x.png 2x"
-                    src="//code.cdn.mozilla.net/for-firefox/badges/assets/I-Use-Firefox.png" />
-                </a>
-              </aside>
-            </section>
-            <Footer />
+                    if (userLink.href) {
+                      return (
+                        <ListItem key={idx}>
+                          <a tabIndex={idx} role="button" href={userLink.href}>{userLink.leftIcon} {userLink.primaryText}</a>
+                        </ListItem>
+                      );
+                    }
+                    return (
+                      <ListItem key={idx}>
+                        <Link tabIndex={idx} role="button" to={userLink.to}>{userLink.leftIcon} {userLink.primaryText}</Link>
+                      </ListItem>
+                    );
+                  })
+                }
+              </List>
+            </ClickAwayListener>
           </div>
-        )}
-      />
+        </Drawer>
+        <section id="page">
+          <main id="body" className={classes.content}>
+            {children}
+          </main>
+          <aside id="profile">
+            <ProfileImage />
+            <h1>Gavin Mogan</h1>
+            <UserDescription />
+            <h2>Friends Sites</h2>
+            <ul>
+              <li>
+                <a rel="friend" href="https://forgreatjustice.ca/">
+                  For Great Justice
+                </a>{' '}
+                (<Link to="/tags/nigel">Nigel</Link>)
+              </li>
+            </ul>
+            <p>Badges</p>
+            <a title="I Use Firefox" rel="nofollow" href="https://www.mozilla.org/firefox/this-browser-comes-highly-recommended/?utm_source=devs-for.firefox.com&utm_medium=referral&utm_campaign=devs-for-firefox&utm_content=I-Use-Firefox">
+              <img style={{ border: '0 none' }}
+                alt="I Use Firefox"
+                srcSet="//code.cdn.mozilla.net/for-firefox/badges/assets/I-Use-Firefox.png,
+                //code.cdn.mozilla.net/for-firefox/badges/assets/I-Use-Firefox-2x.png 2x"
+                src="//code.cdn.mozilla.net/for-firefox/badges/assets/I-Use-Firefox.png" />
+            </a>
+          </aside>
+        </section>
+        <Footer />
+      </div>
     );
   }
 }
