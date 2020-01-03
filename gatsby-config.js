@@ -16,6 +16,7 @@ module.exports = {
     siteLogo: config.siteLogo,
     siteTitleAlt: config.siteTitleAlt,
     userTwitter: config.userTwitter,
+    userDescription: config.userDescription,
     rssMetadata: {
       site_url: config.siteUrl + pathPrefix,
       feed_url: config.siteUrl + pathPrefix + config.siteRss,

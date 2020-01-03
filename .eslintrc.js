@@ -20,6 +20,8 @@ module.exports = {
     "standard"
   ],
   "settings": {
+    'import/extensions': [ '.js', '.jsx' ],
+    'import/resolver': {'node': {'extensions': ['.js', '.jsx']}},
     "react": { "version": "detect" },
     "linkComponents": [
       {"name": "Link", "linkAttribute": "to"}

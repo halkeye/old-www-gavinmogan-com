@@ -4,6 +4,7 @@ import fasMapMarker from '@fortawesome/fontawesome-free-solid/faMapMarker';
 import IconSeparator from 'react-md/lib/Helpers/IconSeparator';
 import { Follow } from 'react-twitter-widgets';
 import UserLinks from '../UserLinks/UserLinks.jsx';
+import UserDescription from '../UserDescription';
 
 import {
   Avatar,
@@ -68,7 +69,8 @@ class UserInfo extends Component {
               <FontAwesomeIcon icon={fasMapMarker} />
             </IconSeparator>
           )}
-          <p>{userDescription && userDescription}</p>
+          {/* eslint-disable-next-line react/jsx-key */}
+          <UserDescription />
           {userLinksElement}
         </CardContent>
       </Card>

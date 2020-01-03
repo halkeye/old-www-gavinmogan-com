@@ -25,10 +25,10 @@ module.exports = {
   userAvatar:
     'https://s.gravatar.com/avatar/498c5ac6ca28f18f1e118c7081255793.png', // User avatar to display in the author segment.
   userDescription: `
-    I'm a software developer at the awesome Sauce Labs.
-    I do a bunch of other random open source development.
-    I also play games, both board and video games and love to read.
+    I'm Gavin. I'm a tinker, maker, and software developer. At home I code, game, hang out, all the cool non robot things to do.
+    Heavily involved with Jenkins open source, and will often submit PRs to random other projects.  I also play games, both board and video games and love to read.
     You can usually find me on various services as halkeye.
+    #notarobot
   `,
   userLinks: [
     {

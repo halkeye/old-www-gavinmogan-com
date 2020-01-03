@@ -11,6 +11,7 @@ import {
   Grid,
   TextField
 } from '@material-ui/core';
+import UserDescription from '../UserDescription';
 import UserLinks from '../UserLinks/UserLinks.jsx';
 import ProfileImageLarge from '../ProfileImage/ProfileImageLarge.jsx';
 import config from '../../../data/SiteConfig';
@@ -131,7 +132,9 @@ class About extends Component {
               alt={config.userName}
             />
             <CardContent>
-              <p className={classes.aboutText}>{config.userDescription}</p>
+              <div className={classes.aboutText}>
+                <UserDescription />
+              </div>
             </CardContent>
             <UserLinks labeled config={config} />
           </CardContent>
