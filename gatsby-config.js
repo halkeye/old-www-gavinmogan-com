@@ -273,7 +273,19 @@ module.exports = {
         ]
       }
     },
-    'gatsby-plugin-netlify',
+    {
+      resolve: 'gatsby-plugin-netlify',
+      options: {
+        headers: {
+          '/.well-known/matrix/*': [
+            'Content-Type: application/json',
+            'Access-Control-Allow-Origin: *',
+            'Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS',
+            'Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization'
+          ]
+        }
+      }
+    },
     {
       resolve: 'gatsby-plugin-sentry',
       options: {
