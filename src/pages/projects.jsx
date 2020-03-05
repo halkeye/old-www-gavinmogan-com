@@ -1,6 +1,6 @@
 import { graphql } from 'gatsby';
 import React from 'react';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import ItemBlock from '../components/ItemBlock/ItemBlock.jsx';
 import SubHeader from '../components/SubHeader/SubHeader.jsx';
 import Layout from '../layouts/index.jsx';

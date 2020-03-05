@@ -2,7 +2,7 @@ import { graphql } from 'gatsby';
 import React from 'react';
 import RehypeReact from 'rehype-react';
 import Gist from 'react-gist';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 import {
   Card,

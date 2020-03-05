@@ -1,5 +1,5 @@
 import React from 'react';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import About from '../components/About/About.jsx';
 import Layout from '../layouts/index.jsx';
 
