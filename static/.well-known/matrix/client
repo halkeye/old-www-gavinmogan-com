@@ -1,6 +1,6 @@
 {
     "m.homeserver": {
-        "base_url": "https://client.g4v.dev"
+        "base_url": "https://matrix.g4v.dev"
     },
     "m.identity_server": {
         "base_url": "https://vector.im"
