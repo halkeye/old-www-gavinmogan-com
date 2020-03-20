@@ -111,14 +111,11 @@ class MainLayout extends React.Component {
                 (<Link to="/tags/nigel">Nigel</Link>)
               </li>
             </ul>
-            <p>Badges</p>
-            <a title="I Use Firefox" rel="nofollow" href="https://www.mozilla.org/firefox/this-browser-comes-highly-recommended/?utm_source=devs-for.firefox.com&utm_medium=referral&utm_campaign=devs-for-firefox&utm_content=I-Use-Firefox">
-              <img style={{ border: '0 none' }}
-                alt="I Use Firefox"
-                srcSet="//code.cdn.mozilla.net/for-firefox/badges/assets/I-Use-Firefox.png,
-                //code.cdn.mozilla.net/for-firefox/badges/assets/I-Use-Firefox-2x.png 2x"
-                src="//code.cdn.mozilla.net/for-firefox/badges/assets/I-Use-Firefox.png" />
-            </a>
+            <h2>Federverse</h2>
+            <ul>
+              <li><a rel="me" href="https://toot.cafe/@halkeye">Mastodon</a></li>
+              <li><a rel="me" href="https://matrix.to/#/@halkeye:g4v.dev">Matrix</a></li>
+            </ul>
           </aside>
         </section>
         <Footer />
