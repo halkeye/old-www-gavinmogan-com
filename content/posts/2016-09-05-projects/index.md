@@ -7,7 +7,6 @@ post_name: "projects"
 status: "publish"
 category: "Internet"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 I really need to remember to post here more often. What have I been up lately? A bunch of traveling for work.

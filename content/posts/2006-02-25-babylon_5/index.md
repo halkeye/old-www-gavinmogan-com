@@ -7,7 +7,6 @@ post_name: "babylon_5"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Nothing quite like a day of coding and watching my brand new babylon 5 dvds!

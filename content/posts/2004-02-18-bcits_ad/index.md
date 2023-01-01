@@ -7,7 +7,6 @@ post_name: "bcits_ad"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 I find BCIT's ad a bit ironic.

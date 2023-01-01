@@ -7,7 +7,6 @@ post_name: "feb-1st-2014-unique-milestone"
 status: "publish"
 category: "People"
 tags: ['dating', 'personal', 'single']
-cover: "/assets/cover-image.jpg"
 ---
 
 This will be one of my rare non tech posts on this blog (I think).

@@ -7,7 +7,6 @@ post_name: "jedi_academy"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Just finished _Jedi Academy_. I didn't enjoy it nearly as much as I did _Jedi Outcast_ Although I never did finish playing that one through.

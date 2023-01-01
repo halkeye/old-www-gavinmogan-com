@@ -7,7 +7,6 @@ post_name: "pick_pocketing"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 I think the next skill I should learn is pick pocketing  

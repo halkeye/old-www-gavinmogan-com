@@ -7,7 +7,6 @@ post_name: "gavin-mental-health"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Since [@geekmentalhelp](https://geekmentalhelp.com/) is doing a week of articles talking about mental health, I've decided to nudge myself into doing something as well. This is even more scary now that some of my posts are getting tweeted/shared out by work so I'm actually having visitors.

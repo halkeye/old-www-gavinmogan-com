@@ -7,7 +7,6 @@ post_name: "mtljpost_1_0_3_released"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 <s>1.0.3</s>1.0.4 Released

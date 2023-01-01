@@ -7,7 +7,6 @@ post_name: "dovecot_and_squirrelmail"
 status: "publish"
 category: "Linux"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Man, [dovecot](https://www.dovecot.org/) is more my favorite email imap server software.

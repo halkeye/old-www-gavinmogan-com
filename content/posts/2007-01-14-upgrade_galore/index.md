@@ -7,7 +7,6 @@ post_name: "upgrade_galore"
 status: "publish"
 category: "Web"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Yay! Spent the day on the server.

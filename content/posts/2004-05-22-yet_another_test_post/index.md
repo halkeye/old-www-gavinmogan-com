@@ -7,7 +7,6 @@ post_name: "yet_another_test_post"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 POSTIEEE

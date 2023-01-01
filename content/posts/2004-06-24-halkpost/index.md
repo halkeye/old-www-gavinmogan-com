@@ -7,7 +7,6 @@ post_name: "halkpost"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Starting to work on this code again. Slowly working on migrating my entire site over to the new codebase.

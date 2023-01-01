@@ -7,7 +7,6 @@ post_name: "catch_phrases"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Ever wonder how they get started? Or if you are the one who started it?  

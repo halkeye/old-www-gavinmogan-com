@@ -7,7 +7,6 @@ post_name: "new_mtljpost_version"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 [ New Version of MTLJPost 1.9.2](https://kodekoan.com/projects/mtplugins/MTLJPost/1.9.2/)

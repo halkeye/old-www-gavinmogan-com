@@ -7,7 +7,6 @@ post_name: "tron"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 HAHA!

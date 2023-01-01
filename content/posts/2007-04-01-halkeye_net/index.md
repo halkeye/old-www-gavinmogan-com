@@ -7,7 +7,6 @@ post_name: "halkeye_net"
 status: "publish"
 category: "Web"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Sweet. All upgraded to drupal 5..0 now.

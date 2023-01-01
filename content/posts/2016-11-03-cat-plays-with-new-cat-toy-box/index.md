@@ -7,7 +7,6 @@ post_name: "cat-plays-with-new-cat-toy-box"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 I never know how to start these :)

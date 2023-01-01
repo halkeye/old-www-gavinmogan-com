@@ -7,7 +7,6 @@ post_name: "meow"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Not so much as dead, as more like, busy.

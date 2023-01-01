@@ -7,7 +7,6 @@ post_name: "mail_server_upgrades"
 status: "publish"
 category: "Linux"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Sweet, now anyone who has an account can use my server wherever they go.

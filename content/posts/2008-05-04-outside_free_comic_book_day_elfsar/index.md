@@ -7,7 +7,6 @@ post_name: "outside_free_comic_book_day_elfsar"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 ![](https://farm3.static.flickr.com/2184/2462993639_ff05c2548e_m.jpg)

@@ -7,7 +7,6 @@ post_name: "apache_modifications"
 status: "publish"
 category: "Work"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 To.. well sometime soom I get to hack mod_mysql_auth (or mod_auth_mysql.. or whatever)

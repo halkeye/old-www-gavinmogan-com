@@ -7,7 +7,6 @@ post_name: "new_mirc_fixes_bugs"
 status: "publish"
 category: "Applications"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 [mIRC 6.12 has been released!](https://www.mirc.com/)

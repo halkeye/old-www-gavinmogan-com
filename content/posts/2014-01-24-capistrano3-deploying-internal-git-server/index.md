@@ -7,7 +7,6 @@ post_name: "capistrano3-deploying-internal-git-server"
 status: "publish"
 category: "Internet"
 tags: ['amazon', 'capistrano', 'programming', 'ruby']
-cover: "/assets/cover-image.jpg"
 ---
 
 **Edit:** I updated my ["hack"](/2014/06/06/update-capistrano-hack/) to work with newer versions of capistrano/sshkit

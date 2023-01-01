@@ -7,7 +7,6 @@ post_name: "gavin_got_game"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 ![](4201688685_95deeee9ac.jpg)

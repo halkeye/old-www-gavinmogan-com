@@ -7,7 +7,6 @@ post_name: "gay_marrages"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Its only a matter of time before some activist group pushes for same person marriages...

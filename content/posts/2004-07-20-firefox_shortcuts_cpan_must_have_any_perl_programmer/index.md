@@ -7,7 +7,6 @@ post_name: "firefox_shortcuts_cpan_must_have_any_perl_programmer"
 status: "publish"
 category: "Internet"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 ![](bookmarks1.jpg)  

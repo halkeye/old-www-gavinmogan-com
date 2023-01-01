@@ -7,7 +7,6 @@ post_name: "got_kingdom_hearts"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 15:47 &lt; halkeye&gt; hahah  

@@ -7,7 +7,6 @@ post_name: "work"
 status: "publish"
 category: "Work"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Is it sad I miss work?  

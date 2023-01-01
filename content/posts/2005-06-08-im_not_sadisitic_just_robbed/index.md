@@ -7,7 +7,6 @@ post_name: "im_not_sadisitic_just_robbed"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Man, yet another screech without a crash.

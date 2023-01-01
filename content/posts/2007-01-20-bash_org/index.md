@@ -7,7 +7,6 @@ post_name: "bash_org"
 status: "publish"
 category: "Web"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 If the word 'rofl' appears in a bash.org quote, be concerned.

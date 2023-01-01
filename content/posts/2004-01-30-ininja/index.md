@@ -7,7 +7,6 @@ post_name: "ininja"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 ![](./Composite_Jan_30_005.jpg)

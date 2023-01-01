@@ -7,7 +7,6 @@ post_name: "trillian_pro_mi"
 status: "publish"
 category: "Applications"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 ![](https://gallery.halkeye.net/albums/screenshots/untitled.thumb.jpg)Got my grubby little hands on a copy of Trillian Pro tonight (Do NOT ask how.. I'm just trying it.. Tis all)

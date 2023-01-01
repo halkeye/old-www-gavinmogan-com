@@ -7,7 +7,6 @@ post_name: "vancouver"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 ![](4201503540_90927b8c13.jpg)

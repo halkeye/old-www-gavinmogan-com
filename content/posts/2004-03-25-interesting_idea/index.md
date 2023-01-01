@@ -7,7 +7,6 @@ post_name: "interesting_idea"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 [18:01] halkeye&gt; you think a web based icq or aim program like squirrelmail is would be useful at all?  

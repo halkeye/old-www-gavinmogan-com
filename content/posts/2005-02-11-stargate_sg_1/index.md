@@ -7,7 +7,6 @@ post_name: "stargate_sg_1"
 status: "publish"
 category: "Geek"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Have been finishing off watching my Stargate SG-1 Season 7 dvds. I can't figure out why they replaced [Dr Wei](https://www.imdb.com/name/nm0824763/) with a [new actress](https://www.imdb.com/name/nm0383533/). I actually think the first one was a better fit for the role. And according to Jessica Steen (first actress)'s website, she didn't know why her character was re-casted.

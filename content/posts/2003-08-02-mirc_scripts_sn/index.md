@@ -7,7 +7,6 @@ post_name: "mirc_scripts_sn"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 For those like myself, who use multiple servers and like to keep their nick name synchronized (IE /nick gali|work will set it to all servers)

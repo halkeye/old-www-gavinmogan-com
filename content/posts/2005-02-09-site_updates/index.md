@@ -7,7 +7,6 @@ post_name: "site_updates"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Apparently during the move to [ev1servers](https://ev1servers.net), alot of things broke.

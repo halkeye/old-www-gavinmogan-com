@@ -7,7 +7,6 @@ post_name: "stargate_atlantis_and_more"
 status: "publish"
 category: "TV"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 This being sweeps week, and me being sick for now.. 6 days, I've had the chance to watch ALOT of tv shows. It was really interesting to compare the pre-air to the one aired this week of both reaper and bionic woman. I knew reaper was replacing a cast member, and you could easily tell all they did was replace the scenes with the one girl in them (she wasn't in any of the expensive ones anyways). Now bionic woman, they replaced a good chunk of cast, characters, and even minor plot points. Even with all the changes, it didn't seem all that much better, although the flow of the story didn't seem.. chunky like before, now really smooth flow between things.

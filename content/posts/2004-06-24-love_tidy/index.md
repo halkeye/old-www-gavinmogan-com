@@ -7,7 +7,6 @@ post_name: "love_tidy"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 I've fallen in love with [tidy-proxy](https://tidy-proxy.freesources.org/). Its a simple little program that sits in front of you and the internet, and checks every incoming site for valid html and such..

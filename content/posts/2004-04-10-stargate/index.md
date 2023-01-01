@@ -7,7 +7,6 @@ post_name: "stargate"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 So mom like found me a copy of stargate season 6 cheaper than normal this week.

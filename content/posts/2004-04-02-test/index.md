@@ -7,7 +7,6 @@ post_name: "test"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 This is a test of the <s>emergancy broadcasting service</s> thing.  

@@ -7,7 +7,6 @@ post_name: "gentoo"
 status: "publish"
 category: "Linux"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 I just doubled my respect for [gentoo](https://www.gentoo.org) tonight.

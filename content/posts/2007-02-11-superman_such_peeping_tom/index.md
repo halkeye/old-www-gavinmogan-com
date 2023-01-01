@@ -7,7 +7,6 @@ post_name: "superman_such_peeping_tom"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Watching superman returns (don't ask why)..

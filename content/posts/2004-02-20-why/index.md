@@ -7,7 +7,6 @@ post_name: "why"
 status: "publish"
 category: "Humor"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Why is it called a booby trap?

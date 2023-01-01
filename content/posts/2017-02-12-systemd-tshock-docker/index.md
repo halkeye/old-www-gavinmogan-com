@@ -7,7 +7,6 @@ post_name: "systemd-tshock-docker"
 status: "publish"
 category: "General"
 tags: ['docker', 'systemd', 'terraria', 'tshock']
-cover: "/assets/cover-image.jpg"
 ---
 
 I've been diving pretty head long into running services with docker. I've ported someone's mineos and patched it to run in docker with a custom set of users. I have factorio server running. Even openhab running my meager home automation setup. Its the easiest way to run an application and not worry about system depaendancies.

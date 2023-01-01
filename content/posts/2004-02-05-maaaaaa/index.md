@@ -7,7 +7,6 @@ post_name: "maaaaaa"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 But MAAAAA, I tried to sleep! I really did!

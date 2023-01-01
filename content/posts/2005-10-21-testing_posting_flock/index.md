@@ -7,7 +7,6 @@ post_name: "testing_posting_flock"
 status: "publish"
 category: "Web"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 New buzz browser just came out.  

@@ -7,7 +7,6 @@ post_name: "docker-pi-hole-dnssec-dnscrypt"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 My home network has been having issues. Mostly it seems between the [chromecast packet flooding](https://www.engadget.com/2018/01/16/google-chromecast-messing-wifi-connections/) bug and something to do with WiFi + android 8.1, but things will drop connections. I've eventually had to make one WiFi for my important stuff, and one for the random gadgets (which I probably should have done anyways). I'm not certain either of these things were happening, but they seemed to line up.

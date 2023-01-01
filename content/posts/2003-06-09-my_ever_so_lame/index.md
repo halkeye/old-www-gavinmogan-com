@@ -7,7 +7,6 @@ post_name: "my_ever_so_lame"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 I've noticed lately how a lot of music is mainly popular, or more noticably not popular due to how an artist acts or looks or whatever.

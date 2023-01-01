@@ -7,7 +7,6 @@ post_name: "xargs_fun"
 status: "publish"
 category: "Linux"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 I know I havn't been posting much recently, and its been a combo of being sick, being depressed, and .. well.. nothing of interest coming up. But i'm going to try and fix that with some interesting posts.

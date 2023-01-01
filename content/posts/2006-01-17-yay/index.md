@@ -7,7 +7,6 @@ post_name: "yay"
 status: "publish"
 category: "Geek"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 yay!

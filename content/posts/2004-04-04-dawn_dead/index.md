@@ -7,7 +7,6 @@ post_name: "dawn_dead"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Went and saw [Dawn of the Dead](https://www.dawnofthedeadmovie.net/) with a bunch of old classmates. It was good to hang out with evan again, and I havn't seen Malcom or Baastian or Patrica (who was so different this time, it was weird) in like a LONG time. So it was really cool. Went to Japanese resteraunt, tried japanese food for the first time, since it was all you can eat, I like that kind of food, I've finally had the chance, so it was good.

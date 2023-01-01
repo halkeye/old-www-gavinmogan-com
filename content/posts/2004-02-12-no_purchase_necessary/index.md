@@ -7,7 +7,6 @@ post_name: "no_purchase_necessary"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 I've always wondered why contests always say "No Purchase Necessary" except you need to buy a product to get the information to enter the contest.

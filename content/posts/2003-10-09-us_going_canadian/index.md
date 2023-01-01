@@ -7,7 +7,6 @@ post_name: "us_going_canadian"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Yea, so I can't exactly find any online proof, But I saw a commercial today...

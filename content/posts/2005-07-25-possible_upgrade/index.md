@@ -7,7 +7,6 @@ post_name: "possible_upgrade"
 status: "publish"
 category: "Linux"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 After a couple of emails about MTLJPost and working with MT for [HiSciFi](https://www.hiscifi.com), I think I might go back to using MT.

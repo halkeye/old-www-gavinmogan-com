@@ -7,7 +7,6 @@ post_name: "vancouver_way_life"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 22:08 &lt; halkeye&gt; give a man a fish, you feed him for a day  

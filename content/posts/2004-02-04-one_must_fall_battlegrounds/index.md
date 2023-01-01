@@ -7,7 +7,6 @@ post_name: "one_must_fall_battlegrounds"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 ![](clp82.png) How to put this kindly....

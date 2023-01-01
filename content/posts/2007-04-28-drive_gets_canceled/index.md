@@ -7,7 +7,6 @@ post_name: "drive_gets_canceled"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Its my new favorite show.. its hard to find a drama, specially a fox drama that i'll watch once, let alone multiple times but i've watch drive eps I have many times now.. MANY!!!  

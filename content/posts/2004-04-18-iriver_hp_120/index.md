@@ -7,7 +7,6 @@ post_name: "iriver_hp_120"
 status: "publish"
 category: "Music"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 ![](iriver.jpg)

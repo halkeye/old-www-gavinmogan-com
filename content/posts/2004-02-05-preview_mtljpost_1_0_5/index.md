@@ -7,7 +7,6 @@ post_name: "preview_mtljpost_1_0_5"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 ![](clp83.png)

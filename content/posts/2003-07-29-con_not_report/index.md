@@ -7,7 +7,6 @@ post_name: "con_not_report"
 status: "publish"
 category: "Anime"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 (Yes Yes, transcribed directly from my lj, so its not really that good, but its been 2 days now, and i havn't felt like writing something better yet)

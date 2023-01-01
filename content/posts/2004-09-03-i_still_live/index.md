@@ -7,7 +7,6 @@ post_name: "i_still_live"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Working hard at [River Styx Internet](https://www.riverstyx.net).  

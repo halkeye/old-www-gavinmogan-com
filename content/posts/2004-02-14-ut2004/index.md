@@ -7,7 +7,6 @@ post_name: "ut2004"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 OnSlaught Rules!!! I just love that mode.  

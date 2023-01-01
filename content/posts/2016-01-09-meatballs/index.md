@@ -7,7 +7,6 @@ post_name: "meatballs"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 So this year my mom decided I should have a KitchenAid Mix Master for christmas. So far I'm loving it.

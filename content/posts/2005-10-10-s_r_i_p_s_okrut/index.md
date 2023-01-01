@@ -7,7 +7,6 @@ post_name: "s_r_i_p_s_okrut"
 status: "publish"
 category: "Geek"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 <s>R.I.P [OKRUT](https://www.okrut.com).</s>  

@@ -7,7 +7,6 @@ post_name: "it_seems_im_all"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 It seems I'm All up to date software wise, I guess that wasn't nearly as hard as I thought it would be.

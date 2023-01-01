@@ -7,7 +7,6 @@ post_name: "im_so_much_love_google_video"
 status: "publish"
 category: "Web"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 I've been searching around alot with google video. Its amazing all the videos out there.

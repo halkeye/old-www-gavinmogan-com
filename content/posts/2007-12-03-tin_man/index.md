@@ -7,7 +7,6 @@ post_name: "tin_man"
 status: "publish"
 category: "TV"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Wow, [Tin Man](https://www.scifi.com/tinman/) is... well it has zooey...

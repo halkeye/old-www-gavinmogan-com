@@ -7,7 +7,6 @@ post_name: "mod_perl"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Yea. Really lacking in interesting content lately, mainly due to working hard to complete projects and just.. working.

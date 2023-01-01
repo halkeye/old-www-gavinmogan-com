@@ -7,7 +7,6 @@ post_name: "cjsf_changed_thier_schema_again"
 status: "publish"
 category: "Web"
 tags: ['hiscifi', 'dr who']
-cover: "/assets/cover-image.jpg"
 ---
 
 So I figured out why my “leeching” script doesn’t work anymore. They disabled authentication. So I spent a couple hours today cleaning it up and making it more flexible. It also should work for any date as long as its in the system, no longer assuming files are in certain paths.. It actually uses the search functionality built into their archive system to grab it.

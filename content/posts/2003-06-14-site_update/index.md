@@ -7,7 +7,6 @@ post_name: "site_update"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Finished my [computers](/computers/) page about 30 minutes ago, been tweaking things, trimming the sidebar a bit.

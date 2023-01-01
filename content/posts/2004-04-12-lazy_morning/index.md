@@ -7,7 +7,6 @@ post_name: "lazy_morning"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 So yea, Havn't watched any TV since I reinstalled linux on this machine, except for yesterday morning while I was eating breakfast, and this morning.

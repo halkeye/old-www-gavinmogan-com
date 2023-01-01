@@ -7,7 +7,6 @@ post_name: "grounded"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 ![Groundedpromophotolutalicatheatre-768x768.jpg](Groundedpromophotolutalicatheatre-768x768.jpg)Only a week later. I’m getting way better at this.

@@ -7,7 +7,6 @@ post_name: "ewww_perl_semantics"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 ```perl

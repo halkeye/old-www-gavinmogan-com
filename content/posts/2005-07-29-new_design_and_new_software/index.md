@@ -7,7 +7,6 @@ post_name: "new_design_and_new_software"
 status: "publish"
 category: "Geek"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Yes, i'm back, back on Movable Type.  

@@ -7,7 +7,6 @@ post_name: "emails"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Muhahahah. Been playing with Outlook 2003 as I now have a legal key from school (no more fighting with open office to read school crap).

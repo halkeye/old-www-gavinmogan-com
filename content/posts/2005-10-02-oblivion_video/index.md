@@ -7,7 +7,6 @@ post_name: "oblivion_video"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Whoaaa

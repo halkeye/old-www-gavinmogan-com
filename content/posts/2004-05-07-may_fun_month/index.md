@@ -7,7 +7,6 @@ post_name: "may_fun_month"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 today is no pants day!  

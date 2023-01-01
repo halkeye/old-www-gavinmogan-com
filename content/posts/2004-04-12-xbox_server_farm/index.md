@@ -7,7 +7,6 @@ post_name: "xbox_server_farm"
 status: "publish"
 category: "Geek"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Is it wrong I have an urge to put together an XBOX Server farm?  

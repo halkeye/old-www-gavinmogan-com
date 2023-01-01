@@ -7,7 +7,6 @@ post_name: "piracy"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Interesting thing society has turned into, piracy, theif, murder, all becomeing so common, people just don't seem to blink much anymore.

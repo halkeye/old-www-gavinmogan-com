@@ -7,7 +7,6 @@ post_name: "i-keep-losing-this-tweet"
 status: "publish"
 category: "People"
 tags: ['random thoughts', 'twitter', 'victoria']
-cover: "/assets/cover-image.jpg"
 ---
 
 I use the favorites/love feature on twitter to come back to things later.

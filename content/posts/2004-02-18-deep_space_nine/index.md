@@ -7,7 +7,6 @@ post_name: "deep_space_nine"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 I can't belive the coisidence..

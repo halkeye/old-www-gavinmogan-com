@@ -7,7 +7,6 @@ post_name: "email_love"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 ![Screenshot of Mozilla Thunderbird](3018_8f63e91df34bc1b2683e96e21a98a5ec.png)

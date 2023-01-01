@@ -7,7 +7,6 @@ post_name: "futureshop_woes"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 So about a week ago now my camera's LCD window cracked/broke. I honestly am not sure how it happened, but i'm fairly certain, due to not having any case or other protection, its my fault.

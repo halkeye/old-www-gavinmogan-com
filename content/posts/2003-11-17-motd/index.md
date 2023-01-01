@@ -7,7 +7,6 @@ post_name: "motd"
 status: "publish"
 category: "Humor"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Duude, irc.desync.com has the absolute best motd I've seen in a long time.

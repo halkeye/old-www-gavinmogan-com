@@ -7,7 +7,6 @@ post_name: "busy-week"
 status: "publish"
 category: "Work"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Got lots of things committed this week.

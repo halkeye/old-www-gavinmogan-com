@@ -7,7 +7,6 @@ post_name: "telltales-back-to-the-future"
 status: "publish"
 category: "PC"
 tags: ['back to the future']
-cover: "/assets/cover-image.jpg"
 ---
 
 The [Back to the Future Game](https://www.telltalegames.com/backtothefuture/) game created by Telltale came out in December 2010. As of yesterday (Feb 7th 2016) I finally got around to finishing the game. That's over 5 years for those who are doing math.

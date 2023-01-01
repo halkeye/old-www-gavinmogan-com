@@ -7,7 +7,6 @@ post_name: "yay_used_books"
 status: "publish"
 category: "Books"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Went to the used book store with mom today..

@@ -7,7 +7,6 @@ post_name: "firefox_shortcut_domain_names"
 status: "publish"
 category: "Internet"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 If you are like me, and just like going to common sites quickly.

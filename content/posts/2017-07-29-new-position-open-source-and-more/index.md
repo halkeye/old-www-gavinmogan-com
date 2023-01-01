@@ -7,7 +7,6 @@ post_name: "new-position-open-source-and-more"
 status: "publish"
 category: "Work"
 tags: ['atlassian connect', 'bamboohr', 'jira', 'open source', 'sauce labs']
-cover: "/assets/cover-image.jpg"
 ---
 
 I recently switched teams at Sauce Labs. I used to be the sole person on the Integrations team, and after more than a year feeling pretty isolated, my mental state was slipping pretty hard, so when an opportunity came up to switch departments, I took it.

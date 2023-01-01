@@ -7,7 +7,6 @@ post_name: "oceans_11"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 galimon: i wish julia roberts was not in oceans 11  

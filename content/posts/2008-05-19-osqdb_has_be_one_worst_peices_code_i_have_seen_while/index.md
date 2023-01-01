@@ -7,7 +7,6 @@ post_name: "osqdb_has_be_one_worst_peices_code_i_have_seen_while"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Tonight I was trying to convert the old custom quote system I used for #arc to qdb just for fun. I was trying to find out the code used by qdb.us/bash.org but came across this peice of code called OSQDB.

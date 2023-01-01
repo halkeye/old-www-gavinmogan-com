@@ -7,7 +7,6 @@ post_name: "yaoirpg"
 status: "publish"
 category: "Internet"
 tags: ['school', 'yaoirpg']
-cover: "/assets/cover-image.jpg"
 ---
 
 tl;dr - <https://yaoirpg.halkeye.net> is now live again

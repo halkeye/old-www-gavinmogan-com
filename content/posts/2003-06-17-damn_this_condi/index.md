@@ -7,7 +7,6 @@ post_name: "damn_this_condi"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Damn this condition can be annoying.

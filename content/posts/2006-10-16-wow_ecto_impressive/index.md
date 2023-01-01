@@ -7,7 +7,6 @@ post_name: "wow_ecto_impressive"
 status: "publish"
 category: "Applications"
 tags: ["blog client", "ecto", "mythtv", "kodekoan"]
-cover: "/assets/cover-image.jpg"
 ---
 
 I was about to complain about it being a trial version... but man, it looks cool.. 

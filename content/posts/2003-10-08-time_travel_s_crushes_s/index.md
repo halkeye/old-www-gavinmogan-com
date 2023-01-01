@@ -7,7 +7,6 @@ post_name: "time_travel_s_crushes_s"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 As much as I know about time travel, a good old fashion show about it, still peaks my interest. Last year I had a teacher who in dept explained to us the true concept of time, and the theories used to time travel.. How impossible it would be, etc, but did tell us that it is scientificly possible to predict the future, it was highly Unlikely..

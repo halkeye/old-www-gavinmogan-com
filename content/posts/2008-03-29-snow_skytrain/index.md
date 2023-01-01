@@ -7,7 +7,6 @@ post_name: "snow_skytrain"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 ![](https://farm4.static.flickr.com/3202/2370771978_aa6707554b_m.jpg)

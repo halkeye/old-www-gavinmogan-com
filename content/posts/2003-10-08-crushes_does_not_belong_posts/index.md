@@ -7,7 +7,6 @@ post_name: "crushes_does_not_belong_posts"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 After reading Richard's ([Just a Gwai Lo](https://www.justagwailo.com)) post on [ Crushes](https://www.justagwailo.com/filter/2003/10/07/crushes), I started to think even more about my , um, extremly easy abilty to crush on people.. When I meet people for the first time (those exclude those i know online first), I usually get a huge crush on them.. It is about 99% of the time girls, but I have had a slight crush on a guy before.

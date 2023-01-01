@@ -7,7 +7,6 @@ post_name: "its_emails_make_it_all_worth_it"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 From: Lisa [lisa@lisa-jill.com]  

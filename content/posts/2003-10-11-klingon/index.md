@@ -7,7 +7,6 @@ post_name: "klingon"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 [CNN.com - Qapla'! Hospital seeks Klingon speaker - May. 10, 2003](https://www.cnn.com/2003/US/West/05/10/offbeat.klingon.interpreter/)

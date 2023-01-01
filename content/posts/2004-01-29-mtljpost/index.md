@@ -7,7 +7,6 @@ post_name: "mtljpost"
 status: "publish"
 category: "Coding"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 I have now finished version 1.0 of MTLJPost.

@@ -7,7 +7,6 @@ post_name: "speaker_dead"
 status: "publish"
 category: "Books"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Chapter In and Chapter Out, I just keep liking this book more and more..

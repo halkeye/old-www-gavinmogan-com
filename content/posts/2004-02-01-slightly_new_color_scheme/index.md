@@ -7,7 +7,6 @@ post_name: "slightly_new_color_scheme"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Decided I'm actually too lazy right now to actually make a new layout. I've just messed with the colors a bit to a different one I liked.

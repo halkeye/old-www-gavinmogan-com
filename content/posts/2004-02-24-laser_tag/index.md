@@ -7,7 +7,6 @@ post_name: "laser_tag"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Laser Tag in the dark is alot of fun  

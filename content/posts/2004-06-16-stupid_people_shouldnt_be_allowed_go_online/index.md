@@ -7,7 +7,6 @@ post_name: "stupid_people_shouldnt_be_allowed_go_online"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 [23:26] GreenMarshinz&gt; is c source code the same code structure in linux? header files and include etc.  

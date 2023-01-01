@@ -7,7 +7,6 @@ post_name: "nikitia"
 status: "publish"
 category: "Movies"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Whoa, was watching _Johnny Zero_, which btw, is an awesome show.

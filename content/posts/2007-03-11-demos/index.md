@@ -7,7 +7,6 @@ post_name: "demos"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 So far this weekend I got to try two really cool demos, and one really pathetic demo.

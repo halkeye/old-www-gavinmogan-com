@@ -7,7 +7,6 @@ post_name: "new_site_and_running"
 status: "publish"
 category: "Web"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Man the first time i tried drupal, i was pretty much in love.. I was looking for software for [Hi Sci Fi](https://www.hiscifi.com)'s podcast, since loudblog has really not paid off well, infact i think it made them have alot less visiters.

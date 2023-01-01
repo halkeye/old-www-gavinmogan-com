@@ -7,7 +7,6 @@ post_name: "the_story_of_th"
 status: "publish"
 category: "Humor"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 lets tell a story...

@@ -7,7 +7,6 @@ post_name: "dragon-quest-ix-completion-stats"
 status: "publish"
 category: "Gaming"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Finally finished the game (DQIX) tonight @ 10:25pm...

@@ -7,7 +7,6 @@ post_name: "lego_starwars_0"
 status: "publish"
 category: "Linux"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 ![](legostarwars.png)

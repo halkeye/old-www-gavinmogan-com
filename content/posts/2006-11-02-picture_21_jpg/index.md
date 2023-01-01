@@ -7,7 +7,6 @@ post_name: "picture_21_jpg"
 status: "publish"
 category: "Work"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 ![](https://static.flickr.com/105/287204397_fe2098cbea_m.jpg)

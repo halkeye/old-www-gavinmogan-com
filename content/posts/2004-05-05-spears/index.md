@@ -7,7 +7,6 @@ post_name: "spears"
 status: "publish"
 category: "Music"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 ...what happened to brittany spears producing music?

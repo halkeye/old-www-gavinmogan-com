@@ -7,7 +7,6 @@ post_name: "episode_16"
 status: "publish"
 category: "Anime"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 Holy Shit [Fullmetal Alchemist](https://www.animenfo.com/animetitle,1265,mybywf,fullmetal_alche.html) has become interesting again.

@@ -7,7 +7,6 @@ post_name: "dating"
 status: "publish"
 category: "People"
 tags: []
-cover: "/assets/cover-image.jpg"
 ---
 
 What ever happened to giving people phone numbers?  
