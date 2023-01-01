@@ -1,0 +1,20 @@
+name: barkdog
+description: Gaming / Windows Machine
+images:
+  - ./barkdog_1.jpg
+  - ./barkdog_2.jpg
+primaryUse: gaming / chatting / mudding / etc
+os:
+  text: Windows 2000
+  link: https://www.microsoft.com/windows2000/
+  version: ''
+stats:
+  - Pentium IV 1.3GHz processor
+  - 256 MB Memory (2x 128 MB Memory)
+  - 20,80 GB Hard drive
+  - 48X NEC DVD Drive
+  - 52x48x52 LG CDRW Drive
+  - Nvidia Geforce 3
+  - 3Com 3C920 Integrated Fast Ethernet Controller (3C905C-TX Compatible)
+  - Creative SBLive! Platinum
+  - Intel PC Camera Pro (USB)

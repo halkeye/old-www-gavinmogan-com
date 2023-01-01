@@ -1,0 +1,16 @@
+name: oinkpig
+description: server
+images:
+  - ./oinkpig_1.jpg
+primaryUse: gateway / nat / mail / web / etc
+os:
+  text: Debian testing/unstable
+  link: https://www.debian.org
+  version: Linux 2.4.20
+stats:
+  - Pentium II 400MHz processor
+  - 313.84 MB (i really have no idea how that number comes to be)
+  - 2x 30 GB Hard drives (IBM-DTLA-307030 & WDC WD307AA-00BAA0)
+  - 32X CD-Rom drive (I think disconnected though)
+  - ATI Technologies Inc 3D Rage Pro AGP 1X/2X
+  - 2x Linksys Network Everywhere Fast Ethernet 10/100 model NC100

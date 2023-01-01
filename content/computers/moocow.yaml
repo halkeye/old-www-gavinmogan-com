@@ -1,0 +1,28 @@
+name: moocow
+description: IBM Laptop
+images:
+  - ./moocow_1.jpg
+primaryUse: Coding/chatting/linux testing
+os:
+  text: Gentoo Linux 1.4
+  link: https://www.gentoo.org
+  version: Linux 2.4.20
+stats:
+  - Pentium III 900MHz processor
+  - 256 MB Memory
+  - 20 GB Hard drive
+  - 1.44 MB Floppy Drive
+  - 8X DVD Rom drive
+  - 1 USB port
+  - 1 serial port
+  - 1 parellel port
+  - 1 PS/2 mouse/keyboard port
+  - 15.0" SXGA TFT Active Matrix Display
+  - ATI Rage Mobility M3 AGP 2X 8MB SGRAM
+  - 1400x1050 internal resolution
+  - 2 type II or 1 type III PC card slot(s)
+  - 56K v.90 MiniPCI Modem card
+  - 16-bit Cristal Sound Fusion with internal speakers
+  - Intel Pro/100 SP miniPCI Ethernet Card, PXE enabled
+  - 4 Mbps Infa-red port
+  - S-Video Out
