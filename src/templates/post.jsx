@@ -4,12 +4,6 @@ import RehypeReact from 'rehype-react';
 import Gist from 'react-gist';
 import { Helmet } from 'react-helmet';
 
-import {
-  Card,
-  CardContent,
-  withStyles
-} from '@material-ui/core';
-
 import Layout from '../layouts/index.jsx';
 import UserInfo from '../components/UserInfo/UserInfo.jsx';
 import Disqus from '../components/Disqus/Disqus.jsx';
@@ -23,15 +17,8 @@ import { toPostInfo } from '../postUtils.js';
 import './b16-tomorrow-dark.css';
 import './post.scss';
 
-const styles = theme => ({
-  p: {
-    margin: '15px 0'
-  },
-  root: {
-    width: '100%',
-    marginBottom: '2em'
-  }
-});
+const Card = ({ children }) => <div>CARD-FIXME, {children}</div>
+const CardContent = ({ children }) => <div>CARDCONTENT-FIXME, {children}</div>
 
 const renderAst = new RehypeReact({
   createElement: React.createElement,
@@ -147,4 +134,4 @@ export const pageQuery = graphql`
     }
   }
 `;
-export default withStyles(styles)(PostTemplate);
+export default PostTemplate;

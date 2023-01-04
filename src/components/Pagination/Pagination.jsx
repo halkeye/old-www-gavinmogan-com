@@ -1,7 +1,4 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Fab from '@material-ui/core/Fab';
-import { Card, CardText } from 'react-md/lib';
 import { Link } from 'gatsby';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import range from 'lodash/range';
@@ -11,14 +8,10 @@ import faAngleDoubleRight from '@fortawesome/fontawesome-free-solid/faAngleDoubl
 
 import './style.scss';
 
-const useStyles = makeStyles(theme => ({
-  fab: {
-    margin: theme.spacing(1)
-  },
-  extendedIcon: {
-    marginRight: theme.spacing(1)
-  }
-}));
+const Card = ({ children }) => <div>FIXME, {children}</div>
+const CardText = ({ children }) => <div>FIXME, {children}</div>
+const Fab = ({ children }) => <div>FIXME, {children}</div>
+const useStyles = () => ({});
 
 function PaginationButton ({ page, index }) {
   const classes = useStyles();

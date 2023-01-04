@@ -1,12 +1,3 @@
-const fabGithub = require('@fortawesome/fontawesome-free-brands/faGithub');
-const fabTwitter = require('@fortawesome/fontawesome-free-brands/faTwitter');
-const fabGoodreads = require('@fortawesome/fontawesome-free-brands/faGoodreads');
-const fabLinkedin = require('@fortawesome/fontawesome-free-brands/faLinkedin');
-const fabSteam = require('@fortawesome/fontawesome-free-brands/faSteam');
-const fasBook = require('@fortawesome/fontawesome-free-solid/faBook');
-const fasEnvelope = require('@fortawesome/fontawesome-free-solid/faEnvelope');
-const fasRSS = require('@fortawesome/fontawesome-free-solid/faRss');
-
 module.exports = {
   siteTitle: 'The Nameless Site', // Site title.
   siteTitleAlt: 'The Nameless Site', // Alternative site title for SEO.
@@ -30,47 +21,5 @@ module.exports = {
     You can usually find me on various services as halkeye.
     #notarobot
   `,
-  userLinks: [
-    {
-      label: 'Github',
-      url: 'https://github.com/halkeye',
-      icon: fabGithub
-    },
-    {
-      label: 'Salty Stories',
-      url: 'https://books.saltystories.ca',
-      icon: fasBook
-    },
-    {
-      label: 'Twitter',
-      url: 'https://twitter.com/halkeye',
-      icon: fabTwitter
-    },
-    {
-      label: 'Goodreads',
-      url: 'https://www.goodreads.com/halkeye',
-      icon: fabGoodreads
-    },
-    {
-      label: 'Linked In',
-      url: 'https://www.linkedin.com/in/halkeye',
-      icon: fabLinkedin
-    },
-    {
-      label: 'Steam',
-      url: 'https://steamcommunity.com/id/halkeye',
-      icon: fabSteam
-    },
-    {
-      label: 'Email',
-      url: 'mailto:website@gavinmogan.com',
-      icon: fasEnvelope
-    },
-    {
-      label: 'Subscribe',
-      url: '/rss.xml',
-      icon: fasRSS
-    }
-  ],
   copyright: 'Copyright © 2003. Gavin Mogan' // Copyright string for the footer of the website and RSS feed.
 };

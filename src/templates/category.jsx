@@ -7,14 +7,14 @@ import Layout from '../layouts/index.jsx';
 class CategoryTemplate extends React.Component {
   render () {
     const { category } = this.props.pageContext;
-    const postEdges = this.props.data.allMarkdownRemark.edges;
+    const postEdges = this.props.data.allFile.edges;
     return (
       <Layout location={this.props.location} title={`Posts in category "${category}"`}>
         <div className="category-container">
           <Helmet>
             <title>{`Posts in category "${category}"`}</title>
           </Helmet>
-          <PostListing postEdges={postEdges} />
+          <PostListing postEdges={postEdges.map(edge => edge.childMarkdownRemark)} />
         </div>
       </Layout>
     );
@@ -26,32 +26,40 @@ export default CategoryTemplate;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query CategoryPage($category: String) {
-    allMarkdownRemark(
+    allFile(
+      sort: {childrenMarkdownRemark: {fields: {date: DESC}}}
+      filter: {sourceInstanceName: {eq: "blog"}, childMarkdownRemark: {fields: {category: {eq: $category}}}}
       limit: 1000
-      filter: { fields: { sourceName: { eq: "blog" }, category: { eq: $category } } }
-      sort: { fields: [fields___date], order: DESC }
     ) {
-      totalCount
+      pageInfo {
+        itemCount
+        totalCount
+        pageCount
+        hasNextPage
+        currentPage
+        hasPreviousPage
+        perPage
+      }
       edges {
         node {
-          id
-          excerpt
-          timeToRead
-          fields {
-            slug
-            category
-          }
-          frontmatter {
-            title
-            tags
-            cover {
-              childImageSharp {
-                fluid(maxWidth: 800, cropFocus: ENTROPY) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+          childMarkdownRemark {
+            id
+            excerpt
+            timeToRead
+            fields {
+              slug
+              category
+            }
+            frontmatter {
+              title
+              tags
+              cover {
+                childImageSharp {
+                  gatsbyImageData(width: 800)
                 }
               }
+              date
             }
-            date
           }
         }
       }

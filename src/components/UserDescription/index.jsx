@@ -12,9 +12,9 @@ function UserDescription () {
   }`);
   const parts = (data?.site?.siteMetadata?.userDescription || '').split('.');
   return (
-    <>
-      {parts.map((elm, idx) => <p key={idx}>{elm}{`${idx !== parts.length - 1 ? '.' : ''}`}</p>)}
-    </>
+    <p>
+      {parts.map((elm, idx) => <React.Fragment key={idx}>{elm}{`${idx !== parts.length - 1 ? '.' : ''}`}</React.Fragment>)}
+    </p>
   );
 }
 

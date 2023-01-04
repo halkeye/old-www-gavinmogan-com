@@ -1,5 +1,6 @@
 import React from 'react';
-import { Button } from 'react-md/lib';
+
+const Button = ({ children }) => <div>FIXME, {children}</div>
 
 export default function ItemBlockLinks ({ url, type, attachments }) {
   if (url[0] === '.' && attachments && attachments.length) {

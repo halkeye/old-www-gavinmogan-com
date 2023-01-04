@@ -1,4 +1,3 @@
-@import '~react-md/src/scss/react-md';
 $phone-status-bar-height: 24px - 12px;
 
 .post-page {
@@ -113,8 +112,8 @@ $phone-status-bar-height: 24px - 12px;
                 content: '';
                 display: block;
                 position: relative;
-                height: $md-toolbar-mobile-portrait-height + $phone-status-bar-height;
-                margin: -($md-toolbar-mobile-portrait-height + $phone-status-bar-height) 0 0;
+                height: 12; // $md-toolbar-mobile-portrait-height + $phone-status-bar-height;
+                margin: -12 0 0; // -($md-toolbar-mobile-portrait-height + $phone-status-bar-height) 0 0;
             }
         }
     }

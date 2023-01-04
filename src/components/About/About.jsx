@@ -1,50 +1,17 @@
 import React, { Component, Fragment } from 'react';
-import autobind from 'autobind-decorator';
 
-import {
-  withStyles,
-  Button,
-  Card,
-  CardContent,
-  CardHeader,
-  CardActions,
-  Grid,
-  TextField
-} from '@material-ui/core';
 import UserDescription from '../UserDescription';
 import UserLinks from '../UserLinks/UserLinks.jsx';
 import ProfileImageLarge from '../ProfileImage/ProfileImageLarge.jsx';
 import config from '../../../data/SiteConfig';
 
-const styles = theme => ({
-  section: {
-    padding: `${theme.spacing(1)}px`,
-    marginTop: `${theme.spacing(6)}px`
-  },
-  aboutContainer: {
-    marginLeft: 'auto',
-    marginRight: 'auto'
-  },
-  aboutWrapper: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center'
-  },
-
-  aboutImage: {
-    borderRadius: '50%',
-    width: '300px',
-    height: '300px',
-    margin: '10px 0'
-    // @media (max-width: 360px - 1px) { padding: 20px; }
-  },
-
-  aboutText: {
-    maxWidth: '640px',
-    margin: '20px 0 !important'
-    // @media (max-width: 360px - 1px) { margin: 5px 0 !important; }
-  }
-});
+const TextField = ({ children }) => <div>FIXME, {children}</div>
+const Grid = ({ children }) => <div>FIXME, {children}</div>
+const CardActions = ({ children }) => <div>FIXME, {children}</div>
+const CardHeader = ({ children }) => <div>FIXME, {children}</div>
+const CardContent = ({ children }) => <div>FIXME, {children}</div>
+const Card = ({ children }) => <div>FIXME, {children}</div>
+const Button = ({ children }) => <div>FIXME, {children}</div>
 
 const whereAmI = [
   {
@@ -78,7 +45,6 @@ class About extends Component {
     this.state = { subject: '' };
   }
 
-  @autobind
   onClick () {
     window.open(
       `mailto:website@gavinmogan.com?subject=${window.encodeURIComponent(
@@ -87,7 +53,6 @@ class About extends Component {
     );
   }
 
-  @autobind
   handleChange (field) {
     return value => {
       this.setState({ [field]: value });
@@ -100,7 +65,7 @@ class About extends Component {
         label={name}
         placeholder={name}
         value={this.state.subject}
-        onChange={this.handleChange(field)}
+        onChange={this.handleChange(field).bind(this)}
         style={{ width: '100%' }}
         id={field}
       />
@@ -116,7 +81,7 @@ class About extends Component {
         rows={6}
         value={this.state.body}
         style={{ width: '100%' }}
-        onChange={this.handleChange(field)}
+        onChange={this.handleChange(field).bind(this)}
       />
     );
   }
@@ -175,7 +140,7 @@ class About extends Component {
           <CardContent>
             {this.renderInput('subject', 'Subject')}
             {this.renderText('body', 'Body')}
-            <Button onClick={this.onClick} variant="contained" color="primary">
+            <Button onClick={this.onClick.bind(this)} variant="contained" color="primary">
               Send Email
             </Button>
           </CardContent>
@@ -185,4 +150,4 @@ class About extends Component {
   }
 }
 
-export default withStyles(styles)(About);
+export default About;

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import About from '../components/About/About.jsx';
-import Layout from '../layouts/index.jsx';
+import Layout from '../components/Layout.jsx';
 
-function AboutPage ({ location }) {
+function AboutPage () {
   return (
-    <Layout location={location} title="About">
+    <Layout title="About">
       <div className="about-container">
         <Helmet>
           <title>About</title>

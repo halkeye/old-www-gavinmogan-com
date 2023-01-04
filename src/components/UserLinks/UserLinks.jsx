@@ -1,19 +1,9 @@
 import React, { Component } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { withStyles, Button } from '@material-ui/core';
-
 import { userLinks } from '../../../data/SiteConfig';
 
-const styles = theme => ({
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'center',
-    alignItems: 'center',
-    maxWidth: '100%'
-  }
-});
+const Button = ({ children }) => <div>FIXME, {children}</div>
 
 class UserLinks extends Component {
   getLinkElements () {
@@ -31,12 +21,11 @@ class UserLinks extends Component {
   }
 
   render () {
-    const { classes } = this.props;
     if (!userLinks) {
       return null;
     }
-    return <div className={classes.root}>{this.getLinkElements()}</div>;
+    return <div>{this.getLinkElements()}</div>;
   }
 }
 
-export default withStyles(styles)(UserLinks);
+export default UserLinks;

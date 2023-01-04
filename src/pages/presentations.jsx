@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 import { toPostInfo } from '../postUtils.js';
 import ItemBlock from '../components/ItemBlock/ItemBlock.jsx';
 import SubHeader from '../components/SubHeader/SubHeader.jsx';
-import Layout from '../layouts/index.jsx';
+import Layout from '../components/Layout.jsx';
 import './presentations.scss';
 
 const PresentationList = ({ nodes }) => (
@@ -21,7 +21,7 @@ const PresentationList = ({ nodes }) => (
 );
 
 const PresentationsPage = ({ data, location }) => {
-  const nodes = data.allMarkdownRemark.edges.map(toPostInfo);
+  const nodes = data.allFile.edges.map(edge => toPostInfo(edge.childMarkdownRemark));
   return (
     <Layout location={location} title="Presentations">
       <div className="presentations-container">
@@ -41,37 +41,50 @@ export default PresentationsPage;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query PresentationsPage {
-    allMarkdownRemark(
-      sort: { fields: [fields___date], order: DESC }
-      filter: { fields: { sourceName: { eq: "presentation" } } }
+    allFile(
+      filter: {sourceInstanceName: {eq: "presentation"}}
+      sort: {childrenMarkdownRemark: {fields: {date: DESC}}}
     ) {
+      pageInfo {
+        itemCount
+        totalCount
+        pageCount
+        hasNextPage
+        currentPage
+        hasPreviousPage
+        perPage
+      }
       edges {
         node {
-          fields {
-            slug
-            date
-            tags
-            category
-          }
-          id
-          html
-          frontmatter {
-            title
-            image {
-              childImageSharp {
-                fluid(maxHeight: 405, cropFocus: ENTROPY) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+          sourceInstanceName
+          childMarkdownRemark {
+            id
+            excerpt
+            timeToRead
+            fields {
+              slug
+              category
+              date
+              tags
+            }
+            frontmatter {
+              title
+              tags
+              date
+              image {
+                childImageSharp {
+                  gatsbyImageData(height: 405)
                 }
               }
-            }
-            link
-            links {
-              type
-              url
-            }
-            attachments {
-              absolutePath
-              publicURL
+              link
+              links {
+                type
+                url
+              }
+              attachments {
+                absolutePath
+                publicURL
+              }
             }
           }
         }

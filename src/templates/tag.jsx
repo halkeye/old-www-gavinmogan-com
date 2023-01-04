@@ -7,14 +7,14 @@ import Layout from '../layouts/index.jsx';
 class TagTemplate extends React.Component {
   render () {
     const { tag } = this.props.pageContext;
-    const postEdges = this.props.data.allMarkdownRemark.edges;
+    const postEdges = this.props.data.allFile.edges;
     return (
       <Layout location={this.props.location} title={`Posts tagged as "${tag}"`}>
         <div className="tag-container">
           <Helmet>
             <title>{`Posts tagged as "${tag}"`}</title>
           </Helmet>
-          <PostListing postEdges={postEdges} />
+          <PostListing postEdges={postEdges.map(e => e.childMarkdownRemark)} />
         </div>
       </Layout>
     );
@@ -26,28 +26,36 @@ export default TagTemplate;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query TagPage($tag: String) {
-    allMarkdownRemark(
+    allFile(
+      sort: {childrenMarkdownRemark: {fields: {date: DESC}}}
+      filter: {sourceInstanceName: {eq: "blog"}, childMarkdownRemark: {fields: {tags: {in: [$tag]}}}}
       limit: 1000
-      filter: { fields: { sourceName: { eq: "blog" }, tags: { in: [$tag] } } }
-      sort: { fields: [fields___date], order: DESC }
     ) {
-      totalCount
+      pageInfo {
+        itemCount
+        totalCount
+        pageCount
+        hasNextPage
+        currentPage
+        hasPreviousPage
+        perPage
+      }
       edges {
         node {
-          fields {
-            slug
-            tags
-          }
-          id
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            date
-            cover {
-              childImageSharp {
-                fluid(maxWidth: 800, cropFocus: ENTROPY) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+          childMarkdownRemark {
+            fields {
+              slug
+              tags
+            }
+            id
+            excerpt
+            timeToRead
+            frontmatter {
+              title
+              date
+              cover {
+                childImageSharp {
+                  gatsbyImageData(width: 800)
                 }
               }
             }

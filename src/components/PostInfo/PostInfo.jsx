@@ -1,23 +1,15 @@
 import React from 'react';
-import {
-  Avatar,
-  CardHeader,
-  Grid,
-  withStyles
-} from '@material-ui/core';
 import kebabCase from 'lodash.kebabcase';
 import { Link } from 'gatsby';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import fasCalendar from '@fortawesome/fontawesome-free-solid/faCalendar';
 import fasFolderOpen from '@fortawesome/fontawesome-free-solid/faFolderOpen';
 
-const styles = theme => ({
-  CategoryLink: {
-    marginRight: `${theme.spacing(3)}px`
-  }
-});
+const Avatar = ({ children }) => <div>FIXME, {children}</div>
+const CardHeader = ({ children }) => <div>FIXME, {children}</div>
+const Grid = ({ children }) => <div>FIXME, {children}</div>
 
-function PostInfo ({ postNode, classes }) {
+function PostInfo ({ postNode }) {
   return (
     <Grid container justify="space-between" direction="row">
       <Grid item>
@@ -27,7 +19,7 @@ function PostInfo ({ postNode, classes }) {
           subheader={`${postNode.timeToRead} min read`}
         />
       </Grid>
-      <Grid item className={classes.CategoryLink}>
+      <Grid item>
         {postNode.categories.map(category => (
           <Link key={category.slug} to={`/categories/${kebabCase(category.slug)}`}>
             <CardHeader
@@ -42,4 +34,4 @@ function PostInfo ({ postNode, classes }) {
   );
 }
 
-export default withStyles(styles)(PostInfo);
+export default PostInfo;

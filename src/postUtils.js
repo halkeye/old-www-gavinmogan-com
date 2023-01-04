@@ -1,55 +1,52 @@
-function toPostInfo (postEdge) {
-  if (!postEdge) {
-    postEdge = {};
+function toPostInfo(node) {
+  if (!node) {
+    node = {};
   }
-  if (!postEdge.node) {
-    postEdge.node = {};
+  if (!node.frontmatter) {
+    node.frontmatter = {};
   }
-  if (!postEdge.node.frontmatter) {
-    postEdge.node.frontmatter = {};
-  }
-  if (!postEdge.node.fields) {
-    postEdge.node.fields = {};
+  if (!node.fields) {
+    node.fields = {};
   }
 
-  if (!postEdge.node.id) {
-    throw new Error(`No id provided - ${JSON.stringify(postEdge.node)}`);
+  if (!node.id) {
+    throw new Error(`No id provided - ${JSON.stringify(node)}`);
   }
 
   const ret = {
-    id: postEdge.node.id,
-    author: postEdge.node.frontmatter.author,
-    categories: [postEdge.node.fields.category].filter(Boolean).map(cat => {
+    id: node.id,
+    author: node.frontmatter.author,
+    categories: [node.fields.category].filter(Boolean).map(cat => {
       return {
         slug: cat,
         title: cat
       };
     }),
-    excerpt: postEdge.node.excerpt,
-    html: postEdge.node.html,
-    htmlAst: postEdge.node.htmlAst,
-    slug: postEdge.node.fields.slug,
-    tags: postEdge.node.frontmatter.tags || postEdge.node.fields.tags,
-    timeToRead: postEdge.node.timeToRead,
-    title: postEdge.node.frontmatter.title,
-    links: postEdge.node.frontmatter.links,
-    link: postEdge.node.frontmatter.link,
-    attachments: postEdge.node.frontmatter.attachments
+    excerpt: node.excerpt,
+    html: node.html,
+    htmlAst: node.htmlAst,
+    slug: node.fields.slug,
+    tags: node.frontmatter.tags || node.fields.tags,
+    timeToRead: node.timeToRead,
+    title: node.frontmatter.title,
+    links: node.frontmatter.links,
+    link: node.frontmatter.link,
+    attachments: node.frontmatter.attachments
   };
 
-  if (postEdge.node.frontmatter.date) {
-    ret.date = new Date(postEdge.node.frontmatter.date);
+  if (node.frontmatter.date) {
+    ret.date = new Date(node.frontmatter.date);
   }
-  if (postEdge.node.frontmatter.cover) {
-    ret.cover = postEdge.node.frontmatter.cover.childImageSharp;
+  if (node.frontmatter.cover) {
+    ret.cover = node.frontmatter.cover.childImageSharp;
   }
-  if (postEdge.node.frontmatter.image) {
-    ret.cover = postEdge.node.frontmatter.image.childImageSharp;
+  if (node.frontmatter.image) {
+    ret.cover = node.frontmatter.image.childImageSharp;
   }
   return ret;
 }
 
-function urlDatePrefix (node) {
+function urlDatePrefix(node) {
   if (node.frontmatter.date) {
     const date = new Date(node.frontmatter.date);
     return `${[date.getFullYear(), date.getMonth() + 1, date.getDate()]
@@ -59,7 +56,7 @@ function urlDatePrefix (node) {
   return '';
 }
 
-function getDateFromNode (node /* , fileNode */) {
+function getDateFromNode(node /* , fileNode */) {
   const date = (node.frontmatter || {}).date || '';
   if (date) {
     return new Date(date).toISOString();

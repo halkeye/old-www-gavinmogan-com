@@ -1,22 +1,14 @@
 import React from 'react';
 import PostPreview from '../PostPreview/PostPreview.jsx';
-import {
-  withStyles,
-  Grid
-} from '@material-ui/core';
 import { toPostInfo } from '../../postUtils';
 
-const styles = theme => ({
-  postListing: {
-    maxWidth: '1024px'
-  }
-});
+const Grid = ({ children }) => <div>FIXME, {children}</div>
 
-const PostListing = ({ classes, postEdges }) => {
-  const postList = postEdges.map(toPostInfo);
+const PostListing = ({ nodes }) => {
+  const postList = nodes.map(toPostInfo);
   return (
     <Grid>
-      <div className={classes.postListing}>
+      <div>
         {postList.map(post => (
           <PostPreview key={post.slug} postInfo={post} />
         ))}
@@ -25,4 +17,4 @@ const PostListing = ({ classes, postEdges }) => {
   );
 };
 
-export default withStyles(styles)(PostListing);
+export default PostListing;

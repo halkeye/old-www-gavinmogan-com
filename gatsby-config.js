@@ -1,5 +1,5 @@
 const config = require('./data/SiteConfig');
-const { toPostInfo } = require('./src/postUtils.js');
+const {toPostInfo} = require('./src/postUtils.js');
 
 const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
 
@@ -27,20 +27,6 @@ module.exports = {
     }
   },
   plugins: [
-    {
-      resolve: 'gatsby-plugin-netlify-cms',
-      options: {
-        enableIdentityWidget: true,
-        modulePath: `${__dirname}/src/cms/cms.js`
-      }
-    },
-    'gatsby-plugin-material-ui',
-    {
-      resolve: 'gatsby-plugin-canonical-urls',
-      options: {
-        siteUrl: config.siteUrl + pathPrefix
-      }
-    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
@@ -81,25 +67,32 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'nav',
+        path: `${__dirname}/content/nav`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'images',
         path: `${__dirname}/src/images`
       }
     },
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    "gatsby-transformer-yaml",
     {
       resolve: 'gatsby-transformer-remark',
       options: {
         excerpt_separator: '<!-- excerpt -->',
         plugins: [
-          'gatsby-remark-source-name',
           'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 1200
             }
-          },
-          {
-            resolve: 'gatsby-remark-responsive-iframe'
           },
           {
             resolve: 'gatsby-remark-embed-youtube',
@@ -116,8 +109,6 @@ module.exports = {
         ]
       }
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-nprogress',
       options: {
@@ -125,7 +116,6 @@ module.exports = {
       }
     },
     'gatsby-plugin-catch-links',
-    'gatsby-plugin-twitter',
     {
       resolve: 'gatsby-plugin-sitemap',
       options: {
@@ -155,54 +145,15 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-robots-txt',
-      options: {
-        policy: [{ userAgent: '*', disallow: ['*/tags/', '*/categories/'] }]
-      }
-    },
-    {
-      resolve: 'gatsby-plugin-favicon',
-      options: {
-        logo: './src/images/logo.png',
-
-        appName: config.siteTitle,
-        appDescription: config.siteDescription,
-        developerName: 'Gavin Mogan',
-        developerURL: 'https://www.gavinmogan.com',
-        dir: 'rtl',
-        lang: 'en-US',
-        background: '#e0e0e0',
-        theme_color: '#c62828',
-        display: 'minimal-ui',
-        orientation: 'any',
-        start_url: config.pathPrefix,
-        version: '1.0',
-        icons: {
-          android: true,
-          appleIcon: true,
-          appleStartup: true,
-          coast: false,
-          favicons: true,
-          firefox: true,
-          opengraph: false,
-          twitter: false,
-          yandex: false,
-          windows: false
-        }
-      }
-    },
-    // 'gatsby-plugin-offline',
-    'gatsby-plugin-remove-serviceworker',
-    {
       resolve: 'gatsby-plugin-feed',
       options: {
-        setup (ref) {
+        setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
           ret.image_url = [
             config.siteUrl,
             'img/Gavin-December-1989-a2ce6e58e297f8bdabe2dcbf01e49e3d-0e94d.png'
           ].join('/');
-          ret.allMarkdownRemark = ref.query.allMarkdownRemark;
+          ret.allFile = ref.query.allFile;
           ret.generator = 'GatsbyJS Material Starter';
           return ret;
         },
@@ -226,10 +177,10 @@ module.exports = {
         feeds: [
           {
             title: config.siteTitle,
-            serialize (ctx) {
-              const { rssMetadata } = ctx.query.site.siteMetadata;
+            serialize(ctx) {
+              const {rssMetadata} = ctx.query.site.siteMetadata;
               return ctx.query.allMarkdownRemark.edges.map(edge => {
-                const postInfo = toPostInfo(edge);
+                const postInfo = toPostInfo(edge.childMarkdownRemark);
                 return {
                   categories: postInfo.categories.map(c => c.slug),
                   date: postInfo.date,
@@ -238,30 +189,32 @@ module.exports = {
                   author: rssMetadata.author,
                   url: rssMetadata.site_url + postInfo.slug,
                   guid: rssMetadata.site_url + postInfo.slug,
-                  custom_elements: [{ 'content:encoded': postInfo.html }]
+                  custom_elements: [{'content:encoded': postInfo.html}]
                 };
               });
             },
             query: `
             {
-              allMarkdownRemark(
-                limit: 1000,
-                filter: {fields: {sourceName: {eq: "blog"}}},
-                sort: { order: DESC, fields: [fields___date] },
+              allFile(
+                sort: {childrenMarkdownRemark: {fields: {date: DESC}}}
+                filter: {sourceInstanceName: {eq: "blog"}}
+                limit: 1000
               ) {
                 edges {
                   node {
-                    id
-                    html
-                    excerpt
-                    fields {
-                      slug
-                      date
-                    }
-                    frontmatter {
-                      title
-                      category
-                      tags
+                    childMarkdownRemark {
+                      id
+                      html
+                      excerpt
+                      fields {
+                        slug
+                        date
+                      }
+                      frontmatter {
+                        title
+                        category
+                        tags
+                      }
                     }
                   }
                 }
@@ -287,10 +240,10 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-sentry',
+      resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        dsn: process.env.SENTRY_DSN
+        siteUrl: config.siteUrl + pathPrefix
       }
-    }
-  ]
+    },
+  ],
 };

@@ -2,16 +2,7 @@ import { graphql, Link } from 'gatsby';
 import React from 'react';
 import { toPostInfo } from '../postUtils.js';
 
-import {
-  Card,
-  CardContent,
-  CardActions,
-  Divider,
-  Typography,
-  withStyles
-} from '@material-ui/core';
-
-import Layout from '../layouts/index.jsx';
+import Layout from '../components/Layout.jsx';
 import ItemBlockLinks from '../components/ItemBlockLinks/ItemBlockLinks.jsx';
 import PostTags from '../components/PostTags/PostTags.jsx';
 import PostCover from '../components/PostCover/PostCover.jsx';
@@ -20,15 +11,11 @@ import SEO from '../components/SEO/SEO.jsx';
 import './b16-tomorrow-dark.css';
 import './post.scss';
 
-const styles = theme => ({
-  p: {
-    margin: '15px 0'
-  },
-  root: {
-    width: '100%',
-    marginBottom: '2em'
-  }
-});
+const Card = ({ children }) => <div>FIXME, {children}</div>
+const CardContent = ({ children }) => <div>FIXME, {children}</div>
+const CardActions = ({ children }) => <div>FIXME, {children}</div>
+const Divider = ({ children }) => <div>FIXME, {children}</div>
+const Typography = ({ children }) => <div>FIXME, {children}</div>
 
 class ItemsTemplate extends React.Component {
   constructor (props) {
@@ -58,12 +45,11 @@ class ItemsTemplate extends React.Component {
 
   render () {
     const { mobile } = this.state;
-    const { classes } = this.props;
     const { slug, urlPrefix } = this.props.pageContext;
     const postOverlapClass = mobile ? 'post-overlap-mobile' : 'post-overlap';
     const postNode = toPostInfo({ node: this.props.data.markdownRemark });
     return (
-      <Layout location={this.props.location} title={postNode.title}>
+      <Layout title={postNode.title}>
         <div className="post-page md-grid md-grid--no-spacing">
           <SEO
             postPath={postNode.slug}
@@ -78,7 +64,7 @@ class ItemsTemplate extends React.Component {
               <Link to={urlPrefix}>&lt; Back</Link>
               <CardContent className="post-body">
                 <a href={postNode.link}>
-                  <Typography className={classes.title} color="textSecondary" variant="h2">{postNode.title}</Typography>
+                  <Typography color="textSecondary" variant="h2">{postNode.title}</Typography>
                 </a>
                 <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
               </CardContent>
@@ -122,9 +108,7 @@ export const pageQuery = graphql`
         title
         image {
           childImageSharp {
-            fluid(maxWidth: 800, maxHeight: 320, cropFocus: ENTROPY) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
+            gatsbyImageData(width: 800)
           }
         }
         date
@@ -141,11 +125,10 @@ export const pageQuery = graphql`
         }
       }
       fields {
-        sourceName
         slug
       }
     }
   }
 `;
 
-export default withStyles(styles)(ItemsTemplate);
+export default ItemsTemplate;

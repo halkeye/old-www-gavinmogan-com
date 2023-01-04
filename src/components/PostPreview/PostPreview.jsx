@@ -1,16 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  withStyles,
-  Grid,
-  CardMedia,
-  Card,
-  CardActionArea,
-  CardContent,
-  CardHeader,
-  Typography,
-  Avatar
-} from '@material-ui/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import fasCalendar from '@fortawesome/fontawesome-free-solid/faCalendar';
 import { Link } from 'gatsby';
@@ -18,29 +7,20 @@ import PostTags from '../PostTags/PostTags.jsx';
 import PostCover from '../PostCover/PostCover.jsx';
 import './PostPreview.scss';
 
-const styles = theme => ({
-  postPreview: {
-    marginBottom: '20px'
-  },
-  postPreviewCover: {
-  },
-  postCover: {
-    marginLeft: 0,
-    marginRight: 0,
-    width: '100%'
-  },
-  media: {
-    objectFit: 'cover'
-  },
-  linkStyle: {
-    textDecoration: 'none'
-  }
-});
 
-const PostPreview = ({ postInfo, classes }) => (
-  <Card key={postInfo.slug} raised className={classes.postPreview}>
-    <CardActionArea component={Link} className={classes.linkStyle} to={postInfo.slug}>
-      <CardMedia component={PostCover} cover={postInfo.cover} src={postInfo.cover?.fluid?.src || postInfo.cover?.fixed?.src} className={classes.postPreviewCover} alt={postInfo.title} />
+const Grid = ({ children }) => <div>FIXME, {children}</div>
+const CardMedia = ({ children }) => <div>FIXME, {children}</div>
+const Card = ({ children }) => <div>FIXME, {children}</div>
+const CardActionArea = ({ children }) => <div>FIXME, {children}</div>
+const CardContent = ({ children }) => <div>FIXME, {children}</div>
+const CardHeader = ({ children }) => <div>FIXME, {children}</div>
+const Typography = ({ children }) => <div>FIXME, {children}</div>
+const Avatar = ({ children }) => <div>FIXME, {children}</div>
+
+const PostPreview = ({ postInfo }) => (
+  <Card key={postInfo.slug} raised>
+    <CardActionArea component={Link} to={postInfo.slug}>
+      <CardMedia component={PostCover} cover={postInfo.cover} src={postInfo.cover?.fluid?.src || postInfo.cover?.fixed?.src} alt={postInfo.title} />
       <CardContent>
         <Grid>
           <Typography gutterBottom variant="h5" component="h2">
@@ -64,8 +44,7 @@ const PostPreview = ({ postInfo, classes }) => (
 );
 
 PostPreview.propTypes = {
-  classes: PropTypes.object.isRequired,
   postInfo: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(PostPreview);
+export default PostPreview;

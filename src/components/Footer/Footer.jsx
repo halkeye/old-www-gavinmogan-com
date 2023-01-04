@@ -1,19 +1,42 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core';
 
 import UserLinks from '../UserLinks/UserLinks.jsx';
 
-const styles = theme => ({
-  root: {
-    padding: '10px 5px 5px',
-    backgroundColor: '#bdbdbd'
-  }
-});
+const Footer = () => {
+  return (
+    <footer id="footer">
+      <div className="inner">
+        <ul className="icons">
+          <li>
+            <a href="#" className="icon fa-twitter">
+              <span className="label">Twitter</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" className="icon fa-github">
+              <span className="label">Github</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" className="icon fa-dribbble">
+              <span className="label">Dribbble</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" className="icon fa-envelope-o">
+              <span className="label">Email</span>
+            </a>
+          </li>
+        </ul>
+        <ul className="copyright">
+          <li>&copy; Gatsby Starter Strata</li>
+          <li>
+            Design: <a href="http://html5up.net">HTML5 UP</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  );
+}
 
-const Footer = ({ skipLinks, classes }) => (
-  <footer className={classes.root}>
-    {!skipLinks ? <UserLinks labeled /> : null}
-  </footer>
-);
-
-export default withStyles(styles)(Footer);
+export default Footer;

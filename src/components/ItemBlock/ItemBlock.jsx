@@ -1,32 +1,16 @@
 import React from 'react';
 import { Link, graphql, useStaticQuery } from 'gatsby';
-import { makeStyles } from '@material-ui/core/styles';
-import { red } from '@material-ui/core/colors';
-
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import Card from '@material-ui/core/Card';
-import CardMedia from '@material-ui/core/CardMedia';
-import Chip from '@material-ui/core/Chip';
-import Typography from '@material-ui/core/Typography';
 
 import ItemBlockLinks from '../ItemBlockLinks/ItemBlockLinks.jsx';
 import PostCover from '../PostCover/PostCover.jsx';
 
-const useStyles = makeStyles({
-  card: {
-    width: '100%',
-    margin: 8,
-    maxWidth: 500
-  },
-  media: {
-    height: 405
-  },
-  avatar: {
-    backgroundColor: red[500]
-  }
-});
+const CardActionArea = ({ children }) => <div>FIXME, {children}</div>
+const CardActions = ({ children }) => <div>FIXME, {children}</div>
+const CardContent = ({ children }) => <div>FIXME, {children}</div>
+const Card = ({ children }) => <div>FIXME, {children}</div>
+const CardMedia = ({ children }) => <div>FIXME, {children}</div>
+const Chip = ({ children }) => <div>FIXME, {children}</div>
+const Typography = ({ children }) => <div>FIXME, {children}</div>
 
 export default function ItemBlock ({ slug, tags, cover, link, links, title, attachments, html, excerpt, urlPrefix }) {
   const classes = useStyles();

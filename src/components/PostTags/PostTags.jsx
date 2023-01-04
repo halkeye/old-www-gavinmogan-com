@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import kebabCase from 'lodash.kebabcase';
 import { Link } from 'gatsby';
-import { Chip } from 'react-md/lib';
 import './PostTags.scss';
+
+const Chip = ({ children }) => <div>FIXME, {children}</div>
 
 class PostTags extends Component {
   render () {

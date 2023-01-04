@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import fasMapMarker from '@fortawesome/fontawesome-free-solid/faMapMarker';
-import IconSeparator from 'react-md/lib/Helpers/IconSeparator';
-import { Follow } from 'react-twitter-widgets';
 import UserLinks from '../UserLinks/UserLinks.jsx';
 import UserDescription from '../UserDescription';
 
-import {
-  Avatar,
-  Card,
-  CardContent,
-  CardHeader,
-  withStyles
-} from '@material-ui/core';
+const Follow = ({ children }) => <div>FIXME, {children}</div>
+const IconSeparator = ({ children }) => <div>FIXME, {children}</div>
+const Avatar = ({ children }) => <div>FIXME, {children}</div>
+const Card = ({ children }) => <div>FIXME, {children}</div>
+const CardContent = ({ children }) => <div>FIXME, {children}</div>
+const CardHeader = ({ children }) => <div>FIXME, {children}</div>
 
 const styles = theme => ({
   p: {
@@ -78,4 +75,4 @@ class UserInfo extends Component {
   }
 }
 
-export default withStyles(styles)(UserInfo);
+export default UserInfo;

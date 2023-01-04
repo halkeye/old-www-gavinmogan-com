@@ -1,14 +1,11 @@
 const path = require('path');
-const _ = require('lodash');
 const kebabCase = require('lodash.kebabcase');
-const WebpackLodashPlugin = require('lodash-webpack-plugin');
-const { fmImagesToRelative } = require('gatsby-remark-relative-images');
-const { basename } = require('path');
-const { urlDatePrefix, getDateFromNode } = require('./src/postUtils.js');
+const {basename} = require('path');
+const {urlDatePrefix, getDateFromNode} = require('./src/postUtils.js');
 
 const ucFirst = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
-function getSlugFromNode (node, fileNode) {
+function getSlugFromNode(node, fileNode) {
   if (Object.prototype.hasOwnProperty.call(node, 'frontmatter')) {
     if (Object.prototype.hasOwnProperty.call(node.frontmatter, 'slug')) {
       return `/${kebabCase(node.frontmatter.slug)}`;
@@ -27,9 +24,8 @@ function getSlugFromNode (node, fileNode) {
 }
 
 const fileNodes = {};
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions;
-  fmImagesToRelative(node); // convert image paths for gatsby images
+exports.onCreateNode = ({node, actions, getNode}) => {
+  const {createNodeField} = actions;
 
   if (node.internal.type === 'File') {
     fileNodes[node.relativePath] = node.absolutePath;
@@ -98,32 +94,33 @@ const redirects = {
   '/project/drupal modules': '/projects'
 };
 
-exports.createPages = async ({ graphql, actions }) => {
-  const { createPage, createRedirect } = actions;
+exports.createPages = async ({graphql, actions}) => {
+  const {createPage, createRedirect} = actions;
 
   Object.entries(redirects).forEach(([fromPath, toPath]) =>
-    createRedirect({ fromPath, toPath, isPermanent: true })
+    createRedirect({fromPath, toPath, isPermanent: true})
   );
 
   const indexPage = path.resolve('src/templates/index.jsx');
   const postPage = path.resolve('src/templates/post.jsx');
-  const tagPage = path.resolve('src/templates/tag.jsx');
-  const categoryPage = path.resolve('src/templates/category.jsx');
+  //const tagPage = path.resolve('src/templates/tag.jsx');
+  //const categoryPage = path.resolve('src/templates/category.jsx');
   const itemPage = path.resolve('src/templates/items.jsx');
 
   await Promise.all(
     ['presentation', 'project'].map(async sourceName => {
       const result = await graphql(`
         {
-          allMarkdownRemark(
-            sort: { fields: [fields___date], order: DESC }
-            filter: { fields: { sourceName: { eq: "${sourceName}" } } }
+          allFile(
+            sort: {childrenMarkdownRemark: {fields: {date: DESC}}}
+            filter: {sourceInstanceName: {eq: "${sourceName}"}}
           ) {
             edges {
               node {
-                fields {
-                  sourceName
-                  slug
+                childMarkdownRemark {
+                  fields {
+                    slug
+                  }
                 }
               }
             }
@@ -134,14 +131,14 @@ exports.createPages = async ({ graphql, actions }) => {
         console.log(result.errors);
         throw result.errors;
       }
-      result.data.allMarkdownRemark.edges.forEach(edge => {
+      result.data.allFile.edges.forEach(edge => {
         createPage({
-          path: `/${edge.node.fields.sourceName}s${edge.node.fields.slug}`,
+          path: `/${sourceName}s${edge.node.childMarkdownRemark.fields.slug}`,
           component: itemPage,
           context: {
-            urlPrefix: `/${edge.node.fields.sourceName}s/`,
-            type: `${ucFirst(edge.node.fields.sourceName)}s`,
-            slug: edge.node.fields.slug
+            urlPrefix: `/${sourceName}s/`,
+            type: `${ucFirst(sourceName)}s`,
+            slug: edge.node.childMarkdownRemark.fields.slug
           }
         });
       });
@@ -149,19 +146,21 @@ exports.createPages = async ({ graphql, actions }) => {
   );
 
   await graphql(`{
-      allMarkdownRemark(
-        sort: { fields: [fields___date], order: DESC }
-        filter: { fields: { sourceName: { eq: "blog" } } }
+      allFile(
+        sort: {childrenMarkdownRemark: {fields: {date: DESC}}}
+        filter: {sourceInstanceName: {eq: "blog"}}
       ) {
       edges {
         node {
-          fields {
-            slug
-            category
-            tags
-          }
-          frontmatter {
-            title
+          childrenMarkdownRemark {
+            fields {
+              slug
+              category
+              tags
+            }
+            frontmatter {
+              title
+            }
           }
         }
       }
@@ -172,8 +171,6 @@ exports.createPages = async ({ graphql, actions }) => {
       throw result.errors;
     }
 
-    const tagSet = new Set();
-    const categorySet = new Set();
     const paginationPath = (uri, page, totalPages) => {
       if (page === 0) {
         return uri;
@@ -183,7 +180,7 @@ exports.createPages = async ({ graphql, actions }) => {
       return path.join(uri, (page + 1).toString());
     };
 
-    const blogPosts = result.data.allMarkdownRemark.edges;
+    const blogPosts = result.data.allFile.edges;
     // How many posts per paginated page?
     const blogPostsPerPaginatedPage = 10;
     // How many paginated pages do we need?
@@ -192,7 +189,7 @@ exports.createPages = async ({ graphql, actions }) => {
     );
 
     // Create each paginated page
-    _.times(paginatedPagesCount, index => {
+    for (let index = 0; index < paginatedPagesCount; index++) {
       createPage({
         path: paginationPath('/', index, paginatedPagesCount),
         // Set the component as normal
@@ -208,33 +205,37 @@ exports.createPages = async ({ graphql, actions }) => {
           paginatedPagesCount
         }
       });
-    });
-    result.data.allMarkdownRemark.edges.forEach(edge => {
-      if (edge.node.fields.tags) {
-        edge.node.fields.tags.forEach(tag => tagSet.add(tag));
+    };
+    //const tagSet = new Set();
+    //const categorySet = new Set();
+    result.data.allFile.edges.forEach(({node: {childrenMarkdownRemark: node}}) => {
+      /*
+      if (node.fields?.tags) {
+        node.fields.tags.forEach(tag => tagSet.add(tag));
       }
 
-      if (edge.node.fields.category) {
-        categorySet.add(edge.node.fields.category);
+      if (node.fields?.category) {
+        categorySet.add(node.fields.category);
       }
-
+      */
       createPage({
-        path: edge.node.fields.slug,
+        path: node.fields.slug,
         component: postPage,
         context: {
-          slug: edge.node.fields.slug
+          slug: node.fields.slug
         }
       });
     });
 
+    /*
     const tagList = Array.from(tagSet);
     tagList.forEach(tag => {
       createPage({
-        path: `/tags/${_.kebabCase(tag)}/`,
+        path: `/tags/${kebabCase(tag)}/`,
         component: tagPage,
         context: {
           tag,
-          slug: `/tags/${_.kebabCase(tag)}/`
+          slug: `/tags/${kebabCase(tag)}/`
         }
       });
     });
@@ -250,20 +251,6 @@ exports.createPages = async ({ graphql, actions }) => {
         }
       });
     });
-  });
-};
-
-exports.onCreateWebpackConfig = ({ stage, actions }) => {
-  if (stage === 'build-javascript') {
-    actions.setWebpackConfig({
-      plugins: [new WebpackLodashPlugin()]
-    });
-  }
-};
-
-exports.onCreateBabelConfig = ({ actions }) => {
-  actions.setBabelPlugin({
-    name: '@babel/plugin-proposal-decorators',
-    options: { legacy: true }
+    */
   });
 };

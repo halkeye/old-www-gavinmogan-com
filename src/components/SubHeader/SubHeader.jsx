@@ -1,5 +1,7 @@
 import React from 'react';
-import { Card, CardTitle } from 'react-md/lib';
+
+const Card = ({ children }) => <div>FIXME, {children}</div>
+const CardTitle = ({ children }) => <div>FIXME, {children}</div>
 
 import './subheader.scss';
 

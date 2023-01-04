@@ -1,30 +1,16 @@
-import { graphql, StaticQuery } from 'gatsby';
 import React from 'react';
-import Img from 'gatsby-image';
+import { StaticImage } from "gatsby-plugin-image"
 
 const ProfileImage = () => {
   return (
-    <StaticQuery
-      query={graphql`
-        query {
-          file(relativePath: { eq: "Gavin-December-1989.png" }) {
-            childImageSharp {
-              fixed(width: 150, height: 150, cropFocus: ENTROPY) {
-                ...GatsbyImageSharpFixed
-              }
-            }
-          }
-        }
-      `}
-      render={data => (
-        <Img
-          {...data.file.childImageSharp}
-          alt="Gavin December 1989"
-          className="profile-img"
-        />
-      )}
+    <StaticImage
+      src="../../images/Gavin-December-1989.png"
+      layout="constrained"
+      width={150*1.48}
+      height={150}
+      alt="Gavin December 1989"
     />
-  );
+  )
 };
 
 export default ProfileImage;
