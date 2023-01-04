@@ -1,13 +1,21 @@
 import React from 'react'
-import '../scss/main.scss'
+import '../css/main.css'
 
 import Header from './Header.jsx'
+import Footer from './Footer.jsx'
+import Sidebar from './Sidebar.jsx'
 
 const Template = ({ children }) => (
-  <div>
+  <>
     <Header />
-    {children}
-  </div>
+    <article className="main-content">
+      <section>
+        {children}
+      </section>
+      <Sidebar />
+    </article>
+    <Footer />
+  </>
 )
 
 export default Template

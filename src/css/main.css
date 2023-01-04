@@ -1,0 +1,136 @@
+header {
+    display:grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+}
+
+.nav {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px , 1fr));
+    grid-gap:10px;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+.main-content section {
+    width: calc(100% - 23em);
+    max-width: 100%;
+}
+
+.main-content aside {
+    display: flex;
+    flex-direction: column;
+    min-width: 15%;
+    width: 20em;
+    max-width: 100%;
+    color: #f39c12;
+
+    background-color: #1f1815;
+    background-image: url(../images/overlay.png), url(../images/aditya-chinchure-2yN10KHNTzM-unsplash-resized.jpg);
+    background-attachment: scroll, scroll;
+    background-position: center center, right 300px;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, auto;
+
+    padding: 15px;
+}
+
+.main-content aside .profile-image {
+    border-radius: 25px;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content aside a:link, .main-content aside a:visited {
+    color: white;
+}
+
+.card-list {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px , 1fr));
+}
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+}
+
+.post-card .cover-image {
+    width: 312px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-card .date {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.post-card .title {
+    margin: 0 0 10px;
+    padding: 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.post-card .title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.post-card .excerpt {
+    font-size: 1.3rem;
+    line-height: 1.55em;
+}
+
+.post-card .btn {
+    margin-top: auto;
+    text-align: center;
+
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+
+.post-card .btn:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+
+.post-card .btn:active {
+	position:relative;
+	top:1px;
+}
+
+.footer {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.social {
+    justify-self: end;
+}

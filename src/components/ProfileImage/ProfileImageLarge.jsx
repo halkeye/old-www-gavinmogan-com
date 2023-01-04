@@ -5,6 +5,7 @@ const ProfileImageLarge = () => {
   return (
     <StaticImage
       src="../../images/Gavin-December-1989.png"
+      className="profile-image-large"
       style={{ width: '100%' }}
       alt="Gavin December 1989"
     />
